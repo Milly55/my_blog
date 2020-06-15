@@ -292,11 +292,22 @@ label[for] {
 /* 탑 바 시작 */
 h1{
   text-align: center;
-  margin-top:20px;
+  margin-top:50px;
 }
 .top-bar {
     text-align: center;
     border-bottom: 1px solid #afafaf;
+
+}
+.top-bar > .menu-box-1 >.logo-box{
+  align-items: center;
+  font-weight: bold;
+  color:#DEB887;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.top-bar > .menu-box-1 >.logo-box > a{
+  border-bottom:0.5px solid black;
 }
 .top-bar > .menu-box-1 > ul > li{
     position: relative;
@@ -310,7 +321,7 @@ h1{
 }
 .top-bar > .menu-box-1 > ul > li:hover > a{
     background-color:black;
-    color: white;
+    color: #ffd097
 }
 .top-bar > .menu-box-1 > ul > li > ul{
     overflow-y:hidden;
@@ -322,15 +333,15 @@ h1{
     border-top:0;
     display: block;
     line-height: 10px;
+    color: white;
+
 }
 .top-bar > .menu-box-1 > ul > li:hover > ul{
     overflow: visible;
     height:100%;
     border-top:0; 
-    background-color: black;
+    background-color:black;
     border-top:1px solid #afafaf;
-    color: white;
-
 }
 .top-bar > .menu-box-1 > ul > li > ul > li{
   justify-content: center;
@@ -339,16 +350,33 @@ h1{
 .top-bar > .menu-box-1 > ul > li > ul > li > a{
     font-size: 14px;
     font-weight: bold;
+    transition: 0.3s;
+}
+.top-bar > .menu-box-1 > ul > li > ul > li:hover > a{
+  color: 	#ffd097
 }
 @media (max-width:750px){
   .top-bar > .menu-box-1{
     display: none;
   }
 }
+/* 탑 바 끝 */
 
-
-.btn-toggle-mobile-side-bar{
+/* 모바일 사이드 바 시작 */
+html.active, body.active{
+  overflow-y: hidden;
+}
+/* 모바일 사이드 바 (토클 아이콘)시작 */
+.mobile-top-bar{
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
   display: none;
+  background-color: black;
+  padding:10px;
+}
+.btn-toggle-mobile-side-bar{
   width:30px;
   height:30px;
   position:relative;
@@ -357,22 +385,22 @@ h1{
   position:absolute;
   top:0;
   left:0;
-  background-color:black;
+  background-color:white;
   width:100%;
-  height:20%;
-  transition: top 0.3s 0.3s, transform 0.3s, opacity 0.3s 0s;
+  height:10%;
+  transition: top 0.2s 0.2s, transform 0.2s, opacity 0.2s 0s;
   
 }
 .btn-toggle-mobile-side-bar > div:nth-child(2){
-  top:40%;
+  top:30%;
 }
 .btn-toggle-mobile-side-bar > div:nth-child(3){
-  top:80%;
+  top:60%;
 }
 
 .btn-toggle-mobile-side-bar.active > div{
   top:40%;
-  transition: top 0.3s, transform 0.3s 0.3s, opacity 0.3s 0s;
+  transition: top 0.2s, transform 0.2s 0.2s, opacity 0.2s 0s;
 }
 .btn-toggle-mobile-side-bar.active > div:nth-child(1){
   transform:rotate(45deg);
@@ -383,8 +411,87 @@ h1{
 .btn-toggle-mobile-side-bar.active  > div:nth-child(2){
  opacity:0;
 }
+
 @media (max-width:750px){
-  .btn-toggle-mobile-side-bar{
+  .mobile-top-bar{
     display: block;
   }
+}
+/* 모바일 사이드 바 (토클 아이콘)끝 */
+
+/* 모바일 사이드 바 (메뉴바)시작 */
+.mobile-side-menu-bar-bg{
+  position: fixed;
+  top:50px;
+  left:0;
+  right:0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  background-color: rgba(0,0,0,0.0);
+  transition: background-color 0.3s;
+}
+.mobile-side-menu-bar-bg.active{
+  visibility: visible;
+  background-color: rgba(0,0,0,0.5);
+}
+.mobile-side-menu-bar{
+  position:fixed;
+  top:50px;
+  left:-300px;
+  width: 200px;
+  background-color:#778899;
+  justify-content: center;
+  transition: left 0.5s;
+  padding-bottom: 20px;
+}
+.mobile-side-menu-bar.active{
+  left: 0;
+}
+.mobile-side-menu-bar > ul{
+  flex-direction: column;
+align-items: center;
+}
+.mobile-side-menu-bar > ul > li{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  padding: 30px 0;
+}
+.mobile-side-menu-bar > ul > li > a{
+  padding: 0 50px;
+}
+.mobile-side-menu-bar > ul > li > ul{
+  transition: height 0.3s;
+  font-size: 13px;
+  flex-direction: column;
+  position: absolute;
+  top:70%;
+  align-items: center;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  height:0;
+  background-color:#96b6d6;
+}
+.mobile-side-menu-bar > ul > li > ul > li{
+  padding: 10px 0;
+}
+.mobile-side-menu-bar > ul > li:hover > ul{
+ overflow: visible;
+ height: 100%;
+}
+@media (max-width:750px){
+  .mobile-side-menu-bar{
+    display: block;
+  }
+}
+/* 모바일 사이드 바 (메뉴바)끝*/
+
+/* 모바일 사이드 바 끝 */
+
+.top-bn-box{
+  justify-content: center;
 }

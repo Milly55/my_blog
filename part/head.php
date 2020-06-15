@@ -5,21 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>블로그</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="/resource/common.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="/resource/common.js">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+   <script src="/resource/common.js"></script>
 </head>
 <body>
-    <div class="top-bar">
-    <div class="mobile-top-bar visible-sm-down flex">
-        <a href="#" class="btn-toggle-mobile-side-bar flex">
+    <!--모바일 사이드바-->
+<div class="mobile-top-bar flex">
+        <a href="#" onclick="return false;" class="btn-toggle-mobile-side-bar flex">
             <div></div>
             <div></div>
             <div></div>
         </a>
     </div>
+    <div class="mobile-side-menu-bar-bg">
+    </div>
+    <div  class="mobile-side-menu-bar flex">
+        <ul class="flex">
+            <li class="flex "><a href="/">Home</a></li>
+            <li class="flex "><a href="/list.php">Articles</a></li>
+            <li class="flex "><a href="/about me.php">abut me</a></li>
+            <li class="flex "><a href="#">Information</a></li>
+        </ul> 
+        </div>
+        <!--PC 탑바-->
+    <div class="top-bar">
     <nav class="menu-box-1 con flex">
+    <div class="logo-box flex"><a href="/">MillyWant</a></div>
     <ul class="flex flex-1-0-0 ">
         <li class="flex flex-1-0-0 "><a href="/" class="flex-1-0-0 ">Home</a></li>
         <li class="flex flex-1-0-0 "><a href="/list.php" class="flex-1-0-0 ">Articles</a></li>
