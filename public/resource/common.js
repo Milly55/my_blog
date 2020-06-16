@@ -8,7 +8,8 @@ function MobileSideBar__toggle() {
         $btn.removeClass('active');
         $('.mobile-side-menu-bar').removeClass('active');
         $('.mobile-side-menu-bar-bg').removeClass('active');
-        $('html, body').removeClass('active')
+        $('html, body').removeClass('active');
+        
     }
     else {
         $btn.addClass('active');
@@ -20,6 +21,15 @@ function MobileSideBar__toggle() {
 
 function MobileSideBar__init() {
     $('.btn-toggle-mobile-side-bar,.mobile-side-menu-bar-bg').click(MobileSideBar__toggle);
+    $('.mobile-side-menu-bar  ul > li ').click(function(){
+        if ( $(this).hasClass('active') ){
+            $(this).removeClass('active');
+        }
+        else{
+            $(this).addClass('active');
+        }
+    })
+
 }
 
 

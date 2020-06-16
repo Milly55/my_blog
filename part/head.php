@@ -19,14 +19,19 @@
             <div></div>
         </a>
     </div>
-    <div class="mobile-side-menu-bar-bg">
+    <div class="mobile-side-menu-bar-bg visible-sm-down">
     </div>
-    <div  class="mobile-side-menu-bar flex">
+    <div  class="mobile-side-menu-bar visible-sm-down flex">
         <ul class="flex">
             <li class="flex "><a href="/">Home</a></li>
             <li class="flex "><a href="/list.php">Articles</a></li>
             <li class="flex "><a href="/about me.php">abut me</a></li>
-            <li class="flex "><a href="#">Information</a></li>
+            <li class="flex "><a href="#">sns</a>
+            <ul class="flex ">
+                <li class="flex "><a href="#">페이스북</a></li>
+                <li class="flex "><a href="#">인스타그램</a></li>
+            </ul>
+        </li>
         </ul> 
         </div>
         <!--PC 탑바-->
