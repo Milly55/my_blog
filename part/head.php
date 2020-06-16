@@ -28,8 +28,8 @@
             <li class="flex "><a href="/about me.php">abut me</a></li>
             <li class="flex "><a href="#">sns</a>
             <ul class="flex ">
-                <li class="flex "><a href="#">페이스북</a></li>
-                <li class="flex "><a href="#">인스타그램</a></li>
+                <li class="flex "><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+                <li class="flex "><a href="#"><i class="fab fa-instagram"></i> 인스타그램</a></li>
             </ul>
         </li>
         </ul> 
@@ -37,15 +37,15 @@
         <!--PC 탑바-->
     <div class="top-bar">
     <nav class="menu-box-1 con flex">
-    <div class="logo-box flex"><a href="/">MillyWant</a></div>
+    <div class="logo-box flex"><a href="/"><img src="https://ifh.cc/g/OJx9IG.jpg" alt="" style="width: 100px; height: 80px;"></a></div>
     <ul class="flex flex-1-0-0 ">
         <li class="flex flex-1-0-0 "><a href="/" class="flex-1-0-0 ">Home</a></li>
         <li class="flex flex-1-0-0 "><a href="/list.php" class="flex-1-0-0 ">Articles</a></li>
         <li class="flex flex-1-0-0 "><a href="/about me.php" class="flex-1-0-0 ">abut me</a></li>
         <li class="flex flex-1-0-0 "><a href="#" class="flex-1-0-0 ">sns</a>
     <ul class="flex ">
-        <li class="flex "><a href="#"><i class="fab fa-instagram"></i>인스타그램</a></li>
-        <li class="flex "><a href="#"><i class="fab fa-facebook-square"></i>페이스북</a></li>
+        <li class="flex "><a href="#"><i class="fab fa-instagram"></i> 인스타그램</a></li>
+        <li class="flex "><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
     </ul> 
 </li>
     </ul> 
