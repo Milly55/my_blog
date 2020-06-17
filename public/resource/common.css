@@ -392,8 +392,7 @@ h1{
   background-color:white;
   width:100%;
   height:10%;
-  transition: top 0.2s 0.2s, transform 0.2s, opacity 0.2s 0s;
-  transition: background-color 0.3s;
+  transition: top 0.2s 0.2s, transform 0.2s, opacity 0.2s 0s, background-color 0.3s;
 }
 .btn-toggle-mobile-side-bar:hover > div{
   background-color: #ffd097;
@@ -446,12 +445,12 @@ h1{
 .mobile-side-menu-bar{
   position:fixed;
   top:50px;
-  left:-300px;
-  width:200px;
-  background-color:rgb(47, 113, 133);
+  left:-500px;
+  width:70%;
+  background-color:rgb(49, 117, 138);
   justify-content: center;
   transition: left 0.3s;
-  height: 27%;
+  flex-direction: column;
 }
 .mobile-side-menu-bar.active{
   left: 0;
@@ -466,24 +465,21 @@ align-items: center;
   color: white;
   text-align: center;
   width: 100%;
-  padding:0 23px;
-  padding-top:20px;
   flex-direction: column;
+  border-bottom: 1px solid #afafaf;
 }
 .mobile-side-menu-bar > ul > li > a{
- padding: 0 23px;
+ padding: 10px 23px;
  transition: 0.3s;
 }
 .mobile-side-menu-bar > ul > li:hover > a{
-  color: #ffd097;
+ background-color: rgba(0,0,0,0.3);
 }
 .mobile-side-menu-bar > ul > li > ul{
   flex-direction: column;
   align-items: center;
   background-color: rgb(79, 184, 216);
-  margin-top:10px;
   overflow-y: hidden;
-  padding: 0 40px;
   height: 0;
 }
 .mobile-side-menu-bar > ul > li.active > ul{
@@ -492,13 +488,17 @@ align-items: center;
 }
 .mobile-side-menu-bar > ul > li > ul > li{
   font-size: 15px;
-  padding:10px 0;
+  width: 100%;
+  justify-content: center;
 }
 .mobile-side-menu-bar > ul > li > ul > li > a{
-  transition: color 0.3s;
+  transition: background-color 0.3s;
+  width: 100%;
+  height: 100%;
+  padding:20px 0;
 }
 .mobile-side-menu-bar > ul > li > ul > li:hover > a{
-  color: #ffd097;
+  background-color: rgba(0,0,0,0.3);
 }
 @media (min-width:800px) {
   .visible-sm-down {
@@ -513,3 +513,4 @@ align-items: center;
 .top-bn-box{
   justify-content: center;
 }
+

@@ -2,7 +2,7 @@
 include "../part/head.php";
 ?>
     <div class="top-bn-box flex">
-           <div class="img-box"><img src="https://cdn.pixabay.com/photo/2014/08/15/11/29/sea-418742_960_720.jpg" alt=""></div> 
+           <div class="img-box"><img src="https://cdn.pixabay.com/photo/2016/11/29/04/16/beach-1867271_960_720.jpg" alt=""></div> 
         </div> 
     <h1>메인</h1>
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolorum ea quae hic sapiente ipsam perspiciatis, sint voluptatem provident sit? Amet id iure quam tempore, quo quasi unde itaque assumenda?

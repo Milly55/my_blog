@@ -23,12 +23,13 @@
     </div>
     <div  class="mobile-side-menu-bar visible-sm-down flex">
         <ul class="flex">
-            <li class="flex "><a href="/">Home</a></li>
+        <div class="logo-box flex"><a href="/"><img src="https://ifh.cc/g/OKu0GT.png alt=" style="width: 100px; height: 80px;"></a></div>
+            <li class="flex "><a href="/">Home</a></>
             <li class="flex "><a href="/list.php">Articles</a></li>
             <li class="flex "><a href="/about me.php">abut me</a></li>
             <li class="flex "><a href="#">sns</a>
             <ul class="flex ">
-                <li class="flex "><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+                <li class="flex " style=" border-bottom: 1px solid #afafaf;"><a href="https://vo.la/3qhC"><i class="fab fa-youtube"></i> Youtube</a></li>
                 <li class="flex "><a href="#"><i class="fab fa-instagram"></i> 인스타그램</a></li>
             </ul>
         </li>
@@ -37,7 +38,7 @@
         <!--PC 탑바-->
     <div class="top-bar">
     <nav class="menu-box-1 con flex">
-    <div class="logo-box flex"><a href="/"><img src="https://ifh.cc/g/OJx9IG.jpg" alt="" style="width: 100px; height: 80px;"></a></div>
+    <div class="logo-box flex"><a href="/"><img src="https://ifh.cc/g/OKu0GT.png" alt="" style="width: 100px; height: 80px;"></a></div>
     <ul class="flex flex-1-0-0 ">
         <li class="flex flex-1-0-0 "><a href="/" class="flex-1-0-0 ">Home</a></li>
         <li class="flex flex-1-0-0 "><a href="/list.php" class="flex-1-0-0 ">Articles</a></li>
@@ -45,7 +46,7 @@
         <li class="flex flex-1-0-0 "><a href="#" class="flex-1-0-0 ">sns</a>
     <ul class="flex ">
         <li class="flex "><a href="#"><i class="fab fa-instagram"></i> 인스타그램</a></li>
-        <li class="flex "><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+        <li class="flex "><a href="https://vo.la/3qhC"><i class="fab fa-youtube"></i> Youtube</a></li>
     </ul> 
 </li>
     </ul> 
