@@ -1,7 +1,16 @@
 <?php
 include "../part/head.php";
 ?>
-    <h1>소게</h1>
+<div class="main-bar ">
+<div class="main-box con flex">    
+    <div class="avatar-img"><img src="https://ifh.cc/g/mX50OB.png" alt="" style="width:300px;  height:200px; display: block;"></div>
+<div class="main-txt-bar flex">
+<div style="font-weight: bold; font-size: 30px;">D&B블로그</div>
+ <br>
+ <div style="font-weight: bold; font-size: 20px;">저를 소개합니다.</div>
+</div>
+</div>
+</div>
     <?php
 include "../part/foot.php";
 ?>

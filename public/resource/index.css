@@ -1,42 +1,35 @@
 html, body{
-    height: 100%;
+    position: relative;
+    height: 70%;
 }
 .slider-bar{
-    position: absolute;
-    top:0;
-    left: 0;
-    height: 80%;
+    height: 100%;
     position: relative;
     user-select:none;
 }
-.slider-bar .side-bar > div:first-child{
+.slider-bar .side-bar > div{
     position: absolute;
     top:0;
     left:0;
-    width:calc(50% - 100px);
+    width:calc(50% - 500px);
     cursor: pointer;
     height: 100%;
+    align-items: center;
 }
-.slider-bar .side-bar > div:last-child{
-    left:auto;
-    right:0;
-}
-.slider-bar .side-bar > div > span{
-    position: absolute;
-    top:50%;
-    transform: translateY(-50%);
-    left: inherit;
-    right: inherit;
-    transition: transform 0.3s;
-    font-size: 3rem;
-    margin: 0 120px;
-    color: #afafaf;
+.slider-bar .side-bar > div> span{
+    transition: 0.3s;
+    font-size: 2rem;
+    margin:0 20px;
+    color: white;
 }
 .slider-bar .side-bar > div:active > span{
-    transform: translateY(-40%);
+    margin-top:10px;
+}
+.slider-bar .side-bar > div:last-child{
+    right: 0;
+    left: auto;
 }
 .slider-bar > .slider-box-1 > div{
-    position: relative;
     position: absolute;
     top:0;
     left: 0;
@@ -44,23 +37,16 @@ html, body{
     height: 100%;
     opacity: 0;
     transition: opacity 0.3s;
-    background-position:top;
+    background-position:center;
     background-repeat: no-repeat;
-    background-size: contain; 
+    background-size: cover; 
 }
 .slider-bar > .slider-box-1 > div.active{
     opacity:1;
+    
 }
 @media (max-width:750px){
     .slider-bar{
-        display: none;
-    }
-}
-.mobile-img > img{
-    display: none;
-}
-@media (max-width:750px){
-    .mobile-img > img{
-        display: block;
+        top:50px;
     }
 }

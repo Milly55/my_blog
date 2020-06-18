@@ -25,9 +25,9 @@
     <div  class="mobile-side-menu-bar visible-sm-down flex">
         <ul class="flex">
             <li class="flex "><a href="#">D&B</a></li>
-            <li class="flex "><a href="/">Home</a></li>
-            <li class="flex "><a href="/list.php">Articles</a></li>
-            <li class="flex "><a href="/about me.php">abut me</a></li>
+            <li class="flex "><a href="/record.php">Record</a></li>
+            <li class="flex "><a href="/about me.php">About Me</a></li>
+            <li class="flex "><a href="/Notice.php">Notice</a></li>
             <li class="flex "><a href="#">Social Media</a>
             <ul class="flex ">
                 <li class="flex " style=" border-bottom: 1px solid #afafaf;"><a href="https://vo.la/3qhC"><i class="fab fa-youtube"></i> Youtube</a></li>
@@ -38,13 +38,13 @@
         </ul> 
         </div>
         <!--PC 탑바-->
-    <div class="top-bar">
-    <nav class="menu-box-1 con flex">
-    <div class="logo-box flex"><a href="/"><img src="https://ifh.cc/g/PIALb8.png" alt="" style="width: 100px; height: 80px;"></a></div>
+    <div class="top-bar ">
+    <div class="logo-box"><a href="/"><img src="https://ifh.cc/g/PIALb8.png" alt="" style="width: 100px; height: 80px;"></a></div>
+    <nav class="menu-box-1 con ">
     <ul class="flex flex-1-0-0 ">
-        <li class="flex flex-1-0-0 "><a href="/" class="flex-1-0-0 ">Home</a></li>
-        <li class="flex flex-1-0-0 "><a href="/list.php" class="flex-1-0-0 ">Articles</a></li>
-        <li class="flex flex-1-0-0 "><a href="/about me.php" class="flex-1-0-0 ">Abut Me</a></li>
+        <li class="flex flex-1-0-0 "><a href="/record.php" class="flex-1-0-0 ">Record</a></li>
+        <li class="flex flex-1-0-0 "><a href="/about me.php" class="flex-1-0-0 ">About Me</a></li>
+        <li class="flex flex-1-0-0 "><a href="/Notice.php" class="flex-1-0-0 ">Notice</a></li>
         <li class="flex flex-1-0-0 "><a href="#" class="flex-1-0-0 ">Social Media</a>
     <ul class="flex ">
     <li class="flex "><a href="https://vo.la/3qhC"><i class="fab fa-youtube"></i> Youtube</a></li>

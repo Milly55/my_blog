@@ -290,10 +290,6 @@ label[for] {
 }
 
 /* 탑 바 시작 */
-h1{
-  text-align: center;
-  margin-top:50px;
-}
 .top-bar {
     text-align: center;
     border-bottom: 1px solid #afafaf;
@@ -315,34 +311,33 @@ h1{
     justify-content: center;
     transition: background-color 0.3s;
     font-weight: bold;
-    padding:30px 0;
+    padding:20px 0;
     font-size: 18px;    
     height: 100%;
 }
 .top-bar > .menu-box-1 > ul > li:hover > a{
-    background-color:rgb(95, 119, 172);
+    background-color:rgb(15, 1, 53);
     color: #ffd097
 }
 .top-bar > .menu-box-1 > ul > li > ul{
-    overflow-y:hidden;
+  visibility: hidden;
     position:absolute;
     top:100%;
-    width: 100%;
+    width: 98.9%;
     height:0;
+    padding: 20px 0;
     transition: height 0.3s;
-    border-top:0;
-    color: white;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border:2px solid rgb(15, 1, 53);
     z-index: 1;
 }
 .top-bar > .menu-box-1 > ul > li:hover > ul{
-    overflow-y: visible;
+  visibility: visible;
     height:100%;
-    border-top:0; 
-    background-color:rgb(95, 119, 172);
-    border-top:1px solid #afafaf;
+    border-top:0;
+    background-color: white;
 }
 .top-bar > .menu-box-1 > ul > li > ul > li{
   justify-content: center;
@@ -357,7 +352,7 @@ h1{
   color: 	#ffd097
 }
 @media (max-width:750px){
-  .top-bar > .menu-box-1{
+  .top-bar{
     display: none;
   }
 }
@@ -523,4 +518,13 @@ align-items: center;
 .top-bn-box{
   justify-content: center;
 }
+
+.main-bar{
+  border-top:1px solid #afafaf;
+}
+.main-txt-bar{
+  flex-direction: column;
+  justify-content: center;
+}
+
 

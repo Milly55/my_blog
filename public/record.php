@@ -3,8 +3,7 @@ include "../part/head.php";
 ?>
 <link rel="stylesheet" href="/resource/index.css">
 
-
-<div class="slider-bar-1 slider-bar  con">
+<div class="slider-bar con">
     <div class="slider-box-1 ">
         <div class="active" style="background-image:url(https://ifh.cc/g/78sMc5.jpg);"></div>
         <div style="background-image:url(https://ifh.cc/g/hfpeGI.jpg);"></div>
@@ -16,16 +15,16 @@ include "../part/head.php";
     </div>
 </div>
 
-<div class="main-bar ">
+    <div class="main-bar ">
     <div class="main-box con flex">    
         <div class="avatar-img"><img src="https://ifh.cc/g/mX50OB.png" alt="" style="width:300px;  height:200px; display: block;"></div>
     <div class="main-txt-bar flex">
-    <div style="font-weight: bold; font-size: 30px;">Welcome</div>
+    <div style="font-weight: bold; font-size: 30px;">D&B블로그</div>
      <br>
-     <div style="font-weight: bold; font-size: 20px;">D&B블로그입니다.</div>
+     <div style="font-weight: bold; font-size: 20px;">모든 기록장소입니다.</div></div>
     </div>
 </div>
 </div>
     <?php
 include "../part/foot.php";
-?>  
+?>

@@ -37,23 +37,35 @@ $(function() {
 });
 
 function SlideSideBar__slider(){
-    $('.slider-bar .side-bar > div').click(function(){
+    $('.slider-bar > .side-bar > div').click(function(){
         var $clickBtn = $(this);
         var $slider = $clickBtn.parent().parent();
         var $cust = $slider.find(' > .slider-box-1 > div.active');
-        var $post = $cust.next();
-        
-        if($post.length == 0){
-            $post = $slider.find(' > .slider-box-1 > div:first-child');
-        }
+        var $post;
+        var isLeft =  $clickBtn.index() == 0;
+
+         if( isLeft ){
+             $post = $cust.prev();
+             if($post.length == 0){
+                $post = $slider.find(' > .slider-box-1 > :last-child');
+            }  
+         }
+         else{
+            $post = $cust.next();
+            if($post.length == 0){
+               $post = $slider.find(' > .slider-box-1 > :first-child');
+           }  
+         }
+    
 
         $cust.removeClass('active');
         $post.addClass('active');
-
     });
+
 }
+
+
 $(function(){
     SlideSideBar__slider();
-})
-
-
+    
+});
