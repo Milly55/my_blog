@@ -32,7 +32,28 @@ function MobileSideBar__init() {
 
 }
 
-
 $(function() {
     MobileSideBar__init();
 });
+
+function SlideSideBar__slider(){
+    $('.slider-bar .side-bar > div').click(function(){
+        var $clickBtn = $(this);
+        var $slider = $clickBtn.parent().parent();
+        var $cust = $slider.find(' > .slider-box-1 > div.active');
+        var $post = $cust.next();
+        
+        if($post.length == 0){
+            $post = $slider.find(' > .slider-box-1 > div:first-child');
+        }
+
+        $cust.removeClass('active');
+        $post.addClass('active');
+
+    });
+}
+$(function(){
+    SlideSideBar__slider();
+})
+
+

@@ -297,14 +297,13 @@ h1{
 .top-bar {
     text-align: center;
     border-bottom: 1px solid #afafaf;
-
 }
 .top-bar > .menu-box-1 >.logo-box{
   align-items: center;
   font-weight: bold;
   color:#DEB887;
   font-size: 20px;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 .top-bar > .menu-box-1 > ul{
   align-items: center;
@@ -317,10 +316,11 @@ h1{
     transition: background-color 0.3s;
     font-weight: bold;
     padding:30px 0;
-    font-size: 18px;    height: 100%;
+    font-size: 18px;    
+    height: 100%;
 }
 .top-bar > .menu-box-1 > ul > li:hover > a{
-    background-color:black;
+    background-color:rgb(95, 119, 172);
     color: #ffd097
 }
 .top-bar > .menu-box-1 > ul > li > ul{
@@ -331,22 +331,22 @@ h1{
     height:0;
     transition: height 0.3s;
     border-top:0;
-    line-height: 10px;
     color: white;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    z-index: 1;
 }
 .top-bar > .menu-box-1 > ul > li:hover > ul{
-    overflow: visible;
+    overflow-y: visible;
     height:100%;
     border-top:0; 
-    background-color:black;
+    background-color:rgb(95, 119, 172);
     border-top:1px solid #afafaf;
 }
 .top-bar > .menu-box-1 > ul > li > ul > li{
   justify-content: center;
-  padding:10px 0;
+  padding: 5px 0;
 }
 .top-bar > .menu-box-1 > ul > li > ul > li > a{
     font-size: 14px;
@@ -371,6 +371,7 @@ h1{
 }
 
 /* 모바일 사이드 바 (토클 아이콘)시작 */
+
 .mobile-top-bar{
   position: fixed;
   top:0;
@@ -379,6 +380,11 @@ h1{
   display: none;
   background-color: rgb(79, 184, 216);
   padding:10px;
+}
+.mobile-top-bar > .logo-box{
+  position:absolute;
+  top:0;
+  right: 0;
 }
 .btn-toggle-mobile-side-bar{
   width:30px;
@@ -445,8 +451,8 @@ h1{
 .mobile-side-menu-bar{
   position:fixed;
   top:50px;
-  left:-500px;
-  width:70%;
+  left:-100%;
+  width:100%;
   background-color:rgb(49, 117, 138);
   justify-content: center;
   transition: left 0.3s;
@@ -461,7 +467,7 @@ align-items: center;
 }
 .mobile-side-menu-bar > ul > li{
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 500;
   color: white;
   text-align: center;
   width: 100%;
@@ -471,6 +477,10 @@ align-items: center;
 .mobile-side-menu-bar > ul > li > a{
  padding: 10px 23px;
  transition: 0.3s;
+}
+.mobile-side-menu-bar > ul > li:first-child > a{
+  color: #ddac6b;
+  font-size: 25px;
 }
 .mobile-side-menu-bar > ul > li:hover > a{
  background-color: rgba(0,0,0,0.3);
