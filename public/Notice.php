@@ -1,9 +1,9 @@
 <?php
 include "../part/head.php";
 ?>
-    <div class="main-bar ">
+<div class="main-bar  ">
     <div class="main-box con flex">    
-        <div class="avatar-img"><img src="https://ifh.cc/g/mX50OB.png" alt="" style="width:300px;  height:200px; display: block;"></div>
+        <div class="avatar-img "style="background-image:url(https://ifh.cc/g/CJhqQB.png);"></div>
     <div class="main-txt-bar flex">
     <div style="font-weight: bold; font-size: 30px;">D&B블로그</div>
      <br>
