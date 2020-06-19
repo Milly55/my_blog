@@ -28,8 +28,8 @@ include "../part/head.php";
 </div>
 <div class="img-box-1 flex">
 <ul class="img-box cell flex">
-    <li><img src="http://www.icounseling.co.kr/Resource/upload_img/20190715130200023.jpg" alt="" style="width:400px; height: 350px; ">
-<ul><li>아이심리상담소 모작</li></li></ul> </li>
+    <li><a href=""><img src="http://www.icounseling.co.kr/Resource/upload_img/20190715130200023.jpg" alt="" style="width:400px; height: 350px; "></a>
+<ul><li>아이심리상담소 <br> 모작 사이트</li></li></ul> </li>
     <li><img src="https://ifh.cc/g/hgxT7w.jpg" alt="" style="width:400px; height: 350px;"></li>
     <li><img src="https://ifh.cc/g/aY67wE.jpg" alt="" style="width:400px; height: 350px;"></li>
 </ul>

@@ -62,6 +62,10 @@ html, body{
 .main-box > .img-box-1 > ul > li{
     padding: 0 10px;
     position: relative; 
+    transition: 0.3s;
+}
+.main-box > .img-box-1 > ul > li:hover{
+    box-shadow: 3px 3px 8px 5px #afafaf;
 }
 .main-box > .img-box-1 > ul > li > ul{
     position: absolute;
@@ -70,7 +74,6 @@ html, body{
     font-weight: bold;
     font-size: 20px;
 }
-
 @media (max-width:750px){
     .main-box > .img-box-1 > ul{
         display: none;
