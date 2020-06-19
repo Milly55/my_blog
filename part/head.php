@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/resource/common.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    <script src="/resource/common.js"></script>
+   <link rel="shortcut icon" href="/resource/img/favicon.png">
 </head>
 <body>
     <!--모바일 사이드바-->
@@ -24,7 +25,7 @@
     </div>
     <div  class="mobile-side-menu-bar visible-sm-down flex">
         <ul class="flex">
-            <li class="flex "><a href="#">D&B</a></li>
+            <li class="flex "><a href="/">D&B</a></li>
             <li class="flex "><a href="/record.php">Record</a></li>
             <li class="flex "><a href="/about me.php">About Me</a></li>
             <li class="flex "><a href="/Notice.php">Notice</a></li>

@@ -64,8 +64,13 @@ function SlideSideBar__slider(){
 
 }
 
-
 $(function(){
     SlideSideBar__slider();
     
 });
+
+function a(){
+    $('.slider-bar > .side-bar > div:first-child').click();
+}
+
+setInterval (a,5000);
