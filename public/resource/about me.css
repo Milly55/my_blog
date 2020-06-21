@@ -1,0 +1,12 @@
+
+.img-box-me{
+    width: 300px;
+    height: 300px;
+}
+.main-box{
+    justify-content: center;
+}
+.main-txt-bar > ul > li{
+    font-size: 17px;
+    padding: 10px 0 ;
+}

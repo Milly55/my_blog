@@ -1,9 +1,10 @@
 <?php
 include "../part/head.php";
 ?>
+<link rel="stylesheet" href="/resource/index.css">
 <div class="main-bar">
     <div class="main-box con flex">    
-        <div class="avatar-img "style="background-image:url(https://ifh.cc/g/CJhqQB.png);"></div>
+    <a href="/"><div class="avatar-img "style="background-image:url(https://ifh.cc/g/CJhqQB.png);"></div></a>
     <div class="main-txt-bar flex">
         <ul class="flex">
             <li>D&B블로그</li>

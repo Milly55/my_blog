@@ -2,6 +2,7 @@
 include "../part/head.php";
 ?>
 <link rel="stylesheet" href="/resource/index.css">
+<link rel="stylesheet" href="/resource/record.css">
 
 <div class="slider-bar con">
     <div class="slider-box-1 ">
@@ -18,12 +19,21 @@ include "../part/head.php";
 
 <div class="main-bar">
     <div class="main-box con flex">    
-        <div class="avatar-img "style="background-image:url(https://ifh.cc/g/CJhqQB.png);"></div>
+    <a href="/"><div class="avatar-img "style="background-image:url(https://ifh.cc/g/CJhqQB.png);"></div></a>
     <div class="main-txt-bar flex">
         <ul class="flex">
             <li>D&B블로그</li>
             <li style="flex font-weight: bold; font-size: 20px;">모든 기록장소입니다.</li>
      </ul>
+</div>
+<div class="img-box-1 flex">
+<ul class=" flex">
+    <li><a href="#"><div class="img-box"><img src="http://www.icounseling.co.kr/Resource/upload_img/20190715130200023.jpg" alt=""></div></a></li>
+    <li><a href="#"><div class="img-box"><img src="http://www.icounseling.co.kr/Resource/upload_img/20190715130200023.jpg" alt=""></div></a></li>
+    <li><a href="#"><div class="img-box"><img src="http://www.icounseling.co.kr/Resource/upload_img/20190715130200023.jpg" alt=""></div></a></li>
+</ul>
+
+
 </div>
 </div>
 </div>

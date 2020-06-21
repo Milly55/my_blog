@@ -70,7 +70,7 @@ $(function(){
 });
 
 function a(){
-    $('.slider-bar > .side-bar > div:first-child').click();
+    $('.slider-bar > .side-bar > div:last-child').click();
 }
 
 setInterval (a,5000);

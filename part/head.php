@@ -12,7 +12,7 @@
    <link rel="shortcut icon" href="/resource/img/favicon.png">
 </head>
 <body>
-    <!--모바일 사이드바-->
+    <!--모바일 메뉴바-->
 <div class="mobile-top-bar flex">
 <div class="logo-box flex"><a href="/"><img src="https://ifh.cc/g/OKu0GT.png alt=" style="width: 60px; height: 50px;"></a></div>
         <a href="#" onclick="return false;" class="btn-toggle-mobile-side-bar flex">
@@ -31,7 +31,7 @@
             <li class="flex "><a href="/Notice.php">Notice</a></li>
             <li class="flex "><a href="#">Social Media</a>
             <ul class="flex ">
-                <li class="flex " style=" border-bottom: 1px solid #afafaf;"><a href="https://vo.la/3qhC"><i class="fab fa-youtube"></i> Youtube</a></li>
+                <li class="flex " style=" border-bottom: 1px solid #afafaf;"><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
                 <li class="flex " style=" border-bottom: 1px solid #afafaf;"><a href="#"><i class="fab fa-instagram"></i> 인스타그램</a></li>
                 <li class="flex "><a href="#"><i class="fas fa-cat"></i> GitHub</a></li>
             </ul>
@@ -48,7 +48,7 @@
         <li class="flex flex-1-0-0 "><a href="/Notice.php" class="flex-1-0-0 ">Notice</a></li>
         <li class="flex flex-1-0-0 "><a href="#" class="flex-1-0-0 ">Social Media</a>
     <ul class="flex ">
-    <li class="flex "><a href="https://vo.la/3qhC"><i class="fab fa-youtube"></i> Youtube</a></li>
+    <li class="flex "><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
         <li class="flex "><a href="#"><i class="fab fa-instagram"></i> 인스타그램</a></li>
         <li class="flex "><a href="#"><i class="fas fa-cat"></i> GitHub</a></li>
     </ul> 
