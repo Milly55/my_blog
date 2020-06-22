@@ -293,6 +293,7 @@ label[for] {
 
 /* 탑 바 시작 */
 .top-bar {
+  margin-top:10px;
     text-align: center;
     border-bottom: 1px solid #afafaf;
 }

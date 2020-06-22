@@ -26,8 +26,9 @@
     <div  class="mobile-side-menu-bar visible-sm-down flex">
         <ul class="flex">
             <li class="flex "><a href="/">D&B</a></li>
-            <li class="flex "><a href="/record.php">Record</a></li>
+            <li class="flex "><a href="/list.php">list</a></li>
             <li class="flex "><a href="/about me.php">About Me</a></li>
+            <li class="flex "><a href="/record.php">Record</a></li>
             <li class="flex "><a href="/Notice.php">Notice</a></li>
             <li class="flex "><a href="#">Social Media</a>
             <ul class="flex ">
@@ -43,8 +44,9 @@
     <div class="logo-box"><a href="/"><img src="https://ifh.cc/g/PIALb8.png" alt="" style="width: 100px; height: 80px;"></a></div>
     <nav class="menu-box-1 con ">
     <ul class="flex flex-1-0-0 ">
-        <li class="flex flex-1-0-0 "><a href="/record.php" class="flex-1-0-0 ">Record</a></li>
+        <li class="flex flex-1-0-0 "><a href="/list.php" class="flex-1-0-0 ">list</a></li>
         <li class="flex flex-1-0-0 "><a href="/about me.php" class="flex-1-0-0 ">About Me</a></li>
+        <li class="flex flex-1-0-0 "><a href="/record.php" class="flex-1-0-0 ">Record</a></li>
         <li class="flex flex-1-0-0 "><a href="/Notice.php" class="flex-1-0-0 ">Notice</a></li>
         <li class="flex flex-1-0-0 "><a href="#" class="flex-1-0-0 ">Social Media</a>
     <ul class="flex ">

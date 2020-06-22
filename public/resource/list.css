@@ -1,0 +1,11 @@
+.list-bar{
+    margin-top:200px;
+    justify-content: center;    
+}
+.list-bar > .list-box-1 > .list-img-box > .one-ul {
+    flex-direction: column;
+}
+.list-bar > .list-box-1 > .list-img-box > ul > .two-ul{
+    justify-content: center;
+}
+
