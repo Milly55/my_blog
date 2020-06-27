@@ -281,6 +281,13 @@ label[for] {
 * > .flex-1-0-0 {
   flex:1 0 0;
 }
+.flex-co-al-ct{
+  flex-direction: column;
+  align-items: center;
+}
+.con{
+  margin:0 auto;
+}
 
 /* 커스텀 */
 .con-min-width {
@@ -293,33 +300,35 @@ label[for] {
 
 /* 탑 바 시작 */
 .top-bar {
-  margin-top:10px;
+  margin-top:70px;
+  padding: 20px 0;
     text-align: center;
     border-bottom: 1px solid #afafaf;
 }
-.top-bar > .menu-box-1 >.logo-box{
-  align-items: center;
-  margin-right: 50px;
+.top-bar > .menu-bar > .menu-box-1{
+  position: fixed;
+  z-index: 1;
+  left:0;
+  right: 0;
+  top:0;
+  transition: background-color 0.3s;
 }
-.top-bar > .menu-box-1 > ul{
-  align-items: center;
+
+.top-bar >.menu-bar >  .menu-box-1 > ul > li{
+  position: relative;
 }
-.top-bar > .menu-box-1 > ul > li{
-    position: relative;
-}
-.top-bar > .menu-box-1 > ul > li > a{
-    justify-content: center;
+.top-bar > .menu-bar > .menu-box-1 > ul > li > a{
     transition: background-color 0.3s;
     font-weight: bold;
-    padding:20px 0;
     font-size: 20px;    
-    height: 100%;
+    padding: 20px 0;
+    align-items: center;
 }
-.top-bar > .menu-box-1 > ul > li:hover > a{
+.top-bar > .menu-bar > .menu-box-1 > ul > li:hover > a{
     background-color:rgb(15, 1, 53);
     color: #ffd097
 }
-.top-bar > .menu-box-1 > ul > li > ul{
+.top-bar >.menu-bar > .menu-box-1 > ul > li > ul{
   visibility: hidden;
     position:absolute;
     top:100%;
@@ -333,22 +342,22 @@ label[for] {
     border:2px solid rgb(15, 1, 53);
     z-index: 1;
 }
-.top-bar > .menu-box-1 > ul > li:hover > ul{
+.top-bar > .menu-bar >.menu-box-1 > ul > li:hover > ul{
   visibility: visible;
     height:100%;
     border-top:0;
     background-color: white;
 }
-.top-bar > .menu-box-1 > ul > li > ul > li{
+.top-bar >.menu-bar > .menu-box-1 > ul > li > ul > li{
   justify-content: center;
   padding: 5px 0;
 }
-.top-bar > .menu-box-1 > ul > li > ul > li > a{
+.top-bar > .menu-bar >.menu-box-1 > ul > li > ul > li > a{
     font-size: 15px;
     font-weight: bold;
     transition: 0.3s;
 }
-.top-bar > .menu-box-1 > ul > li > ul > li:hover > a{
+.top-bar >.menu-bar > .menu-box-1 > ul > li > ul > li:hover > a{
   color: 	#ffd097
 }
 @media (max-width:750px){

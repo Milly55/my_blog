@@ -41,12 +41,33 @@ include "../part/head.php";
     </div>
 </div>
 
-<div class="main-bar">
-    <div class="main-box con flex">    
-        <a href="/"><div class="avatar-img "style="background-image:url(https://ifh.cc/g/CJhqQB.png);"></div></a>
-        <div><a href="/"> <-- 홈으로</a></div>
-</div>
-</div>
+<div class="main-bar ">
+    <div class="detailed-box-1 flex ">
+        <div class="profile-box">
+            <div class="img-box"  style="background-image:url(https://ifh.cc/g/10GsWN.png);"></div>
+            <ul class="flex">
+                <li class="flex">안녕하세요</li>
+                <li class="flex"> D&B블로그입니다.</li>
+                <li class="flex" style=" font-size: 15px;">포트폴리오및 개시물 등을 </li>
+                <li class="flex" style=" font-size: 15px;">운영하는 </li>
+                <li class="flex" style=" font-size: 15px;">개인블로그입니다. </li>
+                <li class="flex" style=" font-size: 15px;"><a href="/about me.php">MORE > </a></li>
+            </ul>
+        </div>   
+    </div>
+ </div>
+
+ <div class="list-box-1 con flex">
+     <div class="list-txt flex"><div>개시물</div></div>
+     <div class="img-box-1 flex">
+         <ul class="flex">
+             <li class="flex"><a href="#"><div class="img-1" style="background-image:url(https://ifh.cc/g/oOZYsG.jpg);"></div></a></li>
+             <li class="flex"><a href="#"><div class="img-1" style="background-image:url(https://ifh.cc/g/oOZYsG.jpg);"></div></a></li>
+             <li class="flex"><a href="#"><div class="img-1" style="background-image:url(https://ifh.cc/g/oOZYsG.jpg);"></div></a></li>
+         </ul>
+     </div>
+ </div>
+
 
     <?php
 include "../part/foot.php";

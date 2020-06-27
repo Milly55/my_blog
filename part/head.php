@@ -42,13 +42,14 @@
         <!--PC 탑바-->
     <div class="top-bar ">
     <div class="logo-box"><a href="/"><img src="https://ifh.cc/g/PIALb8.png" alt="" style="width: 100px; height: 80px;"></a></div>
-    <nav class="menu-box-1 con ">
+    <div class="menu-bar">
+    <nav class="menu-box-1 ">
     <ul class="flex flex-1-0-0 ">
-        <li class="flex flex-1-0-0 "><a href="/list.php" class="flex-1-0-0 ">list</a></li>
+        <li class="flex flex-1-0-0 "><a href="/" class="flex-1-0-0 ">Home</a></li>
+        <li class="flex flex-1-0-0 "><a href="/list.php" class="flex-1-0-0 ">List</a></li>
         <li class="flex flex-1-0-0 "><a href="/about me.php" class="flex-1-0-0 ">About Me</a></li>
-        <li class="flex flex-1-0-0 "><a href="/record.php" class="flex-1-0-0 ">Record</a></li>
-        <li class="flex flex-1-0-0 "><a href="/Notice.php" class="flex-1-0-0 ">Notice</a></li>
-        <li class="flex flex-1-0-0 "><a href="#" class="flex-1-0-0 ">Social Media</a>
+        <li class="flex flex-1-0-0 "><a href="/portfolio.php" class="flex-1-0-0 ">Portfolio</a></li>
+        <li class="flex flex-1-0-0 "><a href="/daily life.php" class="flex-1-0-0 ">Daily Life</a>
     <ul class="flex ">
     <li class="flex "><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
         <li class="flex "><a href="#"><i class="fab fa-instagram"></i> 인스타그램</a></li>
@@ -58,3 +59,4 @@
     </ul> 
     </nav>
     </div>
+</div>

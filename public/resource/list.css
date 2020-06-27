@@ -1,3 +1,27 @@
-body{
+.list-bar > .list-box  > ul{
+    flex-direction: column-reverse;
+    width: 100%;
+
+}
+.list-bar > .list-title{
+    margin-top:20px;
     justify-content: center;
+}
+.list-bar > .list-box  > ul > li{
+   border: 2px solid black;
+    margin-top:50px;
+    justify-content:space-between;
+}
+.list-bar > .list-box  > ul > li > .img-box{
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 20px;
+}
+.list-bar > .list-box  > ul > li  > a{
+    margin:10px;
+    font-size: 20px;
+    font-weight: bold;
 }

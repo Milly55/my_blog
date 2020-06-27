@@ -36,6 +36,7 @@ $(function() {
     MobileSideBar__init();
 });
 
+
 function SlideSideBar__slider(){
     $('.slider-bar > .side-bar > div').click(function(){
         var $clickBtn = $(this);
@@ -68,6 +69,31 @@ $(function(){
     SlideSideBar__slider();
     
 });
+
+function MenuBox_menu(){
+    $(document).ready(function(){
+        $(window).scroll(function(){
+          var scroll = $(window).scrollTop();
+          if (scroll > 1) {
+            $(".top-bar > .menu-bar > .menu-box-1").css("background" , "#F4A460");
+          }
+          else{
+            $(".top-bar > .menu-bar > .menu-box-1").css("background" , "");   
+          }
+        })
+      });
+}
+$(function(){
+    MenuBox_menu();
+    
+});
+
+
+
+
+
+
+
 
 function a(){
     $('.slider-bar > .side-bar > div:last-child').click();
