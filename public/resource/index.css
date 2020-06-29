@@ -48,7 +48,7 @@ html, body{
 }
 @media (max-width:750px){
     .slider-bar{
-        top:50px;
+        
     }
 }
 .btn-txt-bar{
@@ -78,19 +78,16 @@ html, body{
 
 
 .main-bar{
-    justify-content: center;
     border-top: 1px solid black;
     align-items:center;
     font-size: 17px;
     font-weight: bold;
+
 }
 .main-bar > .detailed-box-1{
-    position: absolute;
-    left: 0;
     width: 274px;
     height: 100%;
     padding-top:40px;
-
 }
 .main-bar > .detailed-box-1 > .profile-box{
     margin:0 auto;
@@ -121,7 +118,12 @@ html, body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+
 .list-box-1 {
+    margin-left: 0;
+    margin-top:20px;
     flex-direction: column;
 }
 .list-box-1 > .list-txt{
@@ -138,13 +140,13 @@ html, body{
     width: 100%;
 }
 .list-box-1 > .img-box-1 > ul > li {
-    padding: 0 10px;
     width: 100%;
-    justify-content: center;
+    margin: 0 20px;
+    flex-direction: column;
 }
 .list-box-1 > .img-box-1 > ul > li > a > .img-1{
     height: 300px;
-    width: 300px;
+    width:100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -180,10 +182,24 @@ html, body{
 .list-box-1 > .img-box-1 > ul > li:hover > a > .img-1::before{
     opacity: 1;
 }
-
+.list-box-1 > .img-box-1 > ul > li > ul{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+}
+.list-box-1 > .img-box-1 > ul > li > ul > li{
+    padding:10px 0;
+}
 @media(max-width:850px){
     .main-bar{
         display: none;
     }
 }
 
+/* 인기글및 대표포트폴리로  박스 */
+
+.portfolio-sm-bar{
+    border-top:0;
+    margin-top:50px;
+}
