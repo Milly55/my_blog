@@ -63,11 +63,10 @@ include "../part/head.php";
      <div class="list-txt flex"><div>개시물</div></div>
      <div class="img-box-1 flex">
          <ul class="flex">
-             <li class="flex"><a href="#"><div class="img-1" style="background-image:url(https://ifh.cc/g/OKu0GT.png);"></div></a>
+             <li class="flex"><a href="/detail.php?id=1"><div class="img-1" style="background-image:url(https://ifh.cc/g/OKu0GT.png);"></div></a>
             <ul class="flex">
                 <li class="flex" style="font-size: 20px;">디엔비 블로그</li>
-                <li class="flex" style="color: #5f5d5d;">이 블로그는 개인 포트폴리오및 코딩의 관한 개시물, 일상 등 저의 관한 내용이 있습니다.
-구경하실분은 즐겁게 구경해주시고요 아직 미흡한 점이 있어서 양해부탁드립니다.</li>
+                <li class="flex" style="color: #5f5d5d;">이 블로그는 개인 포트폴리오및 코딩의 관한 개시물, 일상 등 저의 관한 내용이 있습니다. 구경하실분은 즐겁게 구경해주시고요 아직 미흡한 점이 있어서 양해부탁드립니다.</li>
             </ul>
          </li>
              <li class="flex"><a href="#"><div class="img-1" style="background-image:url(https://ifh.cc/g/oOZYsG.jpg);"></div></a>
@@ -92,16 +91,17 @@ include "../part/head.php";
 
 <!-- 인기글및 포트폴리오 박스 -->
 
- <div class="portfolio-sm-bar  main-bar flex">
-    <div class="detailed-box-1 flex ">
-        <div class="popularwriting-1 profile-box">
+
+<div class="portfolio-sm-bar main-bar flex">
+    <div class="pw-box-1 detailed-box-1 flex ">
+        <div class="profile-box">
             <ul class="flex">
-                <li class="flex">안녕하세요</li>
-                <li class="flex"> D&B블로그입니다.</li>
-                <li class="flex" style=" font-size: 15px;">포트폴리오및 개시물 등을 </li>
-                <li class="flex" style=" font-size: 15px;">운영하는 </li>
-                <li class="flex" style=" font-size: 15px;">개인블로그입니다. </li>
-                <li class="flex" style=" font-size: 15px;"><a href="/about me.php">MORE > </a></li>
+                <li class="flex">최근 인기글</li>
+                <li class="flex" style=" font-size: 15px;"><a href="#">인기글 내용</a> </li>
+                <li class="flex" style=" font-size: 15px;"><a href="#">인기글 내용</a> </li>
+                <li class="flex" style=" font-size: 15px;"><a href="#">인기글 내용</a>  </li>
+                <li class="flex" style=" font-size: 15px;"><a href="#">인기글 내용</a> </li>
+                <li class="flex" style=" font-size: 15px;"><a href="/list.php">MORE > </a></li>
             </ul>
         </div>   
     </div>
@@ -109,21 +109,21 @@ include "../part/head.php";
      <div class="list-txt flex"><div>대표 포트폴리오</div></div>
      <div class="img-box-1 flex">
          <ul class="flex">
-             <li class="flex"><a href="#"><div class="img-1" style="background-image:url(https://ifh.cc/g/78sMc5.jpg);"></div></a>
+             <li class="flex"><a href="#"><div class="img-1" style="background-image:url(https://ifh.cc/g/KCZ9Yx.jpg);"></div></a>
             <ul class="flex">
-                <li class="flex" style="font-size: 20px;">모작사이트 제목</li>
+                <li class="flex" style="font-size: 20px;">포트폴리오</li>
                 <li class="flex" style="color: #5f5d5d;">Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
             </ul>
          </li>
-             <li class="flex"><a href="#"><div class="img-1" style="background-image:url(https://ifh.cc/g/78sMc5.jpg);"></div></a>
+             <li class="flex"><a href="#"><div class="img-1" style="background-image:url(https://ifh.cc/g/KCZ9Yx.jpg);"></div></a>
              <ul class="flex">
-                <li class="flex" style="font-size: 20px;">모작사이트  제목</li>
-                <li class="flex" style="color: #5f5d5d;">Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
+                <li class="flex" style="font-size: 20px;">개시물 제목</li>
+                <li class="flex" style="color: #5f5d5d;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
             </ul>
             </li>
-             <li class="flex"><a href="#"><div class="img-1" style="background-image:url(https://ifh.cc/g/78sMc5.jpg);"></div></a>
+             <li class="flex"><a href="#"><div class="img-1" style="background-image:url(https://ifh.cc/g/KCZ9Yx.jpg);"></div></a>
              <ul class="flex">
-                <li class="flex" style="font-size: 20px;">모작사이트  제목</li>
+                <li class="flex"  style="font-size: 20px;">개시물 제목</li>
                 <li class="flex" style="color: #5f5d5d;">Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
              </ul>
            </li>
