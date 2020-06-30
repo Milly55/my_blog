@@ -44,22 +44,9 @@ include "../part/head.php";
 <!-- 메인홈 박스 -->
 
 <!-- 프로필및 개시물 박스 -->
-
-<div class="main-bar flex">
-    <div class="detailed-box-1 flex ">
-        <div class="profile-box">
-            <div class="img-box"  style="background-image:url(https://ifh.cc/g/10GsWN.png);"></div>
-            <ul class="flex">
-                <li class="flex">안녕하세요</li>
-                <li class="flex"> D&B블로그입니다.</li>
-                <li class="flex" style=" font-size: 15px;">포트폴리오및 개시물 등을 </li>
-                <li class="flex" style=" font-size: 15px;">운영하는 </li>
-                <li class="flex" style=" font-size: 15px;">개인블로그입니다. </li>
-                <li class="flex" style=" font-size: 15px;"><a href="/about me.php">MORE > </a></li>
-            </ul>
-        </div>   
-    </div>
-    <div class="list-box-1 con flex">
+<div class="mine-bar-1">
+<div class="main-bar  con">
+    <div class="list-box-1  flex">
      <div class="list-txt flex"><div>개시물</div></div>
      <div class="img-box-1 flex">
          <ul class="flex">
@@ -89,23 +76,8 @@ include "../part/head.php";
  </div>
 
 
-<!-- 인기글및 포트폴리오 박스 -->
-
-
-<div class="portfolio-sm-bar main-bar flex">
-    <div class="pw-box-1 detailed-box-1 flex ">
-        <div class="profile-box">
-            <ul class="flex">
-                <li class="flex">최근 인기글</li>
-                <li class="flex" style=" font-size: 15px;"><a href="#">인기글 내용</a> </li>
-                <li class="flex" style=" font-size: 15px;"><a href="#">인기글 내용</a> </li>
-                <li class="flex" style=" font-size: 15px;"><a href="#">인기글 내용</a>  </li>
-                <li class="flex" style=" font-size: 15px;"><a href="#">인기글 내용</a> </li>
-                <li class="flex" style=" font-size: 15px;"><a href="/list.php">MORE > </a></li>
-            </ul>
-        </div>   
-    </div>
-    <div class="list-box-1 con flex">
+<div class="portfolio-sm-bar main-bar con ">
+    <div class="list-box-1  flex">
      <div class="list-txt flex"><div>대표 포트폴리오</div></div>
      <div class="img-box-1 flex">
          <ul class="flex">
@@ -129,6 +101,7 @@ include "../part/head.php";
            </li>
          </ul>
      </div>
+ </div>
  </div>
  </div>
 

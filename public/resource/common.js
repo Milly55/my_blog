@@ -9,13 +9,14 @@ function MobileSideBar__toggle() {
         $('.mobile-side-menu-bar').removeClass('active');
         $('.mobile-side-menu-bar-bg').removeClass('active');
         $('html, body').removeClass('active');
-        
+        $('.mobile-top-bar').removeClass('active');
     }
     else {
         $btn.addClass('active');
         $('.mobile-side-menu-bar').addClass('active');
         $('.mobile-side-menu-bar-bg').addClass('active');
         $('html, body').addClass('active');
+        $('.mobile-top-bar').addClass('active');
     }
 }
 

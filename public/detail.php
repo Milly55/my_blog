@@ -52,7 +52,10 @@ $row = mysqli_fetch_assoc($rs);
 
 <div class="list-detail-1 con"> 
 <div class="title-box">
-<div class="locar">List</div>
+List
+<div class="locar">카테고리 :
+<a href="/list_cate.php?cateItemId=1">일상</a>
+</div>
 <h1><?=$row['title']?></h1>
 <div class="date-box flex">
     <div>

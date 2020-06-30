@@ -33,8 +33,7 @@
 .list-bar > .list-box  >  ul > li > .list-txt >a{
     margin: 0 auto;
     overflow-x: hidden;
-    width: 800px;
-    white-space: nowrap;
+    width: 500px;
     padding: 10px 0;
     text-overflow: ellipsis;
 }
@@ -64,6 +63,19 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.list-bar > .list-box  >  ul > li > .cate-1{
+    font-size: 18px;
+    font-weight: bold;
+    margin:10px 0;
+}
+.list-bar > .list-box  >  ul > li > .cate-1 > a{
+    font-size: 17px;
+    font-weight: normal;
+    margin-left: 2px;
+}
+.list-bar > .list-box  >  ul > li > .cate-1 > a:hover{
+    text-decoration: underline;
+}
 @media(max-width:750px){
     .list-bar > .list-box  >  ul > li{
         width: 80%;
@@ -87,6 +99,13 @@
         align-items: center;
     }
 }
+@media(max-width:1030px){
+    .list-bar > .list-box  >  ul > li > a{
+        font-size: 16px;
+    }
+}
+
+
 
 
 
