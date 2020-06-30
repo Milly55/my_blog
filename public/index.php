@@ -117,13 +117,13 @@ include "../part/head.php";
          </li>
              <li class="flex"><a href="#"><div class="img-1" style="background-image:url(https://ifh.cc/g/KCZ9Yx.jpg);"></div></a>
              <ul class="flex">
-                <li class="flex" style="font-size: 20px;">개시물 제목</li>
+                <li class="flex" style="font-size: 20px;">포트폴리오</li>
                 <li class="flex" style="color: #5f5d5d;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
             </ul>
             </li>
              <li class="flex"><a href="#"><div class="img-1" style="background-image:url(https://ifh.cc/g/KCZ9Yx.jpg);"></div></a>
              <ul class="flex">
-                <li class="flex"  style="font-size: 20px;">개시물 제목</li>
+                <li class="flex"  style="font-size: 20px;">포트폴리오</li>
                 <li class="flex" style="color: #5f5d5d;">Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
              </ul>
            </li>

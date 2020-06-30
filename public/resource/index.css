@@ -1,3 +1,5 @@
+
+
 html, body{
     position: relative;
     height: 70%;
@@ -147,9 +149,14 @@ html, body{
     margin: 0 20px;
     padding: 0 20px;
     flex-direction: column;
+    transition: 0.3s;
+}
+.list-box-1 > .img-box-1 > ul > li:hover{
+    box-shadow: 3px 3px 8px 5px #afafaf;
 }
 .list-box-1 > .img-box-1 > ul > li > a > .img-1{
-    height: 300px;
+    margin-top:15px;
+    height: 250px;
     width:100%;
     background-position: center;
     background-size: cover;

@@ -1,6 +1,6 @@
 /* 폰트적용 */
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 
 html {
@@ -484,10 +484,6 @@ align-items: center;
 .mobile-side-menu-bar > ul > li > a{
  padding: 10px 23px;
  transition: 0.3s;
-}
-.mobile-side-menu-bar > ul > li:first-child > a{
-  color: #ddac6b;
-  font-size: 25px;
 }
 .mobile-side-menu-bar > ul > li:hover > a{
  background-color: rgba(0,0,0,0.3);

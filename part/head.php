@@ -25,17 +25,16 @@
     </div>
     <div  class="mobile-side-menu-bar visible-sm-down flex">
         <ul class="flex">
-            <li class="flex "><a href="/">D&B</a></li>
+            <li class="flex "><a href="/">Home</a></li>
             <li class="flex "><a href="/list.php">list</a></li>
             <li class="flex "><a href="/about me.php">About Me</a></li>
-            <li class="flex "><a href="/record.php">Record</a></li>
-            <li class="flex "><a href="/Notice.php">Notice</a></li>
-            <li class="flex "><a href="#">Social Media</a>
+            <li class="flex "><a href="/portfolio.php">Portfolio</a></li>
+            <li class="flex "><a href="#">Daily Life</a>
             <ul class="flex ">
                 <li class="flex " style=" border-bottom: 1px solid #afafaf;"><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
                 <li class="flex " style=" border-bottom: 1px solid #afafaf;"><a href="#"><i class="fab fa-instagram"></i> 인스타그램</a></li>
-                <li class="flex "><a href="#"><i class="fas fa-cat"></i> GitHub</a></li>
-            </ul>
+                <li class="flex "><a href="#"><i class="fas fa-cat"></i> GitHub</a> </li>
+            </ul>        
         </li>
         </ul> 
         </div>

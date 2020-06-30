@@ -5,6 +5,7 @@ include "../part/head.php";
 
 $conn = mysqli_connect("site13.blog.oa.gg", "site13", "sbs123414", "site13", 3306);
 mysqli_query($conn, "SET NAMES utf8mb4");
+
 $id =  $_GET['id'];
 $sql ="
 SELECT *

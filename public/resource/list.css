@@ -11,6 +11,9 @@
     margin-top:50px;
     justify-content: center;
 }
+.list-bar > .list-box  >  ul{
+    justify-content: center;
+}
 .list-bar > .list-box  >  ul > li{
     width: 100%;
     height: 220px;
@@ -19,7 +22,6 @@
     justify-content:space-between;
     transition: 0.3s;
     position: relative;
-    align-items: center;
 }
 .list-bar > .list-box  > ul >li:hover{
     box-shadow: 3px 3px 8px 5px #afafaf;
@@ -70,11 +72,42 @@
     }
 }
 
+@media(max-width:770px){
+    .list-bar > .list-box  >  ul > li{
+        width: 90%;
+        white-space:nowrap;
+        position: relative;
+    }
+}
+@media(max-width:1030px){
+    .list-bar > .list-box  >  ul > li{
+        width: 90%;
+        white-space:nowrap;
+        position: relative;
+        align-items: center;
+    }
+}
+
+
+
+
+@media(max-width:1030px){
+    .list-bar > .list-box  >  ul > li > .list-txt > a{
+        width: 500px;
+    }
+}
+@media(max-width:768px){
+    .list-bar > .list-box  >  ul > li > .list-txt > a{
+        width: 350px;
+    }
+}
 @media(max-width:750px){
     .list-bar > .list-box  >  ul > li > .list-txt > a{
         display: none;
     }
 }
+
+
 
 @media(max-width:750px){
     .list-bar > .list-box  >  ul > li > a > .list-img{
@@ -82,14 +115,18 @@
         width: 200px;
     }
 }
-
-
-@media(max-width:400px){
+@media(max-width:770px){
+    .list-bar > .list-box  >  ul > li > a > .list-img{
+        height: 150px;
+        width: 150px;
+    }
+}  
+@media(max-width:415px){
     .list-bar > .list-box  >  ul > li > a > .list-img{
         position: absolute;
         left: 30%;
         top:25%;
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
     }
 }
