@@ -1,17 +1,26 @@
 <?php
 include "../part/head.php";
-?>
-<link rel="stylesheet" href="/resource/list_cate.css">
 
-<?php
-$dbConn = mysqli_connect("site13.blog.oa.gg", "site13", "sbs123414", "site13", 3306) or die("DB CONNECTION ERROR");
+
+$dbHost = "site13.blog.oa.gg";
+$dbPort = 3306;
+$dbId = "site13";
+$dbPw = "sbs123414";
+$dbName = "site13";
+
+$dbConn = mysqli_connect($dbHost, $dbId, $dbPw, $dbName, $dbPort) or die("DB CONNECTION ERROR");
+
+if (isset($_GET['cateItemId']) == false) {
+    $_GET['cateItemId'] = 1;
+}
+
 
 $cateItemId = $_GET['cateItemId'];
 
 $sql = "
-SELECT *
+SELECT name
 FROM cateItem
-WHERE id = {$cateItemId}
+WHERE id = '{$cateItemId}'
 ";
 $rs = mysqli_query($dbConn, $sql);
 $row = mysqli_fetch_assoc($rs);
@@ -20,31 +29,64 @@ $cateItemName = $row['name'];
 $sql = "
 SELECT *
 FROM article
-WHERE cateItemId = {$cateItemId}
-ORDER BY ID DESC
+WHERE cateItemId = '{$cateItemId}'
+ORDER BY id DESC
 ";
+
 $rs = mysqli_query($dbConn, $sql);
-$articleRows = [];
+$rows = [];
 while ( true ) {
     $row = mysqli_fetch_assoc($rs);
-
-    if ( $row == null ) {
+    if ( $row == null) {
         break;
     }
-
-    $articleRows[] = $row;
+    $rows[] = $row;
 }
 ?>
 
-<div class="category-list con">
-<h1>카테고리 : <?=$cateItemName?></h1>
-<?php foreach ( $articleRows as $article ) { ?>
-<div class="list-box flex">
-    <a href="./detail.php?id=<?=$article['id']?>">번호 : <?=$article['id']?>, 제목 : <?=$article['title']?>, 작성날짜 : <?=$article['regDate']?></a>
-    <div class="img-box" syle="background-image:url(https://ifh.cc/g/oOZYsG.jpg);"></div>
+
+
+<div class="list-title-bar con">
+<div class="list-title flex">
+<h1 class=""><?=$cateItemName?>개시물</h1>
+
     </div>
 </div>
-<?php } ?> 
+
+<?php if ( empty($rows) ) { ?>
+<div class="list-none con flex">
+    게시물이 존재하지 않습니다.
+</div>
+
+<?php } else { ?>
+<div class="list-bar con">
+    <div class="list-box-1 flex">
+    <ul class="flex">
+        <?php foreach ( $rows as $row ) { ?>
+        <li class="flex">
+            <a class="flex" href="/detail.php?id=<?=$row['id']?>">
+                <img src="<?=$row['thumbImgUrl']?>" alt="">
+                <div class="list-txt-1">
+                    <?=$row['title']?>
+                    <br>
+                    <?=$row['summary']?>
+                </div>
+            </a>
+        </li>
+        <?php } ?>
+    </ul>
+    </div>
+</div>
+
+
+
+
+
+<?php }
+?>
+<link rel="stylesheet" href="/resource/list_cate.css">
+
+
 
 <?php
 include "../part/foot.php";

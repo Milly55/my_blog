@@ -1,13 +1,27 @@
-.category-list > .list-box {
-    border: 1px solid black;
-    justify-content: space-between;
-    margin-top:20px;
-    
+.list-title-bar{
+    margin-top:30px;
 }
-.category-list > .list-box  > .img-box{
-    height: 200px;
-    width: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.list-title-bar > .list-title{
+    justify-content: center;
+}
+.list-none {
+    font-size: 30px;
+    margin-top:10%;
+    font-weight: bold;
+}
+
+.list-bar  >  .list-box-1{
+    margin-top:30px;
+    justify-content: center;
+}
+.list-bar  >  .list-box-1 > ul {
+    width: 100%;
+}
+.list-bar  >  .list-box-1 > ul > li {
+    width: 100%;
+}
+.list-bar  >  .list-box-1 > ul > li > a {
+    width: 100%;
+    justify-content: space-between;
 }

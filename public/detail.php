@@ -1,6 +1,8 @@
 <?php
 include "../part/head.php";
 ?>
+
+
 <?php
 
 $conn = mysqli_connect("site13.blog.oa.gg", "site13", "sbs123414", "site13", 3306); 
@@ -104,3 +106,5 @@ var editor1 = new toastui.Editor({
 <?php
 include "../part/foot.php";
 ?>
+
+
