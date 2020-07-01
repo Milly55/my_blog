@@ -3,8 +3,9 @@ include "../part/head.php";
 ?>
 <?php
 
-$conn = mysqli_connect("site13.blog.oa.gg", "site13", "sbs123414", "site13", 3306);
+$conn = mysqli_connect("site13.blog.oa.gg", "site13", "sbs123414", "site13", 3306); 
 mysqli_query($conn, "SET NAMES utf8mb4");
+
 
 $id =  $_GET['id'];
 $sql ="
@@ -15,7 +16,10 @@ WHERE id = {$id}
 
 $rs = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($rs);
+
+
 ?>
+<link rel="stylesheet" href="/list_cate.php">
 <link rel="stylesheet" href="/resource/detail.css">
 <!-- 하이라이트 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
@@ -41,6 +45,8 @@ $row = mysqli_fetch_assoc($rs);
 <!-- 토스트 UI 에디터, CSS 코어 -->
 <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
 
+
+
 <div class="back-1 flex">
   <a href="/list.php">리스트</a>
 </div>
@@ -54,7 +60,7 @@ $row = mysqli_fetch_assoc($rs);
 <div class="title-box">
 List
 <div class="locar">카테고리 :
-<a href="/list_cate.php?cateItemId=1">일상</a>
+<a href="/list_cate.php?cateItemId=1"></a>
 </div>
 <h1><?=$row['title']?></h1>
 <div class="date-box flex">

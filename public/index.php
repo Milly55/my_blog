@@ -105,6 +105,11 @@ include "../part/head.php";
  </div>
  </div>
 
+ <div class="cate-1">
+ 카테고리 
+ <a href="http://localhost:8077/list_cate.php?cateItemId=1">일상</a>
+ </div>
+
 
 
     <?php

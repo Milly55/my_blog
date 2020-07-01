@@ -1,0 +1,13 @@
+.category-list > .list-box {
+    border: 1px solid black;
+    justify-content: space-between;
+    margin-top:20px;
+    
+}
+.category-list > .list-box  > .img-box{
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

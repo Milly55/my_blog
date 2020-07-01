@@ -204,7 +204,7 @@ html, body{
     }
 }
 
-/* 인기글및 대표포트폴리로  박스 */
+/* 대표포트폴리로  박스 */
 
 .portfolio-sm-bar{
     margin-top:50px;
@@ -213,3 +213,5 @@ html, body{
 .portfolio-sm-bar > .pw-box-1 > .profile-box > ul > li{
     padding: 10px 0;
 }
+
+/* 카테고리  박스 */

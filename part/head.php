@@ -45,16 +45,16 @@
     <nav class="menu-box-1 ">
     <ul class="flex flex-1-0-0 ">
         <li class="flex flex-1-0-0 "><a href="/" class="flex-1-0-0 ">Home</a></li>
-        <li class="flex flex-1-0-0 "><a href="/list.php" class="flex-1-0-0 ">List</a></li>
-        <li class="flex flex-1-0-0 "><a href="/about me.php" class="flex-1-0-0 ">About Me</a></li>
-        <li class="flex flex-1-0-0 "><a href="/portfolio.php" class="flex-1-0-0 ">Portfolio</a></li>
-        <li class="flex flex-1-0-0 "><a href="/daily life.php" class="flex-1-0-0 ">Daily Life</a>
-    <ul class="flex ">
-    <li class="flex "><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
-        <li class="flex "><a href="#"><i class="fab fa-instagram"></i> 인스타그램</a></li>
-        <li class="flex "><a href="#"><i class="fas fa-cat"></i> GitHub</a></li>
+        <li class="flex flex-1-0-0 "><a href="/list.php" class="flex-1-0-0 ">List</a>
+        <ul class="flex ">
+    <li class="flex "><a href="http://localhost:8077/list_cate.php?cateItemId=1">일상</a></li>
+        <li class="flex "><a href="http://localhost:8077/list_cate.php?cateItemId=2">프로그래밍</a></li>
+        <li class="flex "><a href="http://localhost:8077/list_cate.php?cateItemId=3">디자인</a></li>
     </ul> 
 </li>
+        <li class="flex flex-1-0-0 "><a href="/about me.php" class="flex-1-0-0 ">About Me</a></li>
+        <li class="flex flex-1-0-0 "><a href="/portfolio.php" class="flex-1-0-0 ">Portfolio</a></li>
+        <li class="flex flex-1-0-0 "><a href="/daily life.php" class="flex-1-0-0 ">daily life</a></li>
     </ul> 
     </nav>
     </div>
