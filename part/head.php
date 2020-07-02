@@ -47,9 +47,9 @@
         <li class="flex flex-1-0-0 "><a href="/" class="flex-1-0-0 ">Home</a></li>
         <li class="flex flex-1-0-0 "><a href="/list.php" class="flex-1-0-0 ">List</a>
         <ul class="flex ">
-    <li class="flex "><a href="http://localhost:8077/list_cate.php?cateItemId=1">일상</a></li>
-        <li class="flex "><a href="http://localhost:8077/list_cate.php?cateItemId=2">프로그래밍</a></li>
-        <li class="flex "><a href="http://localhost:8077/list_cate.php?cateItemId=3">디자인</a></li>
+    <li class="flex "><a href="/list_cate.php?cateItemId=1">일상</a></li>
+        <li class="flex "><a href="/list_cate.php?cateItemId=2">프로그래밍</a></li>
+        <li class="flex "><a href="/list_cate.php?cateItemId=3">디자인</a></li>
     </ul> 
 </li>
         <li class="flex flex-1-0-0 "><a href="/about me.php" class="flex-1-0-0 ">About Me</a></li>
