@@ -26,16 +26,16 @@
     <div  class="mobile-side-menu-bar visible-sm-down flex">
         <ul class="flex">
             <li class="flex "><a href="/">Home</a></li>
-            <li class="flex "><a href="/list.php">list</a></li>
+            <li class="flex "><a href="#">list</a>
+            <ul class="flex ">
+                <li class="flex " style=" border-bottom: 1px solid #afafaf;"><a href="http://localhost:8077/list_cate.php?cateItemId=1"> 일상</a></li>
+                <li class="flex " style=" border-bottom: 1px solid #afafaf;"><a href="http://localhost:8077/list_cate.php?cateItemId=2"> 프로그래밍</a></li>
+                <li class="flex "><a href="http://localhost:8077/list_cate.php?cateItemId=3">디자인</a> </li>
+            </ul>
+        </li>
             <li class="flex "><a href="/about me.php">About Me</a></li>
             <li class="flex "><a href="/portfolio.php">Portfolio</a></li>
-            <li class="flex "><a href="#">Daily Life</a>
-            <ul class="flex ">
-                <li class="flex " style=" border-bottom: 1px solid #afafaf;"><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
-                <li class="flex " style=" border-bottom: 1px solid #afafaf;"><a href="#"><i class="fab fa-instagram"></i> 인스타그램</a></li>
-                <li class="flex "><a href="#"><i class="fas fa-cat"></i> GitHub</a> </li>
-            </ul>        
-        </li>
+            <li class="flex "><a href="/daily life.php">Daily Life</a>  </li>
         </ul> 
         </div>
         <!--PC 탑바-->

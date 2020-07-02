@@ -61,15 +61,15 @@ while ( true ) {
 <?php } else { ?>
 <div class="list-bar con">
     <div class="list-box-1 flex">
-    <ul class="flex">
+    <ul class="flex flex-1-0-0">
         <?php foreach ( $rows as $row ) { ?>
-        <li class="flex">
+        <li class="flex flex-1-0-0">  
             <a class="flex" href="/detail.php?id=<?=$row['id']?>">
-                <img src="<?=$row['thumbImgUrl']?>" alt="">
-                <div class="list-txt-1">
-                    <?=$row['title']?>
-                    <br>
-                    <?=$row['summary']?>
+            <img src="<?=$row['thumbImgUrl']?>" alt="">
+                <div class="list-txt-1 flex">
+                <div class="title-box flex"> <?=$row['title']?></div> 
+                  <br>
+                  <div class="summary-box flex"><?=$row['summary']?></div> 
                 </div>
             </a>
         </li>
@@ -77,6 +77,8 @@ while ( true ) {
     </ul>
     </div>
 </div>
+
+
 
 
 

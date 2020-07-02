@@ -10,14 +10,27 @@ mysqli_query($conn, "SET NAMES utf8mb4");
 
 
 $id =  $_GET['id'];
-$sql ="
+
+$qsl1 = "
 SELECT *
 FROM article
 WHERE id = {$id}
 ";
+$rs = mysqli_query($conn, $qsl1);
+$row1 = mysqli_fetch_assoc($rs);
 
-$rs = mysqli_query($conn, $sql);
-$row = mysqli_fetch_assoc($rs);
+
+
+$sql2 ="
+SELECT *
+FROM cateItem
+WHERE id = {$row1['cateItemId']}
+";
+
+$rs2 = mysqli_query($conn, $sql2);
+$row2 = mysqli_fetch_assoc($rs2);
+
+
 
 
 ?>
@@ -50,7 +63,7 @@ $row = mysqli_fetch_assoc($rs);
 
 
 <div class="back-1 flex">
-  <a href="/list.php">리스트</a>
+  <a href="/list.php">매인 <br> 리스트</a>
 </div>
 
 <div class="front-1 flex">
@@ -62,15 +75,15 @@ $row = mysqli_fetch_assoc($rs);
 <div class="title-box">
 List
 <div class="locar">카테고리 :
-<a href="/list_cate.php?cateItemId=1"></a>
+ <a href="/list_cate.php?cateItemId=<?=$row2['id']?>=<?=$row2['id']?>"><?=$row2['name']?></a>
 </div>
-<h1><?=$row['title']?></h1>
+<h1><?=$row1['title']?></h1>
 <div class="date-box flex">
     <div>
-        등록날짜 : <?=$row['regDate']?>
+        등록날짜 : <?=$row1['regDate']?>
     </div>
     <div>
-        수정날짜 : <?=$row['updateDate']?>
+        수정날짜 : <?=$row1['updateDate']?>
     </div>
   </div>
     <div class="Writer">
@@ -83,7 +96,7 @@ List
 
 <div class="content-box">
     <div style="display:none;" id="origin1">
-    <?=$row['body']?>
+    <?=$row1['body']?>
     </div>
     <div id="viewer1"> 
   </div>

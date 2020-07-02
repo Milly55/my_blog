@@ -56,11 +56,10 @@ include "../part/head.php";
                 <li class="flex" style="color: #5f5d5d;">이 블로그는 개인 포트폴리오및 코딩의 관한 개시물, 일상 등 저의 관한 내용이 있습니다. 구경하실분은 즐겁게 구경해주시고요 아직 미흡한 점이 있어서 양해부탁드립니다.</li>
             </ul>
          </li>
-             <li class="flex"><a href="#"><div class="img-1" style="background-image:url(https://ifh.cc/g/oOZYsG.jpg);"></div></a>
+             <li class="flex"><a href="/detail.php?id=2"><div class="img-1" style="background-image:url(https://ifh.cc/g/LjTXWt.jpg);"></div></a>
              <ul class="flex">
-                <li class="flex" style="font-size: 20px;">개시물 제목</li>
-                <li class="flex" style="color: #5f5d5d;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cum laborum doloremque pariatur
-                    autem enim nisi quisquam modi cumque quibusdam voluptatem tempora, rem repudiandae error delectus, doloribus tenetur sint consectetur.</li>
+                <li class="flex" style="font-size: 20px;">동영상 팝업</li>
+                <li class="flex" style="color: #5f5d5d;">사이트 모작을 하여 동영상 팝업을 했습니다. CSS와 JS를 통해 텍스트 클릭시 팝업 동영상 이 나오도록 한다.</li>
             </ul>
             </li>
              <li class="flex"><a href="#"><div class="img-1" style="background-image:url(https://ifh.cc/g/oOZYsG.jpg);"></div></a>

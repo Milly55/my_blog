@@ -1,6 +1,5 @@
 /* 폰트적용 */
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 
 html {
@@ -388,6 +387,7 @@ label[for] {
 }
 .mobile-top-bar.active{
   background-color:white;
+
 }
 .mobile-top-bar > .logo-box{
   position: absolute;
