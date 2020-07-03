@@ -62,22 +62,25 @@ $row2 = mysqli_fetch_assoc($rs2);
 
 
 
-<div class="back-1 flex">
-  <a href="/list.php">매인 <br> 리스트</a>
-</div>
-
-<div class="front-1 flex">
-  <li><a href="#"  onclick="history.back();">BACK</a></li>
-</div>
-
-
 <div class="list-detail-1 con"> 
-<div class="title-box">
+  <div class="title-box">
 List
-<div class="locar">카테고리 :
- <a href="/list_cate.php?cateItemId=<?=$row2['id']?>=<?=$row2['id']?>"><?=$row2['name']?></a>
+  <div class="locar flex">
+  카테고리 :
+  <a href="/list_cate.php?cateItemId=<?=$row2['id']?>"><?=$row2['name']?></a>
+  </div>
+  <h1><?=$row1['title']?></h1>
+<div class="list-go-box">
+<div class="main-list-go flex">
+  <a href="/list.php"><i class="fas fa-arrow-left"></i> 메인 리스트로 가기</a>
 </div>
-<h1><?=$row1['title']?></h1>
+<div class="cate-list-go flex">
+  <a href="/list_cate.php?cateItemId=<?=$row2['id']?>"><i class="fas fa-arrow-left"></i> 카테고리 리스트로 가기</a>
+</div>
+</div>
+<div class="back-box flex">
+  <li><a href="#"  onclick="history.back();"> BACK</a></li>
+</div>
 <div class="date-box flex">
     <div>
         등록날짜 : <?=$row1['regDate']?>
@@ -89,12 +92,13 @@ List
     <div class="Writer">
         작성자 : KBY
     </div>
-</div>
+  </div>
 
 
 
 
-<div class="content-box">
+
+<div class="content-box ">
     <div style="display:none;" id="origin1">
     <?=$row1['body']?>
     </div>

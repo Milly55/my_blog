@@ -1,8 +1,10 @@
-.box{
+
+.main-list-box{
     flex-direction: column;
     align-items: center;
+    margin-top:70px;
 }
-.box > div{
+.main-list-box > div{
    margin-top:50px;
    font-size: 20px;
    font-weight: bold;

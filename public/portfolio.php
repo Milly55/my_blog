@@ -10,7 +10,7 @@ include "../part/head.php";
     <div class="main-box con flex">    
 <div class="img-box-1 flex">
 <ul class=" flex">
-    <li><a href="#"><div class="img-box"><img src="http://www.icounseling.co.kr/Resource/upload_img/20190715130200023.jpg" alt=""></div></a></li>
+    <li><a href="/portfolio1.html" target="_blank"><div class="img-box"><img src="http://www.icounseling.co.kr/Resource/upload_img/20190715130200023.jpg" alt=""></div></a></li>
     <li><a href="#"><div class="img-box"><img src="http://www.icounseling.co.kr/Resource/upload_img/20190715130200023.jpg" alt=""></div></a></li>
     <li><a href="#"><div class="img-box"><img src="http://www.icounseling.co.kr/Resource/upload_img/20190715130200023.jpg" alt=""></div></a></li>
 </ul>

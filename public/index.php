@@ -3,6 +3,22 @@ include "../part/head.php";
 ?>
 <link rel="stylesheet" href="/resource/index.css">
 
+
+
+
+<?php
+
+$conn = mysqli_connect("site13.blog.oa.gg", "site13", "sbs123414", "site13", 3306); 
+mysqli_query($conn, "SET NAMES utf8mb4");
+
+
+$qsl1 = "
+SELECT *
+";
+
+?>
+
+
 <!-- 이미지 슬라이더 바 -->
 <div class=" slider-bar  con">
     <div class="slider-box-1 ">
@@ -104,10 +120,7 @@ include "../part/head.php";
  </div>
  </div>
 
- <div class="cate-1">
- 카테고리 
- <a href="http://localhost:8077/list_cate.php?cateItemId=1">일상</a>
- </div>
+
 
 
 

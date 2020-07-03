@@ -48,10 +48,10 @@ while ( true ) {
 
 <div class="list-title-bar con">
 <div class="list-title flex">
-<h1 class=""><?=$cateItemName?>개시물</h1>
-
+<h1><?=$cateItemName?>개시물</h1>
     </div>
 </div>
+
 
 <?php if ( empty($rows) ) { ?>
 <div class="list-none con flex">
@@ -60,6 +60,7 @@ while ( true ) {
 
 <?php } else { ?>
 <div class="list-bar con">
+<div class="main-list-go con"><a href="/list.php"><i class="fas fa-arrow-left"></i> 메인 리스트로 가기</a> </div>
     <div class="list-box-1 flex">
     <ul class="flex flex-1-0-0">
         <?php foreach ( $rows as $row ) { ?>

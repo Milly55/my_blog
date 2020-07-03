@@ -2,7 +2,6 @@
     margin-top:50px;
 }
 .list-detail-1 > .title-box > .date-box{
-    margin-top:30px;
     flex-direction: column;
     align-items: flex-end;
 }
@@ -11,8 +10,6 @@
 }
 .list-detail-1 > .content-box{
     margin-top:30px;
-   flex-direction: column;
-   align-items: center;
 }
 .list-detail-1 > .title-box > .locar {
     margin: 10px 0;
@@ -25,45 +22,6 @@
 }
 .list-detail-1 > .title-box > .locar > a:hover{
     text-decoration: underline;
-}
-
-.back-1{
-    position: fixed;
-    left: 0;
-    top:50%;
-    width: 80px;
-    height: 80px;
-    flex-direction: column;
-    align-items: center;
-    font-size: 18px;
-    font-weight: bold;
-    justify-content: center;
-}
-.back-1 > a{
-    transition: 0.3s;
-}
-.back-1> a:hover{
-    margin-bottom: 15px;
-}
-
-.front-1{
-    position: fixed;
-    right: 0;
-    top:50%;
-    width: 80px;
-    height: 80px;
-    flex-direction: column;
-    align-items: center;
-    font-size: 18px;
-    font-weight: bold;
-    justify-content: center;
-}
- .front-1 > li > a{
-    transition: 0.3s;
-    text-align: center;  
-}
-.front-1 > li > a:hover{
-    margin-right: 15px;
 }
 
 @media(max-width:750px){
@@ -84,4 +42,41 @@
         font-size: 10px;
     }
 }
+.list-go-box{
+    display: inline-block;
+}
+.list-go-box > .main-list-go{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top:20px;
+    transition: 0.3s;
+}
+
+.list-go-box > .main-list-go:hover{
+    margin-left: -10px;
+}
+.list-go-box > .cate-list-go{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top:20px;
+    transition: 0.3s;
+} 
+.list-go-box > .cate-list-go:hover{
+    margin-left: -10px;
+}
+.back-box{
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
 

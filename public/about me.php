@@ -5,7 +5,7 @@ include "../part/head.php";
 <link rel="stylesheet" href="/resource/about me.css">
 <div class="main-bar">
     <div class="main-box con flex">
-    <div class="img-box-me img-box"><img src="https://ifh.cc/g/1zfIcQ.jpg" alt=""></div>    
+    <div class="img-box-me img-box"><img src="https://milly55.github.io/img1/%EB%B8%94%EB%A1%9C%EA%B7%B8/aticle/%EC%9D%B4%EB%AF%B8%EC%A7%80/%EC%86%8C%EA%B0%9C.png" alt=""></div>    
         <div class="main-txt-bar flex">
             <ul class="flex">
                 <li class="flex">안녕하세요 저는 김보영 입니다. <br>(Hello, I'm Boyoung Kim.)</li>
