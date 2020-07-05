@@ -78,15 +78,10 @@ while ( true ) {
     </ul>
     </div>
 </div>
-
-
-
-
-
-
-
 <?php }
 ?>
+
+
 <link rel="stylesheet" href="/resource/list_cate.css">
 
 

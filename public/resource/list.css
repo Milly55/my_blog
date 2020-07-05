@@ -1,12 +1,27 @@
 
-.main-list-box{
-    flex-direction: column;
-    align-items: center;
+.main-list-bar{
     margin-top:70px;
 }
-.main-list-box > div{
-   margin-top:50px;
-   font-size: 20px;
-   font-weight: bold;
-   
+.main-list-box > .cate-list-lnke {
+    margin-top:50px;
+}
+.main-list-box > .cate-list-lnke > ul{
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 16px;
+}
+.main-list-box > .cate-list-lnke > ul > li{
+    padding: 10px 0;
+}
+.main-list-box > .cate-list-lnke > ul > li > a{
+    padding:0 5px;
+}
+.main-list-box > .cate-list-lnke > ul > li:hover > a{
+    text-decoration: underline;
+}
+.main-list-box > .cate-list-lnke > ul > li:first-child{
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
 }

@@ -40,21 +40,15 @@
         </div>
         <!--PC 탑바-->
     <div class="top-bar ">
-    <div class="logo-box"><a href="/"><img src="https://ifh.cc/g/PIALb8.png" alt="" style="width: 100px; height: 80px;"></a></div>
-    <div class="menu-bar">
+    <div class="logo-box flex"><a href="/"><img src="https://ifh.cc/g/PIALb8.png" alt="" style="width: 100px; height: 80px;"></a></div>
+    <div class="menu-bar con">
     <nav class="menu-box-1 ">
     <ul class="flex flex-1-0-0 ">
-        <li class="flex flex-1-0-0 "><a href="/" class="flex-1-0-0 ">Home</a></li>
-        <li class="flex flex-1-0-0 "><a href="/list.php" class="flex-1-0-0 ">List</a>
-        <ul class="flex ">
-    <li class="flex "><a href="/list_cate.php?cateItemId=1">일상</a></li>
-        <li class="flex "><a href="/list_cate.php?cateItemId=2">프로그래밍</a></li>
-        <li class="flex "><a href="/list_cate.php?cateItemId=3">디자인</a></li>
-    </ul> 
-</li>
-        <li class="flex flex-1-0-0 "><a href="/about me.php" class="flex-1-0-0 ">About Me</a></li>
-        <li class="flex flex-1-0-0 "><a href="/portfolio.php" class="flex-1-0-0 ">Portfolio</a></li>
-        <li class="flex flex-1-0-0 "><a href="/daily life.php" class="flex-1-0-0 ">daily life</a></li>
+        <li class="flex "><a href="/">Home</a></li>
+        <li class="flex  "><a href="/about me.php" >About Me</a></li>
+        <li class="flex "><a href="/list.php" >List</a></li>
+        <li class="flex  "><a href="/portfolio.php" >Portfolio</a></li>
+        <li class="flex  "><a href="/daily life.php" >daily life</a></li>
     </ul> 
     </nav>
     </div>

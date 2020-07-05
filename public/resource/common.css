@@ -299,66 +299,59 @@ label[for] {
 
 /* 탑 바 시작 */
 .top-bar {
-  margin-top:70px;
-  padding: 20px 0;
     text-align: center;
-    border-bottom: 1px solid #afafaf;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
 }
+
+.top-bar > .logo-box{
+  margin-top:80px;
+  justify-content: center;
+}
+
 .top-bar > .menu-bar > .menu-box-1{
   position: fixed;
   z-index: 2;
+  top:0;
   left:0;
   right: 0;
-  top:0;
   transition: background-color 0.3s;
 }
-
+.top-bar >.menu-bar >  .menu-box-1 > ul {
+  justify-content: center;
+}
 .top-bar >.menu-bar >  .menu-box-1 > ul > li{
   position: relative;
+  padding: 0 60px;
 }
 .top-bar > .menu-bar > .menu-box-1 > ul > li > a{
-    transition: background-color 0.3s;
+    transition:  0.3s;
     font-weight: bold;
-    font-size: 20px;    
-    padding: 20px 0;
+    font-size: 20px;   
+    padding:20px 10px ; 
     align-items: center;
+    position: relative;
+
+}
+.top-bar > .menu-bar > .menu-box-1 > ul > li > a::after{
+  content: "";
+  position: absolute;
+  top:100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 5px;
+  background-color:black;
+  transition: width 0.3s;
+
+}
+.top-bar > .menu-bar > .menu-box-1 > ul > li > a:hover::after{
+  width: 100%;
 }
 .top-bar > .menu-bar > .menu-box-1 > ul > li:hover > a{
-    background-color:rgb(15, 1, 53);
     color: #ffd097
 }
-.top-bar >.menu-bar > .menu-box-1 > ul > li > ul{
-  visibility: hidden;
-    position:absolute;
-    top:100%;
-    width: 98.9%;
-    height:0;
-    padding: 20px 0;
-    transition: height 0.3s;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border:2px solid rgb(15, 1, 53);
-    z-index: 1;
-}
-.top-bar > .menu-bar >.menu-box-1 > ul > li:hover > ul{
-  visibility: visible;
-    height:100%;
-    border-top:0;
-    background-color: white;
-}
-.top-bar >.menu-bar > .menu-box-1 > ul > li > ul > li{
-  justify-content: center;
-  padding: 5px 0;
-}
-.top-bar > .menu-bar >.menu-box-1 > ul > li > ul > li > a{
-    font-size: 15px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-.top-bar >.menu-bar > .menu-box-1 > ul > li > ul > li:hover > a{
-  color: 	#ffd097
-}
+
 @media (max-width:750px){
   .top-bar{
     display: none;
@@ -533,39 +526,4 @@ align-items: center;
 /* 모바일 사이드 바 끝 */
 
 
-/* 메인 텍스트 박스 시작 */
-.main-bar{
-  border-top:1px solid #afafaf;
-}
-.main-box {
-  margin-top:100px; 
-  z-index: 2;
-}
-.main-txt-bar{
-  margin-left: 20px;
-  flex-direction: column;
-  justify-content: center;
-}
-.avatar-img{
-  width: 120px;
-  height: 120px;
-  display: block;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-.main-txt-bar > ul{
-  flex-direction: column;
-}
-.main-txt-bar > ul > li{
-  font-weight: bold;
-  font-size: 30px;
-}
-@media(max-width:750px){
-  .main-bar{
-    border-top:0;
-  }
-}
-/* 메인 텍스트 박스 끝 */
 
