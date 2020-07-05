@@ -318,11 +318,10 @@ label[for] {
   transition: background-color 0.3s;
 }
 .top-bar >.menu-bar >  .menu-box-1 > ul {
-  justify-content: center;
+  justify-content: space-around;
 }
 .top-bar >.menu-bar >  .menu-box-1 > ul > li{
   position: relative;
-  padding: 0 60px;
 }
 .top-bar > .menu-bar > .menu-box-1 > ul > li > a{
     transition:  0.3s;
