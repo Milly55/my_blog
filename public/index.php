@@ -1,5 +1,35 @@
 <?php
 include "../part/head.php";
+
+
+
+$dbHost = "site13.blog.oa.gg";
+$dbPort = 3306;
+$dbId = "site13";
+$dbPw = "sbs123414";
+$dbName = "site13";
+
+$dbConn = mysqli_connect($dbHost, $dbId, $dbPw, $dbName, $dbPort) or die("DB CONNECTION ERROR");
+
+
+
+$sql = "
+SELECT *
+FROM article
+ORDER BY id DESC
+LIMIT 2
+";
+
+$rs = mysqli_query($dbConn, $sql);
+$rows = [];
+while ( true ) {
+    $row = mysqli_fetch_assoc($rs);
+    if ( $row == null) {
+        break;
+    }
+    $rows[] = $row;
+}
+
 ?>
 <link rel="stylesheet" href="/resource/index.css">
 
@@ -48,8 +78,30 @@ include "../part/head.php";
 </div>
 
 
+<div class="recent-title con flex">
+<h2>최근개시물</h2>
+</div>
+<div class="recent-list-bar con">
+        <div class="recent-list-box flex">
+            <div class="recent-list flex">
+            <?php foreach($rows as $aa) { ?>
+                <ul class="flex">
+                <li><a class="flex" href="/detail.php?id=<?=$aa['id']?>"> <img src="<?=$aa['thumbImgUrl']?>" alt=""></a></li>
+                <li class="flex"><a href="/detail.php?id=<?=$aa['id']?>"></a></li>
+                </ul>
+                <ul>
+                <li><?=$aa['title']?></li>
+                <li><?=$aa['summary']?></li>
+                </ul>
+            <?php } ?>
+
+            </div>
+
+        </div>
+    </div>
 
 
+    
 
 
     <?php

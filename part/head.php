@@ -41,7 +41,7 @@
         <!--PC 탑바-->
     <div class="top-bar ">
     <div class="logo-box flex"><a href="/"><img src="https://ifh.cc/g/PIALb8.png" alt="" style="width: 100px; height: 80px;"></a></div>
-    <div class="menu-bar con">
+    <div class="menu-bar ">
     <nav class="menu-box-1 ">
     <ul class="flex flex-1-0-0 ">
         <li class="flex "><a href="/">Home</a></li>

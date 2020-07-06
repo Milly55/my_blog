@@ -20,17 +20,7 @@ include "../part/head.php";
         <div class="img-box" style="background-image:url(http://www.icounseling.co.kr/images/bg_main_section_0.jpg);"></div>
         <h3>제목</h3>(사이트 모작) <div class="portfolio-txt">내용</div></a></li>
     </ul>
-    <ul class="flex">
-        <li class="flex"><a href="/portfolio1.html" target="_blank">
-        <div class="img-box" style="background-image:url(http://www.icounseling.co.kr/images/bg_main_section_0.jpg);"></div>
-        <h3>제목 </h3>(특징) <div class="portfolio-txt">내용</div></a></li>
-        <li class="flex"><a href="">
-        <div class="img-box" style="background-image:url(https://ifh.cc/g/Mh3Z9D.png);"></div>
-        <h3>제목</h3>(특징) <div class="portfolio-txt">내용</div></a></li>
-        <li class="flex"><a href="">
-        <div class="img-box" style="background-image:url(http://www.icounseling.co.kr/images/bg_main_section_0.jpg);"></div>
-        <h3>제목</h3>(특징) <div class="portfolio-txt">내용</div></a></li>
-    </ul>
+
   </div>
 </div>
 </div>

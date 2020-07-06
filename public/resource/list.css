@@ -4,6 +4,7 @@
 }
 .main-list-box > .cate-list-lnke {
     margin-top:50px;
+    justify-content: space-around;
 }
 .main-list-box > .cate-list-lnke > ul{
     flex-direction: column;
@@ -22,6 +23,20 @@
 }
 .main-list-box > .cate-list-lnke > ul > li:first-child{
     justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.main-list-box > .cate-list-lnke > .list-box{
+    border: 1px solid black;
+    width: 1000px;
+    flex-direction: column;
+    text-align: center;
+
+}
+.main-list-box > .cate-list-lnke > .list-box > .lists-1{
+    border-bottom: 1px solid black;
+    padding: 20px;
+    align-items: center;
     font-weight: bold;
     font-size: 18px;
 }

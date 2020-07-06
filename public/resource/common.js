@@ -76,28 +76,26 @@ function MenuBox_menu(){
         $(window).scroll(function(){
           var scroll = $(window).scrollTop();
           if (scroll > 1) {
-            $(".top-bar > .menu-bar > .menu-box-1").css("background" , "#F4A460");
-          }
+            $(".top-bar > .menu-bar > .menu-box-1").css("background" , "#E9967A");
+            $(".top-bar > .menu-bar > .menu-box-1 > ul > li > a").css("color" , "white");
+                  }
           else{
             $(".top-bar > .menu-bar > .menu-box-1").css("background" , "");   
+            $(".top-bar > .menu-bar > .menu-box-1 > ul > li > a").css("color" , "");
           }
         })
       });
 }
 $(function(){
-    MenuBox_menu();
-    
+    MenuBox_menu();   
 });
-
-
-
-
-
-
-
 
 function a(){
     $('.slider-bar > .side-bar > div:last-child').click();
 }
 
 setInterval (a,5000);
+
+
+
+

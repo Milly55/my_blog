@@ -1,8 +1,8 @@
 
 
 html, body{
-    position: relative;
     height: 70%;
+    width: 100%;
 }
 .slider-bar{
     height: 100%;
@@ -12,8 +12,8 @@ html, body{
 .slider-bar .side-bar > div{
     position: absolute;
     top:0;
-    left:0;
-    width:calc(50% - 500px);
+    left: 0;
+    width:calc(50% - 100px);
     cursor: pointer;
     height: 100%;
     align-items: center;
@@ -30,6 +30,9 @@ html, body{
 .slider-bar .side-bar > div:last-child{
     right: 0;
     left: auto;
+}
+.slider-bar > .slider-box-1 {
+    border: 5px solid red;
 }
 .slider-bar > .slider-box-1 > div{
     position: absolute;
@@ -81,7 +84,8 @@ html, body{
     } 
 } 
 
-.main-bar{
-    margin-top:100px;
-}
+
+
+
+
 

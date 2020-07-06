@@ -299,7 +299,6 @@ label[for] {
 
 /* 탑 바 시작 */
 .top-bar {
-    text-align: center;
     padding: 20px 0;
     border-bottom: 1px solid black;
 }
@@ -346,9 +345,6 @@ label[for] {
 }
 .top-bar > .menu-bar > .menu-box-1 > ul > li > a:hover::after{
   width: 100%;
-}
-.top-bar > .menu-bar > .menu-box-1 > ul > li:hover > a{
-    color: #ffd097
 }
 
 @media (max-width:750px){

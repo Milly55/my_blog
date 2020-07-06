@@ -43,8 +43,7 @@
 .list-bar  >  .list-box-1 > ul > li:hover{
     box-shadow: 3px 3px 8px 5px #afafaf;
 }
-.list-bar  >  .list-box-1 > ul > li > a {
-}
+
 .list-bar  >  .list-box-1 > ul > li > a > .list-txt-1 {
     margin-left: 20px;
     flex-direction: column;
