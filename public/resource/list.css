@@ -27,6 +27,7 @@
     font-size: 18px;
 }
 .main-list-box > .cate-list-lnke > .list-box{
+    position: relative;
     border: 1px solid black;
     width: 1000px;
     flex-direction: column;

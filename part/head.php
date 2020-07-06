@@ -28,9 +28,9 @@
             <li class="flex "><a href="/">Home</a></li>
             <li class="flex "><a href="#">list</a>
             <ul class="flex ">
-                <li class="flex " style=" border-bottom: 1px solid #afafaf;"><a href="http://localhost:8077/list_cate.php?cateItemId=1"> 일상</a></li>
-                <li class="flex " style=" border-bottom: 1px solid #afafaf;"><a href="http://localhost:8077/list_cate.php?cateItemId=2"> 프로그래밍</a></li>
-                <li class="flex "><a href="http://localhost:8077/list_cate.php?cateItemId=3">디자인</a> </li>
+                <li class="flex " style=" border-bottom: 1px solid #afafaf;"><a href="/list_cate.php?cateItemId=1"> 일상</a></li>
+                <li class="flex " style=" border-bottom: 1px solid #afafaf;"><a href="/list_cate.php?cateItemId=2"> 프로그래밍</a></li>
+                <li class="flex "><a href="/list_cate.php?cateItemId=3">디자인</a> </li>
             </ul>
         </li>
             <li class="flex "><a href="/about me.php">About Me</a></li>
@@ -39,6 +39,9 @@
         </ul> 
         </div>
         <!--PC 탑바-->
+
+
+        <div class="img-box"><img src="https://ifh.cc/g/k51LMS.jpg" alt=""></div>
     <div class="top-bar ">
     <div class="logo-box flex"><a href="/"><img src="https://ifh.cc/g/PIALb8.png" alt="" style="width: 100px; height: 80px;"></a></div>
     <div class="menu-bar ">

@@ -298,6 +298,16 @@ label[for] {
 }
 
 /* 탑 바 시작 */
+
+.img-box{
+  top:50%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+
 .top-bar {
     padding: 20px 0;
     border-bottom: 1px solid black;
