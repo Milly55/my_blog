@@ -78,10 +78,14 @@ function MenuBox_menu(){
           if (scroll > 1) {
             $(".top-bar > .menu-bar > .menu-box-1").css("background" , "#E9967A");
             $(".top-bar > .menu-bar > .menu-box-1 > ul > li > a").css("color" , "white");
-                  }
+            $(".top-menu-bar").css("background-color" , "#02042f");
+            $(".top-menu-bar").css("opacity" , "0.9");
+        }
           else{
             $(".top-bar > .menu-bar > .menu-box-1").css("background" , "");   
             $(".top-bar > .menu-bar > .menu-box-1 > ul > li > a").css("color" , "");
+            $(".top-menu-bar").css("background-color" , "");   
+            $(".top-menu-bar").css("opacity" , "");
           }
         })
       });

@@ -79,18 +79,18 @@ while ( true ) {
 
 
 
-<div class="recent-title con flex">
-<h2>최근개시물</h2>
-</div>
+
 <div class="recent-list-bar con">
-        <div class="recent-list-box flex">
+<div class="recent-title con flex">
+            <h2 style="padding:10px;">최근개시물 <i class="fas fa-book"></i></h2>
+           </div>
+        <div class="recent-list-box">
             <div class="recent-list flex">
             <?php foreach($rows as $aa) { ?>
                 <ul class="flex">
                     <li class="flex" style="padding-top:20px;"><a href="/detail.php?id=<?=$aa['id']?>"><img src="<?=$aa['thumbImgUrl']?>" alt=""></a></li>
                     <li class="flex" style="font-weight: bold; font-size: 20px;"><a href="/detail.php?id=<?=$aa['id']?>"><?=$aa['title']?></a></li>
-                    <br>
-                    <li><a href="/detail.php?id=<?=$aa['id']?>"><?=$aa['summary']?></a></li>
+                    <li><a href="/detail.php?id=<?=$aa['id']?>"></a></li>
                 </ul>
                 
             <?php } ?>
@@ -109,7 +109,5 @@ include "../part/foot.php";
 
                 
 
-          
-    <!--<?=$aa['summary']?> -->            
-
+    
 

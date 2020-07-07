@@ -16,7 +16,7 @@ include "../part/head.php";
         <h3>아이심리상담소 모작</h3> 
         </li>
 
-        <li class="flex"><a href="">
+        <li class="flex"><a href="/portfolio_2.html" target="_blank">
         <div class="img-box" style="background-image:url(https://ifh.cc/g/Mh3Z9D.png);"></div></a>
         <h3>솔라시도 모작</h3> 
         </li>

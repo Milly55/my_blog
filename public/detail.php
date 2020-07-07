@@ -113,8 +113,6 @@ List
 
 <script>
 console.clear();
-
-// 유튜브 플러그인 시작
 function youtubePlugin() {
   toastui.Editor.codeBlockManager.setReplacer("youtube", function (youtubeId) {
     // Indentify multiple code blocks
@@ -155,14 +153,24 @@ function renderYoutube(wrapperId, youtubeId) {
     ratio = urlParams['ratio'];
   }
   
-  var marginLe
+  var marginLeft = 'auto';
+  
+  if ( urlParams['margin-left'] ) {
+    marginLeft = urlParams['margin-left'];
+  }
+  
+  var marginRight = 'auto';
+  
+  if ( urlParams['margin-right'] ) {
+    marginRight = urlParams['margin-right'];
+  }
   
   if ( youtubeId.indexOf('?') !== -1 ) {
     var pos = youtubeId.indexOf('?');
     youtubeId = youtubeId.substr(0, pos);
   }
   
-  el.innerHTML = '<div style="max-width:' + maxWidth + 'px; margin-left:auto; margin-right:auto;" class="ratio-' + ratio + ' relative"><iframe class="abs-full" width="' + width + '" height="' + height + '" src="https://www.youtube.com/embed/' + youtubeId + '" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>';
+  el.innerHTML = '<div style="max-width:' + maxWidth + 'px; margin-left:' + marginLeft + '; margin-right:' + marginRight + ';" class="ratio-' + ratio + ' relative"><iframe class="abs-full" width="' + width + '" height="' + height + '" src="https://www.youtube.com/embed/' + youtubeId + '" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>';
 }
 // 유튜브 플러그인 끝
 
@@ -274,7 +282,6 @@ function getUrlParams(url) {
 var editor1__initialValue = $('#origin1').html();
 var editor1 = new toastui.Editor({
   el: document.querySelector("#viewer1"),
-  height: "600px",
   viewer:true,
   initialValue: editor1__initialValue,
   plugins: [toastui.Editor.plugin.codeSyntaxHighlight, youtubePlugin, replPlugin, codepenPlugin]

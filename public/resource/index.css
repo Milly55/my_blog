@@ -82,82 +82,32 @@ html, body{
 } 
 
 
-.recent-title{
-    margin-top:20px;
+.recent-list-bar{
+    margin-top:50px;     
+}
+.recent-list-bar > .recent-title{
     justify-content: center;
-    z-index: 1;
 }
-.recent-list-box{
-    position: relative;
-    flex-direction: column;
-    align-items: center;
-}
-.recent-list {
-    margin-top:50px;
-    
-}
-
-.recent-list > ul{
-    flex-direction: column;
+.recent-list-bar > .recent-list-box > .recent-list{
     justify-content: center;
-    align-items: center;
     border-radius: 20px;
-    margin:0 20px;  
-    transition: 0.3s;
 }
-.recent-list > ul:hover{
-    box-shadow: 3px 3px 8px 5px #afafaf;
+.recent-list-bar > .recent-list-box > .recent-list > ul{
+    margin-top:30px;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    transition:  0.3s;
+    border-radius: 20px;
 }
-.recent-list > ul > li{
-    white-space: nowrap;
-    text-overflow:ellipsis;
-    overflow-x: hidden;
-    justify-content: center;
-    width: 350px;
-    padding:0 50px;
-    margin:10px 0;
-    font-weight: bold;
+.recent-list-bar > .recent-list-box > .recent-list > ul:hover{
+    background-color: white;
+    box-shadow: 3px 3px 8px 5px #818181;
 }
-@media(max-width:800px){
-    .recent-list > ul {
-        width:90%;
-        margin-top:30px;
-    } 
-} 
-@media(max-width:750px){
-    .recent-list > ul > li{
-        width: 150px;
-        margin:0;       
-    } 
-} 
-@media(max-width:330px){
-    .recent-list > ul > li{
-        width: 110px;
-        margin:0;       
-    } 
-} 
 
-@media(max-width:800px){
-    .recent-list {
-        flex-direction: column;
-        flex-basis:calc(100%/1); 
-    } 
-} 
-
-
-
-@media(max-width:750px){
-    .recent-list-bar > .recent-list-box{
-        justify-content: center;
-    } 
-} 
 @media(max-width:750px){
     .recent-list-bar > .recent-list-box > .recent-list{
-        width: 95%;
-        height: 800px;
-
-    } 
-} 
-
-
-
+        flex-direction: column;
+        align-items: center;
+    }
+}     border: 5px solid black;
