@@ -55,15 +55,6 @@
 .list-go-box > .main-list-go:hover{
     margin-left: -10px;
 }
-.list-go-box > .cate-list-go{
-    font-size: 18px;
-    font-weight: 600;
-    margin-top:20px;
-    transition: 0.3s;
-} 
-.list-go-box > .cate-list-go:hover{
-    margin-left: -10px;
-}
 .back-box{
     justify-content: flex-end;
     font-weight: bold;

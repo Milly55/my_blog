@@ -12,7 +12,6 @@
 }
 .main-list-box > .cate-list-lnke > ul{
     flex-direction: column;
-    border: 1px solid black;
     padding: 10px;
     font-size: 16px;
 }
@@ -28,11 +27,12 @@
 .main-list-box > .cate-list-lnke > ul > li:first-child{
     justify-content: center;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
 }
 .main-list-box > .cate-list-lnke > .list-box{
     position: relative;
     border: 1px solid black;
+    border-radius: 20px;
     width: 1000px;
     flex-direction: column;
     text-align: center;
@@ -45,15 +45,13 @@
     font-weight: bold;
     font-size: 18px;
 }
-
 .list-bar  >  .list-box-1 > ul {
     flex-direction: column;
 }
 .list-bar  >  .list-box-1 > ul > li {
     border: 1px solid rgba(0, 0, 0, 0.267);
     transition: 0.3s;
-    margin:30px 20px;
-    
+    margin:40px 30px;       
 }
 .list-bar  >  .list-box-1 > ul > li:hover{
     box-shadow: 3px 3px 8px 5px #afafaf;

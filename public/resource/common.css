@@ -529,6 +529,10 @@ align-items: center;
 /* 모바일 사이드 바 (메뉴바)끝*/
 
 /* 모바일 사이드 바 끝 */
+.foot-bar > .foot-box-1 > ul{
+  background-color: red;
+}
+
 
 
 

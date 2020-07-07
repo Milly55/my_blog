@@ -71,15 +71,12 @@ $row2 = mysqli_fetch_assoc($rs2);
 List
   <div class="locar flex">
   카테고리 :
-  <a href="/list_cate.php?cateItemId=<?=$row2['id']?>"><?=$row2['name']?></a>
+  <a href="/list.php?cateItemId=<?=$row2['id']?>"><?=$row2['name']?></a>
   </div>
   <h1><?=$row1['title']?></h1>
 <div class="list-go-box">
 <div class="main-list-go flex">
-  <a href="/list.php"><i class="fas fa-arrow-left"></i> 메인 리스트로 가기</a>
-</div>
-<div class="cate-list-go flex">
-  <a href="/list_cate.php?cateItemId=<?=$row2['id']?>"><i class="fas fa-arrow-left"></i> 카테고리 리스트로 가기</a>
+  <a href="/list.php"><i class="fas fa-arrow-left"></i> 리스트로 가기</a>
 </div>
 </div>
 <div class="back-box flex">

@@ -101,16 +101,19 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
     border-radius: 20px;
     margin:0 20px;  
+    transition: 0.3s;
+}
+.recent-list > ul:hover{
+    box-shadow: 3px 3px 8px 5px #afafaf;
 }
 .recent-list > ul > li{
     white-space: nowrap;
     text-overflow:ellipsis;
     overflow-x: hidden;
     justify-content: center;
-    width: 400px;
+    width: 350px;
     padding:0 50px;
     margin:10px 0;
     font-weight: bold;

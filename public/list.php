@@ -110,6 +110,7 @@ while ( true ) {
 
 
 
+<link rel="stylesheet" href="/resource/list.css">
 
 
 <link rel="stylesheet" href="/resource/list_cate.css">
