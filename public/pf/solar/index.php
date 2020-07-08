@@ -1,35 +1,32 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>솔라시도</title>
-  <link rel="stylesheet" href="/resource/portfolio_2.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/pf/solar/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/pf/solar/index.js"></script>
+    <title>솔라시도</title>
 </head>
 <body>
-<!-- partial:index.partial.html -->
-
-
 <div class="top-bar">
     <div class="top-bar-img-2 row " style="position:absolute; min-width:1679px;">
         <div class="img-box cell " style=" position:relative;">
-            <img src="https://www.solaseado.com/images/main-monet.jpg" alt="">
+            <img src="https://milly55.github.io/img1/pf/solaseado/main-monet.jpg" alt="" style="height: 935px;">
         </div>
     </div>
 
     <div class="top-bar-img-1" style="position:absolute; min-width:1679px;">
         <div class="img-box" style="position:relative;">
-            <img src="https://www.solaseado.com/assets/images/main_top_img_grdn_bk.png" alt="">
+            <img src="https://milly55.github.io/img1/pf/solaseado/main_top_img_grdn_bk.png" alt="">
         </div>
     </div>
     <div class="menu-bar con">
         <div class="main-txt-bar con">
             <div class="main-txt-box " style="position:absolute; min-width:1679px;">
                 <ul class="main-txt-1 flex ">
-                    <li><a href="#">사람중심 미래문명도시 솔라시도</a></li>
+                    <li class="flex"><a href="#">사람중심 미래문명도시 솔라시도</a></li>
                 </ul>
                 <div class="btn-show-box-1 con flex">
                     <a href="#"><nav class="btn-show-popup-1">솔라시도의 도전 <i class="far fa-play-circle"></i></nav></a>
@@ -71,8 +68,8 @@
             </div>
         </div>
         <div class="top-menu-bar flex">
-        <div class="top-menu-box-1" style="position:fixed;">
-            <div class="logo-box flex" style="position:relative;"><a href="#"><img src="https://www.solaseado.com/images/logo-full-white.png" alt=""></a>
+        <div class="top-menu-box-1 " style="position:fixed;">
+            <div class="logo-box flex" style="position:relative;"><a href="#"><img src="https://milly55.github.io/img1/pf/solaseado/logo-full-white.png" alt=""></a>
                 <div class="top-menu-box-2 flex">
                     <ul class="flex">
                         <li><a href="#">ABOUT 솔라시도</a>
@@ -136,9 +133,11 @@
 </div>
     </div>
 
+<!-- 중간 박스 -->
+
 <section class="middle-bar-1 row ">
     <div class="cell" style="position:absolute">
-        <div class="middle-img-box-1" style="position:relative"> <img src="https://www.solaseado.com/assets/images/bg-line.png" alt="">
+        <div class="middle-img-box-1" style="position:relative"> <img src="https://ifh.cc/g/njE88H.png" alt="">
         </div>
     </div>
     <div class="middle-box-a middle-box-1 con row">
@@ -154,7 +153,7 @@
 오로지 태양 에너지만을 자원으로 4차 산업혁명의 신기술을 결합한
                 <br>
 신재생 에너지 기반 스마트시티에서 도시민 모두가 미래 문명의 혜택을 공유합니다.
-                <div class="img-box-1"><a href="#"><img src="https://www.solaseado.com/images/sky1.png" alt="" style="width:540px; height:390px; display:block;"></a></div>
+                <div class="img-box-1"><a href="#"><img src="https://milly55.github.io/img1/pf/solaseado/sky1.png" alt="" style="width:540px; height:390px; display:block;"></a></div>
                <div class="middle-txt-box-2 flex">
                    <ul class="flex">
                        <li><a href="#">솔라시도 비전</a></li>
@@ -175,28 +174,28 @@
         </div>
         <div class="middle-box-4 flex ">
             <ul class="flex">
-                <li><a href="#"><img src="https://www.solaseado.com/images/main-why01.png" alt="" style="width:240px; height:240px;"></a>
+                <li><a href="#"><img src="https://milly55.github.io/img1/pf/solaseado/main-why01.png" alt="" style="width:240px; height:240px;"></a>
                    <ul>
                        <li><a href="#">산업과 일자리가 있는 도시 <i class="fas fa-angle-right"></i></a></li>
                        <li>신산업과 혁신의 중심 미래도시</li>
                        <li>산업과 일자리가 있는 미래도시 솔라시도</li>
                    </ul>
                 </li>
-                <li style="margin-top:-40px;"><a href="#"><img src="https://www.solaseado.com/images/main-why02.png" alt=""  style="width:240px; height:349px;"></a>
+                <li style="margin-top:-40px;"><a href="#"><img src="https://milly55.github.io/img1/pf/solaseado/main-why02.png" alt=""  style="width:240px; height:349px;"></a>
                    <ul>
                        <li><a href="#">혁신과 청년창업이 활성화된 도시 <i class="fas fa-angle-right"></i></a></li>
                        <li>무한가능성의 창의도시</li>
                        <li>4차산업혁명을 주도하는 솔라시도</li>
                    </ul>
                 </li>
-                <li style="margin-top:30px;"><a href="#"><img src="https://www.solaseado.com/images/main-why03.png" alt=""  style="width:240px; height:309px;"></a>
+                <li style="margin-top:30px;"><a href="#"><img src="https://milly55.github.io/img1/pf/solaseado/main-why03.png" alt=""  style="width:240px; height:309px;"></a>
                     <ul>
                        <li><a href="#">안전하고 편리한 삶이 있는 도시 <i class="fas fa-angle-right"></i></a></li>
                        <li>전원형 스마트도시</li>
                        <li>나를 알아주는 편리한 도시 솔라시도</li>
                    </ul>
                 </li>
-                <li  style="margin-top:-60px;"><a href="#"><img src="https://www.solaseado.com/images/main-why04.png" alt=""  style="width:225px; height:253px;"></a>
+                <li  style="margin-top:-60px;"><a href="#"><img src="https://milly55.github.io/img1/pf/solaseado/main-why04.png" alt=""  style="width:225px; height:253px;"></a>
                   <ul>
                        <li><a href="#">미래문명의 혜택을 누리는 도시 <i class="fas fa-angle-right"></i></a></li>
                        <li>풍요로운 가치를 공유하는 도시</li>
@@ -207,6 +206,7 @@
         </div>
     </div>
 </section>
+
 
 <div class="botton-bar-1 con">
     <div class="botton-box-1">
@@ -219,27 +219,27 @@
     </div>
     <div class="botton-img-box">
         <ul class="flex">
-            <li><a href="#"><img src="https://www.solaseado.com/images/main-trip01.png" alt="" style="width:162px;"></a>
+            <li><a href="#"><img src="https://milly55.github.io/img1/pf/solaseado/main-trip01.png" alt="" style="width:162px;"></a>
                 <ul>
                     <li><a href="#">탄소제로도시 <i class="fas fa-angle-right"></i></a></li>
                 </ul>
             </li>
-            <li><a href="#"><img src="https://www.solaseado.com/images/main-trip02.png" alt="" style="width:162px;"></a>
+            <li><a href="#"><img src="https://milly55.github.io/img1/pf/solaseado/main-trip02.png" alt="" style="width:162px;"></a>
                                 <ul>
                     <li><a href="#">첨단농업도시 <i class="fas fa-angle-right"></i></a></li>
                 </ul>
             </li>
-            <li><a href="#"><img src="https://www.solaseado.com/images/main-trip03.png" alt="" style="width:162px;"></a>
+            <li><a href="#"><img src="https://milly55.github.io/img1/pf/solaseado/main-trip03.png" alt="" style="width:162px;"></a>
                                 <ul>
                     <li><a href="#">국제 스마트 <br>관광레저도시 <i class="fas fa-angle-right"></i></a></li>
                 </ul>
             </li>
-            <li><a href="#"><img src="https://www.solaseado.com/images/main-trip04.png" alt="" style="width:162px;"></a>
+            <li><a href="#"><img src="https://milly55.github.io/img1/pf/solaseado/main-trip04.png" alt="" style="width:162px;"></a>
                                 <ul>
                     <li><a href="#">자율전기차 전용도시 <i class="fas fa-angle-right"></i></a></li>
                 </ul>
             </li>
-            <li><a href="#"><img src="https://www.solaseado.com/images/main-trip05.png" alt="" style="width:162px;"></a>
+            <li><a href="#"><img src="https://milly55.github.io/img1/pf/solaseado/main-trip05.png" alt="" style="width:162px;"></a>
                                 <ul>
                     <li><a href="#">창의지능도시 <i class="fas fa-angle-right"></i></a></li>
                 </ul>
@@ -249,13 +249,13 @@
 </div>
 
 <div class="botton-bar-2 ">
-    <div class="botton-img-box-1 con"> <a href="#"><img src="https://www.solaseado.com/images/main-lab-banner.png" alt=""></a></div>
+    <div class="botton-img-box-1 con"> <a href="#"><img src="https://milly55.github.io/img1/pf/solaseado/main-lab-banner.png" alt=""></a></div>
    
 </div>
 
 <div class="botton-link-bar ">
     <div class="botton-lest-box">
-        <img src="https://www.solaseado.com/assets/images/jasmine-footer-bg.png" alt="">
+        <img src="https://ifh.cc/g/OyU4GY.png" alt="">
     <div class="link-bar-1 con">
         <ul class="flex">
             <li><a href="#" class="block"><i class="fab fa-facebook-square"></i></a></li>
@@ -264,7 +264,7 @@
             <li><a href="#" class="block"><i class="fab fa-blogger"></i></a></li>
         </ul>
         <div class="bottom-log-box flex" style="padding-bottom:25px;">
-            <img src="https://www.solaseado.com/images/logo-foot.png" alt="">      
+            <img src="https://milly55.github.io/img1/pf/solaseado/logo-foot.png" alt="">      
         </div>
         <div class="bottom-link-box">
             <ul class="flex">
@@ -276,8 +276,9 @@
     </div>
       </div>
 </div>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+
+
 
 </body>
 </html>

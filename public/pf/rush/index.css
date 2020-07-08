@@ -251,12 +251,14 @@ label[for] {
 .con {
   width:1800px;
 }
+
+
 /* 탑 메뉴바 */
 .top-bar{
       position:relative;
     height:99px;
     width:1180px;
-   
+    z-index: 1;
 }
 .top-bar > .top-bar-1{
     background-color:black;
@@ -402,7 +404,7 @@ label[for] {
     color:white;
 }
 
-/* 탑 배너 박스 */
+/* 슬라이드 박스 */
 
 html, body{
     height: 70%;
@@ -422,17 +424,18 @@ html, body{
     align-items: center; 
     background-color: red;
     flex-direction: column;
-   justify-content: space-around;
+    justify-content: center;
 }
 .slid-bar .side-bar > div> span{
     transition: 0.3s;
-    width: 20px;
-    height: 20px;
-    background-color: white;
+    width: 10px;
+    height: 10px;
+    border: 3px solid white;
     border-radius: 50%;
+    margin: 8px 0;
 }
 .slid-bar .side-bar > div:active > span{
-    margin-top:10px; 
+    background-color: white;
 }
 .slid-bar .side-bar > div:last-child{
     right: 20%;

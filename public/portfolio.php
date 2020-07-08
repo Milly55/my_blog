@@ -7,26 +7,34 @@ include "../part/head.php";
 
 
 <div class="portfolio-bar ">
+    <h1>My Portfolio</h1>
     <div class="portfolio-box  con ">    
 <div class="portfolio-img-box-1 flex">
     <ul class="flex">
-
-        <li class="flex"><a href="/portfolio1.html" target="_blank">
+        <li class="flex"><div class="more-1">모작</div><a href="/portfolio1.html" target="_blank">
         <div class="img-box" style="background-image:url(http://www.icounseling.co.kr/images/bg_main_section_0.jpg);"></div></a>
-        <h3>아이심리상담소 모작</h3> 
+        <ul class="flex">
+            <li class="flex font-snw" >아리심리상담소<i class="fas fa-link"></i> </li>
+            <li class="flex"  style="font-size: 15px;">(모작사이트), (HTML,CSS)</li>
+            <li class="flex"></li>
+        </ul> 
         </li>
 
-        <li class="flex"><a href="/portfolio_2.html" target="_blank">
+        <li class="flex"><div class="more-1">모작</div><a href="/pf/solar/index.php" target="_blank">
         <div class="img-box" style="background-image:url(https://ifh.cc/g/Mh3Z9D.png);"></div></a>
-        <h3>솔라시도 모작</h3> 
+        <ul class="flex">
+            <li class="flex font-snw">솔라시도 <i class="fas fa-link"></i> </li>
+            <li class="flex" style="font-size: 15px;">(모작사이트/반응형), (HTML,CSS,JS)</li>
+        </ul> 
         </li>
         
-        <li class="flex"><a href="">
+        <li class="flex"><div class="more-1">모작</div><a href="">
         <div class="img-box" style="background-image:url();"></div></a>
-        <h3>모작</h3>
+        <ul class="flex">
+            <li class="flex font-snw">제목 <i class="fas fa-link"></i></li>
+        </ul> 
         </li>
     </ul>
-
   </div>
 </div>
 </div>
