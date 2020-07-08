@@ -102,6 +102,9 @@ html, body {
     transition: background-color 0.3s;
     z-index:1;
 }
+.top-menu-box-1{
+    
+}
 .top-menu-box-2{
     width:1000px;
     justify-content:center;
@@ -253,9 +256,11 @@ html.popup-2-active .popup-box-2 {
 }
 
 
-
+.middle-bar-1{
+    margin-top:850px;
+}
 .middle-img-box-1{
-    top:-450px;   
+    top:-450px;
 }
 .middle-box-a{
     padding-top:200px;

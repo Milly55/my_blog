@@ -1,5 +1,3 @@
-
-
 html, body{
     height: 70%;
     width: 100%;
@@ -18,7 +16,7 @@ html, body{
     height: 100%;
     align-items: center;
 }
-.slider-bar .side-bar > div> span{
+.slider-bar .side-bar > div > span{
     transition: 0.3s;
     font-size: 2rem;
     margin:0 20px;
@@ -46,7 +44,6 @@ html, body{
 }
 .slider-bar > .slider-box-1 > div.active{
     opacity:1;
-    
 }
 
 @media(max-width:400px){
@@ -110,4 +107,4 @@ html, body{
         flex-direction: column;
         align-items: center;
     }
-}     border: 5px solid black;
+}    
