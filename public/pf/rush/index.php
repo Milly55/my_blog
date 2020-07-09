@@ -11,23 +11,54 @@
 </head>
 <body>
 
+<!-- 메뉴박스 -->
 <section class="top-bar">
-    <div class="top-bar-1 con">
-        <div class="top-bar-box con row">
-            <div class="top-menu-bar">
-                <div class="top-menu-box-1">
-                    <div class="top-bar-logo cell">
-                        <a href="#"><img src="https://lush.co.kr/data/skin/front/howling/img/banner/1bb87d41d15fe27b500a4bfcde01bb0e_44024.png" alt=""></a></div>
+    <div class="menu-bar flex">
+    <div class="logo-box flex">
+        <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/rush/1bb87d41d15fe27b500a4bfcde01bb0e_24213.png);"></div>
+    </div>
+    <div class="menu-box-1 con flex">
+        <ul class="flex">
+            <li class="flex"><a href="#">제품</a></li>
+            <li class="flex"><a href="#">브랜드</a></li>
+            <li class="flex"><a href="#">매장 안내</a></li>
+            <li class="flex"><a href="#">스파</a></li>
+            <li class="flex"><a href="#">이밴트</a></li>
+        </ul>
+    </div>
+    </div>
+</section>
 
-                    <ul>
-                        <li>
+
+<!-- 슬라이드 박스  -->
+
+<div class="slider-bar">
+        <div class="slider">
+            <div class="active" style="background-image:url(https://milly55.github.io/img1/pf/rush/2bbdd3389126a587b1820c72293cb22d_83629.jpg);"></div>
+            <div style="background-image:url(https://milly55.github.io/img1/pf/rush/1a78ad1ab1e04ccb18bb7bbb084a45a3_14129.jpg);"></div>
+            <div style="background-image:url(https://milly55.github.io/img1/pf/rush/2fb5dc5d84167620d05f25d1c1b8e043_89274.jpg);"></div>
+            <div style="background-image:url(https://milly55.github.io/img1/pf/rush/09dce0db57bceb149f04f372c539ae0c_44054.jpg);"></div>
+            <div style="background-image:url(https://milly55.github.io/img1/pf/rush/28cb182c7e0303fa96dbfb1b91aec1f4_84552.jpg);"></div>
+        </div>
+        
+        <div class="dots-box">
+            <div class="active"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<!--                      <ul  class="flex">
+                        <li  class="flex">
                             <a href="#">제품
                                 <i class="fas fa-caret-up"></i></a>
-
-                            <div>
-                                <div class="menu-box-1 con">
-                                    <ul class="row">
-                                        <li class="cell"><a href="#" class="block">베스트</a>
+                                    <ul class="flex">
+                                        <li class="flex"><a href="#" class="block">베스트</a>
                                             <ul>
                                                 <li><a href="#">주간베스트</a></li>
                                                 <li><a href="#">별다섯게후기</a></li>
@@ -37,7 +68,7 @@
                                                 <li><a href="#">리들러쉬</a></li>
                                             </ul>
                                         </li>
-                                        <li class="cell"><a href="#" class="block">신제품</a>
+                                        <li class="flex"><a href="#" class="block">신제품</a>
                                             <ul>
                                                 <li><a href="#">보디스프레이</a></li>
                                                 <li><a href="#">버블바 큐레이션</a></li>
@@ -46,7 +77,7 @@
                                                 <li><a href="#">마더스&파더스</a></li>
                                             </ul>
                                         </li>
-                                        <li class="cell"><a href="#" class="block">배쓰</a>
+                                        <li class="flex"><a href="#" class="block">배쓰</a>
                                             <ul>
                                                 <li><a href="#">배쓰밤</a></li>
                                                 <li><a href="#">버블바</a></li>
@@ -55,7 +86,7 @@
                                                 <li><a href="#">젤리밤</a></li>
                                             </ul>
                                         </li>
-                                        <li class="cell"><a href="#" class="block">샤워</a>
+                                        <li class="flex"><a href="#" class="block">샤워</a>
                                             <ul>
                                                 <li><a href="#">솝</a></li>
                                                 <li><a href="#">샤워젤&젤리</a></li>
@@ -66,7 +97,7 @@
                                                 <li><a href="#">펀</a></li>
                                             </ul>
                                         </li>
-                                        <li class="cell"><a href="#" class="block">보디</a>
+                                        <li class="flex"><a href="#" class="block">보디</a>
                                             <ul>
                                                 <li><a href="#">클렌저</a></li>
                                                 <li><a href="#">로션</a></li>
@@ -76,7 +107,7 @@
                                                 <li><a href="#">쉐이빙크림</a></li>
                                             </ul>
                                         </li>
-                                        <li class="cell"><a href="#" class="block">페이스</a>
+                                        <li class="flex"><a href="#" class="block">페이스</a>
                                             <ul>
                                                 <li><a href="#">클렌저</a></li>
                                                 <li><a href="#">페이스마스크</a></li>
@@ -87,7 +118,7 @@
                                                 <li><a href="#">쉐이빙크림</a></li>
                                             </ul>
                                         </li>
-                                        <li class="cell"><a href="#" class="block">헤어</a>
+                                        <li class="flex"><a href="#" class="block">헤어</a>
                                             <ul>
                                                 <li><a href="#">샴푸 바</a></li>
                                                 <li><a href="#">샴푸</a></li>
@@ -97,7 +128,7 @@
                                                 <li><a href="#">비건브러쉬</a></li>
                                             </ul>
                                         </li>
-                                        <li class="cell"><a href="#" class="block">메이크업</a>
+                                        <li class="flex"><a href="#" class="block">메이크업</a>
                                             <ul>
                                                 <li><a href="#">페이스 파우더</a></li>
                                                 <li><a href="#">아이 메이크업</a></li>
@@ -106,7 +137,7 @@
                                                 <li><a href="#">비건브러쉬</a></li>
                                             </ul>
                                         </li>
-                                        <li class="cell"><a href="#" class="block">퍼퓸</a>
+                                        <li class="flex"><a href="#" class="block">퍼퓸</a>
                                             <ul>
                                                 <li><a href="#">보디스프레이</a></li>
                                                 <li><a href="#">퍼퓸 라이브러리</a></li>
@@ -116,7 +147,7 @@
                                                 <li><a href="#">퍼퓸낫랩</a></li>
                                             </ul>
                                         </li>
-                                        <li class="cell"><a href="#" class="block">기프트</a>
+                                        <li class="flex"><a href="#" class="block">기프트</a>
                                             <ul>
                                                 <li><a href="#">기프트베스트</a></li>
                                                 <li><a href="#">1-3만원대</a></li>
@@ -128,24 +159,22 @@
                                             </ul>
                                         </li>
                                     </ul>
-                                </div>
-                            </div>
-                        </li>
+                                 </li>
                         <li><a href="#">브랜드
                                 <i class="fas fa-caret-up" style="left:47px;"></i></a>
                             <div>
                                 <div class="menu-box-1 con">
-                                    <ul class="row">
-                                        <li class="cell"><a href="#">러쉬</a>
+                                    <ul class="flex">
+                                        <li class="flex"><a href="#">러쉬</a>
                                             <ul>
                                                 <li><a href="#">ABOUTLUSH</a></li>
                                             </ul>
                                         </li>
-                                        <li class="cell"><a href="#">체러티팟</a></li>
-                                        <li class="cell"><a href="#">캠페인</a></li>
-                                        <li class="cell"><a href="#">원재료</a></li>
-                                        <li class="cell"><a href="#">아티클</a></li>
-                                        <li class="cell"><a href="#">젤러쉬</a>
+                                        <li class="flex"><a href="#">체러티팟</a></li>
+                                        <li class="flex"><a href="#">캠페인</a></li>
+                                        <li class="flex"><a href="#">원재료</a></li>
+                                        <li class="flex"><a href="#">아티클</a></li>
+                                        <li class="flex"><a href="#">젤러쉬</a>
                                             <ul>
                                                 <li><a href="#">젤러쉬 후기</a></li>
                                                 <li><a href="#">젤러쉬 활동</a></li>
@@ -157,53 +186,4 @@
                         </li>
                         <li><a href="#">매장안내</a></li>
                         <li><a href="#">스파</a></li>
-                        <li><a href="#">이밴트</a></li>
-                        <div class="icon-1">
-                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-                            <div class="login-menu-box">
-                                <ul class="row">
-                                    <li class="cell"> <a href="#"><i class="fas fa-search"></i></a></li>
-                                    <li class="cell"><a href="#"><i class="fas fa-shopping-bag"></i><span>0</span></a></li>
-
-                                    <li class="cell">                                  <div class="icon">
-                                        <i class="fas fa-caret-up"></i>
-                                            </div><a href="#"><i class="far fa-user-circle"></i></a>
-
-                                        <ul>  
-                                            <li><a href="#">로그인</a></li>
-                                            <li><a href="#">회원가입</a></li>
-                                            <li><a href="#">스카웃트</a></li>
-                                            <li><a href="#">고객센터</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-
-                            </div>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-   <section class="slid-bar">
-       <div class="slider-box">
-           <div class="active"  style="background-image:url(https://milly55.github.io/img1/pf/rush/2bbdd3389126a587b1820c72293cb22d_83629.jpg);"></div>
-           <div  style="background-image:url(https://milly55.github.io/img1/pf/rush/1a78ad1ab1e04ccb18bb7bbb084a45a3_14129.jpg);"></div>
-           <div  style="background-image:url(https://milly55.github.io/img1/pf/rush/2fb5dc5d84167620d05f25d1c1b8e043_89274.jpg);"></div>
-           <div  style="background-image:url(https://milly55.github.io/img1/pf/rush/09dce0db57bceb149f04f372c539ae0c_44054.jpg);"></div>
-           <div  style="background-image:url(https://milly55.github.io/img1/pf/rush/28cb182c7e0303fa96dbfb1b91aec1f4_84552.jpg);"></div>
-       </div>
-       <div class="side-bar">
-        <div class="flex">
-            <span class="flex"></span>
-            <span class="flex"></span>
-            <span class="flex"></span>
-            <span class="flex"></span>
-            <span class="flex"></span>
-            <span class="flex"></span>
-        </div>
-    </div>
-   </section>
-</body>
-</html>
+                        <li><a href="#">이밴트</a></li>-->
