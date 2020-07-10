@@ -28,10 +28,11 @@ include "../part/head.php";
         </ul> 
         </li>
         
-        <li class="flex"><div class="more-1">모작</div><a href="">
-        <div class="img-box" style="background-image:url();"></div></a>
+        <li class="flex"><div class="more-1">모작</div><a href="/pf/rush/index.php">
+        <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/rush/1a78ad1ab1e04ccb18bb7bbb084a45a3_14129.jpg);"></div></a>
         <ul class="flex">
-            <li class="flex font-snw">제목 <i class="fas fa-link"></i></li>
+            <li class="flex font-snw">러쉬코리아<i class="fas fa-link"></i></li>
+            <li class="flex" style="font-size: 15px;">(모작사이트), (HTML,CSS,JS)</li>
         </ul> 
         </li>
     </ul>

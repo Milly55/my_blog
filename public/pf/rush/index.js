@@ -26,12 +26,19 @@ $(function(){
 
 
 
-
-
-
-
-
-
+setInterval(function a() {
+    var $active = $(".slider-bar > .dots-box ").find(".active");
+    var $click = $(this);
+    var index = $click.index();
+    var $next = $active.next();
+  
+    if ( $next.length == 0 ) {
+      $('.slider-bar > .dots-box > div:first-child').click();
+    }
+    else {
+      $next.click();
+    }
+  },5000);
 
 
 

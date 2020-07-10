@@ -304,18 +304,27 @@ label[for] {
 /* 탑 메뉴바 */
 
 body{
-  background-color: black;
+  overflow-x: hidden;
 }
 
+
+.top-bar {
+  z-index: 1;
+  position: relative;
+  height: 100px;
+}
 .top-bar > .menu-bar {
   justify-content: center;
-  border: 2px solid red;
+  position: relative;
+  background-color: black;
+  position: fixed;
+  width: 100%;
 }
-.top-bar > .menu-bar > .logo-box {
+ .logo-box {
   height: 100px;
   width: 100px;
 }
-.top-bar > .menu-bar > .logo-box > .img-box{
+.logo-box > .img-box{
   width: 100%;
   height: 100%;
   background-position: center;
@@ -323,12 +332,10 @@ body{
   background-repeat: no-repeat;
 }
 .top-bar > .menu-bar > .menu-box-1{
-  border: 2px solid white;
   width: 100%;
-  justify-content: center;
+  justify-content:space-between;
 }
 .top-bar > .menu-bar > .menu-box-1 > ul{
-  background-color: aquamarine;
   width: 50%;
   align-items: center;
   padding: 0 50px;
@@ -338,12 +345,120 @@ body{
 .top-bar > .menu-bar > .menu-box-1 > ul > li{
   color: white;
 }
+.top-bar > .menu-bar > .menu-box-1 > ul > li > a{
+  padding: 40px 25px;
+}
+.top-bar > .menu-bar > .menu-box-1 > ul > li > ul{
+  position: absolute;
+  top:100%;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  z-index: 1;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+  display: none;
+}
+.top-bar > .menu-bar > .menu-box-1 > ul > li:nth-child(2) > ul > li{
+  margin-right: 50px;
+}
+.top-bar > .menu-bar > .menu-box-1 > ul > li:hover > ul{
+  display: flex;
+}
+.top-bar > .menu-bar > .menu-box-1 > ul > li > ul > .icon-1{
+  position: absolute;
+  top:-10%;
+  left: 32.6%;
+  font-size: 40px;
+  color: #333;
+ 
+}
+.top-bar > .menu-bar > .menu-box-1 > ul > li > ul > .icon-2{
+  position: absolute;
+  top:-20%;
+  left: 39.3%;
+  font-size: 40px;
+  color: #333;
+}
+.top-bar > .menu-bar > .menu-box-1 > ul > li > ul > li{
+  flex-direction: column;
+  margin-top:20px;
+  margin-left: 35px;
+}
+.top-bar > .menu-bar > .menu-box-1 > ul  ul ul{
+  font-size: 15px;
+  color: rgb(180, 179, 179);
+
+}
+.top-bar > .menu-bar > .menu-box-1 > ul  ul ul > li{
+  margin:15px 0;
+}
+.top-bar > .menu-bar > .menu-box-1 > ul  ul ul > li > a{
+  transition: 0.3s;
+}
+.top-bar > .menu-bar > .menu-box-1 > ul  ul ul > li:hover > a{
+  color: white;
+}
+
+.icon-1{
+  float:right;
+  font-size:22px;
+  z-index: 1;
+
+  align-items: center;
+  position:relative;
+}
+.icon-1 > .login-menu-box > ul > li{
+  color:white;
+  text-align: center;
+  margin:0 20px ;
+}
+
+.icon-1 > .login-menu-box > ul > li > ul{
+  position:absolute;
+  background-color:white;
+  color:#333333;
+  font-size:11px;
+  right: 10%;
+  width:100%;
+  top:75%; 
+  display: none;
+}
+.icon-1 > .login-menu-box > ul > li:hover > ul{
+  display:block;
+}
+
+.icon-1 > .login-menu-box > ul > li > ul > li{
+  transition: 0.2s;
+  justify-content: center;
+  padding:20px;
+}
+.icon-1 > .login-menu-box > ul > li > ul > li:hover{
+  background-color:black;
+  color:white;
+}
+.icon-1 > .login-menu-box > ul > li > ul > li:not(:last-child){
+  border-bottom:0.5px solid #dfdfdf;
+}
+.icon-1 > .login-menu-box > ul > li >.icon > .fa-caret-up{
+  position:absolute;
+  font-size:35px;
+  color:white;
+  right:11%;
+  top:52%;
+  display: none;
+}
+.icon-1 > .login-menu-box > ul > li:hover >.icon > .fa-caret-up{
+  display:block;
+}
 
 /* 슬라이드 박스 */
 
 
 html, body{
-  height: 70%;
+  height: 80%;
   width: 100%;
 }
 
@@ -354,8 +469,8 @@ html, body{
 }
 .slider-bar > .dots-box{
   position: absolute;
-  top:20%;
-  left:75%;
+  top:36%;
+  left:82%;
   cursor: pointer;
   height: 100%; 
 }
@@ -363,9 +478,9 @@ html, body{
   transition: 0.3s;
   width: 10px;
   height: 10px;
-  border: 3px solid white;
+  border: 2px solid white;
   border-radius: 50%;
-  margin: 8px 0;
+  margin: 15px 0;
 }
 .slider-bar > .dots-box > div.active{
   background-color:white;
@@ -377,11 +492,71 @@ html, body{
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: opacity 0.5s;
+  transition: opacity 0.8s;
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover; 
 }
 .slider-bar > .slider > div.active{
   opacity:1;
+}
+
+
+/* 중간박스 */
+
+
+
+.middle-bar-1{
+  width:100%;
+  padding:100px 0 120px;
+  height:auto;
+  min-width:1000px;
+  display:block;
+  padding-right:280px;
+}
+.middle-bar-1 > .middle-box-1 > .middle-box-2{
+      position:relative;
+     font-size:25px;
+}
+.middle-bar-1 > .middle-box-1 > .middle-box-2 > .img-box-1{
+  float:left;
+  text-align:center;
+  font-size:13px;
+  color:#8f8f8f;
+  float:left;
+}
+.middle-bar-1 > .middle-box-1 > .middle-box-2 >.middle-box-2{
+ position:absolute;
+  right:80px;
+  top:-200px;
+}
+.main-wrap-1{
+  margin-top:50px;
+  display:block;
+}
+.img-list-1 > a > img{
+  display:block;
+}
+.main-wrap-2{
+  min-width:1000px;
+  margin-top:80px;
+   position:relative; 
+}
+.main-wrap-2 > .img-box-3{
+  padding:150px  10px;
+}
+.main-wrap-2 > .img-box-3 > .txt-1{
+     font-size:40px;
+  font-weight:550;  
+  margin-left:20px;
+}
+.main-wrap-2 > .img-box-3 > .txt-2{
+  font-size:15px;
+  margin-top:15px;
+  font-weight:300;
+} 
+.main-wrap-2 > .img-box-3 > .img-gif{
+  position:absolute;
+  right:200px;
+  top:0px;
 }
