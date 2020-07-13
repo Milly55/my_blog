@@ -369,7 +369,7 @@ body{
 }
 .top-bar > .menu-bar > .menu-box-1 > ul > li > ul > .icon-1{
   position: absolute;
-  top:-8%;
+  top:-10%;
   left: 32.6%;
   font-size: 40px;
   color: #333;
@@ -377,7 +377,7 @@ body{
 }
 .top-bar > .menu-bar > .menu-box-1 > ul > li > ul > .icon-2{
   position: absolute;
-  top:-17%;
+  top:-20%;
   left: 39.3%;
   font-size: 40px;
   color: #333;
