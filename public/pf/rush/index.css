@@ -301,6 +301,63 @@ label[for] {
   max-width:1356px;
 }
 
+/* 탑 팝업 바 */
+.top-popup-bar{
+  display:none;
+}
+.top-popup-bar > .popup-box { 
+  height: 90px;
+  background-color: #dfdfdf;
+  justify-content: center;
+  align-items: center;
+}
+.top-popup-bar > .popup-box > ul > li {
+  padding: 0 10px;
+}
+.top-popup-bar > .popup-box > ul > li > input {
+  width:250px;
+  padding-right: 15px;
+}
+.top-popup-bar > .popup-box > ul > li > .subscribe {
+  background-color: black;
+  color: white;
+  align-items: center;
+  margin-left: 20px;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+.top-popup-bar > .popup-box > ul > .items-box{
+  position:relative;
+  align-items:flex-end;
+  justify-content:flex-end;
+}
+.top-popup-bar > .popup-box > ul > .items-box > .items-bot {
+  position:absolute;
+  top:-10px;
+  height:2vh;
+  width:2vw;
+  cursor:pointer;
+
+}
+.top-popup-bar > .popup-box > ul > .items-box > .items-bot > .items-1{
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.top-popup-bar > .popup-box > ul >  .btn-close-forever{
+  position:relative;
+}
+
+
+
+
+
+
+
+
+
 /* 탑 메뉴바 */
 
 body{
@@ -485,6 +542,11 @@ html, body{
 }
 .slider-bar > .dots-box > div.active{
   background-color:white;
+}
+.slider-bar > .slider{
+  position: relative;
+  width: 100%;
+  height: 70vh;
 }
 .slider-bar > .slider > div{
   position: absolute;

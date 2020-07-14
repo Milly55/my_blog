@@ -66,6 +66,42 @@ $(function(){
 
 
 
+function Popup__init() {
+  $('.pop-closeable').click(function(){
+    var popNo = $(this).attr('data-pop-no');
+      Popup__hide(popNo)
+  });
+  $('top-popup-bar').click(function(e){
+      e.stopPropagation();
+  });
+}
+
+$(function(){
+  Popup__init();
+})
+
+
+
+function Popup__show(no){
+  var className = 'top-popup-bar' ;
+  
+  $('.' + className ).show();
+}
+function Popup__hide(no){
+      var className = 'top-popup-bar';
+  
+  $('.' + className ).hide();
+  
+}
+$(function(){
+  Popup__show(1);
+})
+
+
+
+
+
+
 
 
 
