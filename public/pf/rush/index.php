@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="/pf/rush/index.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/pf/rush/index.js"></script>
 
 
@@ -208,8 +208,7 @@
 
 
 <!-- 중간 박스-->
-
-<secrion class="middle-bar-1 ">
+<section class="middle-bar-1 ">
     <div class="mddle-title con" style="margin-bottom:50px;">
           <h1>나만 알고 싶은 향기</h1>
     </div>
@@ -325,7 +324,7 @@
         <iframe width="560" height="570" src="https://www.youtube.com/embed/laV2pgl6Pv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class="img-box-2" style="display:table-cell;">
             <div class="img-list-1 ">
-                <a href="#" class="cell-right"><img src="https://lush.co.kr/data/skin/front/howling/img/banner/7a9f2b6bbc3d7558fd1850225fc534ca_51284.jpg" alt=""></a>
+                <a href="#" class="cell-right"><img src="https://milly55.github.io/img1/pf/rush/e2d079460efd8d0a915b84f07532fab4_92429.gif" alt=""></a>
                 <a href="#" class="cell-right"><img src="https://lush.co.kr/data/skin/front/howling/img/banner/35e67c542ffb438ad3190d433b773ec4_73209.jpg" alt=""></a>
                 <a href="#" class="cell-right"><img src="https://lush.co.kr/data/skin/front/howling/img/banner/0e3b903affc1cbeba7592a9c50753640_73506.jpg" alt=""></a>
             </div>
@@ -341,7 +340,7 @@
             <div class="img-gif"><img src="https://lush.co.kr/data/skin/front/howling/img/banner/7bb3e828bfa608353ff2328fcc48802d_97475.gif" alt=""></div>
         </div>
     </div>
-</secrion>
+</section>
 
 
 

@@ -115,6 +115,7 @@ position: relative;
 max-width:100%;
 height: 100vh;
 display: none;
+z-index: -1;
     
 }
 .back-1 > .mobli-img{
@@ -145,13 +146,17 @@ display: none;
     z-index: 2;
 }
 .mobail-logo-box{
-   display: none;
+    position: absolute;
+    left: 10px;
    margin-top:20px;
+   z-index: 1;
+   display: none;
 }
 @media(max-width:800px){
     .top-menu-bar{
         justify-content: flex-start;
         margin-left: 10px;
+        display: none;
     }
 }
 @media(max-width:800px){
@@ -248,8 +253,8 @@ background-color:blue;
 }
 .main-txt-box > ul > li:last-child{
     font-size: 40px;
-    display: none;
     z-index: 1;
+    display: none;
 }
 @media(max-width:800px){
     .main-txt-box > ul > li:first-child{
@@ -288,7 +293,8 @@ background-color:blue;
 
 @media(max-width:800px){
     .popup-box-type-a > .popup{
-        height: 30%;
+        height: 35%;
+        left: 45%;
     }
 }
 
@@ -329,8 +335,14 @@ html.popup-2-active .popup-box-2 {
     color:white;
     font-weight:bold;
     margin-left:0;
-
+    cursor: pointer;
+    z-index: 1  ;
 }
+
+.menu-bar{
+    background-color: #007bff
+}
+
 /* 중간 박스 */
 
 
@@ -519,43 +531,65 @@ html.popup-2-active .popup-box-2 {
 }
 
 .botton-txt-box > .txt-1{
-    border-bottom:2px solid black;
+    border-bottom:1px solid black;
     padding-bottom:20px;
+    color:#02042f;
+    
 }
 .botton-box-1 > .botton-txt-box-2{
     color:#8484a4;
     font-size:15px;
 }
-.botton-img-box{
-    margin-top:50px;
+.botton-img-box-a{
+    margin-top:30px;
     text-align: center;
-    background-color: red;
     flex-direction: column;
 }
 .botton-img-box > ul{
-    background-color: gold;
-    padding: 50px;
+    justify-content: center;
 }
-.botton-img-box > ul > li {
-}
-
-.botton-img-box  > ul > li > .botton-img-box-1 {
-    height:170px;
-    width:170px;
-    border: 3px solid blue;
+.botton-img-box > ul > li > .botton-img-box-1 {
+    height:22vh;
+    width:11vw;
 }
 .botton-img-box > ul > li > .botton-img-box-1 > .botton-img-1{
     width: 100%;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    margin-left: 10px;
 }
+.botton-img-box-2 > ul{
+    justify-content: center;
+    margin-top:-10px;
+}
+.botton-img-box-2 > ul > li {
+    display: none;
+}
+.botton-img-box-2 > ul > li > .botton-img-box-1 {
+    width: 25vw;
+    height: 25vh;
 
-
-
-
-
+}
+.botton-img-box-2 > ul > li > .botton-img-box-1 > .botton-img-1{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 25px;
+}
+@media(max-width:800px){
+    .botton-img-box  > ul > li {
+        display: none;
+    }
+}
+@media(max-width:800px){
+    .botton-img-box-2  > ul > li {
+        display: block;
+    }
+}
 
 
 
@@ -563,11 +597,23 @@ html.popup-2-active .popup-box-2 {
 
 .botton-img-box > ul > li > ul{
     margin-top:20px;
+    justify-content: center;
+    margin-right: 35px;
+}
+.botton-img-box-2 > ul > li > ul{
+    justify-content: center;
+    margin-right: 30px;
 }
 .botton-img-box > ul > li > ul > li > a{
     transition: 0.3s;
 }
-.botton-img-box > ul > li > ul > li:hover > a {
+.botton-img-box  > ul > li > ul > li:hover > a {
+    color:#007bff;
+}
+.botton-img-box-2 > ul > li > ul > li > a{
+    transition: 0.3s;
+}
+.botton-img-box-2  > ul > li > ul > li:hover > a {
     color:#007bff;
 }
 

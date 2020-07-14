@@ -28,7 +28,7 @@ include "../part/head.php";
         </ul> 
         </li>
         
-        <li class="flex"><div class="more-1">모작</div><a href="/pf/rush/index.php">
+        <li class="flex"><div class="more-1">모작</div><a href="/pf/rush/index.php"  target="_blank">
         <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/rush/1a78ad1ab1e04ccb18bb7bbb084a45a3_14129.jpg);"></div></a>
         <ul class="flex">
             <li class="flex font-snw">러쉬코리아<i class="fas fa-link"></i></li>
