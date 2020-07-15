@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="/pf/rush/index.css">
     <script src="/pf/rush/index.js"></script>
@@ -333,9 +336,28 @@
                 </div>
             </div>
         </div>
-        <div class="information-box">
-            <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/rush/7a661137e18033c8b14b928b6cba2da8_63435.jpg);"></div>
+        <div class="slider-box-2" >
+    <div class="slider-1">
+        <div><img src="https://milly55.github.io/img1/pf/rush/4d0a0df7ebaf6253e290f2a472c89954_68648.jpg" alt="">
+            <div class="slide-index">1/6</div>
         </div>
+        <div><img src="https://milly55.github.io/img1/pf/rush/7a661137e18033c8b14b928b6cba2da8_63435.jpg" alt="">
+            <div class="slide-index">2/6</div>
+        </div>
+        <div><img src="https://milly55.github.io/img1/pf/rush/266b9bf74ff8e14d30485568a5105dcf_69739.jpg" alt="">
+            <div class="slide-index">3/6</div>
+        </div>
+        <div><img src="https://milly55.github.io/img1/pf/rush/e75c8b20d4a0bbbfeef78f35b7e134e3_61468.jpg" alt="">
+            <div class="slide-index">4/6</div>
+        </div>
+        <div><img src="https://milly55.github.io/img1/pf/rush/ed3399b1dcb41cb8b0cd2ae1d341207b_45367.jpg" alt="">
+            <div class="slide-index">5/6</div>
+        </div>
+        <div><img src="https://milly55.github.io/img1/pf/rush/151b416f154ef9e9b0e85d6da0df416a_13876.jpg" alt="">
+            <div class="slide-index">6/6</div>
+        </div>
+    </div>
+</div>
     </nav>
 
     <div class="main-wrap-1 con block" style="display:table;">
@@ -349,15 +371,67 @@
         </div>
     </div>
     <div class="main-wrap-2 con">
-        <div class="img-box-3">
-            <div class="txt-1" style="margin-left:400px; ">러쉬스파</div>
-            <div class="txt-2" style="margin-left:400px;">따뜻해진 날씨처럼,
-                온몸의 감각이 깨어날 시간이예요.
-                <br>
-                러쉬 스파 트리트먼트로 경직된 근육을 보살펴 보세요.</div>
-            <div class="img-gif"><img src="https://lush.co.kr/data/skin/front/howling/img/banner/7bb3e828bfa608353ff2328fcc48802d_97475.gif" alt=""></div>
+        <div class="img-box-3 flex">
+            <div class="txt-1 flex" >
+                <ul class="flex">
+                    <li>러쉬스파</li>
+                    <li>따뜻해진 날씨처럼, 온몸의 감각이 깨어날 시간이예요.</li>
+                    <li>러쉬 스파 트리트먼트로 경직된 근육을 보살펴 보세요.</li>
+                 </ul>   
+                 <img src="https://lush.co.kr/data/skin/front/howling/img/banner/7bb3e828bfa608353ff2328fcc48802d_97475.gif" alt="">           
+            </div>
         </div>
     </div>
 </section>
+
+<section class="bottom-bar ">
+    <div class="bottom-box ">
+        <div class="items-box con-1 flex">
+        <span><img src="https://milly55.github.io/img1/pf/rush/52f6c55cf891959ca65e1610428cc356_26431.gif" alt=""> </span>
+        <span><img src="https://milly55.github.io/img1/pf/rush/208240d3f950644cbdf2ab9a477b77a6_14927.gif" alt=""></span>
+        <span><img src="https://milly55.github.io/img1/pf/rush/d98445044659438439009d27233deaf4_95992.gif" alt=""></span>
+        <span><img src="https://milly55.github.io/img1/pf/rush/221e9ec7b393fdc9a8453f6c68bc8d54_86543.gif" alt=""></span>
+        </div>
+    </div>
+    <div class="rush-information-box-1 con-1 flex">
+        <ul class="flex">
+            <li style=" margin-top:50px;"><a href="#"><img src="https://milly55.github.io/img1/pf/rush/1bb87d41d15fe27b500a4bfcde01bb0e_24213.png" alt=""></a></li>
+            <li><a href="#">고객센터</a></li>
+            <li  style=" margin-top:10px; font-size: 15px;"><a href="#">1644-2357</a></li>
+            <li style=" margin-top:2px; font-size: 15px;"><a href="#">webmaster@lush.co.kr</a></li>
+            <li  style=" margin-top:10px; font-size: 15px;"><a href="#">상담전화 13:00~16:00(평일)</a></li>
+            <li style=" margin-top:2px; font-size: 15px;"><a href="#">상담톡 10:00~16:00(평일)</a></li>
+        </ul>
+        <ul class="information-box flex">
+            <li class="flex" style=" margin-top:50px;">스카우트
+            <ul class="information-a flex">
+                <li>화사소개</li>
+                <li>개인정보처리방침</li>
+                </li>영상정보관리지침</li>
+                <li>이용약관</li>
+                <li>고객센터</li>
+            </ul>
+            </li>
+            <li>가장빠르게LUSH소식을 만나는 법!</li>
+            <li >지금 뉴스레터를 구독하세요.</li>
+            <li >언제든지 구독 해지하실 수 있습니다.</li>
+            <li class="flex" style=" margin-top:20px; "><input type="text" placeholder=" 이메일 주소를 입력해주세요." style=" width: 15vw; ">
+                <div class="tag-1 flex">구독하기</div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ea commodi fuga explicabo dolorem aperiam incidunt corrupti, cupiditate voluptates quibusdam omnis possimus reprehenderit vel corporis aliquam sed unde error. Ullam.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ea commodi fuga explicabo dolorem aperiam incidunt corrupti, cupiditate voluptates quibusdam omnis possimus reprehenderit vel corporis aliquam sed unde error. Ullam.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ea commodi fuga explicabo dolorem aperiam incidunt corrupti, cupiditate voluptates quibusdam omnis possimus reprehenderit vel corporis aliquam sed unde error. Ullam.
 </body>
 </html>
+
+
+<!--
+
+-->
