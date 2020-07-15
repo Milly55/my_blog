@@ -100,8 +100,6 @@ while ( true ) {
     </div>
 
 
-    
-
 
     <?php
 include "../part/foot.php";

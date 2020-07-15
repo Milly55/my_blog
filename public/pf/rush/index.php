@@ -403,11 +403,11 @@
             <li style=" margin-top:2px; font-size: 15px;"><a href="#">상담톡 10:00~16:00(평일)</a></li>
         </ul>
         <ul class="information-box flex">
-            <li class="flex" style=" margin-top:50px;">스카우트
+            <li class="flex" style=" margin-top:50px; font-size: 14px;">스카우트
             <ul class="information-a flex">
                 <li>화사소개</li>
                 <li>개인정보처리방침</li>
-                </li>영상정보관리지침</li>
+                <li>영상정보관리지침</li>
                 <li>이용약관</li>
                 <li>고객센터</li>
             </ul>
@@ -418,16 +418,13 @@
             <li class="flex" style=" margin-top:20px; "><input type="text" placeholder=" 이메일 주소를 입력해주세요." style=" width: 15vw; ">
                 <div class="tag-1 flex">구독하기</div>
             </li>
+            <li style=" margin-top:50px; font-size: 13px; font-weight: normal; color: #afafaf;">서울특별시 서초구 서운로 138 (서초동아타워)6층|사이트 운영자:주식회사 러쉬코리아|대표시사:우미령</li>
+            <li style=" font-size: 13px; font-weight: normal; color: #afafaf;">사업자 등록번호:201-81-77964 사업자정보확인|통신판매업 신고번호:2012-서울서초-0647|개인정보보호책임자:우승용</li>
+            <li style="margin-top:30px; font-size: 13px; font-weight: normal; color: #afafaf;">Copytright ⓒ LUSHKOREAco.,Ltd.All rights reserved.</li>
         </ul>
     </div>
 </section>
-
-
-
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ea commodi fuga explicabo dolorem aperiam incidunt corrupti, cupiditate voluptates quibusdam omnis possimus reprehenderit vel corporis aliquam sed unde error. Ullam.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ea commodi fuga explicabo dolorem aperiam incidunt corrupti, cupiditate voluptates quibusdam omnis possimus reprehenderit vel corporis aliquam sed unde error. Ullam.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ea commodi fuga explicabo dolorem aperiam incidunt corrupti, cupiditate voluptates quibusdam omnis possimus reprehenderit vel corporis aliquam sed unde error. Ullam.
+<div class="kakaotalk-link"><a href="#"><img src="https://milly55.github.io/img1/pf/rush/b1b6e64e85b6f09484b8ad3093775172_80626.png" alt=""></a></div>
 </body>
 </html>
 
