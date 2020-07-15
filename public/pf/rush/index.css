@@ -693,7 +693,7 @@ flex-direction:column;
   border-bottom: 1px solid grey
 }
 .bottom-bar > .bottom-box > .items-box > span{
-  padding:0 10px;
+  padding:20px 10px;
 }
 .bottom-bar > .rush-information-box-1 > ul{
   flex-direction: column;
