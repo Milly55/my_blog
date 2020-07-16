@@ -100,12 +100,13 @@ while ( true ) {
     </div>
 
 
-    <div class="design-list-box con flex">
-        <div class="design-box flex">
-            <div class="design-img-box" style="background-image:url(https://milly55.github.io/img1/blog/article/design/summerbanner.png.png);"></div>
-        </div>
-    </div>
-
+    <div class="my-slider-1">
+  <div class="owl-carousel owl-theme">
+    <div class="item" style="background-image:url(https://milly55.github.io/img1/blog/article/design/summerbanner.png.png);"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+</div>
     <?php
 include "../part/foot.php";
 ?> 

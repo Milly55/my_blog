@@ -109,24 +109,15 @@ html, body{
     }
 }    
 
-.design-list-box{
-    margin-top:100px;
-    border: 1px solid black;
+.my-slider-1 .item {
+    border:10px solid red;
+    height:50vh;
+    font-size:15rem;
+    display:flex;
     justify-content:center;
-}
-.design-list-box > .design-box{
-    height:43vh;
-    width: 32%;
-    position: relative;
-    justify-content:center;
-}
-.design-list-box > .design-box > .design-img-box{
-    position: absolute;
-    top:0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-position:center;
+    align-items:center;
+      background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: cover; 
-}
+    z-index: 100;
+  }
