@@ -24,7 +24,7 @@
 <!-- 메뉴박스 -->
 <section class="top-bar">
     <div class="menu-bar ">
-        <section class="top-popup-bar flex ">
+ <section class="top-popup-bar flex ">
             <div class="popup-box flex">
                 <ul class="flex con">
                     <li class="flex" style="font-size:20px; font-weight:bold; ">가장 빠르게 LUSH소식을 만나는법!</li>
@@ -45,7 +45,7 @@
                     </div>
                 </ul>
             </div>
-        </section>
+        </section> 
         <div class="menu-box-1 con flex">
             <div class="logo-box flex">
                 <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/rush/1bb87d41d15fe27b500a4bfcde01bb0e_24213.png);"></div>
@@ -242,7 +242,7 @@
                     <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/rush/241_main_054.jpg);"></div>
                     <div class="commodity-box flex">
                         <div class="title-1" style="font-size:19px; color:black;">뉴</div>
-                        <div class="hasuh-tag" style="font-size:15px; color:black;">#모두에게착한샴푸#내가찾던고체샴푸</div>
+                        <div class="hasuh-tag" >#모두에게착한샴푸#내가찾던고체샴푸</div>
                         <div class="money-1" style="font-size:16px; color:black; ">₩ 18,000</div>
                     </div>
                 </div>
@@ -250,7 +250,7 @@
                     <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/rush/97_main_074.jpg);"></div>
                     <div class="commodity-box flex">
                         <div class="title-1" style="font-size:19px; color:black;">마스크 오브 매그너민트 125g/315g</div>
-                        <div class="hasuh-tag" style="font-size:17px; color:black;">#꿀의촉촉함#데일리팩#민트팩</div>
+                        <div class="hasuh-tag" >#꿀의촉촉함#데일리팩#민트팩</div>
                         <div class="money-1" style="font-size:15px; color:black; ">₩ 20,000</div>
                     </div>
                 </div>
@@ -258,7 +258,7 @@
                     <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/rush/246_main_043.jpg);"></div>
                     <div class="commodity-box flex">
                         <div class="title-1" style="font-size:19px; color:black;">더티 보디 스프레이</div>
-                        <div class="hasuh-tag" style="font-size:17px; color:black;">#스테디셀러#뒤돌아보는향#재구매각</div>
+                        <div class="hasuh-tag" >#스테디셀러#뒤돌아보는향#재구매각</div>
                         <div class="money-1" style="font-size:15px; color:black; ">₩ 50,000</div>
                     </div>
                 </div>
@@ -266,7 +266,7 @@
                     <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/rush/215_main_083.jpg);"></div>
                     <div class="commodity-box flex">
                         <div class="title-1" style="font-size:19px; color:black;">돈트 룩 앳미</div>
-                        <div class="hasuh-tag" style="font-size:17px; color:black;">#프레쉬마스크#상큼한레몬팩#쌀알갱이</div>
+                        <div class="hasuh-tag" >#프레쉬마스크#상큼한레몬팩#쌀알갱이</div>
                         <div class="money-1" style="font-size:15px; color:black; ">₩ 25,000</div>
                     </div>
                 </div>
@@ -274,7 +274,7 @@
                     <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/rush/9_main_029.jpg);"></div>
                     <div class="commodity-box flex">
                         <div class="title-1" style="font-size:19px; color:black;">씨 베지터블</div>
-                        <div class="hasuh-tag" style="font-size:17px; color:black;">#솝#바닷소금#해초#바다향기그대로</div>
+                        <div class="hasuh-tag" >#솝#바닷소금#해초#바다향기그대로</div>
                         <div class="money-1" style="font-size:15px; color:black; ">₩ 9,000</div>
                     </div>
                 </div>
@@ -282,7 +282,7 @@
                     <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/rush/15_main_067.jpg);"></div>
                     <div class="commodity-box flex">
                         <div class="title-1" style="font-size:19px; color:black;">대디-오 100g/250g/500g</div>
-                        <div class="hasuh-tag" style="font-size:17px; color:black;">#오래머무는잔향#연애시작합시다</div>
+                        <div class="hasuh-tag" >#오래머무는잔향#연애시작합시다</div>
                         <div class="money-1" style="font-size:15px; color:black; ">₩ 19,000</div>
                     </div>
                 </div>
@@ -290,7 +290,7 @@
                     <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/rush/76_main_013.jpg);"></div>
                     <div class="commodity-box flex">
                         <div class="title-1" style="font-size:19px; color:black;">카타스트로피 코스메틱</div>
-                        <div class="hasuh-tag" style="font-size:17px; color:black;">#블루베리의촉촉함#슈퍼푸드블루베리</div>
+                        <div class="hasuh-tag" >#블루베리의촉촉함#슈퍼푸드블루베리</div>
                         <div class="money-1" style="font-size:15px; color:black; ">₩ 25,000</div>
                     </div>
                 </div>
@@ -298,7 +298,7 @@
                     <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/rush/88_main_037.jpg);"></div>
                     <div class="commodity-box flex">
                         <div class="title-1" style="font-size:19px; color:black;">콜페이스</div>
-                        <div class="hasuh-tag" style="font-size:17px; color:black;">#유명한숯비누#바로그제품#맑은피부</div>
+                        <div class="hasuh-tag" >#유명한숯비누#바로그제품#맑은피부</div>
                         <div class="money-1" style="font-size:15px; color:black; ">₩ 18,000</div>
                     </div>
                 </div>
@@ -306,7 +306,7 @@
                     <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/rush/79_main_023.jpg);"></div>
                     <div class="commodity-box flex">
                         <div class="title-1" style="font-size:19px; color:black;">코스메틱 워리어</div>
-                        <div class="hasuh-tag" style="font-size:17px; color:black;">#피부야달래줄게#입소문템#에그프리</div>
+                        <div class="hasuh-tag">#피부야달래줄게#입소문템#에그프리</div>
                         <div class="money-1" style="font-size:15px; color:black; ">₩ 25,000</div>
                     </div>
                 </div>
@@ -314,7 +314,7 @@
                     <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/rush/62_main_064.jpg);"></div>
                     <div class="commodity-box flex">
                         <div class="title-1" style="font-size:19px; color:black;">엔젤스 온 베어 스킨 100g/250g</div>
-                        <div class="hasuh-tag" style="font-size:17px; color:black;">#프레쉬클렌저#라벤더와장미로#촉촉피부</div>
+                        <div class="hasuh-tag">#프레쉬클렌저#라벤더와장미로#촉촉피부</div>
                         <div class="money-1" style="font-size:15px; color:black; ">₩ 22,000</div>
                     </div>
                 </div>
@@ -322,7 +322,7 @@
                     <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/rush/5_main_062.jpg);"></div>
                     <div class="commodity-box flex">
                         <div class="title-1" style="font-size:19px; color:black;">허니 아이 워시드 더 키즈</div>
-                        <div class="hasuh-tag" style="font-size:17px; color:black;">#솝#신선한꿀#촉촉함을#피부에게</div>
+                        <div class="hasuh-tag" >#솝#신선한꿀#촉촉함을#피부에게</div>
                         <div class="money-1" style="font-size:15px; color:black; ">₩ 9,000</div>
                     </div>
                 </div>
@@ -330,7 +330,7 @@
                     <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/rush/248_main_066.jpg);"></div>
                     <div class="commodity-box flex">
                         <div class="title-1" style="font-size:19px; color:black;">트와일라잇</div>
-                        <div class="hasuh-tag" style="font-size:17px; color:black;">#보디스프레이#차분한달콤함</div>
+                        <div class="hasuh-tag" >#보디스프레이#차분한달콤함</div>
                         <div class="money-1" style="font-size:15px; color:black; ">₩ 50,000</div>
                     </div>
                 </div>
@@ -396,20 +396,20 @@
     <div class="rush-information-box-1 con-1 flex">
         <ul class="flex">
             <li style=" margin-top:50px;"><a href="#"><img src="https://milly55.github.io/img1/pf/rush/1bb87d41d15fe27b500a4bfcde01bb0e_24213.png" alt=""></a></li>
-            <li><a href="#">고객센터</a></li>
-            <li  style=" margin-top:10px; font-size: 15px;"><a href="#">1644-2357</a></li>
-            <li style=" margin-top:2px; font-size: 15px;"><a href="#">webmaster@lush.co.kr</a></li>
-            <li  style=" margin-top:10px; font-size: 15px;"><a href="#">상담전화 13:00~16:00(평일)</a></li>
-            <li style=" margin-top:2px; font-size: 15px;"><a href="#">상담톡 10:00~16:00(평일)</a></li>
+            <li>고객센터</li>
+            <li  style=" margin-top:10px; font-size: 15px;">1644-2357</li>
+            <li style=" margin-top:2px; font-size: 15px;">webmaster@lush.co.kr</li>
+            <li  style=" margin-top:10px; font-size: 15px;">상담전화 13:00~16:00(평일)</li>
+            <li style=" margin-top:2px; font-size: 15px;">상담톡 10:00~16:00(평일)</li>
         </ul>
         <ul class="information-box flex">
-            <li class="flex" style=" margin-top:50px; font-size: 14px;">스카우트
+            <li class="flex" style=" margin-top:50px; font-size: 14px;"><a href="">스카우트</a> 
             <ul class="information-a flex">
-                <li>화사소개</li>
-                <li>개인정보처리방침</li>
-                <li>영상정보관리지침</li>
-                <li>이용약관</li>
-                <li>고객센터</li>
+                <li><a href="">화사소개</a></li>
+                <li><a href="">개인정보처리방침</a></li>
+                <li><a href="">영상정보관리지침</a></li>
+                <li><a href="">이용약관</a></li>
+                <li><a href="">고객센터</a></li>
             </ul>
             </li>
             <li>가장빠르게LUSH소식을 만나는 법!</li>
@@ -425,6 +425,7 @@
     </div>
 </section>
 <div class="kakaotalk-link"><a href="#"><img src="https://milly55.github.io/img1/pf/rush/b1b6e64e85b6f09484b8ad3093775172_80626.png" alt=""></a></div>
+
 </body>
 </html>
 

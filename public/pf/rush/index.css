@@ -384,6 +384,7 @@ body{
   background-color: black;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
  .logo-box {
   height: 100px;
@@ -552,7 +553,7 @@ html, body{
 }
 .slider-bar > .slider{
   position: relative;
-  width: 100%;
+  width:100%;
   height: 70vh;
 }
 .slider-bar > .slider > div{
@@ -566,6 +567,7 @@ html, body{
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
+  cursor: pointer;
 }
 .slider-bar > .slider > div.active{
   opacity:1;
@@ -629,6 +631,7 @@ flex-direction:column;
   z-index:3;
   color: white;
   cursor:pointer;
+  z-index: 1;
 }
 .slick-arrow:last-child {
   font-size:2rem;
@@ -638,6 +641,7 @@ flex-direction:column;
   z-index:3;
   color: white;
   cursor:pointer;
+  z-index: 1;
 }
 
 
@@ -684,6 +688,11 @@ flex-direction:column;
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 30px;
+}
+.hasuh-tag{
+  color: #919191;
+  font-size: 13px;
+  font-weight: bold;
 }
 /* 최하단 박스 */
 .bottom-bar{

@@ -97,6 +97,9 @@ $(function(){
   Popup__show(1);
 })
 
+
+
+
 function Silder__Slick(){
   $(function(){
     $('.slider-1').slick({
