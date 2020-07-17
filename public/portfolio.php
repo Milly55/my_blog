@@ -40,6 +40,7 @@ include "../part/head.php";
 </div>
 </div>
 
+<div><a href="https://milly55.github.io/img1/pf/design/summerbanner.png"  target="_blank">다자인</a> </div>
 
 
     <?php
