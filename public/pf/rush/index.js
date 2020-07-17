@@ -49,22 +49,6 @@ setInterval(function a() {
 
 
 
-function MySlider1__init() {
-  $('.my-slider-1 > .owl-carousel').owlCarousel({
-    responsive:{
-      0:{
-        items:3
-      }
-    },
-    loop:true
-  });
-}
-
-$(function(){
-  MySlider1__init();
-})
-
-
 
 function Popup__init() {
   $('.pop-closeable').click(function(){
@@ -97,41 +81,91 @@ $(function(){
   Popup__show(1);
 })
 
-
-
-
-function Silder__Slick(){
-  $(function(){
-    $('.slider-1').slick({
-      slide: 'div',		//슬라이드 되어야 할 태그 ex) div, li 
-      infinite : true, 	//무한 반복 옵션	 
-      slidesToShow : 1,		// 한 화면에 보여질 컨텐츠 개수
-      slidesToScroll : 1,		//스크롤 한번에 움직일 컨텐츠 개수
-      speed : 500,	 // 다음 버튼 누르고 다음 화면 뜨는데까지 걸리는 시간(ms)
-      arrows : true, 		// 옆으로 이동하는 화살표 표시 여부
-      dots : false, 		// 스크롤바 아래 점으로 페이지네이션 여부
-      autoplay : true,			// 자동 스크롤 사용 여부
-      autoplaySpeed : 3000, 		// 자동 스크롤 시 다음으로 넘어가는데 걸리는 시간 (ms)
-      pauseOnHover : true,		// 슬라이드 이동	시 마우스 호버하면 슬라이더 멈추게 설정
-      vertical : false,		// 세로 방향 슬라이드 옵션
-      prevArrow : '<div> < </div>',		// 이전 화살표 모양 설정
-      nextArrow : "<div> > </div>",		// 다음 화살표 모양 설정
-      dotsClass : "slick-dots", 	//아래 나오는 페이지네이션(점) css class 지정
-      draggable : false, 	//드래그 가능 여부 
-      vertical : false, // 세로슬라이드시 true 사용
-    });
-    })
+ 
+function Slider__a(){
+  $('.slider-a').owlCarousel({
+    loop:true,
+    margin:10,
+    dots:true,
+    responsive:{
+        0:{
+            items:3
+        }
+    }
+  });
+  
 }
-
 $(function(){
-  Silder__Slick();
+  Slider__a();
 })
 
 
+function MySlider1__updateCurrentPageNumber(event) {
+  var $owl = $(event.target);
+  var index = $owl.find('.owl-item.active').first().find(' > .item-1').attr('data-no');
+  index = parseInt(index);
+
+  var $currentIndex = $owl.parent().find('.current-index');
+
+  $currentIndex.text(index + 1);
+}
+
+function MySlider1__init() {
+  var owlNowSliding = false;
+  var slidingDuration = 1000;
+
+  $('.slider-box-b').each(function(index, el) {
+    var $mySlider1 = $(el);
+    var $item = $mySlider1.find('.item-1');
+    totalCount = $item.length;
+
+    $item.each(function(index, itemEl) {
+      var $itemEl = $(itemEl);
+      $itemEl.attr('data-no', $itemEl.index());
+    });
+
+    var $totalCount = $mySlider1.find(' .total-count');
+    $totalCount.text(totalCount);
+  });
+
+  var owl = $('.slider-box-b .slider-bar-1').owlCarousel({
+    loop:true,
+    dots:false,
+    mouseDrag:false,
+    items:1,
+    autoplay:true,
+    autoplayTimeout:3000,
+    smartSpeed:slidingDuration,
+    onInitialized: MySlider1__updateCurrentPageNumber,
+    onTranslated: MySlider1__updateCurrentPageNumber,
+  });
 
 
+  $(' .nav-box > span').click(function() {
+    if ( owlNowSliding ) {
+      return;
+    }
 
+    owlNowSliding = true;
 
+    var $clicked = $(this);
+
+    if ( $clicked.is(':first-child') ) {
+      owl.trigger('prev.owl');
+    }
+    else {
+      owl.trigger('next.owl');
+    }
+
+    setTimeout(function() {
+      owlNowSliding = false;
+    }, slidingDuration);
+  });
+}
+
+$(function() {
+  MySlider1__init();
+})
 
 
 

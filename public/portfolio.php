@@ -39,6 +39,9 @@ include "../part/head.php";
   </div>
 </div>
 </div>
+
+
+
     <?php
 include "../part/foot.php";
 ?>
