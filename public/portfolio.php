@@ -35,6 +35,34 @@ include "../part/head.php";
             <li class="flex font-snw">러쉬코리아<i class="fas fa-link"></i></li>
             <li class="flex" style="font-size: 15px;">(모작사이트), (HTML,CSS,JS)</li>
             <li class="flex">사이트주소: <a href="https://www.lush.co.kr/" target="_blank">러쉬코리아</a></li>
+        </ul>
+        </li>
+    </ul>
+    <ul  class="flex">
+    <li class="flex"><div class="more-1">모작</div><a href="/pf/kyung/index.php"  target="_blank">
+        <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/kyung/bg_m04.jpg);"></div></a>
+        <ul class="flex">
+            <li class="flex font-snw">경동<i class="fas fa-link"></i></li>
+            <li class="flex" style="font-size: 15px;">(모작사이트/반응형), (HTML,CSS,JS)</li>
+            <li class="flex">사이트주소: <a href="http://www.kyungdong.co.kr/" target="_blank">경동</a></li>
+        </ul> 
+        </li>
+
+        <li class="flex"><div class="more-1">모작</div><a href="/pf/kyung/index.php"  target="_blank">
+        <div class="img-box" style="background-image:url();"></div></a>
+        <ul class="flex">
+            <li class="flex font-snw">홈페이지<i class="fas fa-link"></i></li>
+            <li class="flex" style="font-size: 15px;">(모작사이트/반응형), (HTML,CSS,JS)</li>
+            <li class="flex">사이트주소: <a href="#" target="_blank">홈페이지</a></li>
+        </ul> 
+        </li>
+
+        <li class="flex"><div class="more-1">모작</div><a href="/pf/kyung/index.php"  target="_blank">
+        <div class="img-box" style="background-image:url();"></div></a>
+        <ul class="flex">
+            <li class="flex font-snw">홈페이지<i class="fas fa-link"></i></li>
+            <li class="flex" style="font-size: 15px;">(모작사이트/반응형), (HTML,CSS,JS)</li>
+            <li class="flex">사이트주소: <a href="#" target="_blank">홈페이지</a></li>
         </ul> 
         </li>
     </ul>
@@ -42,9 +70,13 @@ include "../part/head.php";
 </div>
 </div>
 
-<div><a href="https://milly55.github.io/img1/pf/design/summerbanner.png"  target="_blank">다자인</a> </div>
-
-
+<div class="my-slider-1 ">
+  <div class="owl-carousel owl-theme ">
+    <div class="item" style="background-image:url(https://milly55.github.io/img1/pf/design/summerbanner.png);"></div>
+    <div class="item">none</div>
+    <div class="item">none</div>
+  </div>
+</div>
     <?php
 include "../part/foot.php";
 ?>

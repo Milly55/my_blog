@@ -50,6 +50,8 @@ setInterval(function a() {
 
 
 
+
+
 function Popup__init() {
   $('.pop-closeable').click(function(){
     var popNo = $(this).attr('data-pop-no');
@@ -75,13 +77,12 @@ function Popup__hide(no){
       var className = 'top-popup-bar';
   
   $('.' + className ).hide();
-  
 }
+
 $(function(){
   Popup__show(1);
 })
 
- 
 function Slider__a(){
   $('.slider-a').owlCarousel({
     loop:true,
@@ -98,6 +99,9 @@ function Slider__a(){
 $(function(){
   Slider__a();
 })
+
+
+
 
 
 function MySlider1__updateCurrentPageNumber(event) {
@@ -166,6 +170,12 @@ function MySlider1__init() {
 $(function() {
   MySlider1__init();
 })
+
+
+
+
+
+
 
 
 
