@@ -124,7 +124,7 @@
 
 
 
-.my-slider-1{
+.my-slider-11{
   border:5px solid black;
   width:50%;
   margin:0 auto;
@@ -132,7 +132,7 @@
   position:relative;
   border-radius:30px;
 }
-.my-slider-1 .item {
+.my-slider-11 .item {
   height:50vh;
   width:50%;
   display:flex;

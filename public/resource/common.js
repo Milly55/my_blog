@@ -107,7 +107,7 @@ setInterval (a,5000);
 
 
   function MySlider1__init() {
-    $('.my-slider-1 > .owl-carousel ').owlCarousel({
+    $('.my-slider-11 > .owl-carousel ').owlCarousel({
       responsive:{
         0:{
           items:1

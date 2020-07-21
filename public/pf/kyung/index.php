@@ -184,6 +184,76 @@
         </div>
     </div>
 </div>
+
+
+<section class="middle-bar">
+    <div class="middle-box-1 con-1 flex">
+        <nav class="midde-title flex">BUSINESS</nav>
+        <nav class="midde-title-under flex">고객이 신뢰하는 글로벌 에너지 자원 선도 기업</nav>
+        <div class="business-img-box flex">
+            <ul class="flex">
+                <li>
+                    <a href="#">
+                        <div class="img-box flex" style="background-image:url(https://milly55.github.io/img1/pf/kyung/sec01_img01.jpg);"></div>
+                    </a>
+                    <ul class="flex">
+                        <li>국내자원개발</li>
+                        <li>Domestic resource
+                            <ul>
+                                <li>경동은 수십년간 축척된 경험과 광산운영 전반의 기술력을 보유하고 있습니다.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/kyung/sec01_img02.jpg);"></div>
+                    </a>
+                    <ul class="flex">
+                        <li>해외자원개발</li>
+                        <li>Oversea resource
+                            <ul>
+                                <li>호주, 인도네시아를 거쳐 해외자원개발에 끊임없는 노력을 하고 있습니다.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/kyung/sec01_img03.jpg);"></div>
+                    </a>
+                    <ul class="flex">
+                        <li>엔지니어링사업</li>
+                        <li>Engineering
+                            <ul>
+                                <li>축척된 기술력과 지속적인 기술개발로 광산장비설계 및 제작, 각종 plant 설계 및 시공 기술을 보유하고 있습니다. </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/kyung/sec01_img04.jpg);"></div>
+                    </a>
+                    <ul class="flex">
+                        <li>입대사업</li>
+                        <li>Buildng Lease
+                            <ul>
+                                <li>쾌적한 사무환경, 우수한 교통접근성은 경동빌딩의 자랑입니다.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div> 
+    <div class="more-box con-1 flex">
+   <a href="#"><div class="more-link">View More</div></a> 
+</section>
+</div>
+
+
+
   
 </body>
 </html>

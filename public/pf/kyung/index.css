@@ -286,9 +286,13 @@ label[for] {
   max-width:1700px;
 }
 
-body{
-    background-color:black;
+.con-1 {
+  max-width:1330px;
+  margin-left:auto;
+  margin-right:auto;
 }
+
+/* 상단 메뉴바 */
 .menu-bar{
     margin-top:20px;
     position:fixed;
@@ -626,4 +630,115 @@ html.popup-1-active, html.popup-1-active > body {
 .slider-k1 .page-nav > div {
     display:block;
     
+}
+
+
+
+
+.middle-bar {
+    margin-top:50px;
+}
+
+.middle-bar > .middle-box-1{
+    flex-direction:column;
+    align-items:center;
+   
+}
+.middle-bar > .middle-box-1 > .midde-title{
+    justify-content:center;
+    font-size:40px;
+}
+.middle-bar > .middle-box-1 > .midde-title-under{
+    margin-top:20px;
+    justify-content:center;
+    color:gray;
+    font-size:17px;
+}
+.business-img-box{
+     width:85%;
+    justify-content:center;
+     position:relative;
+    
+}
+.business-img-box > ul {
+    margin-top:30px;
+    width:100%;
+}
+.business-img-box > ul  > li{
+    height:40vh; 
+    width:100%;
+    margin:0 10px; 
+    z-index:1;
+    overflow:hidden;   
+}
+.business-img-box > ul  > li > a > .img-box{
+    height:100%;
+    width:100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;   
+    transition: transform 2s;         
+}
+.business-img-box > ul  > li:hover > a > .img-box{
+    transform:scale(1.1);
+}
+.business-img-box > ul ul{
+    padding-top:20px;
+    position:absolute;
+    z-index:3;
+   flex-direction:column;
+    border-bottom:2px solid #afafaf;
+    top:100%;
+    width:22.5%;
+    cursor:pointer;
+}
+.business-img-box > ul ul > li{
+    font-size:20px;
+}
+.business-img-box > ul ul > li:last-child{
+    padding-bottom:30px;
+}
+.business-img-box > ul ul ul  {
+    width:100%;
+      border-bottom:0;
+}
+.business-img-box > ul ul ul > li{
+    font-size:15px;
+    color:gray;
+}
+.more-box{
+    justify-content:center;
+    margin-top:250px;
+}
+.more-box > a > .more-link{
+     border:1px solid black;
+    padding:13px 50px;
+    border-radius:30px;
+    overflow:hidden;
+    z-index:2;
+    position:relative;
+     transition: all 0.8s;
+}
+.more-box > a:hover > .more-link{
+    border:1px solid orange;
+    color:white;
+    transition: all 0.5s;
+}
+.more-box > a > .more-link::after{
+    content:'';
+    position:absolute;
+    top:-50px;
+    left:-300px;
+    width:100%;
+    height:100%;
+    background-color:orange;
+    transform:rotate(20deg);
+    height:20vh;
+    visibility:hidden;
+    transition: all 0.8s;
+    z-index:-1;
+}
+.more-box > a:hover > .more-link::after{
+    visibility:visible;
+    left:-5px;
 }

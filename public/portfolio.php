@@ -70,7 +70,7 @@ include "../part/head.php";
 </div>
 </div>
 
-<div class="my-slider-1 ">
+<div class="my-slider-11 ">
   <div class="owl-carousel owl-theme ">
     <div class="item" style="background-image:url(https://milly55.github.io/img1/pf/design/summerbanner.png);"></div>
     <div class="item">none</div>
