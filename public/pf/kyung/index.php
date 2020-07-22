@@ -253,7 +253,102 @@
 </div>
 
 
+<!-- 중단2 박스 -->
+<section class="middle-bar-2">
+    <nav class="midde-title-2 flex">TECHNOLOGICAL INNOVATION</nav>
+    <div class="middle-box-2 con-1 ">
+        <ul class="flex">
+            <li class="flex">
+                <div class="img-box-1 " style="background-image:url(https://milly55.github.io/img1/pf/kyung/sec02_img01.jpg);"></div>
+                <div class="img-box-txt">
+                    <ul class="flex">
+                        <li style=" font-size:30px;">경동의 신기술</li>
+                        <li style=" font-size:35px;">Technology</li>
+                        <li style=" font-size:70px;"><i class="far fa-arrow-alt-circle-down"></i></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="flex">
+                <div class="img-box-1 " style="background-image:url(https://milly55.github.io/img1/pf/kyung/sec02_img02.jpg);"></div>
+                <div class="img-box-txt">
+                    <ul class="flex">
+                        <li style=" font-size:30px;">광산안전시스템</li>
+                        <li style=" font-size:35px;">A.B.C Safety</li>
+                        <li style=" font-size:70px;"><i class="far fa-arrow-alt-circle-down"></i></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <div class="txt-box flex">
+            <ul class="flex">
+                <li class="flex">경동은 지속적인 기술개발과 투자로 국내광산 <br> 최고의 기술력을 자랑하고 있습니다.</li>
+                <li class="flex">거대한 자연을 상대로 운영되는 광산에서의 안전은 <br> 아무리 강조해도 지나침이 없을 것입니다.</li>
+            </ul>
+            <div class="more-box con-1 flex">
+                <ul class="flex">
+                    <li class="flex"> <a href="#">
+                            <div class="more-link">View More</div>
+                        </a></li>
+                    <li class="flex"> <a href="#">
+                            <div class="more-link">View More</div>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!-- 하단박스 1 -->
+<section class="bottom-bar flex ">
+    <div class="bottom-line-box flex  ">
+        <div class="bottom-box flex  ">
+            <ul class="top-txt fkex">
+                <li class="flex" style="font-size:25px;">사회공헌</li>
+                <li class="flex" style="font-size:40px;">PUBLIC RELATIONS</li>
+            </ul>
+            <ul class="bottom-txt flex" style="margin-top:20px;">
+                <li>㈜경동은 나눔문화, 기업의 사회공헌, 자원봉사 등을 통한
+                    <br>
+                    지역 네트워크 구축과 사회연대의식 함양과 소외계층
+                    <br>
+                    삶의 질 향상을 위해 적극 노력하고 있습니다.</li>
+                <li style="margin-top:20px;">
+                    <div class="more-box-1 con-1 flex">
+                        <a href="#">
+                            <div class="more-link">View More</div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="bottom-box-1">
+            <ul class="top-img flex">
+                <li class="flex">
+                    <div class="bottom-img" style="background-image:url(https://milly55.github.io/img1/pf/kyung/8066666455d70cc8975a7f.jpg);"></div>
+                </li>
+                <li class="flex">
+                    <div class="bottom-img" style="background-image:url(https://milly55.github.io/img1/pf/kyung/9258442415d155b6f81a24.jpg);"></div>
+                </li>
+            </ul>
+            <ul class="flex">
+                <li class="flex">하천정화</li>
+                <li class="flex">도로정화활동</li>
+            </ul>
+            <ul class="bottom-img flex">
+                <li class="flex">
+                    <div class="bottom-img" style="background-image:url(https://milly55.github.io/img1/pf/kyung/8684783645d145297bc7ac.jpg);"></div>
+                </li>
+                <li class="flex">
+                    <div class="bottom-img" style="background-image:url(https://milly55.github.io/img1/pf/kyung/4398543445d15553c80a54.jpeg);"></div>
+                </li>
+            </ul>
+            <ul class="flex">
+                <li class="flex">쌀나눔봉사</li>
+                <li class="flex">연탄나눔봉사</li>
+            </ul>
+        </div>
+    </div>
+</section>
   
 </body>
 </html>

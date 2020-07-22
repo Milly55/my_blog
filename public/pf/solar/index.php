@@ -11,6 +11,8 @@
 </head>
 <body>
 
+<!-- pc 탑바 -->
+
 <div class="top-bar">
     <div class="top-bar-img-2 row " style="position:absolute; max-width:100%;">
         <div class="img-box cell " style=" position:relative;">
@@ -101,6 +103,27 @@
     </div>
 </div>
 <div class="back-1"><div class="mobli-img" style="background-image: url(https://milly55.github.io/img1/pf/solaseado/main-monet-m.jpg)"></div></div>  
+
+<!-- 모바일 탑바 -->
+<div class="mobile-top-bar flex">
+    <a href="#" onclick="return false;" class="btn-toggle-mobile-side-bar flex">
+        <div><i class="fas fa-bars"></i></div>
+    </a>
+</div>
+<div class="mobile-side-menu-bar  flex">
+    <div class="mobile-menu-box  flex">
+        <ul class="flex">
+            <li><a href="#">ABOUT 솔라시도</a></li>
+            <li><a href="#">WHY 솔라시도</a></li>
+            <li><a href="#">TRIP 솔라시도</a></li>
+            <li><a href="#">ENJOY 솔라시도</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+
+
 
 
 <!-- 중간 박스  -->
@@ -257,7 +280,7 @@
 </div>
 
 <div class="botton-bar-2 ">
-    <div class="botton-img-box-1 con"> <a href="#"><img src="https://milly55.github.io/img1/pf/solaseado/main-lab-banner.png" alt=""></a></div>
+    <div class="botton-img-box-2 con"  style="background-image: url(https://milly55.github.io/img1/pf/solaseado/main-lab-banner.png)"></div>
 
 </div>
 

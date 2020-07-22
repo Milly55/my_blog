@@ -269,6 +269,75 @@ background-color:blue;
 
 
 
+
+.mobile-top-bar{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    padding:10px;
+    display: none;
+    z-index: 1;
+    transition: 0.3s;
+  }
+  .btn-toggle-mobile-side-bar{
+      justify-content: flex-end;
+      position: relative;
+      z-index: 5;
+  }
+  .btn-toggle-mobile-side-bar > div{
+      position:absolute;
+      top:20px;
+      right: 50px;
+      color: white;
+      font-size: 20px;
+      z-index: 5;
+  }
+  
+  @media (max-width:750px){
+    .mobile-top-bar{
+      display: block;
+    }
+  }
+  /* 모바일 사이드 바 (토클 아이콘)끝 */
+  
+  /* 모바일 사이드 바 (메뉴바)시작 */
+  .mobile-side-menu-bar{
+    position:fixed;
+    top:-100%;
+    left:0;
+    width:100%;
+    background-color:black;
+    justify-content: center;
+    transition: top 0.3s;
+    flex-direction: column;
+    z-index: -1;
+  }
+  .mobile-side-menu-bar.active{
+   top:0;
+  } 
+  .mobile-side-menu-bar > .mobile-menu-box {
+      background-color:#02042f;  
+      margin:0 30px;    
+  }
+  .mobile-side-menu-bar > .mobile-menu-box > ul{
+      color: white;
+      flex-direction: column;
+      margin-top:80px;
+      margin-left: 20px;
+
+  }
+  .mobile-side-menu-bar > .mobile-menu-box > ul > li{
+      padding: 10px 0;
+  }
+
+
+
+
+
+
+
+
 /* 팝업 1 시작 */
 .popup-box-type-a {
   position: absolute;
@@ -593,6 +662,9 @@ html.popup-2-active .popup-box-2 {
 
 
 
+.botton-img-box-1{
+    padding-right:50px;
+}
 
 
 .botton-img-box > ul > li > ul{
@@ -617,21 +689,31 @@ html.popup-2-active .popup-box-2 {
     color:#007bff;
 }
 
+
+
+
 .botton-bar-2{
     margin-top:100px;
     background-color:#393f7d;
-    padding:70px 0;
-}
-.botton-img-box-1{
-    padding-right:50px;
+    padding:5%;
+    height: 50vh;
 }
 
 
 
+.botton-img-box-2{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
-
-
-
+@media(max-width:800px){
+    .botton-bar-2{
+        padding:1%;
+    }
+}
 
 
 
