@@ -40,7 +40,7 @@ include "../part/head.php";
     </ul>
     <ul  class="flex">
     <li class="flex"><div class="more-1">모작</div><a href="/pf/kyung/index.php"  target="_blank">
-        <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/kyung/bg_m04.jpg);"></div></a>
+        <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/kyung/main04_pc.jpg.jpg);"></div></a>
         <ul class="flex">
             <li class="flex font-snw">경동<i class="fas fa-link"></i></li>
             <li class="flex" style="font-size: 15px;">(모작사이트/반응형), (HTML,CSS,JS)</li>

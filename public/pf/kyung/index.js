@@ -54,7 +54,7 @@ $(function(){
 
 
 
-/* 기능 */
+/* 슬라이드 기능 */
 function SliderK__show($slider, index) {
     var $currentSlide = $slider.find('.slides > div.active');
     var $postSlide = $slider.find('.slides > div').eq(index);

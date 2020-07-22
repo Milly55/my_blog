@@ -142,7 +142,7 @@
                 </ul>
             </div>
         </div>
-        <div style="background-image:url(https://milly55.github.io/img1/pf/kyung/main02_pc.jpg)">55
+        <div style="background-image:url(https://milly55.github.io/img1/pf/kyung/main02_pc.jpg)">
             <div class="slider-txt flex">
                 <ul class="flex">
                     <li class="flex" style=" font-size:50px;">Energy-based industry</li>
@@ -160,7 +160,7 @@
                 </ul>
             </div>
         </div>
-        <div style="background-image:url(https://milly55.github.io/img1/pf/kyung/main04_pc.jpg)">
+        <div style="background-image:url(https://milly55.github.io/img1/pf/kyung/main04_pc.jpg.jpg)">
                         <div class="slider-txt flex">
                 <ul class="flex">
                     <li class="flex" style=" font-size:50px;">We will provide bright energy</li>
@@ -350,5 +350,70 @@
     </div>
 </section>
   
+
+<!-- 하단박스 2 -->
+<section class="bottom-bar-2">
+    <div class="bottom-box-2">
+        <div class="background-img">
+            <div class="img-box flex" style="background-image:url(https://milly55.github.io/img1/pf/kyung/main_foot_bg.jpg)">
+                <div class="bottom-txt-2 con-1 flex">
+                    <ul class="bottom-1 flex">
+                        <li style="font-size:40px; line-height:45px;">ABOUT</li>
+                        <li style="font-size:40px; line-height:45px;">KYUNGDONG</li>
+                        <li style="font-size:16px; margin-top:20px;">서민연료의 연탄에서 신재생 에너지까지 에너지를 통한 <br> 따뜻한 삶의 공간 창조 바로 경동이 합께합니다.</li>
+                        <li style="margin-top:25px;">
+                            <div class="more-box-a con-1 flex">
+                                <a href="#">
+                                    <div class="more-link">View More</div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="bottom-2 flex">
+                        <li class="flex">
+                            <img src="https://milly55.github.io/img1/pf/kyung/main_foot_icn01.png" alt="">
+                            <ul class="flex">
+                                <li>CEO 인사말</li>
+                                <li>CEO's Greetings</li>
+                            </ul>
+                        </li>
+                        <li class="flex">
+                            <img src="https://milly55.github.io/img1/pf/kyung/main_foot_icn02.png" alt="">
+                            <ul class="flex">
+                                <li>경영이념</li>
+                                <li>Management Philosophy</li>
+                            </ul>
+                        </li>
+                        <li class="flex">
+                            <img src="https://milly55.github.io/img1/pf/kyung/main_foot_icn03.png" alt="">
+                            <ul class="flex">
+                                <li>관계사</li>
+                                <li>Business Overview</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bottom-bar-3">
+    <div class="bottom-box-3 con-1 flex">
+        <div class="bottom-img-box-3">
+         <a href="#"> <img src="https://milly55.github.io/img1/pf/kyung/top.png" alt=""></a>  
+        </div>
+
+        <ul>
+            <li>상호 : (주)경동 사업자등록번호 : 222-81-03192</li>
+            <li>본사 : 경기도 성남시 분당구 수내로 46번길 4 경동빌딩 11층 TEL : 031-738-1300 FAX : 031-738-1313</li>
+            <li>㈜경동 상덕광업소 : 강원도 삼척시 도계읍 도상로 512 TEL : 033-541-0071 FAX : 033-541-6003</li>
+            <li style="margin-top:5px;">Copyright © KYUNGDONG. All Rights Reserved.</li>
+        </ul>
+    </div>
+</section>
+
+
+
 </body>
 </html>

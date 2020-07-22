@@ -113,16 +113,55 @@
 <div class="mobile-side-menu-bar  flex">
     <div class="mobile-menu-box  flex">
         <ul class="flex">
-            <li><a href="#">ABOUT 솔라시도</a></li>
-            <li><a href="#">WHY 솔라시도</a></li>
-            <li><a href="#">TRIP 솔라시도</a></li>
-            <li><a href="#">ENJOY 솔라시도</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">ABOUT 솔라시도</a>
+                <ul class="flex">
+                    <li><a href="#">비전</a></li>
+                    <li><a href="#">사업개요 / 위치</a></li>
+                    <li><a href="#">솔라시도 라이브</a></li>
+                    <li><a href="#">솔라시도 소식</a></li>
+                </ul>
+            </li>
+            <li><a href="#">WHY 솔라시도</a>
+                <ul class="flex">
+                    <li><a href="#">산업과 일자리</a></li>
+                    <li><a href="#">혁신과 청년창업</a></li>
+                    <li><a href="#">안전하고 편리한 삶</a></li>
+                    <li><a href="#">미래문명 혜택</a></li>
+                </ul>
+            </li>
+            <li><a href="#">TRIP 솔라시도</a>
+                <ul class="flex">
+                    <li><a href="#">탄소제로도시</a></li>
+                    <li><a href="#">첨단농업도시</a></li>
+                    <li><a href="#">스마트관광.레저도시</a></li>
+                    <li><a href="#">자율전기차 전용도시</a></li>
+                    <li><a href="#">창의지능도시</a></li>
+                </ul>
+            </li>
+            <li><a href="#">ENJOY 솔라시도</a>
+                <ul class="flex">
+                    <li><a href="#">이벤트</a></li>
+                    <li><a href="#">솔라시도 사진관</a></li>
+                    <li><a href="#">솔라시도 영화관</a></li>
+                    <li><a href="#">웹사이트 디자인 컨셉트</a></li>
+                </ul>
+            </li>
+            <li><a href="#">CONTACT</a>
+                <ul class="flex">
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">인재채용</a></li>
+                    <li><a href="#">분양정보</a></li>
+                </ul>
+            </li>
+            <li><a href="#" style="font-size:12px;">KOR <i class="fas fa-caret-down"></i></a>
+                <ul class="flex">
+                    <li><a href="#">ENG</a></li>
+                </ul>
+            </li>
         </ul>
     </div>
+    <div class="link-box flex"><a href=""> SMARTCITY LAB</a></div>
 </div>
-</div>
-
 
 
 
