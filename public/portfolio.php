@@ -48,12 +48,12 @@ include "../part/head.php";
         </ul> 
         </li>
 
-        <li class="flex"><div class="more-1">모작</div><a href="/pf/kyung/index.php"  target="_blank">
-        <div class="img-box" style="background-image:url();"></div></a>
+        <li class="flex"><div class="more-1">모작</div><a href="/pf/fastbox/index.php"  target="_blank">
+        <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/fastbox/main_visual_02.jpg);"></div></a>
         <ul class="flex">
-            <li class="flex font-snw">홈페이지<i class="fas fa-link"></i></li>
+            <li class="flex font-snw">패스트박스<i class="fas fa-link"></i></li>
             <li class="flex" style="font-size: 15px;">(모작사이트/반응형), (HTML,CSS,JS)</li>
-            <li class="flex">사이트주소: <a href="#" target="_blank">홈페이지</a></li>
+            <li class="flex">사이트주소: <a href="https://fastbox.co.kr/kr/index.php#mainContainer" target="_blank">패스트박스</a></li>
         </ul> 
         </li>
 

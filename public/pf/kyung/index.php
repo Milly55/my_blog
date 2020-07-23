@@ -311,16 +311,19 @@
     <div class="bottom-line-box flex  ">
         <div class="bottom-box flex  ">
             <ul class="top-txt fkex">
-                <li class="flex" style="font-size:25px;">사회공헌</li>
-                <li class="flex" style="font-size:40px;">PUBLIC RELATIONS</li>
+                <li class="flex">사회공헌</li>
+                <li class="flex">PUBLIC RELATIONS</li>
             </ul>
-            <ul class="bottom-txt flex" style="margin-top:20px;">
+            <ul class="bottom-txt flex" >
                 <li>㈜경동은 나눔문화, 기업의 사회공헌, 자원봉사 등을 통한
                     <br>
                     지역 네트워크 구축과 사회연대의식 함양과 소외계층
                     <br>
                     삶의 질 향상을 위해 적극 노력하고 있습니다.</li>
-                <li style="margin-top:20px;">
+                    <li>㈜경동은 나눔문화, 기업의 사회공헌, 자원봉사 등을 통한
+                    지역 네트워크 구축과 사회연대의식 함양과 소외계층
+                    삶의 질 향상을 위해 적극 노력하고 있습니다.</li>
+                <li style="margin-top:30px;">
                     <div class="more-box-1 con-1 flex">
                         <a href="#">
                             <div class="more-link">View More</div>
