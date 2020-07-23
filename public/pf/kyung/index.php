@@ -190,111 +190,119 @@
     <div class="middle-box-1 con-1 flex">
         <nav class="midde-title flex">BUSINESS</nav>
         <nav class="midde-title-under flex">고객이 신뢰하는 글로벌 에너지 자원 선도 기업</nav>
-        <div class="business-img-box flex">
+        <div class="business-img-box flex ">
             <ul class="flex">
                 <li>
-                    <a href="#">
-                        <div class="img-box flex" style="background-image:url(https://milly55.github.io/img1/pf/kyung/sec01_img01.jpg);"></div>
-                    </a>
+                    <div class="middle-img-box">
+                        <a href="#">
+                            <div class="img-box flex" style="background-image:url(https://milly55.github.io/img1/pf/kyung/sec01_img01.jpg);"></div>
+                        </a>
+                    </div>
                     <ul class="flex">
                         <li>국내자원개발</li>
-                        <li>Domestic resource
-                            <ul>
-                                <li>경동은 수십년간 축척된 경험과 광산운영 전반의 기술력을 보유하고 있습니다.</li>
-                            </ul>
-                        </li>
+                        <li style="border-bottom:2px solid #dfdfdf;">Domestic resource</li>
+                        <li style="font-size: 15px; margin-top:20px; color: gray;">경동은 수십년간 축척된 경험과 광산운영 <br> 전반의 기술력을 보유하고 있습니다.</li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#">
-                        <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/kyung/sec01_img02.jpg);"></div>
-                    </a>
+                    <div class="middle-img-box">
+                        <a href="#">
+                            <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/kyung/sec01_img02.jpg);"></div>
+                        </a>
+                    </div>
                     <ul class="flex">
                         <li>해외자원개발</li>
-                        <li>Oversea resource
-                            <ul>
-                                <li>호주, 인도네시아를 거쳐 해외자원개발에 끊임없는 노력을 하고 있습니다.</li>
-                            </ul>
-                        </li>
+                        <li style="border-bottom:2px solid #dfdfdf;">Oversea resource</li>
+                        <li style="font-size: 15px; margin-top:20px; color: gray;">호주, 인도네시아를 거쳐 해외자원개발에 <br> 끊임없는 노력을 하고 있습니다.</li>
                     </ul>
                 </li>
+                </ul>
+                <ul class="flex">
                 <li>
-                    <a href="#">
-                        <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/kyung/sec01_img03.jpg);"></div>
-                    </a>
+                    <div class="middle-img-box">
+                        <a href="#">
+                            <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/kyung/sec01_img03.jpg);"></div>
+                        </a>
+                    </div>
                     <ul class="flex">
                         <li>엔지니어링사업</li>
-                        <li>Engineering
-                            <ul>
-                                <li>축척된 기술력과 지속적인 기술개발로 광산장비설계 및 제작, 각종 plant 설계 및 시공 기술을 보유하고 있습니다. </li>
-                            </ul>
-                        </li>
+                        <li style="border-bottom:2px solid #dfdfdf;">Engineering</li>
+                        <li style="font-size: 15px;  margin-top:20px; color: gray;">축척된 기술력과 지속적인 기술개발로 <br> 광산장비설계 및 제작, 각종 plant 설계 및 <br> 시공 기술을 보유하고 있습니다. </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#">
-                        <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/kyung/sec01_img04.jpg);"></div>
-                    </a>
+                    <div class="middle-img-box">
+                        <a href="#">
+                            <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/kyung/sec01_img04.jpg);"></div>
+                        </a>
+                    </div>
                     <ul class="flex">
                         <li>입대사업</li>
-                        <li>Buildng Lease
-                            <ul>
-                                <li>쾌적한 사무환경, 우수한 교통접근성은 경동빌딩의 자랑입니다.</li>
-                            </ul>
-                        </li>
+                        <li style="border-bottom:2px solid #dfdfdf;">Buildng Lease</li>
+                        <li style="font-size: 15px; margin-top:20px; color: gray; ">쾌적한 사무환경, 우수한 교통접근성은 <br> 경동빌딩의 자랑입니다.</li>
                     </ul>
                 </li>
-            </ul>
+                </ul>
         </div>
-    </div> 
+    </div>
     <div class="more-box con-1 flex">
-   <a href="#"><div class="more-link">View More</div></a> 
+        <a href="#">
+            <div class="more-link">View More</div>
+        </a>
 </section>
-</div>
 
 
 <!-- 중단2 박스 -->
+
 <section class="middle-bar-2">
     <nav class="midde-title-2 flex">TECHNOLOGICAL INNOVATION</nav>
     <div class="middle-box-2 con-1 ">
         <ul class="flex">
             <li class="flex">
-                <div class="img-box-1 " style="background-image:url(https://milly55.github.io/img1/pf/kyung/sec02_img01.jpg);"></div>
-                <div class="img-box-txt">
-                    <ul class="flex">
-                        <li style=" font-size:30px;">경동의 신기술</li>
-                        <li style=" font-size:35px;">Technology</li>
-                        <li style=" font-size:70px;"><i class="far fa-arrow-alt-circle-down"></i></li>
+                <div class="middle-img-box-2 flex">
+                    <div class="img-box-1 " style="background-image:url(https://milly55.github.io/img1/pf/kyung/sec02_img01.jpg);"></div>
+                </div>
+                <div class="background-img-txt flex">
+                    <ul>
+                        <li style="font-size:30px;">경동의신기술</li>
+                        <li>Technology</li>
+                        <li style="font-size:80px;"><i class="far fa-arrow-alt-circle-down"></i></li>
                     </ul>
                 </div>
+                <ul class="flex">
+                    <li>경동은 지속적인 기술개발과 투자로 국내광산 <br> 최고의 기술력을 자랑하고 있습니다.</li>
+                    <li>
+                        <div class="more-box con-1 flex">
+                            <a href="#">
+                                <div class="more-link">View More</div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
             </li>
             <li class="flex">
-                <div class="img-box-1 " style="background-image:url(https://milly55.github.io/img1/pf/kyung/sec02_img02.jpg);"></div>
-                <div class="img-box-txt">
-                    <ul class="flex">
-                        <li style=" font-size:30px;">광산안전시스템</li>
-                        <li style=" font-size:35px;">A.B.C Safety</li>
-                        <li style=" font-size:70px;"><i class="far fa-arrow-alt-circle-down"></i></li>
+                <div class="middle-img-box-2 flex">
+                    <div class="img-box-1 " style="background-image:url(https://milly55.github.io/img1/pf/kyung/sec02_img02.jpg);"></div>
+                </div>
+                <div class="background-img-txt flex">
+                    <ul>
+                        <li style="font-size:30px;">광산시스템</li>
+                        <li>A.B.C Sfety</li>
+                        <li style="font-size:80px;"><i class="far fa-arrow-alt-circle-down"></i></li>
                     </ul>
                 </div>
+                <ul class="flex">
+                    <li>거대한 자연을 상대로 운영되는 광산에서의 안전은 <br> 아무리 강조해도 지나침이 없을 것입니다.</li>
+                    <li>
+                        <div class="more-box con-1 flex">
+                            <a href="#">
+                                <div class="more-link">View More</div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
             </li>
         </ul>
-        <div class="txt-box flex">
-            <ul class="flex">
-                <li class="flex">경동은 지속적인 기술개발과 투자로 국내광산 <br> 최고의 기술력을 자랑하고 있습니다.</li>
-                <li class="flex">거대한 자연을 상대로 운영되는 광산에서의 안전은 <br> 아무리 강조해도 지나침이 없을 것입니다.</li>
-            </ul>
-            <div class="more-box con-1 flex">
-                <ul class="flex">
-                    <li class="flex"> <a href="#">
-                            <div class="more-link">View More</div>
-                        </a></li>
-                    <li class="flex"> <a href="#">
-                            <div class="more-link">View More</div>
-                        </a></li>
-                </ul>
-            </div>
-        </div>
     </div>
 </section>
 

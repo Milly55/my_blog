@@ -93,3 +93,22 @@ function MobileSideBar__init() {
 $(function() {
   MobileSideBar__init();
 });
+
+
+
+function Popup_Show(){
+  $('.popup,.popup-show-box-1').addClass('active');
+}
+
+function Popup_Close(){
+  $('.btn-close,.popup-show-box-1 ').click(function(){
+      $('.popup,.popup-show-box-1').removeClass('active');
+  })
+}
+
+
+$(function(){
+  Popup_Show();
+  Popup_Close();
+})
+

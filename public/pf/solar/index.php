@@ -381,5 +381,19 @@
 </div>
 
 
+<!-- 바로등장 팝업 -->
+<div class="popup-show-box-1 ">
+  <div class="popup">
+    <div class="body">
+    <div class="popup-img-box" style="background-image:url(https://milly55.github.io/img1/pf/solaseado/popup20200323.jpg)"></div>  
+    </div>
+          <div class="head">
+      <div class="btn-close flex"> 닫기</div>
+    </div>
+  </div>
+</div>
+
+
+
 </body>
 </html>

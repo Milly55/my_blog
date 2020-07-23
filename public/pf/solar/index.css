@@ -143,13 +143,13 @@ z-index: -1;
     justify-content:center;
     align-items:center;
     transition: background-color 0.3s;
-    z-index: 2;
+    z-index: 1;
 }
 .mobail-logo-box{
     position: absolute;
     left: 20px;
    margin-top:20px;
-   z-index: 3;
+   z-index: 2;
    display: none;
 }
 @media(max-width:800px){
@@ -253,7 +253,6 @@ background-color:blue;
 }
 .main-txt-box > ul > li:last-child{
     font-size: 40px;
-    z-index: 1;
     display: none;
 }
 @media(max-width:800px){
@@ -460,6 +459,82 @@ html.popup-2-active .popup-box-2 {
 .menu-bar{
     background-color: #007bff
 }
+
+/* 등장팝업 */
+
+.popup-show-box-1 {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+     visibility:hidden;
+    background-color:rgba(0,0,0,0.5);
+    transition: background-color 0.5s;
+    z-index: 2;
+  }
+  .popup-show-box-1.active {
+      visibility:visible;
+      background-color:rgba(0,0,0,0.5);
+  }
+  .popup-show-box-1 > .popup {
+    position:absolute;
+    top:50%;
+    left:50%;
+      visibility:hidden;
+    transform:translateX(-50%) translateY(-50%);
+    width:400px;
+    background-color:white;
+    z-index: 2;
+  }
+  
+  .popup-show-box-1 > .popup.active {
+      visibility:visible;
+  }
+  .popup-show-box-1 > .popup > .head > .btn-close {
+    width:100%;
+      height:5vh;
+    cursor:pointer;
+      align-items:center;
+      justify-content:center;
+      font-size:18px;
+      color:#0738b3;
+      font-weight:bold;
+  }
+  .popup-show-box-1 > .popup > .body{
+      height:55vh;    
+      z-index: 3;
+  }
+  .popup-show-box-1 > .popup > .body > .popup-img-box{
+      width:100%;
+      height:100%;
+      background-position:center;
+      background-repeat:no-repeat;
+      background-size:cover;
+      z-index: 5;
+  }
+  .popup-show-box-1 > .popup > .head > .btn-close:hover{
+      background-color:#0738b3;
+      color:white;
+  }
+  /* 팝업 1 끝 */
+  
+
+
+  @media(max-width:800px){
+    .popup-show-box-1 > .popup{
+        width: 300px;
+    }
+}
+
+@media(max-width:800px){
+    .popup-show-box-1 > .popup > .body{
+        height: 40vh;
+    }
+}
+
+
+
 
 /* 중간 박스 */
 
