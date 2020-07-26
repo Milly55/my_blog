@@ -72,8 +72,17 @@ include "../part/head.php";
 
 <div class="my-slider-11 ">
   <div class="owl-carousel owl-theme ">
-    <div class="item" style="background-image:url(https://milly55.github.io/img1/pf/design/summerbanner.png);"></div>
-    <div class="item">none</div>
+    <div class="item" style="background-image:url(https://milly55.github.io/img1/pf/design/summerbanner.png);">
+    <ul>
+        <li><a href="https://milly55.github.io/img1/pf/design/summerbanner.png" target="_blank">자세히 보기 > </a></li>
+    </ul>
+    </div>
+    <div class="item" style="background-image:url(https://milly55.github.io/img1/pf/design/generalLee.png);">
+    <ul class="flex">
+        <li><a href="https://www.mangoboard.net/MangoTemplateAll.do" target="_blank"> 출처: 망고보드(이순신)</a> </li>
+        <li><a href="https://milly55.github.io/img1/pf/design/generalLee.png" target="_blank">자세히 보기 > </a></li>
+    </ul>
+    </div>
     <div class="item">none</div>
   </div>
 </div>

@@ -143,6 +143,19 @@
   background-repeat: no-repeat;
   margin:0 auto;
   margin-top:30px;
+  position: relative;
+}
+.my-slider-11 .item > ul{
+    position: absolute;
+    top:-28px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.my-slider-11 .item > ul > li{
+    margin: 0 10px;
+}
+.my-slider-11 .item > ul > li:hover > a{
+    text-decoration: underline;
 }
 .icon-1{
   position:absolute;
