@@ -117,7 +117,7 @@ function SliderK__initAutoplay($slider) {
     var autoplayInterval = $slider.data('autoplay-interval');
     
     if ( typeof autoplayInterval == 'undefined' ) {
-        autoplayInterval = 3000;
+        autoplayInterval = 9000;
     }
     else {
         // 문자열을 숫자화
@@ -141,3 +141,35 @@ function SliderK__initAutoplay($slider) {
 $(function(){
     SliderK__init();
 })
+
+function Popup_Show(){
+    $('.slides > div:first-child').addClass('active');
+    $('.page-nav > div:first-child').addClass('active');
+  }
+  
+  $(function(){
+    Popup_Show();
+})
+
+
+// 팝업 1 시작
+
+function Popup_a(){
+    $('.language-box > ul > li:last-child').click(function() {
+        $('html').addClass('popup-1-active');
+      });
+      
+      $('.popup-box-1, .popup-box-1 > .popup > .head > .btn-close').click(function() {
+        $('html').removeClass('popup-1-active');
+      });
+      
+      $('.popup-box-1 > .popup').click(function(e) {
+        e.stopPropagation();
+      });
+}
+$(function(){
+    Popup_a();
+})
+
+  // 팝업 1 끝
+  
