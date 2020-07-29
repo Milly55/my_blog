@@ -67,10 +67,12 @@
         </div>
     </div>
 </section>
+
 <div class="slider-k slider-k1 height-100vh" data-autoplay="Y" data-autoplay-dir="right" data-autoplay-interval="7000">
     <div class="slides">
-        <div class="" style="background-image:url(https://milly55.github.io/img1/pf/fastbox/main_visual_01.jpg)">
-            <div class="slider-txt flex">
+        <div class="img-box-1  ">
+            <div class="background-img" style="background-image:url(https://milly55.github.io/img1/pf/fastbox/main_visual_01.jpg)"></div>
+            <div class="slider-txt  flex ">
                 <ul>
                     <li>SUPPORT YOUR BUSINESS WITH</li>
                     <li>FULFILLMENT</li>
@@ -88,9 +90,11 @@
                 </ul>
             </div>
         </div>
-        <div style="background-image:url(https://milly55.github.io/img1/pf/fastbox/main_visual_02.jpg)">
+
+        <div class="img-box-1">
+            <div class="background-img" style="background-image:url(https://milly55.github.io/img1/pf/fastbox/main_visual_02.jpg)"></div>
             <div class="slider-txt flex">
-                <ul class="flex">
+                <ul>
                     <li>SUPPORT YOUR BUSINESS WITH</li>
                     <li>CROSS BORDER</li>
                     <li>글로벌배송의 첫걸음</li>
@@ -107,7 +111,9 @@
                 </ul>
             </div>
         </div>
-        <div style="background-image:url(https://milly55.github.io/img1/pf/fastbox/main_visual_03.jpg)">
+
+        <div class="img-box-1">
+            <div class="background-img" style="background-image:url(https://milly55.github.io/img1/pf/fastbox/main_visual_03.jpg)"></div>
             <div class="slider-txt flex">
                 <ul>
                     <li>SUPPORT YOUR BUSINESS WITH</li>
@@ -127,6 +133,7 @@
             </div>
         </div>
     </div>
+
     <div class="side-btns flex">
         <div class="dot-box flex">
             <div class="flex">
@@ -142,9 +149,8 @@
         </div>
     </div>
 </div>
-
 <div class="popup-box-1 popup-box-type-a">
-    <div class="popup">
+    <div class0="popup">
         <div class="head flex">
             <div class="btn-title">사이트멥</div>
             <div class="btn-close"><i class="fas fa-times"></i></div>

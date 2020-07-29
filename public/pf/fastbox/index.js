@@ -142,14 +142,16 @@ $(function(){
     SliderK__init();
 })
 
-function Popup_Show(){
-    $('.slides > div:first-child').addClass('active');
+
+function Sildr__a(){
+    $('.slider-k .slides > div:first-child ').addClass('active');
     $('.page-nav > div:first-child').addClass('active');
   }
   
   $(function(){
-    Popup_Show();
-})
+      Sildr__a();
+  })
+
 
 
 // 팝업 1 시작

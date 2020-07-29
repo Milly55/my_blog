@@ -376,29 +376,26 @@ body {
     position: relative;
     overflow: hidden;
 }
- .side-btns {
+.slider-k .side-btns {
     height: 99%;
     flex-direction: column;
-    justify-content: center; 
-    
+    justify-content: center;
 }
- .side-btns > .dot-box {
-    margin: 100px;
+.slider-k .side-btns > .dot-box {
+    margin-left: 96px;
+    margin-bottom: 73px;
     height: 100%;
     align-items: flex-end;
-    margin-left:115px;
-    border: 1px solid #afafaf;
-    z-index: 2;
 }
- .side-btns > .dot-box > div {
+.slider-k .side-btns > .dot-box > div {
     cursor: pointer;
     height: 13%;
     width: 6%;
-     border-top:1px solid #afafaf;
-    border-right:1px solid #afafaf;
+    border-top: 1px solid #afafaf;
+    border-right: 1px solid #afafaf;
     justify-content: center;
     align-items: center;
-
+    z-index: 1;
 }
 .slider-k .side-btns > .dot-box > div:last-child {
     left: auto;
@@ -408,38 +405,43 @@ body {
     height: 100%;
 }
 
-.slider-k .slides > div {
+.slider-k .slides > div{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    overflow: hidden;
+    transition:  2s;
+}
+.slider-k .slides > div > .background-img {
     visibility: hidden;
     opacity: 0;
     transition: opacity 3s, visibility 3s, transform 4s;
+    transform: scale(1.2);
+    height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    transform: scale(1.2);
-    color: white;
-    transition: transform 4s;
 }
 
-.slider-k .slides > div.active {
+.slider-k .slides > div.active > .background-img {
     visibility: visible;
     opacity: 1;
     transform: scale(1.1);
 }
 
-.slider-k .slides > div > .slider-txt{
+.slider-k .slides > div > .slider-txt {
     position: absolute;
-    top:15%;
-    left: 10%;
-    height:70%;
-    width:80%;
-    flex-direction:column;
-    justify-content:center; 
-    z-index: 2;  
+    top: 13%;
+    left: 5%;
+    height: 78%;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #afafaf;
+    color: white;
 }
 
 .slider-k .slides > div > .slider-txt > ul{
@@ -448,6 +450,7 @@ body {
     opacity:0;
     visibility:hidden;
     transition:0.3s;
+    z-index: 1;
 }
 .slider-k .slides > div.active  > .slider-txt > ul{
     transition:0.3s;
@@ -513,7 +516,7 @@ body {
     transition: opacity 3s, margin-left 4s;
 }
 .slider-k .slides > div.active > .slider-txt > ul > li:last-child {
-        transition: opacity 3s, margin-left 3s;
+    transition: opacity 3s, margin-left 3s;
     overflow: visible;
     opacity: 1;
     margin-left: 0;
