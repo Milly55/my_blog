@@ -150,7 +150,7 @@
     </div>
 </div>
 <div class="popup-box-1 popup-box-type-a">
-    <div class0="popup">
+    <div class="popup">
         <div class="head flex">
             <div class="btn-title">사이트멥</div>
             <div class="btn-close"><i class="fas fa-times"></i></div>
