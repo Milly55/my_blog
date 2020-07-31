@@ -126,7 +126,26 @@
     </div>
 </div>
 
+<section class="mobile-menu-bar">
+    <div class="mobile-menu-box con flex">
+    <div class="mobile-img-box"><a href="#"><img src="https://milly55.github.io/img1/pf/kyung/logo_pc.png" alt="" style="height: 3.5vh;"></a></div> 
+        <ul class="flex">
+            <li><a href="#">KOR</a> </li>
+            <li><a href="#">ENG</a> </li>
+            <li><i class="fas fa-bars"></i></li>
+        </ul>
+    </div>
+</section>
+<div class="mobile-backgorund-bg"></div>
 
+<section class="mobile-menu-box-2">
+    <ul class="flex">
+        <li><a href="#">회사소개</a> </li>
+        <li><a href="#">사업분야</a></li>
+        <li><a href="#">기술혁신</a></li>
+        <li><a href="#">홍보센터</a></li>
+    </ul>
+</section>
 
 
 

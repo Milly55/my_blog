@@ -1,4 +1,38 @@
+console.clear();
+
+
+function MobileSideBar__toggle() {
+    var $btn = $('.mobile-menu-bar > .mobile-menu-box > ul > li:last-child');
+
+    if ( $btn.hasClass('active') ) {
+        $btn.removeClass('active');
+        $('.mobile-menu-box-2').removeClass('active');
+        $('.mobile-backgorund-bg').removeClass('active');
+    }
+    else {
+        $btn.addClass('active');
+        $('.mobile-menu-box-2').addClass('active');
+        $('.mobile-backgorund-bg').addClass('active');
+    }
+}
+
+function MobileSideBar__init() {
+    $('.mobile-menu-box > ul > li:last-child, .mobile-backgorund-bg').click(MobileSideBar__toggle);
+}
+
+
+
+$(function(){
+    MobileSideBar__init();
+})
+
+
+
+
+
+
 var $window = $(window);
+
 
 function TopBox__init() {
     var $topBox = $(".menu-bar");
