@@ -123,3 +123,16 @@ setInterval (a,5000);
 $(function(){
     MySlider1__init();
 })
+
+
+function Img__box(){
+  lightbox.option({
+    resizeDuration: 200,
+    wrapAround: true,
+    disableScrolling: false,
+    fitImagesInViewport:false
+  })
+}
+$(function(){
+  Img__box();
+})

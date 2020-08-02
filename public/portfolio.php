@@ -57,12 +57,12 @@ include "../part/head.php";
         </ul> 
         </li>
 
-        <li class="flex"><div class="more-1">모작</div><a href="/pf/kyung/index.php"  target="_blank">
-        <div class="img-box" style="background-image:url();"></div></a>
+        <li class="flex"><div class="more-1">모작</div><a href="/pf/mods/index.php"  target="_blank">
+        <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/mods/main_SL_wedding.jpg);"></div></a>
         <ul class="flex">
-            <li class="flex font-snw">홈페이지<i class="fas fa-link"></i></li>
+            <li class="flex font-snw">모즈 클리닉<i class="fas fa-link"></i></li>
             <li class="flex" style="font-size: 15px;">(모작사이트/반응형), (HTML,CSS,JS)</li>
-            <li class="flex">사이트주소: <a href="#" target="_blank">홈페이지</a></li>
+            <li class="flex">사이트주소: <a href="https://www.modsclinic.co.kr/NEW/" target="_blank">모즈 클리닉</a></li>
         </ul> 
         </li>
     </ul>
@@ -86,6 +86,13 @@ include "../part/head.php";
     <div class="item">none</div>
   </div>
 </div>
+
+
+
+<h1>그룹 1</h1>
+<a data-title="잘가1" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/summerbanner.png">이미지1</a>
+<a data-title="잘가2" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/generalLee.png" style="display:none;">이미지2</a>
+
     <?php
 include "../part/foot.php";
 ?>
