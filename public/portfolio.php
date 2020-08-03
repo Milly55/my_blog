@@ -89,9 +89,15 @@ include "../part/head.php";
 
 
 
-<h1>그룹 1</h1>
-<a data-title="잘가1" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/summerbanner.png">이미지1</a>
-<a data-title="잘가2" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/generalLee.png" style="display:none;">이미지2</a>
+<h1>디자인</h1>
+<a data-title="여름 세일" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/summerbanner.png">여름 배너</a>
+<a data-title="이순신 탄신일 축제" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/generalLee.png" style="display:none;"> 출처: 망고보드(이순신)</a>
+
+
+<h1>웹</h1>
+<a data-title="빙그레 메인홈" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/매인 홈.png">모작</a>
+<a data-title="빙그레 메뉴바" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/메뉴바.png" style="display:none;">모작</a>
+<a data-title="빙그레 이밴트 페이지" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/이밴트 페이지.png" style="display:none;">모작</a>
 
     <?php
 include "../part/foot.php";
