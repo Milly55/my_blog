@@ -175,3 +175,43 @@ $(function(){
 
   // 팝업 1 끝
   
+
+
+
+
+  function MySlider1__init() {
+    $('.my-slider-1 > .owl-carousel').owlCarousel({
+      responsive:{
+        0:{
+          items:2
+        }
+      },
+      loop:true,
+      dots:false,
+      mouseDrag:false,
+      touchDrag:false,
+      center: true,
+      nav:true,
+      items:2,
+      navText: ['<div class="back"> <i class="fas fa-chevron-left"></i> </div>', '<div class="next"> <i class="fas fa-chevron-right"></i> </div>'],
+    });
+  }
+  $(function(){
+    MySlider1__init();
+  })
+
+  
+  
+  
+  function OwlSlider__a(){
+    $('.owl-nav').click(function(){
+        var slideIndex =$('.my-slider-1 .owl-carousel .owl-stage-outer .owl-stage .owl-item.center .item').attr('data-index');
+        $('.text-box > div ').removeClass('active');
+        $('.text-box > div ').eq(slideIndex).addClass('active');
+      });
+  }
+
+  $(function(){
+    OwlSlider__a();
+  })
+  

@@ -210,3 +210,94 @@
         </li>
     </ul>
 </section>
+
+
+
+
+<div class="middle-bar con-1">
+    <div class="middle-box">
+        <div class="middle-img">
+            <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/fastbox/main_con01_bg.jpg)">
+                <div class="img-under-box">
+                    <div class="under-txt">
+                        <ul class="flex">
+                            <li>COST CALCULATOR</li>
+                            <li>물류비 계산기</li>
+                            <li><a href="#">체험하기</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- 슬라이더 1 -->
+<div class="my-slider-1 con-2">
+    <div class="slider-title-1 flex"><span>B U S I N E S S </span> F I E L D</div>
+  <div class="owl-carousel owl-theme">
+    <div class="item" data-index="0">
+      <div class="img-box" style=" background-image:url(https://milly55.github.io/img1/pf/fastbox/main_cont_rolling_01.jpg)"></div>
+    </div>
+    <div class="item" data-index="1">
+      <div class="img-box" style=" background-image:url(https://milly55.github.io/img1/pf/fastbox/main_cont_rolling_02.jpg)"></div>
+    </div>
+    <div class="item" data-index="2">
+      <div class="img-box" style=" background-image:url(https://milly55.github.io/img1/pf/fastbox/main_cont_rolling_03.jpg)"></div>
+    </div>
+  </div>
+  <div class="text-box">
+    <div class="active">
+      <ul class="flex">
+        <li>No.1 Distribution Solution</li>
+        <li>
+          <h1>이커머스 풀필먼트</h1>
+        </li>
+        <li style="color:gray">수많은 이커머스 셀러들의 고민, 고객의 전 주물 처리 과정을 대행합니다.</li>
+        <li style="color:gray">더욱 절감된 비용으로 안전하고, 신속한 서비스.</li>
+        <li style="color:gray">이커머스 환경에 특화된 국내외 배송서비스</li>
+        <li style="color:gray">패스트박스 만의 고품질 서비스</li>
+        <li style="color:gray">DETAIL VIEW</li>
+      </ul>
+    </div>
+    <div>
+      <ul class="flex">
+        <li>No.1 Distribution Solution</li>
+        <li>
+          <h1>크로스 보더</h1>
+        </li>
+        <li style="color:gray">국경을 넘은 전자상거래 시장에 맞춰,관세납부부터 복잡한 수출신고, 어 <br> 려운 해외배송 정차를 간호화 해드립니다.</li>
+        <li style="color:gray">DETAIL VIEW</li>
+      </ul>
+    </div>
+    <div>
+      <ul class="flex">
+        <li>No.1 Distribution Solution</li>
+        <li>
+          <h1>드랍쉬핑</h1>
+        </li>
+        <li style="color:gray">재고가 없어도, 전세계를 누비는 셀러가 되세요. 온라인 마케팅과 판매에 <br> 만 집중하도록 패스트박스의 드랍쉬핑 서비스가 도와드립니다. 판매자  <br> 부터 고객 수취까지 오프라인상 물류대행 서비스.</li>
+        <li style="color:gray">DETAIL VIEW</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<section class="middle-box-2 ">
+    <div class="one-stop-box con-3 flex">
+        <ul class="flex">
+            <li>모든흐름에 <span>FASTBOX</span>의 <br> 손이닿지 않는 곳은 없습니다.</li>
+            <li>E- commerce의 한계를 극복하고 실질적 흐름을 만들어내는 서비스 <br> Sourcing 부터 CS까지 고객께서 필요한 서비스를 
+            <span style="color: orange;">One – Stop</span> 으로 <br> 제공합니다. <br>
+모든 흐름에<span style="color: black; font-weight: bold;" >FASTBOX</span>의 손이 닿지 않는 곳은 없습니다.</li>
+        </ul>
+        <div class="img-box"><img src="https://milly55.github.io/img1/pf/fastbox/main_cont01.png" alt=""></div>
+    </div>  
+</section>
+
+
+</body>
+</html>
