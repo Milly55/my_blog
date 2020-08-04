@@ -954,7 +954,9 @@ html.popup-1-active, html.popup-1-active > body {
 }
 .bottom-box-1 > .bottom-list-1 > ul > li{
     position:relative;
-    display:block;
+}
+.bottom-box-1 > .bottom-list-1 > ul > li > img{
+    height:100%;
 }
 .bottom-box-1 > .bottom-list-1 > ul > li::after{
     content:"";
@@ -993,4 +995,37 @@ html.popup-1-active, html.popup-1-active > body {
     padding-bottom:30px;
     font-size:25px;
     color:white;
+}
+
+.bottom-box-1 > .bottom-link-box{
+    padding:40px 0;
+}
+
+.bottom-box-1 > .bottom-link-box > ul{
+    justify-content:space-between;
+    width:100%;
+}
+.bottom-box-1 > .bottom-link-box > ul > li{
+    font-size:15px;
+}
+.bottom-box-1 > .bottom-link-box > ul > li:first-child {
+    color:#888;
+    font-size:13px;
+}
+.bottom-box-1 > .bottom-link-box > ul > li:first-child > span{
+    color:#ef733a;
+}
+.bottom-box-1 > .bottom-link-box > ul > li:nth-child(2) > span{
+    padding:0 10px;
+    color:#888;
+    font-size:14px;
+}
+.bottom-box-1 > .bottom-link-box > ul > li:nth-child(2) > span > a{
+    transition: 0.3s;
+}
+.bottom-box-1 > .bottom-link-box > ul > li:nth-child(2) > span > a:hover{
+    color:#ef733a;
+}
+.bottom-box-1 > .bottom-link-box > ul > li:last-child{
+    font-weight:bold;
 }

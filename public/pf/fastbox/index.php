@@ -316,11 +316,11 @@
                 </li>
             </ul>
         </div>
-        <div class="bottom-link-box">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+        <div class="bottom-link-box flex con-3">
+            <ul class="flex">
+                <li>© 2019 <span>Fastbox.corp.</span> All rights reserved.</li>
+                <li><span><a href="#">블로그</a> </span> <span> <a href="#" style=" color:#ef733a;">개인정보처리방침</a></span> <span><a href="#">회사소개서 다운로드</a> </span> <span><a href="#">오시는 길</a> </span> </li>
+                <li><i class="fas fa-phone-alt"></i> 1599-8962 / <i class="fas fa-envelope"></i> spanpartnership@fastbox.co.kr</li>
             </ul>
         </div>
     </section>
