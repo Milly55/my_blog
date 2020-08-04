@@ -6,6 +6,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
@@ -16,8 +18,12 @@
     <title>경동</title>
 </head>
 <body>
-  
-<div class="menu-bar">
+ 
+<div id="fullpage">
+  <!-- 패이지 1 -->
+  <div class="section section-01">
+      
+ <div class="menu-bar">
     <div class="menu-box con flex">
         <div class="background"></div>
         <ul class="menu-1 flex">
@@ -68,6 +74,59 @@
                 <li class="menu-popup-1 flex"><a href="#"><i class="fas fa-bars"></i></a>
                 </li>
             </ul>
+        </div>
+    </div>
+</div> 
+    <div class="slider-k slider-k1 height-100vh" data-autoplay="Y" data-autoplay-dir="right" data-autoplay-interval="7000">
+    <div class="slides">
+        <div class="active" style="background-image:url(https://milly55.github.io/img1/pf/kyung/main01_pc.jpg)">
+            <div class="slider-txt flex">
+                <ul class="flex">
+                    <li class="flex" >Global kyungdong <br> with customer trust</li>
+                    <li class="flex">고객이 신뢰하는 글로벌 에너지 자원 선도 기업</li>
+                    <li class="flex" ><span>Learn More ></span>  </li>
+                </ul>
+            </div>
+        </div>
+        <div style="background-image:url(https://milly55.github.io/img1/pf/kyung/main02_pc.jpg)">
+            <div class="slider-txt flex">
+                <ul class="flex">
+                    <li class="flex" >Energy-based industry</li>
+                    <li class="flex" >광산 40년! 석탄산업은 국가 경제개발의 기반이었습니다.</li>
+                    <li class="flex"><span>Learn More ></span>  </li>
+                </ul>
+            </div>
+        </div>
+        <div style="background-image:url(https://milly55.github.io/img1/pf/kyung/main03_pc.jpg)">
+            <div class="slider-txt flex">
+                <ul class="flex">
+                    <li class="flex" >Create great value</li>
+                    <li class="flex">경동은 에너지 자원의 가치를 창조합니다.</li>
+                    <li class="flex" ><span>Learn More ></span>  </li>
+                </ul>
+            </div>
+        </div>
+        <div style="background-image:url(https://milly55.github.io/img1/pf/kyung/main04_pc.jpg.jpg)">
+                        <div class="slider-txt flex">
+                <ul class="flex">
+                    <li class="flex" >We will provide bright energy</li>
+                    <li class="flex">에너지를 통한 따뜻한 삶의 공간 창조 경동이 함께 하겠습니다.</li>
+                    <li class="flex"><span>Learn More ></span>  </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="side-btns">
+        <div>
+            <span>
+                <div class="img-box" aria-hidden="true" style="background-image:url(https://milly55.github.io/img1/pf/kyung/btn_prev2.png)"></div>
+            </span>
+        </div>
+        <div>
+            <span>
+                <div class="img-box" aria-hidden="true" style="background-image:url(https://milly55.github.io/img1/pf/kyung/btn_next2.png)"></div>
+            </span>
         </div>
     </div>
 </div>
@@ -125,7 +184,6 @@
         </div>
     </div>
 </div>
-
 <section class="mobile-menu-bar">
     <div class="mobile-menu-box con flex">
     <div class="mobile-img-box"><a href="#"><img src="https://milly55.github.io/img1/pf/kyung/logo_pc.png" alt="" style="height: 3.5vh;"></a></div> 
@@ -146,65 +204,12 @@
         <li><a href="#">홍보센터</a></li>
     </ul>
 </section>
-
-
-
-
-<div class="slider-k slider-k1 height-100vh" data-autoplay="Y" data-autoplay-dir="right" data-autoplay-interval="7000">
-    <div class="slides">
-        <div class="active" style="background-image:url(https://milly55.github.io/img1/pf/kyung/main01_pc.jpg)">
-            <div class="slider-txt flex">
-                <ul class="flex">
-                    <li class="flex" >Global kyungdong <br> with customer trust</li>
-                    <li class="flex">고객이 신뢰하는 글로벌 에너지 자원 선도 기업</li>
-                    <li class="flex" ><span>Learn More ></span>  </li>
-                </ul>
-            </div>
-        </div>
-        <div style="background-image:url(https://milly55.github.io/img1/pf/kyung/main02_pc.jpg)">
-            <div class="slider-txt flex">
-                <ul class="flex">
-                    <li class="flex" >Energy-based industry</li>
-                    <li class="flex" >광산 40년! 석탄산업은 국가 경제개발의 기반이었습니다.</li>
-                    <li class="flex"><span>Learn More ></span>  </li>
-                </ul>
-            </div>
-        </div>
-        <div style="background-image:url(https://milly55.github.io/img1/pf/kyung/main03_pc.jpg)">
-            <div class="slider-txt flex">
-                <ul class="flex">
-                    <li class="flex" >Create great value</li>
-                    <li class="flex">경동은 에너지 자원의 가치를 창조합니다.</li>
-                    <li class="flex" ><span>Learn More ></span>  </li>
-                </ul>
-            </div>
-        </div>
-        <div style="background-image:url(https://milly55.github.io/img1/pf/kyung/main04_pc.jpg.jpg)">
-                        <div class="slider-txt flex">
-                <ul class="flex">
-                    <li class="flex" >We will provide bright energy</li>
-                    <li class="flex">에너지를 통한 따뜻한 삶의 공간 창조 경동이 함께 하겠습니다.</li>
-                    <li class="flex"><span>Learn More ></span>  </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="side-btns">
-        <div>
-            <span>
-                <div class="img-box" aria-hidden="true" style="background-image:url(https://milly55.github.io/img1/pf/kyung/btn_prev2.png)"></div>
-            </span>
-        </div>
-        <div>
-            <span>
-                <div class="img-box" aria-hidden="true" style="background-image:url(https://milly55.github.io/img1/pf/kyung/btn_next2.png)"></div>
-            </span>
-        </div>
-    </div>
-</div>
-
-
+  </div>
+  
+  
+    <!-- 패이지 2 -->
+  <div class="section section-02 fp-auto-height">
+    
 <section class="middle-bar">
     <div class="middle-box-1 con-1 flex">
         <nav class="midde-title flex">BUSINESS</nav>
@@ -269,11 +274,10 @@
             <div class="more-link-1">View More</div>
         </a>
 </section>
-
-
-<!-- 중단2 박스 -->
-
-<section class="middle-bar-2">
+  </div>
+     <!-- 패이지 3 -->
+  <div class="section section-03 fp-auto-height">
+    <section class="middle-bar-2">
     <nav class="midde-title-2 flex"><span> TECHNOLOGICAL </span> <span> INNOVATION</span>  </nav>
     <div class="middle-box-2 con-1 ">
         <ul class="flex">
@@ -324,9 +328,10 @@
         </ul>
     </div>
 </section>
-
-<!-- 하단박스 1 -->
-<section class="bottom-bar flex ">
+  </div>
+     <!-- 패이지 4 -->
+  <div class="section section-04 fp-auto-height">
+    <section class="bottom-bar flex ">
     <div class="bottom-line-box flex  ">
         <div class="bottom-box flex  ">
             <ul class="top-txt fkex">
@@ -379,9 +384,10 @@
         </div>
     </div>
 </section>
-  
-
-<!-- 하단박스 2 -->
+  </div>
+     <!-- 패이지 5 -->
+  <div class="section section-05 fp-auto-height">
+    <!-- 하단박스 2 -->
 <section class="bottom-bar-2">
     <div class="bottom-box-2">
         <div class="background-img">
@@ -427,11 +433,11 @@
         </div>
     </div>
 </section>
-
+        
 <section class="bottom-bar-3">
     <div class="bottom-box-3 con-1 flex">
         <div class="bottom-img-box-3">
-         <a href="#"> <img src="https://milly55.github.io/img1/pf/kyung/top.png" alt=""></a>  
+         <a href="#anchor1"> <img src="https://milly55.github.io/img1/pf/kyung/top.png" alt=""></a>  
         </div>
 
         <ul>
@@ -442,6 +448,15 @@
         </ul>
     </div>
 </section>
+
+  </div>
+</div>
+
+
+  
+<div id="sidebuttn-1"></div>
+
+
 
 
 

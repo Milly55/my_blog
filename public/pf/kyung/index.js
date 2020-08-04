@@ -1,5 +1,62 @@
 console.clear();
 
+function FullPage__a(){
+    var $html = $('html');
+    new fullpage("#fullpage", {
+    verticalCentered: false,
+    scrollBar: true,
+    anchors: ["anchor1", "anchor2", "anchor3"],
+    menu: "#menu",
+    navigation: true,
+    navigationPosition: "right",
+    responsiveWidth: 1100,
+    afterResponsive: function (isResponsive) {
+      
+    },
+    onleave: function(origin, destination, direction){
+      $html.attr('data-fullpage-index', destination.index);
+  }
+  });
+}
+$(function(){
+    FullPage__a(); 
+})
+
+
+
+
+
+/*
+var myFullpage = new fullpage('#fullpage', {
+  verticalCentered: true,
+  anchors: ['anchor1', 'anchor2', 'anchor3'],
+  menu: '#menu',
+  sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE']
+});
+
+
+
+    var myFullpage = new fullpage('#fullpage', {
+        anchors: ['firstPage', 'secondPage', '3rdPage'],
+        sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['First page', 'Second page', 'Third and last page'],
+        responsiveWidth: 1100,
+        afterResponsive: function(isResponsive){
+
+        }
+
+    });
+
+*/
+
+
+
+
+
+
+
 
 function MobileSideBar__toggle() {
     var $btn = $('.mobile-menu-bar > .mobile-menu-box > ul > li:last-child');

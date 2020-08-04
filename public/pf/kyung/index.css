@@ -1,9 +1,101 @@
-/* 폰트적용 */
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+/* 페이지 새팅 */
 
-html {
-  font-family: "Noto Sans KR", sans-serif;
+/* html:not([data-fullpage-index="1"]) #fp-nav.fp-right >ul>li>a>span{
+  background-color:#07255d;
+}  */
+#fp-nav.fp-right{
+  padding-right:80px;
+  padding-right:150px;
 }
+#fp-nav.fp-right >ul>li{
+  padding:10px 0;
+}
+#fp-nav.fp-right >ul{
+  position:relative;
+}
+#fp-nav.fp-right >ul::after{
+  content:"";
+  position:absolute;
+  top:9%;
+  left:48%;
+  width:2px;
+  height:80%;
+  background-color:gray;
+}
+#fp-nav.fp-right >ul>li>a{
+  position:relative;
+}
+#fp-nav.fp-right >ul>li>a.active>span{
+  width:10px;
+  height:10px;
+}
+#fp-nav.fp-right >ul>li>a.active>span, #fp-nav.fp-right >ul>li>a:hover>span{
+  background-color:#07255d;
+   width:10px;
+  height:10px;
+}
+#fp-nav.fp-right >ul>li>a >span::before{
+  content:"55";
+  display:block;
+  position:absolute;
+  top:50%;
+  left:100%;
+  transform:translatey(-50%);
+  color:gray;
+  padding:0 20px;
+  font-size:15px;
+}
+#fp-nav.fp-right >ul>li>a.active>span::before,
+#fp-nav.fp-right >ul>li:hover>a >span::before{
+   color:#07255d;
+}
+#fp-nav.fp-right >ul>li:first-child>a >span::before{
+  content:"MAIN"
+}
+#fp-nav.fp-right >ul>li:nth-child(2)>a >span::before{
+  content:"BUSINESS"
+}
+#fp-nav.fp-right >ul>li:nth-child(3)>a >span::before{
+  content:"TECHNOLOGY"
+}
+#fp-nav.fp-right >ul>li:nth-child(4)>a >span::before{
+  content:"PUBLICRELATIONS"
+}
+#fp-nav.fp-right >ul>li:nth-child(5)>a >span::before{
+  content:"ABOUT"
+}
+#fp-nav.fp-right >ul>li>a::after{
+  content: "";
+  position:absolute;
+  top:-38%;
+  left:-38%;
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  padding:2px;
+ border:2px solid #07255d;
+  display:none;
+}
+#fp-nav.fp-right >ul>li>a.active::after,
+#fp-nav.fp-right >ul>li:hover>a::after{
+  display:block;
+  left:-30%;
+}
+/* .fp-sr-only */
+.section-01 .slider-k{
+  height:100vh;
+}
+.section-02{
+  height:100vh;
+}
+@media(max-width:780px){
+  .section-02{
+    height:auto;
+  }
+}
+
+/* 페이지 새팅 끝 */
+
 
 /* 노말라이즈 */
 body, ul, li, h1 {
@@ -807,17 +899,16 @@ html.popup-1-active, html.popup-1-active > body {
 }
 
 
-
-
 /* 중간박스1 */
 
 .middle-bar {
-    margin-top:100px;
+  padding:90px 0;
 }
 
 .middle-bar > .middle-box-1{
     flex-direction:column;
     align-items:center;
+  
 }
 .middle-bar > .middle-box-1 > .midde-title{
     justify-content:center;
@@ -873,13 +964,11 @@ html.popup-1-active, html.popup-1-active > body {
   font-size: 20px;
 }
 
-
-
-
-
+  
 @media(max-width:800px){
   .middle-bar > .middle-box-1 > .midde-title {
     font-size: 25px;
+    margin:0;
   }
 }
 
@@ -959,37 +1048,24 @@ html.popup-1-active, html.popup-1-active > body {
 }
 
 
-
-
-
-
-
-
-
 .middle-bar-2{
-  margin-top:50px;
-  
+    padding:80px 0;
 }
 
 .middle-bar-2 >  .midde-title-2 {
   font-size:40px;
   justify-content:center;
+  margin-top:20px;
 }
-.middle-bar-2 >  .midde-title-2 > span{
-  margin: 0 8px;
-}
+
 .middle-bar-2 > .middle-box-2  > .txt-box{
   justify-content:center;
   align-items:center;
   flex-direction:column;
 }
 
-
-
-
-
 .middle-bar-2 > .middle-box-2 > ul{
-  margin-top:30px;
+  margin-top:20px;
   justify-content:center;
 }
 .middle-bar-2 > .middle-box-2 > ul > li{
@@ -1002,7 +1078,7 @@ html.popup-1-active, html.popup-1-active > body {
 }
 .middle-bar-2 > .middle-box-2 > ul > li > .middle-img-box-2{
   width:90%;
-  height:60vh;
+  height:55vh;
   flex-direction:column;
   overflow:hidden;
     
@@ -1130,9 +1206,6 @@ margin-top:50px;
 
 
 
-
-
-/* 하단박스 1 */
 
 /* 하단박스1 */
 .bottom-bar{
@@ -1493,7 +1566,6 @@ margin-top:50px;
 
 
 
-
 .bottom-bar-3{
   background-color:black;
   padding:40px 0;
@@ -1523,3 +1595,4 @@ margin-top:50px;
     margin: 0;
   }
 }
+
