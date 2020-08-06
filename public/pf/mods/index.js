@@ -50,7 +50,7 @@ function MobileSideBar__toggle() {
 }
 
 function MobileSideBar__init() {
-    $('.btn-toggle-mobile-side-bar,.mobile-side-menu-bar-bg').click(MobileSideBar__toggle);
+    $('.btn-toggle-mobile-side-bar,.mobile-side-menu-bar-bg,.mobile-login-box > ul > li:last-child').click(MobileSideBar__toggle);
     $('.mobile-menu-box >  ul > li ').click(function(){
         if ( $(this).hasClass('active') ){
             $(this).removeClass('active');
