@@ -92,6 +92,50 @@
     </div>
 </div>
 
+<!-- 모바일 박스 -->
+<div class="mobile-top-bar flex">
+    <a href="#" onclick="return false;" class="btn-toggle-mobile-side-bar flex">
+    <div><img src="https://milly55.github.io/img1/pf/mods/mobile_btn.png" alt=""></div> 
+    </a>
+</div>
+<div class="mobile-side-menu-bar-bg ">
+</div>
+<div class="mobile-side-menu-bar  flex">
+    <div class="mobile-side-box">
+        <div class="mobile-login-box">
+            <ul class="flex">
+                <li>Log-in</li>
+                |
+                <li>Join</li>
+                |
+                <li>상담신청</li>
+                <li><img src="https://milly55.github.io/img1/pf/mods/mobile_x_btn.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="mobile-menu-box">
+                <ul>
+                    <li><a href="#">- ABOUT</a>
+                        <ul>
+                            <li><a href="#">브랜드소개</a></li>
+                            <li><a href="#">의료진소개</a></li>
+                            <li><a href="#">오시는길</a></li>
+                            <li><a href="#">둘러보기</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"> - BEST ITEM</a></li>
+                    <li><a href="#">- ANTI-AGING CENTER</a></li>
+                    <li><a href="#">- MEDI GYM</a></li>
+                    <li><a href="#">- Funtion-Center</a></li>
+                    <li><a href="#">- MEDIA</a></li>
+                    <li><a href="#">- C/S CENTER</a></li>
+                </ul>
+            </div>
+    </div>
+</div>
+
+<!--  끝  -->
+
+
 <div class="top-btn-box">
     <div class="top-btn-img">
         <div class="btn-img-box" style="background-image:url(https://milly55.github.io/img1/pf/mods/main_SL_wedding.jpg)">
@@ -343,7 +387,7 @@
                 <li>*공휴일은 당일 휴진입니다.</li>
                 <li>상담전화 <span> 02.545.1618</span>  | <a href="#">찾아오시는 길</a> </li>
             </ul>
-            <ul class=foot-txt-3 "flex">
+            <ul class="foot-txt-3 flex">
                 <li class="flex"><span><a href="#"><img src="https://milly55.github.io/img1/pf/mods/u_btn_blog.png" alt=""></a> </span>
                     <span><a href="#"><img src="https://milly55.github.io/img1/pf/mods/u_btn_insta.png" alt=""></a></span> 
                     <span><a href="#"><img src="https://milly55.github.io/img1/pf/mods/u_btn_you.png" alt=""></a> </span></li>

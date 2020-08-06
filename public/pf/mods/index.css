@@ -367,8 +367,124 @@ body{
 }
 
 
+@media(max-width:1300px){
+  .top-bar{
+    display: none;
+  }
+}
+
+/* 모바일 박스 */
 
 
+.mobile-top-bar{
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  display: none;
+  z-index: 1;
+  transition: 0.3s;
+  background-color: #70405f;;
+}
+.mobile-top-bar.active{
+  background-color:white;
+}
+.btn-toggle-mobile-side-bar{
+  justify-content: flex-end;
+}
+.btn-toggle-mobile-side-bar > div > img{
+  display: block;
+}
+@media (max-width:1300px){
+  .mobile-top-bar{
+    display: block;
+  }
+}
+/* 모바일 사이드 바 (토클 아이콘)끝 */
+
+/* 모바일 사이드 바 (메뉴바)시작 */
+.mobile-side-menu-bar-bg{
+  position: fixed;
+  top:50px;
+  left:0;
+  right:0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  background-color: rgba(0,0,0,0.0);
+  transition: background-color 0.3s;
+}
+.mobile-side-menu-bar-bg.active{
+  visibility: visible;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 3;
+}
+.mobile-side-menu-bar{
+  position:fixed;
+  top:0;
+  right:0;
+  height: 100%;
+  width:25%;
+  background-color:#3e2335;
+  transition: right 0.3s;
+  z-index: 4;
+}
+.mobile-side-menu-bar.active{
+  right: 0;
+}
+.mobile-side-box{
+  width: 100%;
+  border: 3px solid white;
+}
+.mobile-side-menu-bar  .mobile-login-box{
+  border: 2px solid gold;
+  padding:8px 0;
+}
+.mobile-side-menu-bar  .mobile-login-box {
+  color: white;
+  margin-top:20px;
+}
+.mobile-side-menu-bar  .mobile-login-box  > ul > li{
+  padding: 0 10px;
+  position: relative;
+  
+}
+.mobile-side-menu-bar  .mobile-login-box  > ul > li:nth-child(3){
+  margin-right: 20px;
+}
+.mobile-side-menu-bar  .mobile-login-box > ul > li:last-child{
+  position: absolute;
+  top:0;
+  right:-5%;
+}
+.mobile-side-menu-bar .mobile-menu-box{
+  border: 2px solid pink;
+  color: white;
+}
+.mobile-side-menu-bar .mobile-menu-box > ul > li{
+  padding: 10px 0;
+  border: 3px solid white;
+  transition: 0.3s;
+  position: relative;
+}
+.mobile-side-menu-bar .mobile-menu-box > ul > li.active{
+ padding-bottom: 100px;
+}
+.mobile-side-menu-bar .mobile-menu-box > ul > li > a{
+  margin-left: 10px;
+}
+.mobile-side-menu-bar .mobile-menu-box > ul  > li > ul{
+  position:absolute;
+  height: 0;
+  overflow: hidden;
+  background-color: red;
+  transition: 0.3s;
+} 
+.mobile-side-menu-bar .mobile-menu-box > ul  > li.active> ul{
+  height: 100px;
+  overflow: visible;
+}
 .top-btn-box{
     position:fixed;
     top:0;
