@@ -51,7 +51,7 @@ function MobileSideBar__toggle() {
 
 function MobileSideBar__init() {
     $('.btn-toggle-mobile-side-bar,.mobile-side-menu-bar-bg,.mobile-login-box > ul > li:last-child').click(MobileSideBar__toggle);
-    $('.mobile-menu-box >  ul > li ').click(function(){
+    $('.mobile-menu-box > ul  > li   ').click(function(){
         if ( $(this).hasClass('active') ){
             $(this).removeClass('active');
         }
@@ -76,11 +76,14 @@ function MySlider1__init() {
       1000:{
         items:4
       },
-      800:{
+      600:{
         items:3
       },
-       0:{
+      400:{
         items:2
+      },
+       200:{
+        items:1
       },
     },
     loop:false,

@@ -94,6 +94,9 @@
 
 <!-- 모바일 박스 -->
 <div class="mobile-top-bar flex">
+<div class="logo-box flex">
+                <img src="https://milly55.github.io/img1/pf/mods/logo.png" alt="">
+            </div>
     <a href="#" onclick="return false;" class="btn-toggle-mobile-side-bar flex">
     <div><img src="https://milly55.github.io/img1/pf/mods/mobile_btn.png" alt=""></div> 
     </a>
@@ -105,10 +108,10 @@
         <div class="mobile-login-box">
             <ul class="flex">
                 <li>Log-in</li>
-                |
+                <li>|</li> 
                 <li>Join</li>
-                |
-                <li>상담신청</li>
+                <li>|</li>
+                <li style="  margin-right: 30px;">상담신청</li>
                 <li><img src="https://milly55.github.io/img1/pf/mods/mobile_x_btn.png" alt=""></li>
             </ul>
         </div>
@@ -122,12 +125,54 @@
                             <li><a href="#">둘러보기</a></li>
                         </ul>
                     </li>
-                    <li><a href="#"> - BEST ITEM</a></li>
-                    <li><a href="#">- ANTI-AGING CENTER</a></li>
-                    <li><a href="#">- MEDI GYM</a></li>
-                    <li><a href="#">- Funtion-Center</a></li>
-                    <li><a href="#">- MEDIA</a></li>
-                    <li><a href="#">- C/S CENTER</a></li>
+                    <li><a href="#"> - BEST ITEM</a>
+                        <ul>
+                            <li><a href="#">웨딩페키지</a></li>
+                            <li><a href="#">도수치료</a></li>
+                            <li><a href="#">순환스트레칭</a></li>
+                            <li><a href="#">동안테스트</a></li>
+                            <li><a href="#">비대면상담</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">- ANTI-AGING CENTER</a>
+                        <ul>
+                            <li><a href="#">모즈페키지</a></li>
+                            <li><a href="#">모즈특화센터</a></li>
+                            <li><a href="#">성형센터</a></li>
+                            <li><a href="#">피부센터</a></li>
+                            <li><a href="#">에스테틱</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">- MEDI GYM</a>
+                        <ul>
+                            <li><a href="#">다이어트</a></li>
+                            <li><a href="#">ENS</a></li>
+                            <li><a href="#">통증관리</a></li>
+                            <li><a href="#">도수치료</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">- Funtion-Center</a>
+                        <ul>
+                            <li><a href="#">기능코수술</a></li>
+                            <li><a href="#">도수치료</a></li>
+                            <li><a href="#">영양수액</a></li>
+                            <li><a href="#">통증수액</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">- MEDIA</a>
+                         <ul>
+                            <li><a href="#">모즈이벤트</a></li>
+                            <li><a href="#">겔러리</a></li>
+                            <li><a href="#">유튜브</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">- C/S CENTER</a>
+                        <ul>
+                            <li><a href="#">온라인상담</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">시술 후 주의사항</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
     </div>
@@ -135,29 +180,30 @@
 
 <!--  끝  -->
 
-
 <div class="top-btn-box">
     <div class="top-btn-img">
-        <div class="btn-img-box" style="background-image:url(https://milly55.github.io/img1/pf/mods/main_SL_wedding.jpg)">
-            <div class="btn-txt-1 flex">
-                <ul class="flex">
-                    <li>MODS<span style="color:#fff280;"> Wedding package</span> </li>
-                    <li>일상에 단 한번, 내가 가장 예쁜 주인공이 되는 날</li>
-                    <li>예비 신부님께 드리는 하나뿐인 선물</li>
-                    <li><a href="#">자세히 보기</a> </li>
-                </ul>
-            </div>
-        </div>
+        <div class="btn-img-box" style="background-image:url(https://milly55.github.io/img1/pf/mods/main_SL_wedding.jpg)"></div>
     </div>
-</div>
-
-<div class="login-box flex ">
+    <div class="mobil-img-box">
+        <div class="img-box-1" style="background-image:url(https://milly55.github.io/img1/pf/mods/main_wedding.jpg)"></div>
+    </div>
+    <div class="btn-txt-1 flex">
+        <ul class="flex">
+            <li class="flex">MODS<span style="color:#fff280;"> Wedding package</span> </li>
+            <li>일상에 단 한번, 내가 가장 예쁜 주인공이 되는 날</li>
+            <li>예비 신부님께 드리는 하나뿐인 선물</li>
+            <li><a href="#">자세히 보기</a> </li>
+        </ul>
+        <div class="login-box flex ">
     <ul class="flex">
         <li><a href="#">LOG-IN</a></li>
         <li>|</li>
         <li><a href="#">JOIN</a></li>
     </ul>
 </div>
+    </div>
+</div>
+
 
 <span class="link-img"><img src="https://milly55.github.io/img1/pf/mods/btn_sang_over.png" alt=""></span>
 
