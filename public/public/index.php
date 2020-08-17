@@ -49,7 +49,7 @@ while ( true ) {
         </div>
         </div>
     </div>
-        <div style="background-image:url(https://milly55.github.io/img1/blog/article/img/poto-1.png);">
+        <div style="background-image:url(https://ifh.cc/g/xjiI1o.jpg);">
         <div class="btn-txt-bar flex">
         <div class="btn-txt-box flex">
             <div class="btn-txt-1">Welcome D&B 블로그</div>

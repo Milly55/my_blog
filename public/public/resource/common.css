@@ -303,41 +303,44 @@ label[for] {
 
 /* 탑 바 시작 */
 
+.img-box{
+  top:50%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
 
 
+.top-bar {
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+}
 
-.top-bar{
+.top-bar > .logo-box{
+  margin-top:80px;
+  justify-content: center;
+}
+
+.top-bar > .menu-bar > .menu-box-1{
   position: fixed;
   z-index: 2;
-  top:5%;
+  top:0;
   left:0;
   right: 0;
-  background-color: white;
-  transition: 0.3s;
-  padding: 10px 0;
-}
-
-.top-bar-wdith{
-  top:0;
-  max-width:2000px;
-  padding: 0;
+  transition: background-color 0.3s;
 }
 .top-bar >.menu-bar >  .menu-box-1 > ul {
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: white;
+  justify-content: space-around;
 }
 .top-bar >.menu-bar >  .menu-box-1 > ul > li{
   position: relative;
 }
-.top-bar >.menu-bar >  .menu-box-1 > ul > li > .logo-box{
-  height: 100%;
-  width: 100%;
-}
 .top-bar > .menu-bar > .menu-box-1 > ul > li > a{
     transition:  0.3s;
     font-weight: bold;
-    font-size: 20px;    
+    font-size: 20px;   
+    padding:20px 10px ; 
     align-items: center;
     position: relative;
 
@@ -349,8 +352,8 @@ label[for] {
   left: 50%;
   transform: translateX(-50%);
   width: 0;
-  height: 3px;
-  background-color:#F9B800;
+  height: 5px;
+  background-color:black;
   transition: width 0.3s;
 
 }

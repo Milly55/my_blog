@@ -71,39 +71,34 @@ $(function(){
     
 });
 
-
+function MenuBox_menu(){
+    $(document).ready(function(){
+        $(window).scroll(function(){
+          var scroll = $(window).scrollTop();
+          if (scroll > 1) {
+            $(".top-bar > .menu-bar > .menu-box-1").css("background" , "#E9967A");
+            $(".top-bar > .menu-bar > .menu-box-1 > ul > li > a").css("color" , "white");
+            $(".top-menu-bar").css("background-color" , "#02042f");
+            $(".top-menu-bar").css("opacity" , "0.9");
+        }
+          else{
+            $(".top-bar > .menu-bar > .menu-box-1").css("background" , "");   
+            $(".top-bar > .menu-bar > .menu-box-1 > ul > li > a").css("color" , "");
+            $(".top-menu-bar").css("background-color" , "");   
+            $(".top-menu-bar").css("opacity" , "");
+          }
+        })
+      });
+}
+$(function(){
+    MenuBox_menu();   
+});
 
 function a(){
     $('.slider-bar > .side-bar > div:last-child').click();
 }
 
 setInterval (a,5000);
-
-
-
-
-var $window = $(window);
-
-function TopBox__init() {
-    var $topBox = $(".top-bar");
-    
-    $(window).scroll(function () {
-        var scrollTop = $window.scrollTop();
-        console.log(scrollTop);
-
-        if (scrollTop > 0) {
-            $topBox.addClass("top-bar-wdith");
-        } else {
-            $topBox.removeClass("top-bar-wdith");
-            
-        }
-    });
-}
-
-$(function () {
-    TopBox__init();
-});
-
 
 
 
@@ -127,17 +122,4 @@ $(function () {
 
 $(function(){
     MySlider1__init();
-})
-
-
-function Img__box(){
-  lightbox.option({
-    resizeDuration: 200,
-    wrapAround: true,
-    disableScrolling: false,
-    fitImagesInViewport:false
-  })
-}
-$(function(){
-  Img__box();
 })

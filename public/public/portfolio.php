@@ -5,9 +5,7 @@ include "../part/head.php";
 <link rel="stylesheet" href="/resource/portfolio.css">
 
 
-<section class="portfolio-btn-box">
-    <img src="https://milly55.github.io/img1/blog/article/img/poto-2.png" alt="">
-</section>
+
 <div class="portfolio-bar ">
     <h1>My Portfolio</h1>
     <div class="portfolio-box  con ">    
@@ -59,38 +57,12 @@ include "../part/head.php";
         </ul> 
         </li>
 
-        <li class="flex"><div class="more-1">모작</div><a href="/pf/mods/index.php"  target="_blank">
-        <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/mods/main_SL_wedding.jpg);"></div></a>
-        <ul class="flex">
-            <li class="flex font-snw">모즈 클리닉<i class="fas fa-link"></i></li>
-            <li class="flex" style="font-size: 15px;">(모작사이트/반응형), (HTML,CSS,JS)</li>
-            <li class="flex">사이트주소: <a href="https://www.modsclinic.co.kr/NEW/" target="_blank">모즈 클리닉</a></li>
-        </ul> 
-        </li>
-    </ul>
-    <ul  class="flex">
-    <li class="flex"><div class="more-1" style=" background-color: rgb(250, 210, 99); color: black; ">리디자인</div><a href="/pf/domino/index.php"  target="_blank">
-        <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/domino/main-1.png);"></div></a>
-        <ul class="flex">
-            <li class="flex font-snw">도미노피자<i class="fas fa-link"></i></li>
-            <li class="flex" style="font-size: 15px;">(모작사이트/리디자인/반응형), (HTML,CSS,JS)</li>
-            <li class="flex">사이트주소: <a href="https://web.dominos.co.kr/main" target="_blank">도미노피자</a></li>
-        </ul> 
-        </li>
-        <li class="flex"><div class="more-1">모작</div><a href="/pf/domino/index.php"  target="_blank">
+        <li class="flex"><div class="more-1">모작</div><a href="/pf/kyung/index.php"  target="_blank">
         <div class="img-box" style="background-image:url();"></div></a>
         <ul class="flex">
-            <li class="flex font-snw">모작<i class="fas fa-link"></i></li>
+            <li class="flex font-snw">홈페이지<i class="fas fa-link"></i></li>
             <li class="flex" style="font-size: 15px;">(모작사이트/반응형), (HTML,CSS,JS)</li>
-            <li class="flex">사이트주소: <a href="#" target="_blank">모작</a></li>
-        </ul> 
-        </li>
-        <li class="flex"><div class="more-1">모작</div><a href="/pf/domino/index.php"  target="_blank">
-        <div class="img-box" style="background-image:url();"></div></a>
-        <ul class="flex">
-            <li class="flex font-snw">모작<i class="fas fa-link"></i></li>
-            <li class="flex" style="font-size: 15px;">(모작사이트/반응형), (HTML,CSS,JS)</li>
-            <li class="flex">사이트주소: <a href="#" target="_blank">모작</a></li>
+            <li class="flex">사이트주소: <a href="#" target="_blank">홈페이지</a></li>
         </ul> 
         </li>
     </ul>
@@ -114,21 +86,6 @@ include "../part/head.php";
     <div class="item">none</div>
   </div>
 </div>
-
-
-
-<h1>디자인</h1>
-<a data-title="여름 세일" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/summerbanner.png">여름 배너</a>
-<a data-title="이순신 탄신일 축제" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/generalLee.png" style="display:none;"> 출처: 망고보드(이순신)</a>
-
-
-<h1>웹</h1>
-<a data-title="빙그레 메인홈" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/매인 홈.png">모작</a>
-<a data-title="빙그레 메뉴바" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/메뉴바.png" style="display:none;">모작</a>
-<a data-title="빙그레 이밴트 페이지" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/이밴트 페이지.png" style="display:none;">모작</a>
-<a data-title="도미노 시안" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/시안1.png" style="display:none;">모작</a>
-<a data-title="도미노 배너시안" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/배너시안.png" style="display:none;">모작</a>
-
     <?php
 include "../part/foot.php";
 ?>
