@@ -107,3 +107,43 @@ function Silder__a(){
 $(function(){
    Silder__a(); 
 })
+
+
+
+function MySlider2__init() {
+  var owl = $(".meddil-silder-box");
+  owl.owlCarousel({
+    items: 1,
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 10000,
+    autoplayHoverPause: true,
+    dots:true
+  });
+  $(".play").on("click", function () {
+    owl.trigger("play.owl.autoplay", [1000]);
+  });
+  $(".stop").on("click", function () {
+    owl.trigger("stop.owl.autoplay");
+  });
+}
+$(function(){
+    MySlider2__init();
+})
+
+
+
+
+function FootBar__a(){
+    $(".foot-bar-2 .language-box > ul ").click(function () {
+        if ($(".foot-bar-2 .language-box > ul > li").hasClass("active")) {
+            $(".foot-bar-2 .language-box > ul > li").removeClass("active");
+        } else {
+            $(".foot-bar-2 .language-box > ul > li").addClass("active");
+        }
+    });
+}
+$(function(){
+   FootBar__a();
+})
