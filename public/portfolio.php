@@ -69,7 +69,7 @@ include "../part/head.php";
         </li>
     </ul>
     <ul  class="flex">
-    <li class="flex"><div class="more-1" style=" background-color: rgb(250, 210, 99); color: black; ">리디자인</div><a href="/pf/domino/index.php"  target="_blank">
+    <li class="flex"><div class="more-1" style=" background-color: rgb(250, 210, 99); color: black; ">리디자인</div><a href="pf/domino/index.php"  target="_blank">
         <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/domino/main-1.png);"></div></a>
         <ul class="flex">
             <li class="flex font-snw">도미노피자<i class="fas fa-link"></i></li>
