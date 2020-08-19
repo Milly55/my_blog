@@ -88,12 +88,14 @@
     <div class="owl-carousel owl-theme btn-silder-1">
         <div class="item">
             <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/domino/main-1.png)">
-                <div class="img-txt flex">
+                <div class="img-txt-box-1   img-txt flex">
                     <ul>
-                        <li>불고기와 쉬프림의 만남</li>
-                        <li><span>블랙</span>타이거</li>
-                        <li>쉬림프 피자!!</li>
-                        <li>도미노 피자 인기매뉴 <span>29,000원 부터 ~</span></li>
+                        <li>불고기와 <span style=" color: #F94105;">쉬림프</span>의 만남</li>
+                        <li style="font-size: 60px;"><span style="font-weight: bold;">블랙</span>타이거</li>
+                        <li style="font-size: 60px;"><span style=" color: #F94105;">쉬림프</span> 피자!!</li>
+                        <li>도미노 피자 인기매뉴!</li>
+                        <li style="font-size:18px;">※ 제품 이미지는 실제 제품과 다를수 있습니다.</li>
+                        <li><span>M기준</span> <span>29,000원</span></li>
                         <li class="flex"><a href="#">MORE ></a></li>
                     </ul>
                 </div>
@@ -101,15 +103,16 @@
         </div>
         <div class="item">
             <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/domino/main-2.png)">
-                <div class="img-txt-2 flex">
+                <div class="img-txt-box-2 img-txt flex">
                     <ul>
-                        <li style="color:#FF2C2C; font-size:20px;">화끈한 화요일</li>
-                        <li>온라인 포장 주문시</li>
-                        <li>피자 <span>40% 할인</span></li>
+                        <li style="color:#FC2727; font-size:20px;">화끈한 화요일</li>
+                        <li style="font-size: 50px; font-weight: 450;">온라인 포장 주문시</li>
+                        <li style="font-size: 50px; font-weight: 450;">피자 <span style=" color: #FC2727; font-weight: bold;">40% 할인</span></li>
                         <li style="font-size:18px;">2020.01.21 ~ 12.31</li>
                         <li style="font-size:18px;">※ 일부매장 제외 / 자세한 내용은 이벤트 페이지 참조</li>
                         <li style="font-size:18px;">※ 제품 이미지는 실제 제품과 다를수 있습니다.</li>
-                        <li class="flex"><a href="#">MORE ></a></li>
+                        <li><span>M기준</span> 시리얼 칠리크랩</li>
+                        <li><span class="sayle-1">29,000원</span>17,400원  <span><a href="#">MORE ></a></span> </li>
                     </ul>
                 </div>
             </div>
@@ -494,7 +497,10 @@
 
 <section class="foot-bar-1">
     <div class="foot-box-1 con">
-        <div class="foot-title-1 flex">도미노 소식</div>
+        <div class="foot-title-1 flex">
+           <nav>도미노 <span>News</span> </nav> 
+           <nav>도미노의 새소식을 전해드려요~</nav>
+        </div>
         <div class="domino-news-box flex">
             <div class="domino-news-1 flex news-a">
                 <img src="https://milly55.github.io/img1/pf/domino/ebent-1.png" alt="">
