@@ -1,0 +1,185 @@
+.menu-list-bar > .top-btn-box {
+    height: 40vh;
+}
+.menu-list-bar > .top-btn-box > .img-box{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.menu-list-bar > .top-btn-box > .img-box > .top-btn-txt{
+    height: 100%;
+    justify-content: center;
+}
+.menu-list-bar > .top-btn-box > .img-box > .top-btn-txt > ul{
+    justify-content: center;
+    margin-left: 300px;
+    flex-direction: column;
+}
+.menu-list-bar > .top-btn-box > .img-box > .top-btn-txt > ul > li:first-child{
+    margin-top:130px;
+}
+.menu-list-bar > .top-btn-box > .img-box > .top-btn-txt > ul > li:last-child{
+    margin-top:10px;
+    font-weight: bold;
+}
+.menu-list-bar > .top-btn-box > .img-box > .top-btn-txt > ul > li:last-child > span{
+    border: 1px solid black;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+}
+
+
+
+.menu-list-box {
+    margin-top:30px;
+    border-bottom: 1px solid #afafaf;
+}
+.menu-list-box > .menu-list-title > span{
+    font-size: 30px;
+}
+.menu-list-box > .menu-list-title >  ul{
+    margin:20px 0;
+    font-size: 17px;
+    justify-content: space-evenly;
+
+}
+.menu-list-box > .menu-list-title >  ul > li:last-child{
+    font-size: 18px;
+    font-size: 15px;
+    padding-right: 20px;
+}
+.menu-list-box > .menu-list-title >  ul > li:last-child > span:first-child{
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+.menu-list-box > .menu-list-title >  ul > li:last-child > span:last-child{
+    color: red;
+    margin-left: 10px;
+}
+
+.list-title-1{
+    justify-content: center;
+    margin-top:50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu-img-list {
+   height: 430vh;
+   flex-direction: column;
+}
+.menu-img-list > .list-box{
+    margin-top:50px;
+    height: 45vh;
+    justify-content: center;
+}
+.menu-img-list > .lste-list-box{
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+.menu-img-list > .list-box >  ul > li {
+    height:30vh;
+    width:15vw;
+    position:relative;
+    border-radius:20px;
+    margin:0 10px;
+    cursor: pointer;
+}
+.menu-img-list  > .list-box > ul > li > .icon-1{
+    position:absolute;
+    bottom:0;
+    right:0;
+    height:10%;
+    width:10%;
+    color:white;
+    background-color:black;
+    border-radius:20px;
+    align-items:center;
+    justify-content:center;
+    transition:0.3s;
+}
+.menu-img-list > .list-box >  ul > li:hover > .icon-1{
+    height:100%;
+    width:100%;
+    opacity:0.7;
+    font-size:30px;
+}
+.menu-img-list  > .list-box > ul > li > .menu-list-1{
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100%;
+    width:100%;
+}
+/* contain */
+
+
+.menu-img-list  > .list-box > ul > li > ul{
+    margin-top:10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-img-list > .list-box >  ul > li > ul > li{
+    align-items: center;
+}
+.menu-img-list  > .list-box > ul > li > ul > li:first-child{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.menu-img-list  > .list-box > ul > li > ul > li:first-child > span{
+    background-color: #FF2C2C;
+    border-radius:10px;
+    padding: 0 10px;
+    display: block;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.menu-img-list  > .list-box > ul > li > ul > li:nth-child(2) > span{
+    color: #FF2C2C;
+    margin: 0 5px;
+}
+.menu-img-list  > .list-box > ul > li > ul > li:last-child{
+    color: gray;
+    font-size: 15px;
+    margin-top:5px;
+}
+
+
+.precaution-bar{
+    margin-top:50px;
+    border-top: 2px solid #afafaf;
+    font-size: 15px;
+    color: gray;
+}
+.precaution-box{
+    flex-direction: column;
+    align-items: center;
+}
+.precaution-box  > ul{
+    margin-top:30px;
+    flex-direction: column;
+}
+.precaution-box  > ul > li{
+    padding: 5px 0;
+    justify-content: center;
+}
+.precaution-box  > ul > li:nth-child(4){
+    margin-top:20px;
+}
+.precaution-box  > ul > li:last-child{
+    margin-top:20px;
+}
+.precaution-box  > ul > li:last-child > a>  span{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    
+}

@@ -1,0 +1,133 @@
+/* 리스트 박스 시작*/
+
+
+.main-list-bar{
+    margin-top:70px;
+    
+}
+.main-list-box > .cate-list-lnke {
+    margin-top:50px;
+    justify-content: space-around;
+    position: relative;
+}
+.main-list-box > .cate-list-lnke > ul{
+    flex-direction: column;
+    padding: 10px;
+    font-size: 16px;
+}
+.main-list-box > .cate-list-lnke > ul > li{
+    padding: 10px 0;
+}
+.main-list-box > .cate-list-lnke > ul > li > a{
+    padding:0 5px;
+}
+.main-list-box > .cate-list-lnke > ul > li:hover > a{
+    text-decoration: underline;
+}
+.main-list-box > .cate-list-lnke > ul > li:first-child{
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main-list-box > .cate-list-lnke > .list-box{
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 1000px;
+    flex-direction: column;
+    text-align: center;
+
+}
+.main-list-box > .cate-list-lnke > .list-box > .lists-1{
+    border-bottom: 1px solid black;
+    padding: 20px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.list-bar  >  .list-box-1 > ul {
+    flex-direction: column;
+}
+.list-bar  >  .list-box-1 > ul > li {
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    transition: 0.3s;
+    margin:40px 30px;       
+}
+.list-bar  >  .list-box-1 > ul > li:hover{
+    box-shadow: 3px 3px 8px 5px #afafaf;
+}
+
+.list-bar  >  .list-box-1 > ul > li > a > .list-txt-1 {
+    margin-left: 20px;
+    flex-direction: column;
+}
+.list-bar  >  .list-box-1 > ul > li > a > .list-txt-1 > .title-box{
+    margin-top:10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.list-bar  >  .list-box-1 > ul > li > a > .list-txt-1 > .summary-box{
+    margin:auto 0;
+}
+.preparation-date {
+    justify-content: flex-end;
+}
+.preparation-date > ul > li{
+    padding: 0 10px;
+    color: #808080;
+    margin-top:30px;
+}
+
+@media(max-width:750px){
+    .list-bar  >  .list-box-1 > ul > li > a > .list-txt-1 > .summary-box{
+        white-space: nowrap;
+        text-overflow:ellipsis;
+        overflow-x: hidden;
+        width: 200px;
+    }
+}
+
+@media(max-width:750px){
+    .list-title-bar{
+        margin-top:50px;
+    }
+}
+@media(max-width:750px){
+    .list-bar  >  .list-box-1 > ul > li > a > img{
+        height: 200px;
+    }
+}
+@media(max-width:750px){
+    .list-bar  >  .list-box-1 > ul > li > a {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+}
+
+/* 리스트 박스 끝*/
+
+
+
+
+
+
+
+
+ /* 노 개시물 시작 */
+.list-none {
+    margin-top:10%;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+@media(max-width:750px){
+    .list-none{
+        font-size: 20px;
+    }
+}
+ /* 노 개시물 끝 */
+
+
+
