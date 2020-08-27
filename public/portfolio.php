@@ -5,6 +5,10 @@ include "../part/head.php";
 <link rel="stylesheet" href="/resource/portfolio.css">
 
 
+<div class="pf-main-btn">
+    <div class="img-box-pf" style="background-image:url(https://milly55.github.io/img1/pf/design/pf-main.png);"></div>
+</div>
+
 
 <div class="portfolio-bar ">
     <h1>My Portfolio</h1>
@@ -112,6 +116,16 @@ include "../part/head.php";
     <div class="item">none</div>
   </div>
 </div>
+
+<div class="pf-1">
+<ul>
+    <li><a href="https://milly55.github.io/img1/pf/design/포폴시안.png" target="_blank">포폴시안</a></li>
+    <li><a href="https://milly55.github.io/img1/pf/design/포폴시안사이드.png" target="_blank">포폴시안사이드</a></li>
+    <li><a href="https://milly55.github.io/img1/pf/design/포폴시안팝업.png" target="_blank">포폴시안팝업</a></li>
+</ul>
+</div>
+
+
 
 
 

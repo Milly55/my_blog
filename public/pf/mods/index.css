@@ -899,6 +899,12 @@ body{
   padding:10px 0;
     color:black;
 }
+@media (max-width:750px){
+  .my-slider-1 .item > .slider-txt > ul > li{
+    font-size: 15px;
+  }
+}
+
 .my-slider-1 .item > .slider-txt > ul > li:last-child > a {
   background-color: #edcc9d;
   padding: 5px 50px;
@@ -944,8 +950,16 @@ body{
 .middle-bar-1 .middle-box-4{
     height:80vh;
     position:relative;
+    border:3px solid blue;
+    justify-content: center;
+}
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-4{
+    height:60vh;
+  }
 }
 .middle-bar-1 .middle-box-4 > .background-img-3{
+  position: absolute;
    height:100%;
     width:100%;
     background-position:center;
@@ -953,19 +967,29 @@ body{
    background-size: cover;
 }
 .middle-bar-1 .middle-box-4 > .middle-title-4{
-    position:absolute;
-    top:10%;
-    left:40%;
     flex-direction:column;
+    align-items: center;
     color:white;
+    z-index: 1;
 }
 .middle-bar-1 .middle-box-4 > .middle-title-4 > ul{
    flex-direction:column;
     align-items:center;
     text-align:center;
+    margin-top:20px;
+}
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-4 > .middle-title-4 > ul{
+     margin-top:50px;
+ }
 }
 .middle-bar-1 .middle-box-4 > .middle-title-4 > ul > li:first-child{
     font-size:40px;
+}
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-4 > .middle-title-4 > ul > li:first-child{
+    font-size:30px;
+  }
 }
 .middle-bar-1 .middle-box-4 > .middle-title-4 > ul.brand-txt-1 > li{
     padding:5px 0;
@@ -974,6 +998,19 @@ body{
 .middle-bar-1 .middle-box-4 > .middle-title-4 > ul.brand-txt-1 > li:last-child{
     font-size:19px;
     font-weight:200;
+}
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-4 > .middle-title-4 > ul.brand-txt-1 > li:last-child{
+    font-size:15px;
+  }
+}
+.middle-bar-1 .middle-box-4 > .middle-title-4 > ul.brand-txt-2{
+  margin-left: 1000px;
+}
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-4 > .middle-title-4 > ul.brand-txt-2{
+    margin-left:0;
+  }
 }
 .middle-bar-1 .middle-box-4 > .middle-title-4 > ul.brand-txt-2 > li{
     padding:10px 0;
@@ -986,11 +1023,21 @@ body{
     font-size:19px;
     font-weight:200;
 }
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-4 > .middle-title-4 > ul.brand-txt-2 > li:nth-child(2){
+    font-size:15px;
+  }
+}
 .middle-bar-1 .middle-box-4 > .middle-title-4 > ul.brand-txt-2 > li > a{
     border:2px solid white;
     padding:10px 50px;
     display:block;
     transition: 0.3s;
+}
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-4 > .middle-title-4 > ul.brand-txt-2 > li > a{
+    padding: 5px 40px;
+  }
 }
 .middle-bar-1 .middle-box-4 > .middle-title-4 > ul.brand-txt-2 > li > a:hover{
     background-color:white;
@@ -1001,14 +1048,41 @@ body{
     align-items:center;
     height:80vh;
 }
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-4-a{
+    display: none;
+  }
+}
+.middle-bar-1 .middle-box-4-b{
+  display: none;
+}
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-4-b{
+    display: flex;
+    height:60vh;
+    
+  }
+}
+.middle-bar-1 .middle-box-4-b > ul{
+  flex-direction: column;
+  align-items: center;
+  margin-top:50px;
+}
 .middle-bar-1 .middle-box-4-a > ul{
     flex-direction:column;
     align-items:center;
+    text-align: center;
 }
 .middle-bar-1 .middle-box-4-a > ul > li{
     font-size:20px;
     font-weight:300;
     padding:3px 0;
+}
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-4-b > ul > li{
+    font-size:15px;
+    margin: 0 30px;
+  }
 }
 .middle-bar-1 .middle-box-4-a > ul > li:first-child{
     font-family: 'Roboto', sans-serif;
@@ -1016,9 +1090,29 @@ body{
     font-size:33px;
     font-weight:400;
 }
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-4-b > ul > li:first-child{
+    font-size:25px;
+  }
+}
+
+
+
+
 .middle-bar-1 .middle-box-5{
     height:80vh;
     position:relative;
+    border:3px solid blue;
+    justify-content: flex-end;
+    align-items:flex-end;
+}
+
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-5{
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
 }
 .middle-bar-1 .middle-box-5 > .background-img-4{
       height:100%;
@@ -1028,30 +1122,52 @@ body{
    background-size: cover; 
 }
 .middle-bar-1 .middle-box-5 > .middle-title-5{
-    position:absolute;
-    top:55%;
-    left:70%;
+   position: absolute;
     color:white;
 }
 .middle-bar-1 .middle-box-5 > .middle-title-5 > ul{
     flex-direction:column;
     align-items:flex-start;
+    margin-bottom: 80px;
+    margin-right: 200px;
+}
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-5 > .middle-title-5 > ul{
+    margin: 0;
+    align-items: center;
+  }
 }
 .middle-bar-1 .middle-box-5 > .middle-title-5 > ul > li{
     padding:5px 0;
     font-size:19px;
     font-weight:300;
 }
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-5 > .middle-title-5 > ul > li{
+    font-size:15px;
+  }
+}
 .middle-bar-1 .middle-box-5 > .middle-title-5 > ul > li:first-child{
     font-size:40px;
     font-weight:200;
     padding-bottom:20px;
+}
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-5 > .middle-title-5 > ul > li:first-child{
+    font-size:30px;
+  }
 }
 .middle-bar-1 .middle-box-5 > .middle-title-5 > ul > li:last-child{
     margin-top:20px;
     text-align:center;
     font-size:17px;
 }
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-5 > .middle-title-5 > ul > li:last-child{
+    font-size:15px;
+  }
+}
+
 .middle-bar-1 .middle-box-5 > .middle-title-5 > ul > li > a{
      border:2px solid white;
     padding:10px 50px;
@@ -1070,14 +1186,33 @@ body{
     align-items:center;
     height:70vh;
 }
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-5-a{
+    display:none;
+  }
+}
+.middle-bar-1 .middle-box-5-b{
+  display:none;
+}
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-5-b{
+    display:flex;
+  }
+}
 .middle-bar-1 .middle-box-5-a > ul{
     flex-direction:column;
     align-items:center;
+    text-align: center;
 }
 .middle-bar-1 .middle-box-5-a > ul > li{
     font-size:20px;
     font-weight:300;
     padding:3px 0;
+}
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-5-a > ul > li{
+    font-size:15px;
+  }
 }
 .middle-bar-1 .middle-box-5-a > ul > li:first-child{
     font-family: 'Roboto', sans-serif;
@@ -1086,7 +1221,11 @@ body{
     font-weight:400;
 }
 
-
+@media(max-width:750px){
+  .middle-bar-1 .middle-box-5-a > ul > li:first-child{
+    font-size:30px;
+  }
+}
 
 
 

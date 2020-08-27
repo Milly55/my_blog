@@ -385,9 +385,18 @@
                 <li>프라이빗한 진료, 퀄리티, 최상의 서비스, 패키지로 여유롭고 확실한 결과, 그림자 같은 서비스로 쉼터를 제공하고 있습니다.</li>
             </ul>
         </div>
-        <div class="middle-box-5">
+        <div class="middle-box-4-a middle-box-4-b flex">
+            <ul class="flex">
+                <li>We will offer well aging beyond  <br> anti-aging.</li>
+                <li>모즈클리닉은 고객의 삶에 있어 행복이 너무나 귀중하다는 것을 잘 알고 있습니다.
+                여기저기 흔하게 나와 있는 진료 방법을 적용하기는 쉽습니다. 그러나 고객 한 분을 깊이 있게 이해하고
+                조화롭게 진료 방법을 적용해 나가는 일은 어렵습니다. 모즈클리닉은 청담동에 위치한 뛰어난 접근성과
+                프라이빗한 진료, 퀄리티, 최상의 서비스, 패키지로 여유롭고 확실한 결과, 그림자 같은 서비스로 쉼터를 제공하고 있습니다.</li>
+            </ul>
+        </div>
+        <div class="middle-box-5 flex">
             <div class="background-img-4" style="background-image:url(https://milly55.github.io/img1/pf/mods/purple_bg.jpg)"></div>
-            <div class="middle-title-5">
+            <div class="middle-title-5 flex">
                 <ul class="flex">
                     <li>MODS GYM Center</li>
                     <li>모즈클리닉은 지속적인 안티에이징 모니터링과</li>
@@ -402,6 +411,15 @@
                 <li>개인마다 다른 집중도와 비율을 안배 하여야 함에도 불구하고 한 가지 진료 수단으로 끝내는경우가 많습니다.</li>
                 <li>시간과 비용을 들였음에도 효과적인 결과를 내지 못하는 이유는 목적으로 접근하지 않고 진료 방법에 초점을 맞춘 경우입니다.</li>
                 <li>모즈클리닉에서는 각기 다른 고객의 목적에 맞는 패키지를 통해 가장 효과적인 결과를 선사해 드리고 있습니다.</li>
+            </ul>
+        </div>
+        <div class="middle-box-5-a middle-box-5-b flex">
+            <ul class="flex">
+                <li>True anti-aging is effective in comprehensive management.</li>
+                <li>개인마다 다른 집중도와 비율을 안배 하여야 함에도 불구하고 한 가지 진료 수단으로 끝내는경우가 많습니다.
+                시간과 비용을 들였음에도 효과적인 결과를 내지 못하는 이유는 목적으로 접근하지 않고 진료 방법에 초점을 맞춘 경우입니다.
+                모즈클리닉에서는 각기 다른 고객의 목적에 맞는 패키지를 통해 가장 효과적인 결과를 선사해 드리고 있습니다.
+                </li>
             </ul>
         </div>
     </div>
