@@ -1,0 +1,420 @@
+/* 폰트적용 */
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html {
+    font-family: "Noto Sans KR", sans-serif;
+    letter-spacing:-0.5px;
+    word-spacing:2px;
+    word-break:keep-all;
+}
+
+/* 노말라이즈 */
+body, ul, li, h1 {
+    margin:0;
+    padding:0;
+    list-style:none;
+
+}
+
+a {
+    color:inherit;
+    text-decoration:none;
+}
+
+label[for] {
+    cursor:pointer;
+    user-select:none;
+}
+
+/* 라이브러리 */
+.block {
+    display:block;
+}
+
+.inline-block {
+    display:inline-block;
+}
+
+.absolute-left {
+    position:absolute;
+    left:0;
+}
+
+.absolute-right {
+    position:absolute;
+    right:0;
+}
+
+.absolute-bottom {
+    position:absolute;
+    bottom:0;
+}
+
+.absolute-top {
+    position:absolute;
+    top:0;
+}
+
+.absolute-center {
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.absolute-middle {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.absolute-middle.absolute-center {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%);
+}
+
+.relative {
+    position:relative;
+}
+
+.cell {
+    float:left;
+    box-sizing:border-box;
+}
+
+.cell-right {
+    float:right;
+    box-sizing:border-box;
+}
+
+.row::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.clear-both {
+    clear:both;
+}
+
+.img-box > img {
+    width:100%;
+    display:block;
+}
+
+.con {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.margin-0-auto {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.text-align-center {
+    text-align:center;
+}
+
+.text-align-right {
+    text-align:right;
+}
+
+.line-height-0 {
+    line-height:0;
+}
+
+.line-height-0 > * {
+    line-height:normal;
+}
+
+.width-30px {
+    width:30px;
+}
+
+.width-35px {
+    width:35px;
+}
+
+.width-40px {
+    width:35px;
+}
+
+.width-45px {
+    width:35px;
+}
+
+.width-50px {
+    width:50px;
+}
+
+.width-80px {
+    width:80px;
+}
+
+.width-100px {
+    width:100px;
+}
+
+.width-100p {
+    width:100%;
+}
+
+.width-60p {
+    width:60%;
+}
+
+.width-55p {
+    width:55%;
+}
+
+.width-50p {
+    width:50%;
+}
+
+.width-45p {
+    width:45%;
+}
+
+.width-40p {
+    width:40%;
+}
+
+.width-30p {
+    width:30%;
+}
+
+.width-35p {
+    width:35%;
+}
+
+.width-100p-except-30px {
+    width:calc(100% - 30px);
+}
+
+.width-100p-except-35px {
+    width:calc(100% - 35px);
+}
+
+.width-100p-except-40px {
+    width:calc(100% - 40px);
+}
+
+.width-100p-except-50px {
+    width:calc(100% - 50px);
+}
+
+.width-100p-except-80px {
+    width:calc(100% - 80px);
+}
+
+.width-100p-except-100px {
+    width:calc(100% - 100px);
+}
+
+.height-100p {
+    height:100%;
+}
+
+.height-50p {
+    height:50%;
+}
+
+.border-box {
+    box-sizing:border-box;
+}
+
+.font-size-dot-8rem {
+    font-size:.8rem;
+}
+
+.table-row {
+    display:table;
+}
+
+.table-row.row::after {
+    display:inline;
+    clear:non;
+}
+
+.table-row > .cell {
+    float:none;
+    display:table-cell;
+}
+
+/* 라이브러리 - flex */
+* > .flex {
+    display:flex;
+}
+
+* > .flex-grow-1 {
+    flex-grow:1;
+}
+
+* > .flex-jc-end {
+    justify-content:flex-end;
+}
+
+* > .flex-ai-c {
+    display:flex;
+    align-items:center;
+}
+
+* > .flex-column-nowrap {
+    flex-flow:column nowrap;
+}
+
+* > .flex-row-nowrap {
+    flex-direction:row;
+    flex-wrap:nowrap;
+}
+.flex-wrap{
+    flex-wrap:wrap;
+}
+.flex-ch-basis-0 > * {
+    flex-basis:0;
+}
+.flex-jc{
+    justify-content:center;
+}
+* > .flex-1-0-0 {
+    flex:1 0 0;
+}
+
+/* 커스텀 */
+.con-min-width {
+    min-width:1300px;
+}
+
+.con {
+    max-width:1300px;
+}
+.con-1{
+    max-width:900px;
+    margin:0 auto;
+}
+
+body{
+    overflow-x:hidden;
+    background-color:#FCF1DB; 
+}
+
+canvas{
+    position: absolute;
+    background-color:#FFDF4C;
+    height: 60vh;
+    width: 100%;
+}
+.side-page-icon{
+    position: absolute;
+    z-index: 2;
+    margin: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.side-page-box-1{
+    position: absolute;
+    left: -500px;
+    z-index: 3;
+    transition: left 0.5s
+}
+.side-page-box-1.active{
+    left: 0;
+}
+.side-page-box-1 > .side-box-1 > .page-menu-box{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.side-bottom-img-1{
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   margin: 10px;
+   flex-direction: column;
+}
+.side-page-box-1 > .side-box-1 > .page-menu-box > ul{
+    margin-top:-50px;
+    font-family: 'Balsamiq Sans', cursive;
+    flex-direction: column;
+}
+.side-page-box-1 > .side-box-1 > .page-menu-box > ul > li{
+    padding: 30px 0;
+    font-size:30px;
+    font-weight: 400;
+}
+.main-txt{
+    position: absolute;
+    border:3px solid red;
+    width: 100%;
+    justify-content:center;
+    align-items:center;
+    height: 80vh;
+    z-index: 1;
+}
+.main-box > .logo-box{
+    position: absolute;
+    top:2%;
+    width: 100%;
+    justify-content: center;
+    z-index: 1;
+}
+.main-txt > .txt-1{
+    position: absolute;
+    left:-50%;
+    flex-direction: column;
+    transition: left 2s;
+}
+.main-txt > .txt-1.active{
+    left: 32%;
+}
+.main-txt > .txt-1 > ul{
+    align-items: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size:90px;
+    font-weight: bold;
+    line-height: 65px;
+}
+.main-txt > .txt-1 > ul.btn-txt-1 > li:first-child{
+    margin: 0 20px;
+    margin-left: -200px;
+    opacity: 0;
+    transition: opacity 2s 0.5s, margin 2.5s;
+}
+.main-txt > .txt-1.active  > ul.btn-txt-1 > li:first-child{
+    margin-left: 0;
+    opacity: 1;
+}
+
+.main-txt > .txt-1 > ul.btn-txt-1 >li:last-child{
+    opacity: 0;
+    transition: opacity 4s 3s;
+}
+.main-txt > .txt-1.active > ul.btn-txt-1 >li:last-child{
+    opacity: 1;
+}
+.main-txt > .txt-1 > ul.btn-txt-2 >li{
+    margin: 0 20px;
+}
+.main-txt > .txt-1 > ul.btn-txt-2 >li:first-child{
+    margin-left: -300px;
+    opacity: 0;
+    transition: opacity 3s 1s, margin 3s 2s;
+}
+.main-txt > .txt-1.active > ul.btn-txt-2 >li:first-child{
+    margin-left: 0;
+    opacity: 1;
+}
+.main-txt > .txt-1 > ul.btn-txt-2 >li:last-child{
+    margin-left: -200px;
+    opacity: 0;
+    transition: opacity 2s 0.5s, margin 2.5s 0.5s;
+}
+.main-txt > .txt-1.active > ul.btn-txt-2 >li:last-child{
+    margin-left: 0;
+    opacity: 1;
+}
