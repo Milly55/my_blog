@@ -315,12 +315,14 @@ label[for] {
   background-color: white;
   transition: 0.3s;
   padding: 10px 0;
+
 }
 
 .top-bar-wdith{
   top:0;
   max-width:2000px;
   padding: 0;
+  border-bottom:1px solid #afafaf;
 }
 .top-bar >.menu-bar >  .menu-box-1 > ul {
   justify-content: space-evenly;

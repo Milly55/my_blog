@@ -423,7 +423,7 @@
             </ul>
         </div>
     </div>
-    <div class="slider-k slider-k1 height-100vh" data-autoplay="Y" data-autoplay-dir="right" data-autoplay-interval="7000">
+    <div class="slider-k slider-k1 " data-autoplay="Y" data-autoplay-dir="right" data-autoplay-interval="7000">
         <div class="slides">
             <div class="active" style="background-image:url(https://milly55.github.io/img1/pf/mods/hosp_4.jpg)">
                 <div class="background-1" style="background-image:url(https://milly55.github.io/img1/pf/mods/hosp_1.jpg)"></div>

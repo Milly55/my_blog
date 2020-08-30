@@ -957,6 +957,7 @@ html.popup-1-active, html.popup-1-active > body {
 }
 .bottom-box-1 > .bottom-list-1 > ul > li > img{
     height:100%;
+    width: 100%;
 }
 .bottom-box-1 > .bottom-list-1 > ul > li::after{
     content:"";

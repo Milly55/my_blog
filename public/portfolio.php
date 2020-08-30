@@ -99,6 +99,7 @@ include "../part/head.php";
   </div>
 </div>
 </div>
+<a href="/pf/portfolio_2/portfolio_2.php"  target="_blank">포폴</a>
 
 <div class="my-slider-11 ">
   <div class="owl-carousel owl-theme ">
