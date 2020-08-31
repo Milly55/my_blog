@@ -39,8 +39,8 @@
     <div class="page-menu-box con flex">
         <ul class="flex">
             <li class="btn-scroll" btn-index="1">Main</li>
-            <li  class="btn-scroll" btn-index="2">About Me</li>
-            <li  class="btn-scroll" btn-index="3">Portfolio</li>
+            <li class="btn-scroll" btn-index="2">About Me</li>
+            <li class="btn-scroll" btn-index="3">Portfolio</li>
             <li  class="btn-scroll" btn-index="4">Design</li>
             <li class="btn-scroll" btn-index="5">Media</li>
         </ul>
@@ -69,7 +69,6 @@
     </div>
 </section>
 
-
 <section class="section about-bar-1 " section-index="2">
     <div class="about-box-1 con">
         <div class="about-title-box  flex">
@@ -81,7 +80,7 @@
                 <div class="img-box-background"></div>
             </div>
             <div class="profile-txt-box ">
-                <div class="profile-title-1 flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt=""> profile</div>
+                <div class="profile-title-1 flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt=""> <span>Profile</span></div>
                 <nav class="box-1 flex">
                 <ul class="profile-txt-1">
                     <li>NAME</li>
@@ -105,15 +104,16 @@
                 </ul>
                 </nav>
                 <div class="skill-button flex">
-                    <span>Skill</span>
+                    <span  class="btn-scroll" btn-index="6">Skill</span>
                 </div>
             </div>
         </div>
     </div>
-    <div class="skill-box-1">
+    <section class="section skill-box-1 flex"  section-index="6">
     <div class="skill-title-1 flex"> <img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt=""> <span>SKILL</span>  </div>
-    </div>
+    </section>
 </section>
+
 <!-- <script>
     function fnMove(seq) {
         var offset = $("#div" + seq).offset();

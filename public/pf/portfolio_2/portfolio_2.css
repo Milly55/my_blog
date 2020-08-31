@@ -513,7 +513,6 @@ canvas{
   .page-menu-bar > .page-menu-box > ul > li{
       position: relative;
       cursor: pointer;
-
   }
   .page-menu-bar > .page-menu-box > ul > li::after{
     content:"";
@@ -536,6 +535,7 @@ canvas{
     z-index: 1;
     padding: 60px 0;
     background-color: white;
+    position: relative;
 }
 .about-bar-1 .about-title-box {
     justify-content: center;
@@ -588,6 +588,9 @@ canvas{
     font-size: 30px;
     margin-left: 25px;
 }
+.profile-txt-box > .profile-title-1 > span{
+    margin: 0 10px;
+}
 .profile-txt-box > .box-1 > ul{
     margin-top:20px;   
 }
@@ -615,7 +618,7 @@ canvas{
     position: relative;
     overflow: hidden;
     transition: color 1s;
-    z-index: 2;
+    z-index:1;
     cursor: pointer;
 }
 .skill-button > span:hover{
@@ -637,11 +640,26 @@ canvas{
     left: -1%;
 }
 
-.skill-box-1{
-    margin-top:220px;
-    height: 80vh;
-    background-color: white;
+
+
+.background-item-1{
+    position: absolute;
+    top:0;
+    right: 0;
 }
-.ll{
-    height: 100vh;
+
+.skill-box-1{
+    background-color: white;
+    border:3px solid red;
+    margin-top:100px;
+    justify-content: center;
+}
+.skill-box-1 > .skill-title-1{
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Balsamiq Sans', cursive;
+    
+}
+.skill-box-1 > .skill-title-1 > span{
+    margin: 0 10px;
 }
