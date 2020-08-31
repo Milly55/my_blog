@@ -82,13 +82,26 @@ function Popup_Show(){
 //     MobileSideBar__init();
 // });
 
-
 function fnMove(seq) {
-    var offset = $("#div" + seq).offset();
-    $("html, body").animate({ scrollTop: offset.top }, 400);
+    var $this = $(this);
+    var btnIndex = $this.attr('btn-index');
+    var $section = $('section[section-index="'+ btnIndex +'"]');    
+    var SectionOffset = $section.offset().top;
+    console.log(SectionOffset);
+    $("html, body").animate({ scrollTop: SectionOffset }, 400);
 }
+$(function(){
+    $('.btn-scroll').click(fnMove);
+})
 
-$(function() {
-    fnMove();
-});
-    
+// $(function(){
+//     function fnMove(seq) {
+//         var offset = $("#div" + seq).offset();
+//         $("html, body").animate({ scrollTop: offset.top }, 400);
+//     }
+// })
+
+
+
+
+

@@ -38,23 +38,23 @@
 <section class="page-menu-bar">
     <div class="page-menu-box con flex">
         <ul class="flex">
-            <li>Main</li>
-            <li>About Me</li>
-            <li>Portfolio</li>
-            <li>Design</li>
-            <li>Media</li>
+            <li class="btn-scroll" btn-index="1">Main</li>
+            <li  class="btn-scroll" btn-index="2">About Me</li>
+            <li  class="btn-scroll" btn-index="3">Portfolio</li>
+            <li  class="btn-scroll" btn-index="4">Design</li>
+            <li class="btn-scroll" btn-index="5">Media</li>
         </ul>
     </div>
 </section>
 
 
 <div class="side-page-box-bg"></div>
-<section class="main-box"  id="div1">
+<section class="section main-box"  id="div1" section-index="1">
     <div class="logo-box flex">
     <img src="https://milly55.github.io/img1/pf/portfolio/logo-1.png" alt="">
     </div>
     <div class="main-txt flex ">
-        <div class="item-box-2" onclick="fnMove('2')"><img src="https://milly55.github.io/img1/pf/portfolio/item-2.png" alt=""></div>
+        <div class="item-box-2 btn-scroll" btn-index="2" ><img src="https://milly55.github.io/img1/pf/portfolio/item-2.png" alt=""></div>
         <div class="main-bottom-txt">2020 김보영 포트폴리오</div>
         <div class="txt-1 flex">
             <ul class="btn-txt-1 flex">
@@ -70,10 +70,55 @@
 </section>
 
 
-<section id="div2"  class="about-bar-1" >
-    <div class="about-box-1 con flex">
-        <div class="about-title-1 flex"> <img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt=""> ABOUT ME</div>
+<section class="section about-bar-1 " section-index="2">
+    <div class="about-box-1 con">
+        <div class="about-title-box  flex">
+            <div class="about-title-1 flex"> <img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt=""> <span>ABOUT ME</span>  </div>
+        </div>
+        <div class="profile-box flex">
+            <div class="img-box-1">
+                <img src="https://milly55.github.io/img1/pf/portfolio/profile.png" alt="">
+                <div class="img-box-background"></div>
+            </div>
+            <div class="profile-txt-box ">
+                <div class="profile-title-1 flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt=""> profile</div>
+                <nav class="box-1 flex">
+                <ul class="profile-txt-1">
+                    <li>NAME</li>
+                    <li>BIRTH</li>
+                    <li>PHONE</li>
+                    <li>EMAIL</li>
+                    <li>ADDRESS</li>
+                    <li>BLOG</li>
+                    <li>WIKI</li>
+                    <li>EDUCATION</li>
+                </ul>
+                <ul class="profile-txt-2">
+                    <li>김보영</li>
+                    <li>1995.09.13</li>
+                    <li>010-2965-2600</li>
+                    <li>mn02006@naver.com</li>
+                    <li>대전광역시 서구</li>
+                    <li>https://mwdb5.blog.oa.gg/</li>
+                    <li>https://to2.kr/bkU</li>
+                    <li>대전 SBS아카데미 컴퓨터아트학원 웹 과정 수료</li>
+                </ul>
+                </nav>
+                <div class="skill-button flex">
+                    <span>Skill</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skill-box-1">
+    <div class="skill-title-1 flex"> <img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt=""> <span>SKILL</span>  </div>
     </div>
 </section>
+<!-- <script>
+    function fnMove(seq) {
+        var offset = $("#div" + seq).offset();
+        $("html, body").animate({ scrollTop: offset.top }, 400);
+    }
+</script> -->
 </body>
 </html>

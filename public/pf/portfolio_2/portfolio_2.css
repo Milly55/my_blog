@@ -322,7 +322,10 @@ canvas{
     background: #A08C38;
 }
 ::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment {
-width:16px;height:16px;background:#f1ef79;} 
+    width:16px;
+    height:16px;
+    background:rgb(252, 239, 184); 
+} 
 
 
 
@@ -384,7 +387,7 @@ width:16px;height:16px;background:#f1ef79;}
     width: 100%;
     justify-content:center;
     align-items:center;
-    height: 101vh;
+    height: 100vh;
     z-index: 1;
 }
 .main-box {
@@ -393,7 +396,7 @@ width:16px;height:16px;background:#f1ef79;}
 }
 .main-box > .logo-box{
     position: absolute;
-    top:2%;
+    top:5%;
     width: 100%;
     justify-content: center;
     z-index: 1;
@@ -490,17 +493,155 @@ width:16px;height:16px;background:#f1ef79;}
     background-color: rgba(0,0,0,0.5);
     z-index: 2;
   } */
-  .about-bar-1{
-      height: 100vh;
-      z-index: 1;
+ 
+  .page-menu-bar {
+      position: fixed;
+      width: 100%;
+      z-index: 2;
+      background-color: #FFDF4C;
   }
-  .about-box-1 {
-      margin-top:50px;
+  .page-menu-bar > .page-menu-box {
       justify-content: center;
-      z-index: 5;
   }
-  .about-box-1  > .about-title-1{
-      align-items: center;
+  .page-menu-bar > .page-menu-box > ul{
+      width: 100%;
+      justify-content: space-around;
       font-family: 'Balsamiq Sans', cursive;
-      font-size: 50px;
+      font-size: 25px;
+      padding: 5px 0;
   }
+  .page-menu-bar > .page-menu-box > ul > li{
+      position: relative;
+      cursor: pointer;
+
+  }
+  .page-menu-bar > .page-menu-box > ul > li::after{
+    content:"";
+    position:absolute;
+    top:100%;
+    left:50%;
+    transform:translatex(-50%);
+    width:0;
+    height:10%;
+    background-color: rgb(255, 153, 0);
+    transition: width 0.5s;
+  }
+  .page-menu-bar > .page-menu-box > ul > li:hover::after{
+      width: 100%;
+  }
+ 
+  
+  .about-bar-1{
+    height:100vh;
+    z-index: 1;
+    padding: 60px 0;
+    background-color: white;
+}
+.about-bar-1 .about-title-box {
+    justify-content: center;
+    z-index: 5;
+}
+.about-bar-1 .about-title-box  > .about-title-1{
+    align-items: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 50px;
+}
+.about-bar-1 .about-title-box  > .about-title-1 > span{
+    margin: 0 15px;
+    position: relative;
+}
+.about-bar-1 .about-title-box  > .about-title-1 > span::after{
+    content: "";
+    position: absolute;
+    top:120%;
+    left:45%;
+    transform:translatex(-50%);
+    width: 50%;
+    height: 8%;
+    background-color: #FCB830;
+}
+.profile-box{
+    margin-top:180px;
+    justify-content: space-around;
+}
+.profile-box > .img-box-1{
+    position: relative;
+    z-index: 1;
+}
+.profile-box > .img-box-1 > img{
+    background-color: #FCB830;
+    
+}
+.img-box-background{
+    position: absolute;
+    top:100px;
+    left: -100px;
+    width: 290px;
+    height: 290px;
+    border:3px solid #FCB830;
+    z-index: -1;
+    
+}
+.profile-txt-box > .profile-title-1{
+    align-items: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 30px;
+    margin-left: 25px;
+}
+.profile-txt-box > .box-1 > ul{
+    margin-top:20px;   
+}
+.profile-txt-box > .box-1 > ul > li {
+    padding: 5px 0;
+}
+.profile-txt-box > .box-1 > ul.profile-txt-1 > li{
+    font-weight: bold;
+    font-size: 20px;
+}
+.profile-txt-box > .box-1 > ul.profile-txt-2 > li{
+    padding: 6px 0;
+    margin-left: 20px;
+    font-size: 18px
+}
+.skill-button{
+    justify-content: center;
+    margin-top:50px;
+}
+.skill-button > span{
+    border:2px solid #FCB830;
+    padding: 5px 60px;
+    border-radius: 20px;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: color 1s;
+    z-index: 2;
+    cursor: pointer;
+}
+.skill-button > span:hover{
+    color:white;
+}
+.skill-button > span::after{
+    content: "";
+    position: absolute;
+    top:-80%;
+    left: -200px;
+    height:10vh;
+    width: 100%;
+    background-color: #FCB830;
+    transform: rotate(20deg);
+    transition: 1s;
+    z-index: -1;
+}
+.skill-button > span:hover::after{
+    left: -1%;
+}
+
+.skill-box-1{
+    margin-top:220px;
+    height: 80vh;
+    background-color: white;
+}
+.ll{
+    height: 100vh;
+}
