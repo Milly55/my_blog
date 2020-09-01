@@ -102,6 +102,80 @@ $(function(){
 // })
 
 
+function numIncrease__init() {
+    $(".info-num").each(function () {
+      var $this = $(this);
+      var maxNum = parseInt($this.attr("data-max-num"));
+      console.log(maxNum);
+      $({ number: 0 }).animate(
+        { number: maxNum },
+        {
+          duration: 800,
+          step: function () {
+            var num = parseInt(this.number);
+            $this.text(num);
+          },
+          complete: function () {
+            var num = parseInt(this.number);
+            $this.text(num);
+          }
+        }
+      );
+    });
+  }
+
+
+
+
+  
+function ActiveOnVisible__initOffset() {
+    $(".active-on-visible").each(function (index, node) {
+      var $node = $(node);
+  
+      var offsetTop = $node.offset().top;
+      $node.attr("data-active-on-visible-offsetTop", offsetTop);
+  
+      if (!$node.attr("data-active-on-visible-diff-y")) {
+        $node.attr("data-active-on-visible-diff-y", "0");
+      }
+  
+      if (!$node.attr("data-active-on-visible-delay")) {
+        $node.attr("data-active-on-visible-delay", "0");
+      }
+    });
+  
+    ActiveOnVisible__checkAndActive();
+}
+  
+function ActiveOnVisible__checkAndActive() {
+    $(".active-on-visible").each(function (index, node) {
+        var $node = $(node);
+    
+        var offsetTop = parseInt($node.attr("data-active-on-visible-offsetTop"));
+        var diffY = parseInt($node.attr("data-active-on-visible-diff-y"));
+        var delay = parseInt($node.attr("data-active-on-visible-delay"));
+        if ($(window).scrollTop() + $(window).height() + diffY > offsetTop) {
+            setTimeout(function () {
+            $node.addClass("active");
+            }, delay);
+        }
+        if( $('.skill-list-box').hasClass('actived') !== true ){
+            if($('.skill-list-box').hasClass('active') ) {
+                numIncrease__init();
+                $('.skill-list-box').addClass('actived');
+            }
+        }
+    })
+};
+
+$(function(){
+    ActiveOnVisible__initOffset();
+    setTimeout(function(){
+        ActiveOnVisible__checkAndActive();
+    }, 100);
+    $(window).resize(ActiveOnVisible__initOffset);
+    $(window).scroll(ActiveOnVisible__checkAndActive);
+})
 
 
 

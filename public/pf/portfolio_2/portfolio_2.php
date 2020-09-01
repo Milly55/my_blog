@@ -111,7 +111,55 @@
     </div>
     <section class="section skill-box-1 flex"  section-index="6">
     <div class="skill-title-1 flex"> <img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt=""> <span>SKILL</span>  </div>
+    <div class="skill-list-tile-box con">
+        <ul class="flex">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS&JQ</li>
+            <li>PS</li>
+            <li>AI</li>
+        </ul>
+    </div>
+    <div class="skill-list-box con active-on-visible" data-active-on-visible-diff-y="-100">
+        <ul class="flex">
+            <li class="flex">
+                <div class="info-num flex" data-max-num="80"></div>
+            </li>
+            <li class="flex">
+                <div class="info-num flex" data-max-num="88"></div>
+            </li>
+            <li class="flex">
+                <div class="info-num flex" data-max-num="69"></div>
+            </li>
+            <li class="flex">
+                <div class="info-num flex" data-max-num="65"></div>
+            </li>
+            <li class="flex">
+                <div class="info-num flex" data-max-num="65"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="skill-description-box-1 con flex">
+        <ul class="description-item-1 flex">
+            <li><img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt=""></li>
+            <li><img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt=""></li>
+            <li><img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt=""></li>
+            <li><img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt=""></li>
+            <li><img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt=""></li>
+        </ul>
+        <ul class="description-txte-1 flex">
+            <li>HTML - 기본기 탄탄한 의미있는 구조 마크업, 웹 표준·웹 접근성에 대한 전반적인 이해</li>
+            <li>CSS -이해도 높은 사용으로 보다 실용적인 코드 작성, 반응형 사이트 이해 및 구현</li>
+            <li>JS&JQ -제이쿼리 라이브러리를 사용하여 필요한 기능 구현, 유용한 플러그인 사용, 자바스크립트의 기본 문법 이해</li>
+            <li>PS -필요한 툴과 다양한 편집기능을 유용하게 사용 가능</li>
+            <li>AI -필요한 툴과 기본적인 아이콘 제작 및 수정 가능</li>
+        </ul>
+    </div>
     </section>
+</section>
+
+<section class="section portfolio-box-1" section-index="3">
+    <div class="portfolio-title-1 flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt=""><span>PORTFOLIO</span> </div>
 </section>
 
 <!-- <script>
