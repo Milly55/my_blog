@@ -271,6 +271,13 @@
         </div>
     </section>
 
+    <section class="section media-bar" section-index="5">
+    <div class="media-title-box con flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png"
+                alt=""><span>MEDIA</span></div>
+    </section>
+
+
+
     <section class="page-top-button btn-scroll" btn-index="1">
         <div class="img-button-box"><img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt="">
         </div>
