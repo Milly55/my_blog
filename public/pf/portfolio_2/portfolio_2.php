@@ -21,7 +21,7 @@
 
 <body>
 
-    <!-- <section class="side-page-box-1">
+     <!-- <section class="side-page-box-1">
     <div class="side-box-1"><img src="https://milly55.github.io/img1/pf/portfolio/side-box-1.png" alt="">
         <div class="page-menu-box flex">
             <ul class="flex">
@@ -38,7 +38,7 @@
     </div>
 </section> -->
 
-    <section class="page-menu-bar">
+<section class="page-menu-bar">
         <div class="page-menu-box con flex">
             <ul class="flex">
                 <li class="btn-scroll" btn-index="1">Main</li>
@@ -50,15 +50,13 @@
         </div>
     </section>
 
-
     <div class="side-page-box-bg"></div>
     <section class="section main-box" id="div1" section-index="1">
         <div class="logo-box flex">
             <img src="https://milly55.github.io/img1/pf/portfolio/logo-1.png" alt="">
         </div>
         <div class="main-txt flex ">
-            <div class="item-box-2 btn-scroll" btn-index="2"><img
-                    src="https://milly55.github.io/img1/pf/portfolio/item-2.png" alt=""></div>
+            <div class="item-box-2 btn-scroll" btn-index="2"><img src="https://milly55.github.io/img1/pf/portfolio/item-2.png" alt=""></div>
             <div class="main-bottom-txt">2020 김보영 포트폴리오</div>
             <div class="txt-1 flex">
                 <ul class="btn-txt-1 flex">
@@ -85,8 +83,7 @@
                     <div class="img-box-background"></div>
                 </div>
                 <div class="profile-txt-box ">
-                    <div class="profile-title-1 flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png"
-                            alt=""> <span>Profile</span></div>
+                    <div class="profile-title-1 flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt=""> <span>Profile</span></div>
                     <nav class="box-1 flex">
                         <ul class="profile-txt-1">
                             <li>NAME</li>
@@ -166,87 +163,101 @@
     </section>
 
     <section class="section portfolio-box-1" section-index="3">
-        <div class="portfolio-title-1 flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png"
-                alt=""><span>PORTFOLIO</span> </div>
+        <div class="portfolio-title-1 flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt=""><span>PORTFOLIO</span> </div>
         <div class="my-slider-1 ">
             <div class="owl-carousel owl-theme">
                 <div class="item" data-index="0">
-                    <div class="img-box"
-                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-1.PNG)">
+                    <div class="img-box" style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-1.PNG)">
                     </div>
                 </div>
                 <div class="item" data-index="1">
-                    <div class="img-box"
-                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-2.PNG)">
+                    <div class="img-box" style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-2.PNG)">
                     </div>
                 </div>
                 <div class="item" data-index="2">
-                    <div class="img-box"
-                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-3.PNG)">
+                    <div class="img-box" style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-3.PNG)">
                     </div>
                 </div>
                 <div class="item" data-index="3">
-                    <div class="img-box"
-                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-4.PNG)">
+                    <div class="img-box" style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-4.PNG)">
                     </div>
                 </div>
                 <div class="item" data-index="4">
-                    <div class="img-box"
-                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-5.PNG)">
+                    <div class="img-box" style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-5.PNG)">
                     </div>
                 </div>
                 <div class="item" data-index="5">
-                    <div class="img-box"
-                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-6.PNG)">
+                    <div class="img-box" style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-6.PNG)">
                     </div>
                 </div>
             </div>
-
             <div class="text-box">
                 <div class="silder-text-box silder-txte-1 active">
+                    <div class="slider-items-1">
+                        <img src="https://ifh.cc/g/GRZsXg.png" alt="">
+                    </div>
                     <ul class="flex">
-                        <li class="flex">아이심리상담소 <span>원래사이트주소:(<a href="http://www.icounseling.co.kr/main.do"
-                                    target="_blank">아이심리상담소</a>)</span> </li>
+                        <li class="flex">아이심리상담소 <span>원래사이트주소:(<a href="http://www.icounseling.co.kr/main.do" target="_blank">아이심리상담소</a>)</span> </li>
                         <li>모작사이트,(HTML/CSS)</li>
                         <li><a href="/portfolio1.html" target="_blank">MORE</a></li>
+                        <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
                     </ul>
                 </div>
                 <div class="silder-text-box silder-txte-2">
+                    <div class="slider-items">
+                        <img src="https://ifh.cc/g/GRZsXg.png" alt="">
+                    </div>
                     <ul class="flex">
-                        <li class="flex">솔라시도 <span>원래사이트주소:(<a href="">솔라시도</a>)</span> </li>
+                        <li class="flex">솔라시도 <span>원래사이트주소:<a href="https://www.solaseado.com/bluecity" target="_blank">솔라시도</a>모작한후에 바뀌었습니다.</span> </li>
                         <li>모작사이트, 반응형, (HTML/CSS/js)</li>
-                        <li><a href="">MORE</a></li>
+                        <li><a href="/pf/solar/index.php" target="_blank">MORE</a></li>
+                        <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
                     </ul>
                 </div>
                 <div class="silder-text-box silder-txte-3">
+                    <div class="slider-items">
+                        <img src="https://ifh.cc/g/GRZsXg.png" alt="">
+                    </div>
                     <ul class="flex">
-                        <li class="flex">러쉬 <span>원래사이트주소:(<a href="https://www.lush.co.kr/">러쉬</a>)</span> </li>
+                        <li class="flex">러쉬 <span>원래사이트주소:(<a href="https://www.lush.co.kr/" target="_blank">러쉬</a>)</span> </li>
                         <li>모작사이트, (HTML/CSS/js)</li>
-                        <li><a href="/pf/rush/index.php">MORE</a></li>
+                        <li><a href="/pf/rush/index.php" target="_blank">MORE</a></li>
+                        <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
                     </ul>
                 </div>
                 <div class="silder-text-box silder-txte-4">
+                    <div class="slider-items">
+                        <img src="https://ifh.cc/g/GRZsXg.png" alt="">
+                    </div>
                     <ul class="flex">
-                        <li class="flex">경동 <span>원래사이트주소:(<a href="http://www.kyungdong.co.kr/">경동</a>)</span>
+                        <li class="flex">경동 <span>원래사이트주소:(<a href="http://www.kyungdong.co.kr/" target="_blank">경동</a>)</span>
                         </li>
                         <li>모작사이트, 반응형, (HTML/CSS/js)</li>
-                        <li><a href="/pf/kyung/index.php">MORE</a></li>
+                        <li><a href="/pf/kyung/index.php" target="_blank">MORE</a></li>
+                        <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
                     </ul>
                 </div>
                 <div class="silder-text-box silder-txte-5">
+                    <div class="slider-items">
+                        <img src="https://ifh.cc/g/GRZsXg.png" alt="">
+                    </div>
                     <ul class="flex">
-                        <li class="flex">모즈클리닉 <span>원래사이트주소:(<a
-                                    href="https://www.modsclinic.co.kr/NEW/">모즈클리닉</a>)</span> </li>
+                        <li class="flex">모즈클리닉 <span>원래사이트주소:(<a href="https://www.modsclinic.co.kr/NEW/" target="_blank">모즈클리닉</a>)</span> </li>
                         <li>모작사이트, 반응형, (HTML/CSS/js)</li>
-                        <li><a href="/pf/mods/index.php">MORE</a></li>
+                        <li><a href="/pf/mods/index.php" target="_blank">MORE</a></li>
+                        <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
                     </ul>
                 </div>
                 <div class="silder-text-box silder-txte-6">
+                    <div class="slider-items">
+                        <img src="https://ifh.cc/g/GRZsXg.png" alt="">
+                    </div>
                     <ul class="flex">
-                        <li class="flex">도미노피자 <span>원래사이트주소:(<a href="https://web.dominos.co.kr/main">도미노피자</a>)</span>
+                        <li class="flex">도미노피자 <span>원래사이트주소:(<a href="https://web.dominos.co.kr/main" target="_blank">도미노피자</a>)</span>
                         </li>
                         <li>리디자인,(HTML/CSS/js)</li>
-                        <li><a href="pf/domino/index.php">MORE</a></li>
+                        <li><a href="/pf/domino/index.php" target="_blank">MORE</a></li>
+                        <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
                     </ul>
                 </div>
             </div>
@@ -254,8 +265,7 @@
     </section>
 
     <section class="section design-bar" section-index="4">
-        <div class="design-title-box con flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png"
-                alt=""><span>DESIGN</span></div>
+        <div class="design-title-box con flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt=""><span>DESIGN</span></div>
         <div class="slider-bottom-box  con">
             <div class="slider-box-b owl-carousel owl-theme" style="background-image:url(https://ifh.cc/g/5rMwf6.png)">
                 <div class="item">
@@ -272,11 +282,15 @@
     </section>
 
     <section class="section media-bar" section-index="5">
-    <div class="media-title-box con flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png"
-                alt=""><span>MEDIA</span></div>
+        <div class="media-title-box con flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt=""><span>MEDIA</span></div>
+        <div class="media-box-1 con">
+            <ul class="flex">
+                <li><a href="">Github</a></li>
+                <li>Email: <span>mn02006@naver.com</span> <span>mn02006@daum.net</span> </li>
+                <li></li>
+            </ul>
+        </div>
     </section>
-
-
 
     <section class="page-top-button btn-scroll" btn-index="1">
         <div class="img-button-box"><img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt="">
