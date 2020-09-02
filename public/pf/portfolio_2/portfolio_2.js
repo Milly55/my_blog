@@ -179,3 +179,60 @@ $(function(){
 
 
 
+function MySlider1__init() {
+  $('.my-slider-1 > .owl-carousel').owlCarousel({
+    responsive:{
+      0:{
+        items:1
+      }
+    },
+    loop:true,
+    dots:false,
+    mouseDrag:false,
+    touchDrag:false,
+    center: true,
+    nav:true,
+    items:1,
+    navText: ['<div class="back"> <i class="fas fa-angle-left"></i> </div>', '<div class="next"> <i class="fas fa-angle-right"></i> </div>'],
+  });
+}
+$(function(){
+  MySlider1__init();
+})
+
+
+
+
+function silder_Text(){
+  $('.owl-nav').click(function(){
+    var slideIndex =$('.my-slider-1 .owl-carousel .owl-stage-outer .owl-stage .owl-item.center .item').attr('data-index');
+    $('.text-box > div ').removeClass('active');
+    $('.text-box > div ').eq(slideIndex).addClass('active');
+  });
+  
+}
+
+$(function(){
+  silder_Text();
+})
+
+
+function MySlider2__init() {
+  $('.slider-bottom-box > .slider-box-b').owlCarousel({
+    responsive:{
+      0:{
+        items:1
+      }
+    },
+    loop:true,
+    dots:false,
+    nav:true,
+    items:1,
+    navText: ['<div class="left-item-1"><i class="fas fa-caret-left"></i></div>', '<div class="right-item-1"><i class="fas fa-caret-right"></i></div>']
+  });
+}
+
+
+$(function(){
+  MySlider2__init();
+})
