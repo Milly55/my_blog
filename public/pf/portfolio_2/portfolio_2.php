@@ -197,7 +197,7 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">아이심리상담소 <span>원래사이트주소:(<a href="http://www.icounseling.co.kr/main.do" target="_blank">아이심리상담소</a>)</span> </li>
+                        <li class="flex">아이심리상담소 <span>원래사이트주소:<a href="http://www.icounseling.co.kr/main.do" target="_blank">'아이심리상담소'</a></span> </li>
                         <li>모작사이트,(HTML/CSS)</li>
                         <li><a href="/portfolio1.html" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
@@ -208,7 +208,7 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">솔라시도 <span>원래사이트주소:<a href="https://www.solaseado.com/bluecity" target="_blank">솔라시도</a>모작한후에 바뀌었습니다.</span> </li>
+                        <li class="flex">솔라시도 <span>원래사이트주소:<a href="https://www.solaseado.com/bluecity" target="_blank">'솔라시도'</a> <br> 모작한후에 바뀌었습니다.</span> </li>
                         <li>모작사이트, 반응형, (HTML/CSS/js)</li>
                         <li><a href="/pf/solar/index.php" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
@@ -219,7 +219,7 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">러쉬 <span>원래사이트주소:(<a href="https://www.lush.co.kr/" target="_blank">러쉬</a>)</span> </li>
+                        <li class="flex">러쉬 <span>원래사이트주소:<a href="https://www.lush.co.kr/" target="_blank">'러쉬'</a></span> </li>
                         <li>모작사이트, (HTML/CSS/js)</li>
                         <li><a href="/pf/rush/index.php" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
@@ -230,7 +230,7 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">경동 <span>원래사이트주소:(<a href="http://www.kyungdong.co.kr/" target="_blank">경동</a>)</span>
+                        <li class="flex">경동 <span>원래사이트주소:<a href="http://www.kyungdong.co.kr/" target="_blank">'경동'</a></span>
                         </li>
                         <li>모작사이트, 반응형, (HTML/CSS/js)</li>
                         <li><a href="/pf/kyung/index.php" target="_blank">MORE</a></li>
@@ -242,7 +242,7 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">모즈클리닉 <span>원래사이트주소:(<a href="https://www.modsclinic.co.kr/NEW/" target="_blank">모즈클리닉</a>)</span> </li>
+                        <li class="flex">모즈클리닉 <span>원래사이트주소:<a href="https://www.modsclinic.co.kr/NEW/" target="_blank">'모즈클리닉'</a></span> </li>
                         <li>모작사이트, 반응형, (HTML/CSS/js)</li>
                         <li><a href="/pf/mods/index.php" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
@@ -253,7 +253,7 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">도미노피자 <span>원래사이트주소:(<a href="https://web.dominos.co.kr/main" target="_blank">도미노피자</a>)</span>
+                        <li class="flex">도미노피자 <span>원래사이트주소:<a href="https://web.dominos.co.kr/main" target="_blank">'도미노피자'</a></span>
                         </li>
                         <li>리디자인,(HTML/CSS/js)</li>
                         <li><a href="/pf/domino/index.php" target="_blank">MORE</a></li>
@@ -283,13 +283,32 @@
 
     <section class="section media-bar" section-index="5">
         <div class="media-title-box con flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt=""><span>MEDIA</span></div>
-        <div class="media-box-1 con">
+        <div class="media-content-1 con">
             <ul class="flex">
-                <li><a href="">Github</a></li>
-                <li>Email: <span>mn02006@naver.com</span> <span>mn02006@daum.net</span> </li>
-                <li></li>
+                <li>이 일에 흥미를 느끼고 시작했고 실무에서 더욱 배우고싶습니다.</li>
+                <li>(여러분의 소중한 관심 부탁드리고 감사합니다.)</li>
             </ul>
         </div>
+        <form action onsubmit="sendEmailFormSubmit(this); return false;" name="sendEmailForm">
+    <input type="hidden" name="receiverName" value="김보영">
+    <input type="hidden" name="receiverEmail" value="mn02006@naver.com">
+    <div class="email-box-1 con flex">
+        <div class="your-name-box-1 flex">
+            <div class="title-1 your-name-title-1">성함</div>
+            <input class="your-name-1" type="text" name="senderName" placeholder="성함을 입력해주세요"></div>
+        <div class="your-email-box-1 flex">
+            <div class="title-1 your-email-title-1">이메일</div>
+            <input class="your-email-1" type="email" name="senderEmail" placeholder="이메일을 입력해주세요"></div>
+        <div class="content-input-box-1 flex">
+            <div class="title-1 content-input-title-1">내용</div>
+            <textarea class="content-input-1 flex" name="body" placeholder="내용을 입력해주세요."></textarea>
+        </div>
+        <div class="transfer-box-1 flex">
+            <input class="transfer-1" type="submit" value="보내기">
+        </div>
+    </div>
+</form>
+    <div class="important-content-1 con flex">※본 사이트는 상업목적이 아닌 개인용 포트폴리오입니다.※</div>
     </section>
 
     <section class="page-top-button btn-scroll" btn-index="1">
