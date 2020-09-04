@@ -964,17 +964,19 @@ canvas {
 
 .text-box>.silder-text-box>ul>li:first-child>span {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-align: center;
+    flex-direction: column;
 }
 .text-box>.silder-text-box>ul>li:first-child>span > span{
-    font-size: 18px;
+    font-size: 17px;
 }
 .text-box>.silder-text-box>ul>li:first-child>span > a{
     transition: 0.3s;
     font-weight: bold;
+    font-size: 15px;
 }
 .text-box>.silder-text-box>ul>li:first-child>span > a:hover{
     text-decoration: underline;

@@ -206,8 +206,8 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">아이심리상담소 <span>원래사이트주소:<a href="http://www.icounseling.co.kr/main.do"
-                                    target="_blank">'아이심리상담소'</a></span> </li>
+                        <li class="flex">아이심리상담소 <span class="flex">원본사이트:<a href="http://www.icounseling.co.kr/main.do"
+                                    target="_blank">'www.icounseling.co.kr/main.do</a></span> </li>
                         <li>모작사이트,(HTML/CSS)</li>
                         <li>모작사이트로 가기<a href="/portfolio1.html" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
@@ -218,8 +218,7 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">솔라시도 <span>원래사이트주소:<a href="https://solaseado.com/" target="_blank">'솔라시도'</a>
-                                <br> <span>모작한후에 바뀌었습니다.</span> </span> </li>
+                        <li class="flex">솔라시도 <span class="flex">원본사이트:<a href="https://solaseado.com/" target="_blank">'www.solaseado.com'</a> <span>모작한후에 바뀌었습니다.</span> </span> </li>
                         <li>모작사이트, 반응형, (HTML/CSS/js)</li>
                         <li>모작사이트로 가기<a href="/pf/solar/index.php" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
@@ -230,8 +229,8 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">러쉬 <span>원래사이트주소:<a href="https://www.lush.co.kr/"
-                                    target="_blank">'러쉬'</a></span> </li>
+                        <li class="flex">러쉬 <span class="flex">원본사이트:<a href="https://www.lush.co.kr/"
+                                    target="_blank">'www.lush.co.kr'</a></span> </li>
                         <li>모작사이트, (HTML/CSS/js)</li>
                         <li>모작사이트로 가기<a href="/pf/rush/index.php" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
@@ -242,8 +241,8 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">경동 <span>원래사이트주소:<a href="http://www.kyungdong.co.kr/"
-                                    target="_blank">'경동'</a></span>
+                        <li class="flex">경동 <span class="flex">원본사이트:<a href="http://www.kyungdong.co.kr/"
+                                    target="_blank">'www.kyungdong.co.kr'</a></span>
                         </li>
                         <li>모작사이트, 반응형, (HTML/CSS/js)</li>
                         <li>모작사이트로 가기<a href="/pf/kyung/index.php" target="_blank">MORE</a></li>
@@ -255,8 +254,8 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">모즈클리닉 <span>원래사이트주소:<a href="https://www.modsclinic.co.kr/NEW/"
-                                    target="_blank">'모즈클리닉'</a></span> </li>
+                        <li class="flex">모즈클리닉 <span class="flex">원본사이트:<a href="https://www.modsclinic.co.kr/NEW/"
+                                    target="_blank">'www.modsclinic.co.kr/NEW'</a></span> </li>
                         <li>모작사이트, 반응형, (HTML/CSS/js)</li>
                         <li>모작사이트로 가기<a href="/pf/mods/index.php" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
@@ -267,8 +266,8 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">도미노피자 <span>원래사이트주소:<a href="https://web.dominos.co.kr/main"
-                                    target="_blank">'도미노피자'</a></span>
+                        <li class="flex">도미노피자 <span class="flex">원본사이트:<a href="https://web.dominos.co.kr/main"
+                                    target="_blank">'web.dominos.co.kr/main'</a></span>
                         </li>
                         <li>리디자인,(HTML/CSS/js)</li>
                         <li>모작사이트로 가기<a href="/pf/domino/index.php" target="_blank">MORE</a></li>
