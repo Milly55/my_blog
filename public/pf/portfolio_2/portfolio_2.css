@@ -722,12 +722,10 @@ canvas {
     background-color: white;
     flex-direction: column;
     align-items: center;
-
-    padding-bottom: 50px;
 }
 
 .skill-box-1>.skill-title-1 {
-    margin-top: 100px;
+    margin-top:80px;
     align-items: center;
     font-size: 30px;
     font-family: 'Balsamiq Sans', cursive;
@@ -794,6 +792,7 @@ canvas {
 .skill-description-box-1 {
     margin-top: 50px;
     width: 100%;
+    padding-bottom:30px;
 }
 
 .skill-description-box-1>ul.description-item-1 {
@@ -941,11 +940,20 @@ canvas {
     height: 100%;
     font-weight: 500;
     position: relative;
+    text-align: center;
     
+}
+
+.text-box >.silder-txte-2 > ul{
+    margin-top:-40px;
 }
 .text-box>.silder-text-box>ul>li:last-child{
     position: absolute;
-    top:37%;
+    top:38%;
+}
+
+.text-box >.silder-txte-2 > ul >li:last-child{
+    top:45%;
 }
 .text-box>.silder-text-box>ul>li:first-child {
     flex-direction: column;
@@ -959,6 +967,10 @@ canvas {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
+    text-align: center;
+}
+.text-box>.silder-text-box>ul>li:first-child>span > span{
+    font-size: 18px;
 }
 .text-box>.silder-text-box>ul>li:first-child>span > a{
     transition: 0.3s;
@@ -972,6 +984,7 @@ canvas {
 }
 
 .text-box>.silder-text-box>ul>li:nth-child(3)>a {
+    margin-top:10px;
     border: 2px solid #FCB830;
     padding: 5px 50px;
     border-radius: 20px;
@@ -1030,7 +1043,13 @@ canvas {
 
 .design-bar{
     background-color: white;
-    height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+.section-bottom-item{
+    position: absolute;
+    bottom: -5px;
+    display: block;
 }
 .design-bar > .design-title-box{
     justify-content: center;
@@ -1061,16 +1080,21 @@ canvas {
     height:75vh;
     width: 50vw;
   }
+
   .slider-bottom-box > .slider-box-b{
+
       background-position:center;
     background-repeat:no-repeat;
     background-size:contain;
     height:100%;
     width:100%;
   }
+
   .slider-bottom-box .item {
     margin-top:130px;
     height:48vh;
+    width: 80%;
+    margin-left: 95px;
     font-size:15rem;
     display:flex;
     justify-content:center;

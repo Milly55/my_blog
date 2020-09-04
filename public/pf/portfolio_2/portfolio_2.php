@@ -15,13 +15,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/pf/portfolio_2/portfolio_2.css">
-    <script type="module" src="/pf/portfolio_2/portfolio_2.js"></script>
+    <script type="text/javascript" src="/pf/portfolio_2/portfolio_2.js"></script>
     <title>B.portfolio</title>
 </head>
 
 <body>
 
-     <!-- <section class="side-page-box-1">
+    <!-- <section class="side-page-box-1">
     <div class="side-box-1"><img src="https://milly55.github.io/img1/pf/portfolio/side-box-1.png" alt="">
         <div class="page-menu-box flex">
             <ul class="flex">
@@ -38,7 +38,7 @@
     </div>
 </section> -->
 
-<section class="page-menu-bar">
+    <section class="page-menu-bar">
         <div class="page-menu-box con flex">
             <ul class="flex">
                 <li class="btn-scroll" btn-index="1">Main</li>
@@ -56,7 +56,8 @@
             <img src="https://milly55.github.io/img1/pf/portfolio/logo-1.png" alt="">
         </div>
         <div class="main-txt flex ">
-            <div class="item-box-2 btn-scroll" btn-index="2"><img src="https://milly55.github.io/img1/pf/portfolio/item-2.png" alt=""></div>
+            <div class="item-box-2 btn-scroll" btn-index="2"><img
+                    src="https://milly55.github.io/img1/pf/portfolio/item-2.png" alt=""></div>
             <div class="main-bottom-txt">2020 김보영 포트폴리오</div>
             <div class="txt-1 flex">
                 <ul class="btn-txt-1 flex">
@@ -83,7 +84,8 @@
                     <div class="img-box-background"></div>
                 </div>
                 <div class="profile-txt-box ">
-                    <div class="profile-title-1 flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt=""> <span>Profile</span></div>
+                    <div class="profile-title-1 flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png"
+                            alt=""> <span>Profile</span></div>
                     <nav class="box-1 flex">
                         <ul class="profile-txt-1">
                             <li>NAME</li>
@@ -163,31 +165,38 @@
     </section>
 
     <section class="section portfolio-box-1" section-index="3">
-        <div class="portfolio-title-1 flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt=""><span>PORTFOLIO</span> </div>
+        <div class="portfolio-title-1 flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png"
+                alt=""><span>PORTFOLIO</span> </div>
         <div class="my-slider-1 ">
             <div class="owl-carousel owl-theme">
                 <div class="item" data-index="0">
-                    <div class="img-box" style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-1.PNG)">
+                    <div class="img-box"
+                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-1.PNG)">
                     </div>
                 </div>
                 <div class="item" data-index="1">
-                    <div class="img-box" style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-2.PNG)">
+                    <div class="img-box"
+                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-2.PNG)">
                     </div>
                 </div>
                 <div class="item" data-index="2">
-                    <div class="img-box" style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-3.PNG)">
+                    <div class="img-box"
+                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-3.PNG)">
                     </div>
                 </div>
                 <div class="item" data-index="3">
-                    <div class="img-box" style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-4.PNG)">
+                    <div class="img-box"
+                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-4.PNG)">
                     </div>
                 </div>
                 <div class="item" data-index="4">
-                    <div class="img-box" style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-5.PNG)">
+                    <div class="img-box"
+                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-5.PNG)">
                     </div>
                 </div>
                 <div class="item" data-index="5">
-                    <div class="img-box" style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-6.PNG)">
+                    <div class="img-box"
+                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-6.PNG)">
                     </div>
                 </div>
             </div>
@@ -197,9 +206,10 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">아이심리상담소 <span>원래사이트주소:<a href="http://www.icounseling.co.kr/main.do" target="_blank">'아이심리상담소'</a></span> </li>
+                        <li class="flex">아이심리상담소 <span>원래사이트주소:<a href="http://www.icounseling.co.kr/main.do"
+                                    target="_blank">'아이심리상담소'</a></span> </li>
                         <li>모작사이트,(HTML/CSS)</li>
-                        <li><a href="/portfolio1.html" target="_blank">MORE</a></li>
+                        <li>모작사이트로 가기<a href="/portfolio1.html" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
                     </ul>
                 </div>
@@ -208,20 +218,22 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">솔라시도 <span>원래사이트주소:<a href="https://www.solaseado.com/bluecity" target="_blank">'솔라시도'</a> <br> 모작한후에 바뀌었습니다.</span> </li>
+                        <li class="flex">솔라시도 <span>원래사이트주소:<a href="https://solaseado.com/" target="_blank">'솔라시도'</a>
+                                <br> <span>모작한후에 바뀌었습니다.</span> </span> </li>
                         <li>모작사이트, 반응형, (HTML/CSS/js)</li>
-                        <li><a href="/pf/solar/index.php" target="_blank">MORE</a></li>
+                        <li>모작사이트로 가기<a href="/pf/solar/index.php" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
-                    </ul>
+                        </li>
                 </div>
                 <div class="silder-text-box silder-txte-3">
                     <div class="slider-items">
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">러쉬 <span>원래사이트주소:<a href="https://www.lush.co.kr/" target="_blank">'러쉬'</a></span> </li>
+                        <li class="flex">러쉬 <span>원래사이트주소:<a href="https://www.lush.co.kr/"
+                                    target="_blank">'러쉬'</a></span> </li>
                         <li>모작사이트, (HTML/CSS/js)</li>
-                        <li><a href="/pf/rush/index.php" target="_blank">MORE</a></li>
+                        <li>모작사이트로 가기<a href="/pf/rush/index.php" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
                     </ul>
                 </div>
@@ -230,10 +242,11 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">경동 <span>원래사이트주소:<a href="http://www.kyungdong.co.kr/" target="_blank">'경동'</a></span>
+                        <li class="flex">경동 <span>원래사이트주소:<a href="http://www.kyungdong.co.kr/"
+                                    target="_blank">'경동'</a></span>
                         </li>
                         <li>모작사이트, 반응형, (HTML/CSS/js)</li>
-                        <li><a href="/pf/kyung/index.php" target="_blank">MORE</a></li>
+                        <li>모작사이트로 가기<a href="/pf/kyung/index.php" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
                     </ul>
                 </div>
@@ -242,9 +255,10 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">모즈클리닉 <span>원래사이트주소:<a href="https://www.modsclinic.co.kr/NEW/" target="_blank">'모즈클리닉'</a></span> </li>
+                        <li class="flex">모즈클리닉 <span>원래사이트주소:<a href="https://www.modsclinic.co.kr/NEW/"
+                                    target="_blank">'모즈클리닉'</a></span> </li>
                         <li>모작사이트, 반응형, (HTML/CSS/js)</li>
-                        <li><a href="/pf/mods/index.php" target="_blank">MORE</a></li>
+                        <li>모작사이트로 가기<a href="/pf/mods/index.php" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
                     </ul>
                 </div>
@@ -253,10 +267,11 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">도미노피자 <span>원래사이트주소:<a href="https://web.dominos.co.kr/main" target="_blank">'도미노피자'</a></span>
+                        <li class="flex">도미노피자 <span>원래사이트주소:<a href="https://web.dominos.co.kr/main"
+                                    target="_blank">'도미노피자'</a></span>
                         </li>
                         <li>리디자인,(HTML/CSS/js)</li>
-                        <li><a href="/pf/domino/index.php" target="_blank">MORE</a></li>
+                        <li>모작사이트로 가기<a href="/pf/domino/index.php" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
                     </ul>
                 </div>
@@ -265,7 +280,8 @@
     </section>
 
     <section class="section design-bar" section-index="4">
-        <div class="design-title-box con flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt=""><span>DESIGN</span></div>
+        <div class="design-title-box con flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png"
+                alt=""><span>DESIGN</span></div>
         <div class="slider-bottom-box  con">
             <div class="slider-box-b owl-carousel owl-theme" style="background-image:url(https://ifh.cc/g/5rMwf6.png)">
                 <div class="item">
@@ -275,14 +291,18 @@
                     <div class="img-box" style="background-image:url(https://ifh.cc/g/JJU2lf.png)"></div>
                 </div>
                 <div class="item">
-                    <div class="img-box" style="background-image:url(https://milly55.github.io/img1/pf/design/generalLee.png)"></div>
+                    <div class="img-box"
+                        style="background-image:url(https://milly55.github.io/img1/pf/design/generalLee.png)"></div>
                 </div>
             </div>
+        </div>
+        <div class="section-bottom-item"><img src="https://ifh.cc/g/vNHpwb.png" alt="">
         </div>
     </section>
 
     <section class="section media-bar" section-index="5">
-        <div class="media-title-box con flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt=""><span>MEDIA</span></div>
+        <div class="media-title-box con flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png"
+                alt=""><span>MEDIA</span></div>
         <div class="media-content-1 con">
             <ul class="flex">
                 <li>이 일에 흥미를 느끼고 시작했고 실무에서 더욱 배우고싶습니다.</li>
@@ -290,25 +310,27 @@
             </ul>
         </div>
         <form action onsubmit="sendEmailFormSubmit(this); return false;" name="sendEmailForm">
-    <input type="hidden" name="receiverName" value="김보영">
-    <input type="hidden" name="receiverEmail" value="mn02006@naver.com">
-    <div class="email-box-1 con flex">
-        <div class="your-name-box-1 flex">
-            <div class="title-1 your-name-title-1">성함</div>
-            <input class="your-name-1" type="text" name="senderName" placeholder="성함을 입력해주세요"></div>
-        <div class="your-email-box-1 flex">
-            <div class="title-1 your-email-title-1">이메일</div>
-            <input class="your-email-1" type="email" name="senderEmail" placeholder="이메일을 입력해주세요"></div>
-        <div class="content-input-box-1 flex">
-            <div class="title-1 content-input-title-1">내용</div>
-            <textarea class="content-input-1 flex" name="body" placeholder="내용을 입력해주세요."></textarea>
-        </div>
-        <div class="transfer-box-1 flex">
-            <input class="transfer-1" type="submit" value="보내기">
-        </div>
-    </div>
-</form>
-    <div class="important-content-1 con flex">※본 사이트는 상업목적이 아닌 개인용 포트폴리오입니다.※</div>
+            <input type="hidden" name="receiverName" value="김보영">
+            <input type="hidden" name="receiverEmail" value="mn02006@naver.com">
+            <div class="email-box-1 con flex">
+                <div class="your-name-box-1 flex">
+                    <div class="title-1 your-name-title-1">성함</div>
+                    <input class="your-name-1" type="text" name="senderName" placeholder="성함을 입력해주세요">
+                </div>
+                <div class="your-email-box-1 flex">
+                    <div class="title-1 your-email-title-1">이메일</div>
+                    <input class="your-email-1" type="email" name="senderEmail" placeholder="이메일을 입력해주세요">
+                </div>
+                <div class="content-input-box-1 flex">
+                    <div class="title-1 content-input-title-1">내용</div>
+                    <textarea class="content-input-1 flex" name="body" placeholder="내용을 입력해주세요."></textarea>
+                </div>
+                <div class="transfer-box-1 flex">
+                    <input class="transfer-1" type="submit" value="보내기">
+                </div>
+            </div>
+        </form>
+        <div class="important-content-1 con flex">※본 사이트는 상업목적이 아닌 개인용 포트폴리오입니다.※</div>
     </section>
 
     <section class="page-top-button btn-scroll" btn-index="1">
