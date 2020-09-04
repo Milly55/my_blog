@@ -25,14 +25,9 @@
 #fp-nav.fp-right >ul>li>a{
   position:relative;
 }
-#fp-nav.fp-right >ul>li>a.active>span{
-  width:10px;
-  height:10px;
-}
+
 #fp-nav.fp-right >ul>li>a.active>span, #fp-nav.fp-right >ul>li>a:hover>span{
   background-color:#07255d;
-   width:10px;
-  height:10px;
 }
 #fp-nav.fp-right >ul>li>a >span::before{
   content:"55";
@@ -500,9 +495,7 @@ label[for] {
 .mobile-menu-bar{
   display: none;
 }
-.mobile-menu-bar.active{
 
-}
 .mobile-menu-bar > .mobile-menu-box {
   position: fixed;;
   top:0;

@@ -308,7 +308,7 @@ label[for] {
 }
 
 
-/* 탑 팝업 바 */
+/* 탑 팝업 바
 .top-popup-bar{
   display:none; 
 }
@@ -352,7 +352,7 @@ label[for] {
 }
 .top-popup-bar > .popup-box > ul >  .btn-close-forever{
   position:relative;
-}
+} */
 
 
 
