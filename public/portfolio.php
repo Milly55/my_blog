@@ -99,48 +99,51 @@ include "../part/head.php";
   </div>
 </div>
 </div>
-<a href="/pf/portfolio_2/portfolio_2.php"  target="_blank">포폴</a>
+<div class="go-portfolio-box con flex">
+    <a href="/pf/portfolio_2/portfolio_2.php"  target="_blank">포트폴리오로 가기 >></a>
+</div>
 
+<nav class="design-slider-title-1 con flex">Design</nav>
 <div class="my-slider-11 ">
+
   <div class="owl-carousel owl-theme ">
     <div class="item" style="background-image:url(https://milly55.github.io/img1/pf/design/summerbanner.png);">
     <ul>
-        <li><a href="https://milly55.github.io/img1/pf/design/summerbanner.png" target="_blank">자세히 보기 > </a></li>
+        <li><a data-title="여름 세일" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/summerbanner.png">여름 배너</a></li>
     </ul>
     </div>
     <div class="item" style="background-image:url(https://milly55.github.io/img1/pf/design/generalLee.png);">
-    <ul class="flex">
+    <ul class="slider-2 flex">
         <li><a href="https://www.mangoboard.net/MangoTemplateAll.do" target="_blank"> 출처: 망고보드(이순신)</a> </li>
-        <li><a href="https://milly55.github.io/img1/pf/design/generalLee.png" target="_blank">자세히 보기 > </a></li>
+        <li><a data-title="이순신 탄신일 축제" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/generalLee.png">자세히보기</a></li>
     </ul>
     </div>
-    <div class="item">none</div>
+    <div class="item" style="background-image:url(https://milly55.github.io/img1/pf/design/포폴시안.png);">
+        <ul>
+            <li><a data-title="포트폴리오 시안" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/포폴시안.png">포폴시안</a></li>
+            <li><a data-title="포트폴리오 시안" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/포폴시안사이드.png"></a></li>
+            <li><a data-title="포트폴리오 시안" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/포폴시안팝업.png"></a></li>
+        </ul>
+    </div>
+    <div class="item" style="background-image:url(https://milly55.github.io/img1/pf/design/시안1.png);">
+        <ul>
+            <li><a data-title="도미노피자 리디자인 시안" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/시안1.png">도미노피자 리디자인 시안</a></li>
+            <li><a data-title="도미노피자 리디자인 배너 시안" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/배너시안.png"></a></li>
+        </ul>
+    </div>
   </div>
 </div>
 
-<div class="pf-1">
-<ul>
-    <li><a href="https://milly55.github.io/img1/pf/design/포폴시안.png" target="_blank">포폴시안</a></li>
-    <li><a href="https://milly55.github.io/img1/pf/design/포폴시안사이드.png" target="_blank">포폴시안사이드</a></li>
-    <li><a href="https://milly55.github.io/img1/pf/design/포폴시안팝업.png" target="_blank">포폴시안팝업</a></li>
-</ul>
-</div>
 
 
 
 
 
-<h1>디자인</h1>
-<a data-title="여름 세일" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/summerbanner.png">여름 배너</a>
-<a data-title="이순신 탄신일 축제" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/generalLee.png" style="display:none;"> 출처: 망고보드(이순신)</a>
 
 
-<h1>웹</h1>
+<!-- <h1>웹</h1>
 <a data-title="빙그레 메인홈" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/매인 홈.png">모작</a>
-<a data-title="빙그레 메뉴바" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/메뉴바.png" style="display:none;">모작</a>
-<a data-title="빙그레 이밴트 페이지" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/이밴트 페이지.png" style="display:none;">모작</a>
-<a data-title="도미노 시안" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/시안1.png" style="display:none;">모작</a>
-<a data-title="도미노 배너시안" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/배너시안.png" style="display:none;">모작</a>
+<a data-title="빙그레 메뉴바" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/메뉴바.png" style="display:none;">모작</a> -->
 
     <?php
 include "../part/foot.php";

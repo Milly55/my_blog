@@ -183,7 +183,28 @@
 
 
 
-
+.go-portfolio-box{
+    justify-content: center;
+    padding: 30px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.go-portfolio-box > a{
+    transition: 0.5s;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border:2px solid white;
+}
+.go-portfolio-box > a:hover{
+    background-color: rgba(255, 217, 0, 0.37);
+    border:2px solid black;
+}
+.design-slider-title-1 {
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
 
 .my-slider-11{
   border:5px solid black;
@@ -215,6 +236,7 @@
 .my-slider-11 .item > ul > li{
     margin: 0 10px;
 }
+
 .my-slider-11 .item > ul > li:hover > a{
     text-decoration: underline;
 }
