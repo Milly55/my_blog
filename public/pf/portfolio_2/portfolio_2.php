@@ -7,6 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
@@ -71,7 +72,7 @@
             </div>
         </div>
     </section>
-
+        <!-- chart1 circle -->
     <section class="section about-bar-1 " section-index="2">
         <div class="about-box-1 con">
             <div class="about-title-box  flex">
@@ -127,8 +128,9 @@
                 </ul>
             </div>
             <div class="skill-list-box con active-on-visible" data-active-on-visible-diff-y="-100">
-                <ul class="flex">
-                    <li class="flex">
+                <ul class="flex flex-jc-sb">
+                    <li class="flex ">
+                        <div class="chart1 circle"></div>
                         <div class="info-num flex" data-max-num="80"></div>
                     </li>
                     <li class="flex">
@@ -163,7 +165,6 @@
             </div>
         </section>
     </section>
-
     <section class="section portfolio-box-1" section-index="3">
         <div class="portfolio-title-1 flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png"
                 alt=""><span>PORTFOLIO</span> </div>

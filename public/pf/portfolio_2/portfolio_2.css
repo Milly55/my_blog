@@ -755,7 +755,6 @@ canvas {
     width: 100%;
 
 }
-
 .skill-list-tile-box>ul {
     font-size: 25px;
     justify-content: space-around;
@@ -763,26 +762,38 @@ canvas {
 
 .skill-list-tile-box>ul>li {
     justify-content: center;
-    width: 100% ;
-}
-
-.skill-list-box {
     width: 100%;
+    border:3px solid red;
 }
 
+.skill-list-box >ul>li{
+
+    position: relative;
+}
+.circle{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 2;
+    width:100px;
+    height: 100px;
+}
+
+.circle>canvas{
+    widows: 100%;
+    height:100%;
+    background-color: none !important;
+    opacity: 0.5;
+}
+.skill-list-box{
+    width:100%;
+}
 .skill-list-box>ul {
+    width:100%;
     justify-content: space-around;
 }
 
-.skill-list-box>ul>li {
-    height: 150px;
-    width: 150px;
-    border: 20px solid rgb(248, 224, 177);
-    border-radius: 50%;
-    margin-top: 30px;
-    justify-content: center;
-    position: relative;
-}
 
 .skill-list-box>ul>li>.info-num {
     align-items: center;
@@ -936,7 +947,6 @@ canvas {
 .text-box>.silder-text-box>ul {
     flex-direction: column;
     align-items: center;
-    padding: 20px;
     height: 100%;
     font-weight: 500;
     position: relative;
@@ -949,11 +959,11 @@ canvas {
 }
 .text-box>.silder-text-box>ul>li:last-child{
     position: absolute;
-    top:38%;
+    top:42%;
 }
 
 .text-box >.silder-txte-2 > ul >li:last-child{
-    top:45%;
+    top:50%;
 }
 .text-box>.silder-text-box>ul>li:first-child {
     flex-direction: column;
@@ -1103,6 +1113,19 @@ canvas {
     align-items:center;
     opacity: 1;
   }
+  @media(max-width:1680px){
+    .slider-bottom-box .item{
+        height: 40vh;
+        margin-top:170px;
+    }
+  }
+  @media(max-width:1400px){
+    .slider-bottom-box .item{
+        height: 33vh;
+        margin-top:200px;
+        margin-left: 70px;
+    }
+  }
   .slider-bottom-box .item > .img-box{
     height:100%;
     width:100%;
@@ -1195,6 +1218,15 @@ textarea{
    width:100%;
     flex-direction:column;
 }
+@media(max-width:1300px){
+    .email-box-1 > .your-name-box-1,
+    .email-box-1 > .your-email-box-1,
+    .email-box-1 > .content-input-box-1{
+        width: 80%;
+    }
+}
+
+
 .email-box-1 > .content-input-box-1 > .content-input-1{
     align-items:center;
 }

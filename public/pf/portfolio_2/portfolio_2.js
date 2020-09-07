@@ -383,3 +383,29 @@ function Email__callback(data) {
 
   alert(data.msg);
 }
+function Chart_1(){
+  $('.chart1').circleProgress({
+    size:100,
+    //그래프 크기
+    startAngle: -Math.PI/2 ,
+    //시작지점 (기본값 Math.PI)
+    value: 0.8,
+    thickness:20,
+    //그래프에 표시될 값 
+    animation: true,
+    //그래프가 그려지는 애니메이션 동작 여부
+    thickness: 3,
+    fill: {gradient: ['#ff1e41', '#ff9f8e']}
+  });
+}
+
+
+
+$(function(){
+  Chart_1();
+  Chart_2();
+  Chart_3();
+  Chart_4();
+  Chart_5();
+})
+
