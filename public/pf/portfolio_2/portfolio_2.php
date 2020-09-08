@@ -128,21 +128,25 @@
                 </ul>
             </div>
             <div class="skill-list-box con active-on-visible" data-active-on-visible-diff-y="-100">
-                <ul class="flex flex-jc-sb">
+                <ul class="flex flex-jc-sb" data-active-on-visible-callback-func-name="Circle__run">
                     <li class="flex ">
                         <div class="chart1 circle"></div>
                         <div class="info-num flex" data-max-num="80"></div>
                     </li>
                     <li class="flex">
+                        <div class="chart2 circle"></div>
                         <div class="info-num flex" data-max-num="88"></div>
                     </li>
                     <li class="flex">
+                        <div class="chart3 circle"></div>
                         <div class="info-num flex" data-max-num="69"></div>
                     </li>
                     <li class="flex">
+                        <div class="chart4 circle"></div>
                         <div class="info-num flex" data-max-num="65"></div>
                     </li>
                     <li class="flex">
+                        <div class="chart5 circle"></div>
                         <div class="info-num flex" data-max-num="65"></div>
                     </li>
                 </ul>

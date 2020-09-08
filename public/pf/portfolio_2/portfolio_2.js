@@ -182,82 +182,6 @@ $(function () {
 // })
 
 
-function numIncrease__init() {
-  $(".info-num").each(function () {
-    var $this = $(this);
-    var maxNum = parseInt($this.attr("data-max-num"));
-    console.log(maxNum);
-    $({
-      number: 0
-    }).animate({
-      number: maxNum
-    }, {
-      duration: 800,
-      step: function () {
-        var num = parseInt(this.number);
-        $this.text(num);
-      },
-      complete: function () {
-        var num = parseInt(this.number);
-        $this.text(num);
-      }
-    });
-  });
-}
-
-
-
-
-
-function ActiveOnVisible__initOffset() {
-  $(".active-on-visible").each(function (index, node) {
-    var $node = $(node);
-
-    var offsetTop = $node.offset().top;
-    $node.attr("data-active-on-visible-offsetTop", offsetTop);
-
-    if (!$node.attr("data-active-on-visible-diff-y")) {
-      $node.attr("data-active-on-visible-diff-y", "0");
-    }
-
-    if (!$node.attr("data-active-on-visible-delay")) {
-      $node.attr("data-active-on-visible-delay", "0");
-    }
-  });
-
-  ActiveOnVisible__checkAndActive();
-}
-
-function ActiveOnVisible__checkAndActive() {
-  $(".active-on-visible").each(function (index, node) {
-    var $node = $(node);
-
-    var offsetTop = parseInt($node.attr("data-active-on-visible-offsetTop"));
-    var diffY = parseInt($node.attr("data-active-on-visible-diff-y"));
-    var delay = parseInt($node.attr("data-active-on-visible-delay"));
-    if ($(window).scrollTop() + $(window).height() + diffY > offsetTop) {
-      setTimeout(function () {
-        $node.addClass("active");
-      }, delay);
-    }
-    if ($('.skill-list-box').hasClass('actived') !== true) {
-      if ($('.skill-list-box').hasClass('active')) {
-        numIncrease__init();
-        $('.skill-list-box').addClass('actived');
-      }
-    }
-  })
-};
-
-$(function () {
-  ActiveOnVisible__initOffset();
-  setTimeout(function () {
-    ActiveOnVisible__checkAndActive();
-  }, 100);
-  $(window).resize(ActiveOnVisible__initOffset);
-  $(window).scroll(ActiveOnVisible__checkAndActive);
-})
-
 
 
 function MySlider1__init() {
@@ -383,9 +307,25 @@ function Email__callback(data) {
 
   alert(data.msg);
 }
+
+
 function Chart_1(){
   $('.chart1').circleProgress({
-    size:100,
+    size:200,
+    //그래프 크기
+    startAngle: -Math.PI/2 ,
+    //시작지점 (기본값 Math.PI)
+    value: 0.77,
+    thickness:20,
+    //그래프에 표시될 값 
+    animation: true,
+    //그래프가 그려지는 애니메이션 동작 여부
+    fill: {gradient: ['#FCB830']}
+  });
+}
+function Chart_2(){
+  $('.chart2').circleProgress({
+    size:200,
     //그래프 크기
     startAngle: -Math.PI/2 ,
     //시작지점 (기본값 Math.PI)
@@ -394,8 +334,52 @@ function Chart_1(){
     //그래프에 표시될 값 
     animation: true,
     //그래프가 그려지는 애니메이션 동작 여부
-    thickness: 3,
-    fill: {gradient: ['#ff1e41', '#ff9f8e']}
+    fill: {gradient: ['#FCB830']}
+  });
+}
+
+function Chart_3(){
+  $('.chart3').circleProgress({
+    size:200,
+    //그래프 크기
+    startAngle: -Math.PI/2 ,
+    //시작지점 (기본값 Math.PI)
+    value: 0.66,
+    thickness:20,
+    //그래프에 표시될 값 
+    animation: true,
+    //그래프가 그려지는 애니메이션 동작 여부
+    fill: {gradient: ['#FCB830']}
+  });
+}
+
+function Chart_4(){
+  $('.chart4').circleProgress({
+    size:200,
+    //그래프 크기
+    startAngle: -Math.PI/2 ,
+    //시작지점 (기본값 Math.PI)
+    value: 0.6,
+    thickness:20,
+    //그래프에 표시될 값 
+    animation: true,
+    //그래프가 그려지는 애니메이션 동작 여부
+    fill: {gradient: ['#FCB830']}
+  });
+}
+
+function Chart_5(){
+  $('.chart5').circleProgress({
+    size:200,
+    //그래프 크기
+    startAngle: -Math.PI/2 ,
+    //시작지점 (기본값 Math.PI)
+    value: 0.6,
+    thickness:20,
+    //그래프에 표시될 값 
+    animation: true,
+    //그래프가 그려지는 애니메이션 동작 여부
+    fill: {gradient: ['#FCB830']}
   });
 }
 
@@ -408,4 +392,138 @@ $(function(){
   Chart_4();
   Chart_5();
 })
+
+
+function numIncrease__init() {
+  $(".info-num").each(function () {
+    var $this = $(this);
+    var maxNum = parseInt($this.attr("data-max-num"));
+    console.log(maxNum);
+    $({
+      number: 0
+    }).animate({
+      number: maxNum
+    }, {
+      duration: 800,
+      step: function () {
+        var num = parseInt(this.number);
+        $this.text(num);
+      },
+      complete: function () {
+        var num = parseInt(this.number);
+        $this.text(num);
+      }
+    });
+  });
+}
+
+
+
+
+
+function ActiveOnVisible__initOffset() {
+  $(".active-on-visible").each(function (index, node) {
+    var $node = $(node);
+
+    var offsetTop = $node.offset().top;
+    $node.attr("data-active-on-visible-offsetTop", offsetTop);
+
+    if (!$node.attr("data-active-on-visible-diff-y")) {
+      $node.attr("data-active-on-visible-diff-y", "0");
+    }
+
+    if (!$node.attr("data-active-on-visible-delay")) {
+      $node.attr("data-active-on-visible-delay", "0");
+    }
+  });
+
+  ActiveOnVisible__checkAndActive();
+}
+
+function ActiveOnVisible__checkAndActive() {
+  $(".active-on-visible").each(function (index, node) {
+    var $node = $(node);
+
+    var offsetTop = parseInt($node.attr("data-active-on-visible-offsetTop"));
+    var diffY = parseInt($node.attr("data-active-on-visible-diff-y"));
+    var delay = parseInt($node.attr("data-active-on-visible-delay"));
+    if ($(window).scrollTop() + $(window).height() + diffY > offsetTop) {
+      setTimeout(function () {
+        $node.addClass("active");
+      }, delay);
+    }
+    if ($('.skill-list-box').hasClass('actived') !== true) {
+      if ($('.skill-list-box').hasClass('active')) {
+        numIncrease__init();
+        $('.skill-list-box').addClass('actived');
+      }
+    }
+  })
+};
+
+$(function () {
+  ActiveOnVisible__initOffset();
+  setTimeout(function () {
+    ActiveOnVisible__checkAndActive();
+  }, 100);
+  $(window).resize(ActiveOnVisible__initOffset);
+  $(window).scroll(ActiveOnVisible__checkAndActive);
+})
+
+
+// /* 발견되면 활성화시키는 라이브러리 시작 */
+// function ActiveOnVisible__init() {
+//   $(window).resize(ActiveOnVisible__initOffset);
+//   ActiveOnVisible__initOffset();
+
+//   $(window).scroll(ActiveOnVisible__checkAndActive);
+//   ActiveOnVisible__checkAndActive();
+// }
+
+// function ActiveOnVisible__initOffset() {
+//   $('.active-on-visible').each(function(index, node) {
+//       var $node = $(node);
+
+//       var offsetTop = $node.offset().top;
+//       $node.attr('data-active-on-visible-offsetTop', offsetTop);
+
+//       if ( !$node.attr('data-active-on-visible-diff-y') ) {
+//           $node.attr('data-active-on-visible-diff-y', '0');
+//       }
+
+//       if ( !$node.attr('data-active-on-visible-delay') ) {
+//           $node.attr('data-active-on-visible-delay', '0');
+//       }
+//   });
+
+//   ActiveOnVisible__checkAndActive();
+// }
+
+// function ActiveOnVisible__checkAndActive() { 
+//   $('.active-on-visible:not(.actived)').each(function(index, node) {
+//       var $node = $(node);
+
+//       var offsetTop = $node.attr('data-active-on-visible-offsetTop') * 1;
+//       var diffY = parseInt($node.attr('data-active-on-visible-diff-y'));
+//       var delay = parseInt($node.attr('data-active-on-visible-delay'));
+
+//       var callbackFuncName = $node.attr('data-active-on-visible-callback-func-name');
+
+//       if ( $(window).scrollTop() + $(window).height() + diffY > offsetTop ) {
+//           $node.addClass('actived');
+
+//           setTimeout(function() {
+//               $node.addClass('active');
+//               if ( window[callbackFuncName] ) {
+//                   window[callbackFuncName]($node);
+//               }
+//           }, delay);
+//       }
+//   });
+// }
+
+// $(function() {
+//   ActiveOnVisible__init();
+// })
+// /* 발견되면 활성화시키는 라이브러리 끝 */
 
