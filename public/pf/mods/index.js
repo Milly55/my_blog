@@ -51,12 +51,19 @@ function MobileSideBar__toggle() {
 
 function MobileSideBar__init() {
     $('.btn-toggle-mobile-side-bar,.mobile-side-menu-bar-bg,.mobile-login-box > ul > li:last-child').click(MobileSideBar__toggle);
-    $('.mobile-menu-box > ul  > li   ').click(function(){
-        if ( $(this).hasClass('active') ){
-            $(this).removeClass('active');
+    $('.mobile-menu-box > ul > li').click(function(){
+        var $this =$(this);
+        var parent = $this.parent();
+        var menu = parent.find(' > li ');
+
+        
+        if ( $this.hasClass('active') ){
+            menu.removeClass('active');
+            $this.removeClass('active');
         }
         else{
-            $(this).addClass('active');
+            menu.removeClass('active');
+            $this.addClass('active');
         }
     })
 
