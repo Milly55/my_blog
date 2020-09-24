@@ -101,6 +101,7 @@ include "../part/head.php";
 </div>
 <div class="go-portfolio-box con flex">
     <a href="/pf/portfolio_2/portfolio_2.php"  target="_blank">포트폴리오로 가기 >></a>
+    <a href="/pf/portfolio_1/index.php"  target="_blank">포트폴리오로 가기 >></a>
 </div>
 
 <nav class="design-slider-title-1 con flex">Design</nav>
