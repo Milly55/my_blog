@@ -452,11 +452,9 @@ function ActiveOnVisible__checkAndActive() {
         $node.addClass("active");
       }, delay);
     }
-    if ($('.skill-list-box').hasClass('actived') !== true) {
-      if ($('.skill-list-box').hasClass('active')) {
-        numIncrease__init();
-        $('.skill-list-box').addClass('actived');
-      }
+    if ($('.skill-list-box').hasClass('active')) {
+      numIncrease__init();
+      $('.skill-list-box').addClass('active');
     }
   })
 };
