@@ -36,7 +36,7 @@
     </div>
     <div id="fullpage">
         <div class="section page-1">
-            <div class="background-img-1"><img src="https://ifh.cc/g/6XkmK1.png" alt=""></div>
+            <div class="background-img-1"><img src="https://ifh.cc/g/ZEigRx.png" alt=""></div>
             <div class="background-img-center">
                 <div class="phot-box-1 flex">
                     <div class="phot-img-1"><img src="https://ifh.cc/g/0bRlLP.png" alt="">
@@ -73,7 +73,7 @@
         <div class="section page-2">
             <section class="top-bar-2 top-bar-common con-1 flex">
                 <div class="top-box-2 top-box-common flex">
-                    <div class="top-left-common-2 left-common  con-1 flex">
+                    <div class="top-left-common-2 left-common-2 left-common  con-1 flex">
                         <ul class="flex">
                             <li>Kim Bo Young</li>
                             <li>[worthy self]</li>
@@ -81,7 +81,7 @@
                             <li></li>
                             <li>1번 Track</li>
                         </ul>
-                        <span class="top-right-common right-common flex"><span>K</span>indly</span>
+                        <span class="top-right-common-2 right-common-2  right-common flex"><span>B</span>est</span>
                     </div>
                     <div class="about-box flex">
                         <div class="about-profile-box flex">
@@ -103,30 +103,31 @@
                                 <li>대전광역시 서구</li>
                                 <li>bymw5.co.kr</li>
                                 <li>www.to2.kr/bkU</li>
-                                <li>대전 SBS아카데미 컴퓨터아트학원  <br> 웹 과정 수료</li>
+                                <li>대전 SBS아카데미 컴퓨터아트학원 <br> 웹 과정 수료</li>
                             </ul>
                         </div>
                         <div class="about-img-box"></div>
                         <div class="about-skill-box active-on-visible" data-active-on-visible-diff-y="-200">
                             <ul class="flex">
-                                <li"></li">
+                                <li></li>
                                 <li></li>
                                 <li></li>
                                 <li></li>
                                 <li></li>
                             </ul>
-                        </div>
-                        <div class="about-skill-data active-on-visible skill-list-box" data-active-on-visible-diff-y="-100">
-                            <ul data-active-on-visible-callback-func-name="Circle__run">
-                                <li class="info-num flex" data-max-num="80"></li>
-                                <li class="info-num flex" data-max-num="80"></li>
-                                <li class="info-num flex" data-max-num="80"></li>
-                                <li class="info-num flex" data-max-num="80"></li>
-                                <li class="info-num flex" data-max-num="80"></li>
-                            </ul>
+                            <div class="about-skill-data active-on-visible skill-list-box"
+                                data-active-on-visible-diff-y="-100">
+                                <ul class="flex" data-active-on-visible-callback-func-name="Circle__run">
+                                    <li class="info-num flex" data-max-num="80"></li>
+                                    <li class="info-num flex" data-max-num="85"></li>
+                                    <li class="info-num flex" data-max-num="67"></li>
+                                    <li class="info-num flex" data-max-num="65"></li>
+                                    <li class="info-num flex" data-max-num="63"></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="top-botton-common-2 botton-common flex">
+                    <div class="top-botton-common-2 botton-common-2 botton-common flex">
                         <ul>
                             <li></li>
                             <li>특별한 사람</li>
@@ -138,7 +139,189 @@
                 </div>
             </section>
         </div>
-        <div class="section ">페이지 3</div>
+        <div class="section page-3">
+            <div class="background-half-color"></div>
+            <section class="top-bar-3 top-bar-common con-1 flex">
+                <div class="top-box-3 top-box-common flex">
+                    <div class="top-left-common-3 left-common-2 left-common con-1 flex">
+                        <ul class="flex">
+                            <li>Kim Bo Young</li>
+                            <li>[worthy self]</li>
+                            <li>Ed Bo Young Single Cover</li>
+                            <li></li>
+                            <li>1번 Track</li>
+                        </ul>
+                        <span class="top-right-common-3 right-common-2 right-common flex"><span>B</span>est</span>
+                    </div>
+                    <div class="slider-box con flex">
+                        <div class="page-nav list-1 flex">
+                            <div class="flex">
+                                <div class="list-img-box">
+                                    <nav class="logo-img-box"
+                                        style="background-image:url(http://www.icounseling.co.kr/images/logo.jpg)">
+                                    </nav>
+                                </div>
+                                아이심리상담소
+                            </div>
+                            <div class="flex">
+                                <div class="list-img-box">
+                                    <nav class="logo-img-box"
+                                        style="background-image:url(https://ifh.cc/g/8SlPph.png)">
+                                    </nav>
+                                </div>
+                                솔라시도
+                            </div>
+                            <div class="flex">
+                                <div class="list-img-box">
+                                    <nav class="logo-img-box"
+                                        style="background-image:url(https://ifh.cc/g/gxua9L.png)">
+                                    </nav>
+                                </div>
+                                러쉬 코리아
+                            </div>
+                            <div class="flex">
+                                <div class="list-img-box">
+                                    <nav class="logo-img-box"
+                                        style="background-image:url(https://ifh.cc/g/brGaop.png)">
+                                    </nav>
+                                </div>
+                                경동
+                            </div>
+                            <div class="flex">
+                                <div class="list-img-box">
+                                    <nav class="logo-img-box"
+                                        style="background-image:url(https://ifh.cc/g/IFoLwy.png)">
+                                    </nav>
+                                </div>
+                                모즈클리닉
+                            </div>
+                            <div class="flex">
+                                <div class="list-img-box">
+                                    <nav class="logo-img-box"
+                                        style="background-image:url(https://ifh.cc/g/HORXCS.png)">
+                                    </nav>
+                                </div>
+                                도미노 피자
+                            </div>
+                        </div>
+                        <div class="slider-k slider-k1" data-autoplay="Y" data-autoplay-dir="right"
+                            data-autoplay-interval="7000">
+                            <div class="slides">
+                                <div class="slider-list flex active">
+                                    <div class="img-box-1">
+                                        <div class="slider-img"
+                                            style="background-image:url(http://www.icounseling.co.kr/images/bg_main_section_0.jpg)">
+                                        </div>
+                                    </div>
+                                    <div class="slider-txt">
+                                        <ul class="flex">
+                                            <li>아이심리상담소</li>
+                                            <li>HTML/CSS</li>
+                                            <li></li>
+                                            <li>아이의 심리상태를 체크하고 상담해주는 사이트</li>
+                                            <li><span>모작사이트</span><span>원본사이트</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="slider-list flex ">
+                                    <div class="img-box-1">
+                                        <div class="slider-img"
+                                            style="background-image:url(https://www.solaseado.com/images/main-monet.jpg)">
+                                        </div>
+                                    </div>
+                                    <div class="slider-txt">
+                                        <ul class="flex">
+                                            <li>솔라시도</li>
+                                            <li>HTML/CSS/JS/반응형</li>
+                                            <li></li>
+                                            <li> 친환경 생태도시 목적 사이트 <br> (원본사이트 리뉴얼 하기전 모작했습니다)</li>
+                                            <li><span>모작사이트</span><span>원본사이트</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="slider-list flex ">
+                                    <div class="img-box-1">
+                                        <div class="slider-img"
+                                            style="background-image:url(https://milly55.github.io/img1/pf/rush/116c144b41b5f8c84f66d7b0ea7544a7_14259.jpg)">
+                                        </div>
+                                    </div>
+                                    <div class="slider-txt">
+                                        <ul class="flex">
+                                            <li>러쉬 코리아</li>
+                                            <li>HTML/CSS/JS</li>
+                                            <li></li>
+                                            <li>입욕제품 브랜드 사이트</li>
+                                            <li><span>모작사이트</span><span>원본사이트</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="slider-list flex ">
+                                    <div class="img-box-1">
+                                        <div class="slider-img"
+                                            style="background-image:url(https://milly55.github.io/img1/pf/kyung/main01_pc.jpg)">
+                                        </div>
+                                    </div>
+                                    <div class="slider-txt">
+                                        <ul class="flex">
+                                            <li>경동</li>
+                                            <li>HTML/CSS/JS/반응형</li>
+                                            <li></li>
+                                            <li>국가 발전의 초석이 되는 에너지 사업 사이트</li>
+                                            <li><span>모작사이트</span><span>원본사이트</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="slider-list flex ">
+                                    <div class="img-box-1">
+                                        <div class="slider-img"
+                                            style="background-image:url(https://milly55.github.io/img1/pf/mods/main_SL_wedding.jpg)">
+                                        </div>
+                                    </div>
+                                    <div class="slider-txt">
+                                        <ul class="flex">
+                                            <li>모즈클리닉</li>
+                                            <li>HTML/CSS/JS/반응형</li>
+                                            <li></li>
+                                            <li>예비 신부를 위한 피부및 몸 관리 사이트</li>
+                                            <li><span>모작사이트</span><span>원본사이트</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="slider-list flex ">
+                                    <div class="img-box-1">
+                                        <div class="slider-img"
+                                            style="background-image:url(https://milly55.github.io/img1/pf/domino/main-1.png)">
+                                        </div>
+                                    </div>
+                                    <div class="slider-txt">
+                                        <ul class="flex">
+                                            <li>도미노피자</li>
+                                            <li>HTML/CSS/JS/리디자인</li>
+                                            <li></li>
+                                            <li>피자 브랜드 사이트</li>
+                                            <li><span>모작사이트</span><span>원본사이트</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="side-btns">
+                                <div class="left-btn">좌</div>
+                                <div class="riht-btn">우</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="botton-common-3 botton-common-2 botton-common flex">
+                        <ul>
+                            <li></li>
+                            <li>특별한 사람</li>
+                            <li></li>
+                            <li>김보영 의 곡 [worthy self] 는 사람이 얼마나 특별하고 <br>
+                                가치있는지를 표현한 곡이다.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
         <div class="section">페이지 4</div>
         <div class="section">페이지 5</div>
     </div>
