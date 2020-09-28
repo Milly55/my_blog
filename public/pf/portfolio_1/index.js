@@ -1,15 +1,29 @@
-console.clear()
+console.clear();
+
+var $html = $('html');
 function Fullpage_1(){
     new fullpage('#fullpage', {
         verticalCentered: false,
         scrollBar:true,
         anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5'],
         menu: '#menu',
+        onLeave: function (origin, destination, direction) {
+          $html.attr('data-fullpage-index', destination.index);
+        }
       });
       
 }
 
+// var $html = $('html');
+// function FullPage() {
+//   $('#fullpage').fullpage({
 
+//   });
+// }
+
+// $(function () {
+//   FullPage();
+// });
 
 function numIncrease__init() {
     $(".info-num").each(function () {

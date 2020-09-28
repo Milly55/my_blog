@@ -36,7 +36,7 @@
     </div>
     <div id="fullpage">
         <div class="section page-1">
-            <div class="background-img-1"><img src="https://ifh.cc/g/ZEigRx.png" alt=""></div>
+            <div class="background-img-1"><img src="https://milly55.github.io/img1/pf/portfolio-a/background-img-1.png" alt=""></div>
             <div class="background-img-center">
                 <div class="phot-box-1 flex">
                     <div class="phot-img-1"><img src="https://ifh.cc/g/0bRlLP.png" alt="">
@@ -79,7 +79,7 @@
                             <li>[worthy self]</li>
                             <li>Ed Bo Young Single Cover</li>
                             <li></li>
-                            <li>1번 Track</li>
+                            <li>2번 Track</li>
                         </ul>
                         <span class="top-right-common-2 right-common-2  right-common flex"><span>B</span>est</span>
                     </div>
@@ -132,8 +132,7 @@
                             <li></li>
                             <li>특별한 사람</li>
                             <li></li>
-                            <li>김보영 의 곡 [worthy self] 는 사람이 얼마나 특별하고 <br>
-                                가치있는지를 표현한 곡이다.</li>
+                            <li>김보영 의 곡 [I'll Wait] 는 상대방을 기다리는 <br> 나의 모습을 담은 곡</li>
                         </ul>
                     </div>
                 </div>
@@ -305,8 +304,8 @@
                                 </div>
                             </div>
                             <div class="side-btns">
-                                <div class="left-btn">좌</div>
-                                <div class="riht-btn">우</div>
+                                <div class="left-btn"><img src="https://milly55.github.io/img1/pf/portfolio-a/left-bar-1.png" alt=""> </div>
+                                <div class="riht-btn"><img src="https://milly55.github.io/img1/pf/portfolio-a/right-bar-1.png" alt=""> </div>
                             </div>
                         </div>
                     </div>
