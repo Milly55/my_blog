@@ -84,6 +84,7 @@
                         <span class="top-right-common-2 right-common-2  right-common flex"><span>B</span>est</span>
                     </div>
                     <div class="about-box flex">
+                    <div class="about-img-box"></div>
                         <div class="about-profile-box flex">
                             <ul class="profile-title flex">
                                 <li>NAME</li>
@@ -106,7 +107,6 @@
                                 <li>대전 SBS아카데미 컴퓨터아트학원 <br> 웹 과정 수료</li>
                             </ul>
                         </div>
-                        <div class="about-img-box"></div>
                         <div class="about-skill-box active-on-visible" data-active-on-visible-diff-y="-200">
                             <ul class="flex">
                                 <li></li>
@@ -117,12 +117,19 @@
                             </ul>
                             <div class="about-skill-data active-on-visible skill-list-box"
                                 data-active-on-visible-diff-y="-100">
-                                <ul class="flex" data-active-on-visible-callback-func-name="Circle__run">
+                                <ul class="skill-data-1 flex" data-active-on-visible-callback-func-name="Circle__run">
                                     <li class="info-num flex" data-max-num="80"></li>
                                     <li class="info-num flex" data-max-num="85"></li>
                                     <li class="info-num flex" data-max-num="67"></li>
                                     <li class="info-num flex" data-max-num="65"></li>
                                     <li class="info-num flex" data-max-num="63"></li>
+                                </ul>
+                                <ul class="skill-name-1 flex">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                    <li>PS</li>
+                                    <li>AI</li>
                                 </ul>
                             </div>
                         </div>
@@ -165,7 +172,7 @@
                             <div class="flex">
                                 <div class="list-img-box">
                                     <nav class="logo-img-box"
-                                        style="background-image:url(https://ifh.cc/g/8SlPph.png)">
+                                        style="background-image:url(https://milly55.github.io/img1/pf/portfolio-a/solr-logo.png)">
                                     </nav>
                                 </div>
                                 솔라시도
@@ -173,7 +180,7 @@
                             <div class="flex">
                                 <div class="list-img-box">
                                     <nav class="logo-img-box"
-                                        style="background-image:url(https://ifh.cc/g/gxua9L.png)">
+                                        style="background-image:url(https://milly55.github.io/img1/pf/portfolio-a/rush-logo.png)">
                                     </nav>
                                 </div>
                                 러쉬 코리아
@@ -181,7 +188,7 @@
                             <div class="flex">
                                 <div class="list-img-box">
                                     <nav class="logo-img-box"
-                                        style="background-image:url(https://ifh.cc/g/brGaop.png)">
+                                        style="background-image:url(https://milly55.github.io/img1/pf/portfolio-a/kodog-logo.png)">
                                     </nav>
                                 </div>
                                 경동
@@ -189,7 +196,7 @@
                             <div class="flex">
                                 <div class="list-img-box">
                                     <nav class="logo-img-box"
-                                        style="background-image:url(https://ifh.cc/g/IFoLwy.png)">
+                                        style="background-image:url(https://milly55.github.io/img1/pf/portfolio-a/mose-logo-1.png)">
                                     </nav>
                                 </div>
                                 모즈클리닉
@@ -197,7 +204,7 @@
                             <div class="flex">
                                 <div class="list-img-box">
                                     <nav class="logo-img-box"
-                                        style="background-image:url(https://ifh.cc/g/HORXCS.png)">
+                                        style="background-image:url(https://milly55.github.io/img1/pf/portfolio-a/domino-logo.png)">
                                     </nav>
                                 </div>
                                 도미노 피자
@@ -209,7 +216,7 @@
                                 <div class="slider-list flex active">
                                     <div class="img-box-1">
                                         <div class="slider-img"
-                                            style="background-image:url(http://www.icounseling.co.kr/images/bg_main_section_0.jpg)">
+                                            style="background-image:url(https://milly55.github.io/img1/pf/portfolio-a/portfolio-img-1.png)">
                                         </div>
                                     </div>
                                     <div class="slider-txt">
@@ -218,14 +225,14 @@
                                             <li>HTML/CSS</li>
                                             <li></li>
                                             <li>아이의 심리상태를 체크하고 상담해주는 사이트</li>
-                                            <li><span>모작사이트</span><span>원본사이트</span></li>
+                                            <li><span>MORE</span></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="slider-list flex ">
                                     <div class="img-box-1">
                                         <div class="slider-img"
-                                            style="background-image:url(https://www.solaseado.com/images/main-monet.jpg)">
+                                            style="background-image:url(https://milly55.github.io/img1/pf/portfolio-a/portfolio-img-2.png)">
                                         </div>
                                     </div>
                                     <div class="slider-txt">
@@ -234,7 +241,7 @@
                                             <li>HTML/CSS/JS/반응형</li>
                                             <li></li>
                                             <li> 친환경 생태도시 목적 사이트 <br> (원본사이트 리뉴얼 하기전 모작했습니다)</li>
-                                            <li><span>모작사이트</span><span>원본사이트</span></li>
+                                            <li><span>MORE</span></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -250,7 +257,7 @@
                                             <li>HTML/CSS/JS</li>
                                             <li></li>
                                             <li>입욕제품 브랜드 사이트</li>
-                                            <li><span>모작사이트</span><span>원본사이트</span></li>
+                                            <li><span>MORE</span></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -266,7 +273,7 @@
                                             <li>HTML/CSS/JS/반응형</li>
                                             <li></li>
                                             <li>국가 발전의 초석이 되는 에너지 사업 사이트</li>
-                                            <li><span>모작사이트</span><span>원본사이트</span></li>
+                                            <li><span>MORE</span></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -282,7 +289,7 @@
                                             <li>HTML/CSS/JS/반응형</li>
                                             <li></li>
                                             <li>예비 신부를 위한 피부및 몸 관리 사이트</li>
-                                            <li><span>모작사이트</span><span>원본사이트</span></li>
+                                            <li><span>MORE</span></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -298,7 +305,7 @@
                                             <li>HTML/CSS/JS/리디자인</li>
                                             <li></li>
                                             <li>피자 브랜드 사이트</li>
-                                            <li><span>모작사이트</span><span>원본사이트</span></li>
+                                            <li><span>MORE</span></li>
                                         </ul>
                                     </div>
                                 </div>

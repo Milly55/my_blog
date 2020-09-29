@@ -529,6 +529,8 @@ html, body{
   height: 100%;
   position: relative;
   user-select:none;
+  min-width: 1300px;
+
 }
 .slider-bar > .dots-box{
   position: absolute;
@@ -646,8 +648,7 @@ flex-direction:column;
 .middle-bar-1{
   width:100%;
   margin-top:130px;
-  height:auto;
-  min-width:1000px;
+  min-width:1300px;
   display:block;
   padding-right:280px;
 }
@@ -697,6 +698,7 @@ flex-direction:column;
 .bottom-bar{
   background-color: black;
   padding-bottom: 100px;
+  min-width: 1300px;
 }
 .bottom-bar > .bottom-box {
   border-bottom: 1px solid grey

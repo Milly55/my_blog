@@ -460,7 +460,7 @@
         </div>
     </section>
 
-    <section class="bottom-bar ">
+    <section class="bottom-bar  ">
         <div class="bottom-box ">
             <div class="items-box con-1 flex">
                 <span><img src="https://milly55.github.io/img1/pf/rush/52f6c55cf891959ca65e1610428cc356_26431.gif"
