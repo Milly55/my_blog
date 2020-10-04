@@ -253,6 +253,187 @@ function SliderK__initAutoplay($slider) {
   }, autoplayInterval);
 }
 
+
+
+
+
+
+function SliderP__init(selector) {
+  var $slider = $(selector);
+  
+  var $slides = $slider.find('.slides > div');
+  var slidesCount = $slides.length;
+  
+  var $totalCount = $slider.find('.index-box > :last-child');
+  $totalCount.text(slidesCount);
+  
+  var currentIndex = 0;
+  var $current = $slider.find(' > .slides > div.active');
+  if ( $current.length > 0 ) {
+      currentIndex = $current.index();
+  }
+  
+  $slider.data('slider-p-slidesCount', slidesCount);
+  $slider.data('slider-p-currentIndex', currentIndex);
+  
+  $slider.find('.control-box > span:first-child').click(function() {
+      SliderP__movePrev($slider);
+  });
+  
+  $slider.find('.control-box > span:nth-child(2)').click(function() {
+      SliderP__stopAnimate($slider);
+  });
+  
+  $slider.find('.control-box > span:last-child').click(function() {
+      SliderP__moveNext($slider);
+  });
+  
+  SliderP__show($slider, 0);
+}
+
+function SliderP__moveNext($slider) {
+  var currentIndex = $slider.data('slider-p-currentIndex');
+  var postIndex = currentIndex + 1;
+  var slidesCount = $slider.data('slider-p-slidesCount');
+  
+  if ( postIndex + 1 > slidesCount ) {
+      postIndex = 0;
+  }
+  
+  SliderP__show($slider, postIndex);
+}
+
+function SliderP__movePrev($slider) {
+  var currentIndex = $slider.data('slider-p-currentIndex');
+  var postIndex = currentIndex - 1;
+  var slidesCount = $slider.data('slider-p-slidesCount');
+  
+  if ( postIndex < 0 ) {
+      postIndex = slidesCount - 1;
+  }
+  
+  SliderP__show($slider, postIndex);
+}
+
+function SliderP__show($slider, postIndex) {
+  var $stick = $slider.find('.progress-bar > .stick');
+  $stick.css('width', 0);
+  
+  var currentIndex = $slider.data('slider-p-currentIndex');
+  var slidesCount = $slider.data('slider-p-slidesCount');
+  var $current = $slider.find(' > .slides > div').eq(currentIndex);
+  var $post = $slider.find(' > .slides > div').eq(postIndex);
+  
+  $slider.data('slider-p-currentIndex', postIndex);
+  
+  $current.removeClass('active');
+  $post.addClass('active');
+  
+  var $currentIndex = $slider.find('.index-box > :first-child');
+  $currentIndex.text(postIndex + 1);
+  
+  SliderP__startAnimate($slider);
+}
+
+function SliderP__startAnimate($slider) {
+  var $stick = $slider.find('.progress-bar > .stick');
+  
+  var animateDuration = parseInt($slider.attr('data-slider-p-animate-duration'));
+  
+  $stick.stop().animate({
+      width:'100%'
+  }, animateDuration, function() {
+      SliderP__moveNext($slider);
+  });
+}
+
+function SliderP__stopAnimate($slider) {
+  var $stick = $slider.find('.progress-bar > .stick');
+  
+  $stick.stop();
+}
+
+
+// 이메일 보내기 기능
+
+function sendEmailFormSubmit(form) {
+  if ( form.receiverName.value.length == 0 ) {
+      alert('폼안에 receiverName 의 value 를 입력해주세요.');
+      return false;
+  }
+
+  if ( form.receiverEmail.value.length == 0 ) {
+      alert('폼안에 receiverEmail 의 value 를 입력해주세요.');
+      return false;
+  }
+
+  form.senderName.value = form.senderName.value.trim();
+
+  if ( form.senderName.value.length == 0 ) {
+      alert('이름을 입력 안하셨군요^^');
+      form.senderName.focus();
+      return false;
+  }
+
+  form.senderEmail.value = form.senderEmail.value.trim();
+
+  if ( form.senderEmail.value.length == 0 ) {
+      alert('이메일을 입력 안하셨군요^^');
+      form.senderEmail.focus();
+      return false;
+  }
+
+  form.body.value = form.body.value.trim();
+
+  if ( form.body.value.length == 0 ) {
+      alert('내용을 입력 안하셨군요^^');
+      form.body.focus();
+      return false;
+  }
+
+  var senderName = form.senderName.value;
+  var senderEmail = form.senderEmail.value;
+  var title = '[이력서 보고 연락 드립니다]';
+  var body = nl2br(form.body.value);
+  var receiverName = form.receiverName.value;
+  var receiverEmail = form.receiverEmail.value;
+
+  var url = 'https://email.oa.gg/doSendEmail2.php?senderName=' + senderName + '&senderEmail=' + senderEmail + '&receiverName=' + receiverName + '&receiverEmail=' + receiverEmail + '&title=' + title + '&body=' + body;
+
+  //console.log("URL : " + url);
+
+  var head= document.getElementsByTagName('head')[0];
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src = url;
+  head.appendChild(script);
+}
+
+function nl2br(str){  
+  return str.replace(/\n/g, "<br />");  
+}
+
+function Email__callback(data) {
+  if ( data.resultCode.substr(0, 2) == 'S-' ) {
+      document.sendEmailForm.reset();
+  }
+
+  alert(data.msg);
+}
+
+function PopupSlider_a(){
+  lightbox.option({
+    resizeDuration: 200,
+    wrapAround: true,
+    disableScrolling: false,
+    fitImagesInViewport:false
+  })
+  
+}
+
 $(function(){
+  PopupSlider_a();
   SliderK__init();
+  SliderP__init('.slider-p-1');
+SliderP__init('.slider-p-2');
 })
