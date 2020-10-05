@@ -286,7 +286,7 @@ body{
 }
 
 .con-1{
-    max-width: 1750px;
+    max-width: 1800px;
     margin: 0 auto;
 }
 .con {
@@ -791,8 +791,8 @@ background-color: #1E2C2E;
 }
 .background-half-color{
   position: absolute;
-  top:-20%;
-  left: -25%;
+  top:-22%;
+  left: -28%;
   height: 130vh;
   width:90%;
   transform: rotate(120deg);
@@ -882,7 +882,7 @@ background-color: #1E2C2E;
   margin-left: -60%;
   border-radius: 50%;
   overflow: hidden;
-  height:53vh;
+  height:48vh;
   width: 85%;
 }
 .slider-k .slides > .slider-list  > .img-box-1::after{
@@ -931,7 +931,7 @@ background-color: #1E2C2E;
 .slider-k .slides > .slider-list > .slider-txt{
   position: absolute;
   top:0;
-  right: 0;
+  right: -5%;
   height: 100%;
   width: 20vw;
   font-size:15px;
@@ -947,11 +947,13 @@ background-color: #1E2C2E;
 .slider-k .slides > .slider-list > .slider-txt > ul > li:first-child{
   font-size:50px;
   font-weight:bold;
-  
+  padding-right:50px;
+  border-bottom: 1px solid black;
 }
 
 
 .slider-k .slides > .slider-list > .slider-txt > ul > li:nth-child(2){
+  margin-top:10px;
   font-size:30px;
   line-height:30px;
 }
@@ -975,7 +977,6 @@ background-color: #1E2C2E;
   font-size:15px;
   font-weight: 500; 
   z-index: 1;
-  margin:0 20px;
   cursor:pointer;
 }
 .slider-k .slides > .slider-list > .slider-txt > ul > li:last-child > span >a{
@@ -1058,7 +1059,7 @@ background-color: #1E2C2E;
 }
 
 .botton-common-4 {
-  margin-top:83px;
+  margin-top:125px;
   height: initial;
   z-index: 100;
 }
@@ -1123,17 +1124,22 @@ background-color: #1E2C2E;
   visibility:visible;
 }
 .slider-p .slides > div > .slider-txt-1{
+  margin-top:50px;
   height: 90%;
-  margin-left: 25%;
+  width: 50%;
+  margin-left: 0;
+  justify-content: flex-end;
 }
 .slider-p .slides > div > .slider-txt-1 > ul{
   flex-direction: column;
   height: 100%;
+  width: 60%;
   color: black;
 }
 .slider-p .slides > div > .slider-txt-1 > ul > li:first-child{
   font-size: 50px;
   font-weight: bold;
+  border-bottom: 1px solid black;
 }
 .slider-p .slides > div > .slider-txt-1 > ul > li:nth-child(2){
   font-size: 30px;
@@ -1168,7 +1174,7 @@ background-color: #1E2C2E;
   position:absolute;
   width: 20%;
   bottom:5%;
-  right:10%;
+  right:15%;
   flex-direction: column-reverse;
 }
 .slider-p .nav-box >.control-box{
@@ -1361,4 +1367,7 @@ textarea{
 }
 .botton-common-5 > ul > li:nth-child(3)::after{
   background-color: black;
+}
+.reference-box{
+  font-size: 16px;
 }

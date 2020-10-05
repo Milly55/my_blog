@@ -371,24 +371,24 @@
                                 src="https://milly55.github.io/img1/pf/portfolio-a/design-slider-back-1.png" alt="">
                         </nav>
                         <div class="flex"><img src="https://ifh.cc/g/kvHhDR.png" alt="">
-                            <div class="slider-txt-1">
+                            <div class="slider-txt-1 flex">
                                 <ul class="flex">
                                     <li>이순신축제</li>
                                     <li>리디자인</li>
                                     <li>이순신 탄신일을 기념하여 이순신의 이력을 <br> 보고 배워가는 축제입니다.</li>
-                                    <li><a data-title="잘가1" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/generalLee.png">MORE</a> </li>
+                                    <li><a data-title="이순신축제" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/generalLee.png">MORE</a> </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="flex"><img src="https://ifh.cc/g/3QkNmR.png" alt="">
-                            <div class="slider-txt-1">
+                            <div class="slider-txt-1 flex">
                                 <ul class="flex">
                                     <li>사이드바</li>
                                     <li>디자인</li>
-                                    <li>지금 이 포트폴리오가 아닌 다른 포트폴리오 <br> 시안만들면서 사이드바도 만들어봤습니다.
-                                        <br> 부드러운 느낌을연출하기위해 배경을 <br> 굴곡으로주고 아이콘은 머랭을 넣었습니다
+                                    <li>지금 이 포트폴리오가 아닌 다른 포트폴리오  시안만들면서 사이드바도 만들어봤습니다.
+                                         부드러운 느낌을연출하기위해 배경을  굴곡으로주고 아이콘은 머랭을 넣었습니다
                                     </li>
-                                    <li><a href="www.naver.com">MORE</a> </li>
+                                    <li><a data-title="사이드바 시안" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/design-img-1.png">MORE</a> </li>
                                 </ul>
                             </div>
                         </div>
@@ -468,7 +468,7 @@
                                 <li>김보영 의 곡 [worthy self] 는 사람이 얼마나 특별하고 <br>
                                     가치있는지를 표현한 곡이다.</li>
                             </ul>
-                            <div class="reference-box">1523</div>
+                            <div class="reference-box">※본 사이트는 상업목적이 아닌 개인용 포트폴리오입니다.※</div>
                         </div>
                     </div>
                 </div>

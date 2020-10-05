@@ -1,0 +1,123 @@
+html, body{
+    height: 70%;
+    width: 100%;
+}
+.slider-bar{
+    height: 100%;
+    position: relative;
+    user-select:none;
+}
+.slider-bar .side-bar > div{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:calc(50% - 100px);
+    cursor: pointer;
+    height: 100%;
+    align-items: center;
+}
+.slider-bar .side-bar > div > span{
+    transition: 0.3s;
+    font-size: 2rem;
+    margin:0 20px;
+    color: white;
+}
+.slider-bar .side-bar > div:active > span{
+    margin-top:10px;
+}
+.slider-bar .side-bar > div:last-child{
+    right: 0;
+    left: auto;
+}
+.slider-bar > .slider-box-1 > div{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  
+}
+.slider-bar > .slider-box-1 > div.active{
+    opacity:1;
+}
+
+@media(max-width:400px){
+    .slider-bar .side-bar > div> span{
+        font-size: 20px;
+    } 
+} 
+ 
+.btn-txt-bar{
+    width: 100%;
+    height:100%;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+.btn-txt-box{
+    align-items: center;
+}
+.btn-txt-1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}  
+
+@media(max-width:750px){
+    .btn-txt-1{
+        font-size: 23px;
+    } 
+} 
+@media(max-width:400px){
+    .btn-txt-1{
+        font-size: 20px;
+    } 
+} 
+
+
+.recent-list-bar{
+    margin-top:50px;     
+}
+.recent-list-bar > .recent-title{
+    justify-content: center;
+}
+.recent-list-bar > .recent-list-box > .recent-list{
+    justify-content: center;
+    border-radius: 20px;
+}
+.recent-list-bar > .recent-list-box > .recent-list > ul{
+    margin-top:30px;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    transition:  0.3s;
+    border-radius: 20px;
+}
+.recent-list-bar > .recent-list-box > .recent-list > ul:hover{
+    background-color: white;
+    box-shadow: 3px 3px 8px 5px #818181;
+}
+
+@media(max-width:750px){
+    .recent-list-bar > .recent-list-box > .recent-list{
+        flex-direction: column;
+        align-items: center;
+    }
+}    
+
+.my-slider-1 .item {
+    border:10px solid red;
+    height:50vh;
+    font-size:15rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+      background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 100;
+  }

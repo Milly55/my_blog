@@ -1,0 +1,172 @@
+
+.portfolio-bar{
+    text-align: center;
+    margin-top:50px;
+}
+.portfolio-bar> .portfolio-box  > .portfolio-img-box-1  {
+    justify-content: center;
+    flex-direction: column;
+}
+.portfolio-bar > .portfolio-box  > .portfolio-img-box-1  >ul{
+    margin-top:80px;
+    justify-content: space-around;
+}
+.portfolio-bar > .portfolio-box  > .portfolio-img-box-1  >ul > li{
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    flex-direction: column;
+    position: relative; 
+
+}
+.portfolio-bar > .portfolio-box  > .portfolio-img-box-1  >ul > li > a {
+    border: 3px solid #afafaf;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+      
+}
+.portfolio-bar > .portfolio-box  > .portfolio-img-box-1  >ul > li > ul{
+    flex-direction: column;
+    align-items: center;
+    margin-top:15px;
+}
+.portfolio-bar > .portfolio-box  > .portfolio-img-box-1  >ul > li > ul > li{
+    margin-top:10px;
+}
+.portfolio-bar > .portfolio-box  > .portfolio-img-box-1  >ul > li > ul > li > i{
+    padding:5px;
+}
+.portfolio-bar > .portfolio-box  > .portfolio-img-box-1  >ul > li> .more-1{
+    position: absolute;
+    top:4%;
+    left: 4%;
+    background-color: rgb(83, 109, 255);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+.portfolio-bar > .portfolio-box  > .portfolio-img-box-1  >ul > li > a >.img-box{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: 0.3s;
+}
+.portfolio-bar > .portfolio-box  > .portfolio-img-box-1  >ul > li > a:hover >.img-box{
+    transform:scale(1.2);
+}
+
+.portfolio-bar > .portfolio-box  > .portfolio-img-box-1 > ul > li > a > .img-box::after{
+    position: absolute;
+    content: "";
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color:rgba(0,0,0,0);
+    transition: background-color 0.3s;
+}
+.portfolio-bar > .portfolio-box  > .portfolio-img-box-1  >ul > li:hover> a > .img-box::after{
+    background-color:rgba(19, 10, 10, 0.3);
+}
+.portfolio-bar > .portfolio-box  > .portfolio-img-box-1  >ul > li > a > .img-box::before{
+    position: absolute;
+    content: "MORE >";
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.portfolio-bar > .portfolio-box  > .portfolio-img-box-1  >ul ul > li:last-child > a:hover{
+    text-decoration: underline;
+}
+.portfolio-bar> .portfolio-box  > .portfolio-img-box-1  >ul > li:hover > a > .img-box::before{
+    visibility: visible;
+    opacity: 1;
+}
+
+@media(max-width:750px){
+    .portfolio-bar{
+        margin-top:100px;
+    }
+}
+
+@media(max-width:750px){
+    .portfolio-bar > .portfolio-box  > .portfolio-img-box-1  >ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width:750px){
+    .portfolio-bar > .portfolio-box  > .portfolio-img-box-1  >ul > li{
+        width: 80%;
+    }
+}
+
+
+
+
+
+.my-slider-11{
+  border:5px solid black;
+  width:50%;
+  margin:0 auto;
+  margin-top:50px;
+  position:relative;
+  border-radius:30px;
+}
+.my-slider-11 .item {
+  height:50vh;
+  width:50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin:0 auto;
+  margin-top:30px;
+  position: relative;
+}
+.my-slider-11 .item > ul{
+    position: absolute;
+    top:-28px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.my-slider-11 .item > ul > li{
+    margin: 0 10px;
+}
+.my-slider-11 .item > ul > li:hover > a{
+    text-decoration: underline;
+}
+.icon-1{
+  position:absolute;
+  top:45%;
+  left:0;
+  font-size:30px;
+}
+.icon-1:hover{
+  color:black;
+}
+.nav-right{
+  left:auto;
+  right:0;
+}
