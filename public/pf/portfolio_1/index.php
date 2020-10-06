@@ -38,13 +38,45 @@
     </div>
     <div id="fullpage">
         <div class="section page-1">
+            <div class="mobile-bt-box"><i class="fas fa-bars"></i></div>
+            <div class="mobile-menu-bar flex">
+                <div class="menu-left-line ">
+                    <ul class="flex">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="mobile-menu-box flex">
+                    <ul class="flex">
+                        <li>MAIN</li>
+                        <li>ABOUT ME</li>
+                        <li>PORTFOLIO</li>
+                        <li>DESIGN</li>
+                        <li>MEDIA</li>
+                    </ul>
+                </div>
+                <div class="mobile-btn-box flex">
+                    <ul class="flex">
+                        <li><i class="fas fa-times"></i></li>
+                        <li>5</li>
+                    </ul>
+                </div>
+            </div>
             <div class="background-img-1"><img src="https://milly55.github.io/img1/pf/portfolio-a/background-img-1.png"
                     alt=""></div>
+                    
             <div class="background-img-center">
                 <div class="phot-box-1 flex">
-                    <div class="phot-img-1"><img src="https://ifh.cc/g/0bRlLP.png" alt="">
+                    <div class="phot-img-1 main-phot-img-1 "><img src="https://ifh.cc/g/0bRlLP.png" alt="">
                         <div class="phot-txt-1">worthy self</div>
                         <div class="cd-img-1"><img src="https://ifh.cc/g/2T4QFT.png" alt=""></div>
+                    </div>
+                    <div class="phot-img-1 mobile-phot-img-1"><img src="https://milly55.github.io/img1/pf/portfolio-a/mobil-img.png" alt="">
+                        <div class="phot-txt-1">worthy self</div>
+                        <div class="cd-img-1"><img src="https://milly55.github.io/img1/pf/portfolio-a/cd.png" alt=""></div>
                     </div>
                 </div>
             </div>
