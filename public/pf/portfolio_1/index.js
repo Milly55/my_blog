@@ -431,6 +431,33 @@ function PopupSlider_a(){
   
 }
 
+function MobileSideBar__toggle() {
+  var $btn = $('.mobile-bt-box');
+
+  if ( $btn.hasClass('active') ) {
+      $btn.removeClass('active');
+      $('.mobile-menu-bar').removeClass('active');
+      $('.mobile-top-bar').removeClass('active');
+  }
+  else {
+      $btn.addClass('active');
+      $('.mobile-menu-bar').addClass('active');
+      $('.mobile-top-bar').addClass('active');
+  }
+}
+
+function MobileSideBar__init() {
+  $('.mobile-btn-box > ul >li:first-child,.mobile-bt-box').click(MobileSideBar__toggle);
+}
+$(function() {
+  MobileSideBar__init();
+});
+
+
+
+
+
+
 $(function(){
   PopupSlider_a();
   SliderK__init();

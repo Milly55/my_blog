@@ -25,7 +25,8 @@
     <title>B.Work</title>
 </head>
 
-<body>
+<body style="overflow-x:hidden">
+
     <!-- 메인페이지 박스 -->
     <div class="menu-box-1 con flex">
         <ul class="flex" id="menu">
@@ -38,45 +39,55 @@
     </div>
     <div id="fullpage">
         <div class="section page-1">
-            <div class="mobile-bt-box"><i class="fas fa-bars"></i></div>
-            <div class="mobile-menu-bar flex">
-                <div class="menu-left-line ">
-                    <ul class="flex">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-                <div class="mobile-menu-box flex">
-                    <ul class="flex">
-                        <li>MAIN</li>
-                        <li>ABOUT ME</li>
-                        <li>PORTFOLIO</li>
-                        <li>DESIGN</li>
-                        <li>MEDIA</li>
-                    </ul>
-                </div>
-                <div class="mobile-btn-box flex">
-                    <ul class="flex">
-                        <li><i class="fas fa-times"></i></li>
-                        <li>5</li>
-                    </ul>
+            <div class="mobile-bt-box" onclick="return false;"><i class="fas fa-bars"></i></div>
+            <div class="mobile-top-bar">
+                <div class="mobile-menu-bar flex">
+                    <div class="menu-left-line ">
+                        <ul class="flex">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="mobile-menu-box flex">
+                        <ul class="flex">
+                            <li data-menuanchor="anchor1"><a href="#anchor1">MAIN</a> </li>
+                            <li data-menuanchor="anchor2"><a href="#anchor2">ABOUT ME</a> </li>
+                            <li data-menuanchor="anchor3"><a href="#anchor3">PORTFOLIO</a> </li>
+                            <li data-menuanchor="anchor4"><a href="#anchor4">DESIGN</a> </li>
+                            <li data-menuanchor="anchor5"><a href="#anchor5">MEDIA</a> </li>
+                        </ul>
+                    </div>
+                    <div class="mobile-btn-box flex">
+                        <ul class="flex">
+                            <li><i class="fas fa-times"></i></li>
+                            <li>
+                                <div class="mobile-cd-img" style="background-image: url(https://ifh.cc/g/2T4QFT.png)">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="background-img-1"><img src="https://milly55.github.io/img1/pf/portfolio-a/background-img-1.png"
                     alt=""></div>
-                    
+
             <div class="background-img-center">
                 <div class="phot-box-1 flex">
-                    <div class="phot-img-1 main-phot-img-1 "><img src="https://ifh.cc/g/0bRlLP.png" alt="">
+                    <div class="phot-img-2">
+                        <div class="main-phot-img-1" style="background-image: url(https://ifh.cc/g/0bRlLP.png)"></div>
                         <div class="phot-txt-1">worthy self</div>
-                        <div class="cd-img-1"><img src="https://ifh.cc/g/2T4QFT.png" alt=""></div>
+                        <div class="cd-img-1 pc-cd-img-1" style="background-image: url(https://ifh.cc/g/2T4QFT.png)">
+                        </div>
                     </div>
-                    <div class="phot-img-1 mobile-phot-img-1"><img src="https://milly55.github.io/img1/pf/portfolio-a/mobil-img.png" alt="">
+                    <div class="phot-img-1 mobile-phot-img-1"><img
+                            src="https://milly55.github.io/img1/pf/portfolio-a/mobil-img.png" alt="">
                         <div class="phot-txt-1">worthy self</div>
-                        <div class="cd-img-1"><img src="https://milly55.github.io/img1/pf/portfolio-a/cd.png" alt=""></div>
+                        <div class="cd-img-1 mobile-cd-img-1"><img
+                                src="https://milly55.github.io/img1/pf/portfolio-a/cd.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -105,6 +116,7 @@
                 <div class="name-box-1">웹디자이너 김보영</div>
             </div>
         </div>
+        <!-- 2번째 페이지 -->
         <div class="section page-2">
             <section class="top-bar-2 top-bar-common con-1 flex">
                 <div class="top-box-2 top-box-common flex">
@@ -116,7 +128,11 @@
                             trying</span>
                     </div>
                     <div class="about-box flex">
-                        <div class="about-img-box"></div>
+                        <div class="about-img-box">
+                            <div class="profile-img-1"
+                                style="background-image: url(https://milly55.github.io/img1/pf/portfolio-a/profile-img-1.png)">
+                            </div>
+                        </div>
                         <div class="about-profile-box flex">
                             <ul class="profile-title flex">
                                 <li>NAME</li>
@@ -177,6 +193,7 @@
                 </div>
             </section>
         </div>
+        <!-- 3번째 페이지 -->
         <div class="section page-3">
             <div class="background-half-color"></div>
             <section class="top-bar-3 top-bar-common con-1 flex">
@@ -340,17 +357,19 @@
                                             <li>HTML/CSS/JS/리디자인</li>
                                             <li></li>
                                             <li>피자 브랜드 사이트</li>
-                                            <li><span><a href="/pf/domino/index.php" target="_blank">MORE</a></span></li>
+                                            <li class="flex"><span  class="site-link-1"><a href="/pf/domino/index.php" target="_blank">MORE</a></span>
+                                              <span class="site-link-2"> <a href="http://localhost:8077/pf/domino_2/index.php" target="_blank">다른 리디자인</a></span>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                             <div class="side-btns">
-                                <div class="left-btn"><img
-                                        src="https://milly55.github.io/img1/pf/portfolio-a/left-bar-1.png" alt="">
+                                <div class="left-btn">
+                                    <i class="fas fa-angle-left"></i>
                                 </div>
-                                <div class="riht-btn"><img
-                                        src="https://milly55.github.io/img1/pf/portfolio-a/right-bar-1.png" alt="">
+                                <div class="riht-btn">
+                                    <i class="fas fa-angle-right"></i>
                                 </div>
                             </div>
                         </div>
@@ -367,6 +386,7 @@
                 </div>
             </section>
         </div>
+        <!-- 4번째 페이지 -->
         <div class="section page-4">
             <nav class="background-color-1"></nav>
             <section class="page4-box con-1">
@@ -398,29 +418,41 @@
                             </div>
                         </div>
                     </div>
-                    <div class="slides">
-                        <nav class="slider-back-img"><img
-                                src="https://milly55.github.io/img1/pf/portfolio-a/design-slider-back-1.png" alt="">
+                    <div class="slides flex">
+                        <nav class="slider-back-img">
+                            <div class="back-img-box"
+                                style="background-image:url(https://milly55.github.io/img1/pf/portfolio-a/design-slider-back-1.png)">
+                            </div>
                         </nav>
-                        <div class="flex"><img src="https://ifh.cc/g/kvHhDR.png" alt="">
+                        <div class="flex">
+                            <div class="slider-img-box"
+                                style="background-image:url(https://milly55.github.io/img1/pf/portfolio-a/design-slider-2.png)">
+                            </div>
                             <div class="slider-txt-1 flex">
                                 <ul class="flex">
                                     <li>이순신축제</li>
                                     <li>리디자인</li>
                                     <li>이순신 탄신일을 기념하여 이순신의 이력을 <br> 보고 배워가는 축제입니다.</li>
-                                    <li><a data-title="이순신축제" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/generalLee.png">MORE</a> </li>
+                                    <li><a data-title="이순신축제" data-lightbox="example-set"
+                                            href="https://milly55.github.io/img1/pf/design/generalLee.png">MORE</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="flex"><img src="https://ifh.cc/g/3QkNmR.png" alt="">
+                        <div class="child-2 flex">
+                            <div class="slider-img-box"
+                                style="background-image:url(https://milly55.github.io/img1/pf/portfolio-a/design-slider-1.png)">
+                            </div>
                             <div class="slider-txt-1 flex">
                                 <ul class="flex">
                                     <li>사이드바</li>
                                     <li>디자인</li>
-                                    <li>지금 이 포트폴리오가 아닌 다른 포트폴리오  시안만들면서 사이드바도 만들어봤습니다.
-                                         부드러운 느낌을연출하기위해 배경을  굴곡으로주고 아이콘은 머랭을 넣었습니다
+                                    <li>지금 이 포트폴리오가 아닌 다른 포트폴리오 시안만들면서 사이드바도 만들어봤습니다.
+                                        부드러운 느낌을연출하기위해 배경을 굴곡으로주고 아이콘은 머랭을 넣었습니다
                                     </li>
-                                    <li><a data-title="사이드바 시안" data-lightbox="example-set" href="https://milly55.github.io/img1/pf/design/design-img-1.png">MORE</a> </li>
+                                    <li><a data-title="사이드바 시안" data-lightbox="example-set"
+                                            href="https://milly55.github.io/img1/pf/portfolio-a/design-img-a.png">MORE</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -437,6 +469,7 @@
                 </div>
             </section>
         </div>
+        <!-- 마지막 페이지 -->
         <div class="section page-5">
             <section class="page5-box con-1">
                 <div class="top-bar-5">
@@ -447,7 +480,7 @@
                             </ul>
                         </div>
                         <div class="media-box flex">
-                            <div class="email-large-box-1">
+                            <div class="email-large-box-1 ">
                                 <div class="media-tiltl flex">MEDIA</div>
                                 <form action onsubmit="sendEmailFormSubmit(this); return false;" name="sendEmailForm">
                                     <input type="hidden" name="receiverName" value="김보영">
@@ -484,11 +517,15 @@
                                                 <br> 한방울 씩이라고 체워나간다는 마음가짐으로 하겠습니다.
                                             </li>
                                             <li>저의 대해 궁금하신다면 옆에 이메일을 보내주세요~</li>
-                                            <li class="flex"> <span> ‘Keep trying, Be focused, and You will make it.’</span>  
-                                                <br><span>(계속 노력하라, 목표를잃지말아라 그러면 당신은성공할 것이다.)</span>  </li>
+                                            <li class="flex"> <span> ‘Keep trying, Be focused, and You will make
+                                                    it.’</span>
+                                                <br><span>(계속 노력하라, 목표를잃지말아라 그러면 당신은성공할 것이다.)</span> </li>
                                         </ul>
                                     </div>
-                                    <div class="content-cd-img"><img src="https://ifh.cc/g/2T4QFT.png" alt=""></div>
+                                    <div class="content-cd-img">
+                                        <div class="conrent-img-box"
+                                            style="background-image: url(https://ifh.cc/g/2T4QFT.png)"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
