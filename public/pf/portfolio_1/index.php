@@ -358,7 +358,7 @@
                                             <li></li>
                                             <li>피자 브랜드 사이트</li>
                                             <li class="flex"><span  class="site-link-1"><a href="/pf/domino/index.php" target="_blank">MORE</a></span>
-                                              <span class="site-link-2"> <a href="http://localhost:8077/pf/domino_2/index.php" target="_blank">다른 리디자인</a></span>
+                                              <span class="site-link-2"> <a href="/pf/domino_2/index.php" target="_blank">다른 리디자인</a></span>
                                             </li>
                                         </ul>
                                     </div>
