@@ -459,11 +459,11 @@
 
     <section class="domino-ebant-box-1 con-min-width flex">
         <div class="service-title-box-1 con flex">
-        <div class="title-txt-1">"Benefit & Service"</div>
-                <ul class="title-txt-2 flex">
-                    <li>여러가지 배달 & 로그인 혜택</li>
-                    <li>회원가입후 행복을 누려보세요.</li>
-                </ul>
+            <div class="title-txt-1">"Benefit & Service"</div>
+            <ul class="title-txt-2 flex">
+                <li>여러가지 배달 & 로그인 혜택</li>
+                <li>회원가입후 행복을 누려보세요.</li>
+            </ul>
         </div>
         <div class="domino-ebant-box-2 con flex">
             <nav class="delivery-bar-1 flex">
@@ -563,99 +563,66 @@
             </div>
         </div>
     </section>
+
+
+    <section class="foot-bar-1  con-min-width">
+        <div class="menu-title-box con flex">
+            <div class="title-txt-1">"Special event"</div>
+            <ul class="title-txt-2 flex">
+                <li>모두가 즐길수있는 </li>
+                <li>누구나 참여가능한 이벤트</li>
+            </ul>
+        </div>
+        <div class="foot-box-1 con">
+            <div class="domino-news-box flex">
+                <div class="domino-news-1 flex news-a">
+                    <a href="">
+                        <nav class="domino-news-bg-1 news-bg"></nav>
+                    </a>
+                    <img src="https://milly55.github.io/img1/pf/domino/ebent-1.png" alt="">
+                    <ul class="flex">
+                        <li>도미노 픽업 서비스</li>
+                        <li>매장에서 아닌 집에서</li>
+                        <li>미리 주문하고</li>
+                        <li>방문하여 차에서 받자</li>
+                        <li>
+                            <nav class="flex"><a href="#">MORE <i class="fas fa-caret-right"></i></a></nav>
+                        </li>
+                    </ul>
+                </div>
+                <div class="domino-news-2 flex news-a">
+                    <a href="">
+                        <nav class="domino-news-bg-2 news-bg"></nav>
+                    </a>
+                    <img src="https://milly55.github.io/img1/pf/domino/ebent-2.png" alt="">
+                    <ul class="flex">
+                        <li>도미노 스팟 1,000</li>
+                        <li>밖에 어디서든 먹고 싶을때</li>
+                        <li>도미노 스팟으로 주문학고</li>
+                        <li>그 자리에서 받자!</li>
+                        <li>
+                            <nav class="flex"><a href="#">MORE <i class="fas fa-caret-right"></i></a></nav>
+                        </li>
+                    </ul>
+                </div>
+                <div class="domino-news-3 flex news-a">
+                    <a href="">
+                        <nav class="domino-news-bg-3 news-bg"></nav>
+                    </a>
+                    <img src="https://milly55.github.io/img1/pf/domino-2/news-3.png" alt="">
+                    <ul class="flex">
+                        <li>글로벌 레전드 4 피자</li>
+                        <li>배스트 피자를 한판에</li>
+                        <li>글로벌 브랜드 도미노</li>
+                        <li>야심찬 합작!</li>
+                        <li>
+                            <nav class="flex"><a href="#">MORE <i class="fas fa-caret-right"></i></a></nav>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
-
-<!-- <section class="middle-bar-2">
-    <div class="middle-box-2">
-        <div class="middle-title-2 flex">
-            <nav> Delivery <span>주문</span></nav>
-            <nav>다양한 주문방법으로 행복을 누리세요~</nav>
-        </div>
-        <div class="delivery-list-box">
-            <ul class="flex">
-                <li class="flex">
-                    <div class="img-box-1">
-                        <div class="img-1"
-                            style="background-image:url(https://milly55.github.io/img1/pf/domino/delivery-1.png)">
-                        </div>
-                    </div>
-                    <div class="img-box-2 flex">
-                        <div class="img-2"
-                            style="background-image:url(https://milly55.github.io/img1/pf/domino/delivery-1-a.png)">
-                        </div>
-                    </div>
-                    <ul class="flex">
-                        <li>배달주문</li>
-                        <li>등급별 최대 30%</li>
-                    </ul>
-                </li>
-                <li class="flex">
-                    <div class="img-box-1">
-                        <div class="img-1"
-                            style="background-image:url(https://milly55.github.io/img1/pf/domino/delivery-2.png)">
-                        </div>
-                    </div>
-                    <div class="img-box-2 flex">
-                        <div class="img-2"
-                            style="background-image:url(https://milly55.github.io/img1/pf/domino/delivery-2-b.png)">
-                        </div>
-                    </div>
-                    <ul class="flex">
-                        <li>포장주문</li>
-                        <li>등급별 최대 40%</li>
-                    </ul>
-                </li>
-                <li class="flex">
-                    <div class="img-box-1">
-                        <div class="img-1"
-                            style="background-image:url(https://milly55.github.io/img1/pf/domino/delivery-3-c.png)">
-                        </div>
-                    </div>
-                    <div class="img-box-2 flex">
-                        <div class="img-2"
-                            style="background-image:url(https://milly55.github.io/img1/pf/domino/delivery-3.png)">
-                        </div>
-                    </div>
-                    <ul class="flex">
-                        <li>도미쳇 주문</li>
-                        <li>빠르고 간편한 채팅주문 서비스</li>
-                    </ul>
-                </li>
-                <li class="flex">
-                    <div class="img-box-1">
-                        <div class="img-1"
-                            style="background-image:url(https://milly55.github.io/img1/pf/domino/delivery-4.png)">
-                        </div>
-                    </div>
-                    <div class="img-box-2 flex">
-                        <div class="img-2"
-                            style="background-image:url(https://milly55.github.io/img1/pf/domino/delivery-4-d.png)">
-                        </div>
-                    </div>
-                    <ul class="flex">
-                        <li>퀵오더</li>
-                        <li>자주이용하는 메뉴를 <br> 더 빠르게 주문해보세요!</li>
-                    </ul>
-                </li>
-                <li class="flex">
-                    <div class="img-box-1">
-                        <div class="img-1"
-                            style="background-image:url(https://milly55.github.io/img1/pf/domino/delivery-5.png)">
-                        </div>
-                    </div>
-                    <div class="img-box-2 flex">
-                        <div class="img-2"
-                            style="background-image:url(https://milly55.github.io/img1/pf/domino/delivery-5-e.png)">
-                        </div>
-                    </div>
-                    <ul class="flex">
-                        <li>드라이빙 픽업 주문</li>
-                        <li>고객님의 차로 직접 <br> 피자를 가져다 드립니다~</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </div>
-</section> -->

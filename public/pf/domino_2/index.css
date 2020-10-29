@@ -913,3 +913,56 @@ div.right-btn {
     width:30px;
     background-color:#FF4D4D;
 }
+
+
+.foot-bar-1{
+    margin-top:100px;
+    padding-bottom:80px;
+}
+.foot-bar-1 > .foot-box-1{
+    margin-top:80px;
+}
+.foot-bar-1 > .foot-box-1 > .domino-news-box {
+    justify-content: center;
+}
+.news-a{
+    position: relative;
+    margin:0 10px;
+}
+.news-a > a > .news-bg{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+.news-a:hover > a > .news-bg{
+    visibility: visible;
+    opacity: 0.6;
+}
+.news-a > ul{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    font-weight: 700;
+}
+.news-a:hover > ul{
+    opacity: 1;
+    visibility: visible;
+}
+.news-a> ul > li:last-child{
+    margin-top:20px;
+}
