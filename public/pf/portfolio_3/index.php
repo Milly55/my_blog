@@ -53,10 +53,10 @@
             </section>
             <div class="media-link-box-1 ">
                 <ul class="flex">
-                    <li><i class="fab fa-github"></i></li>
-                    <li><i class="fab fa-youtube"></i></li>
-                    <li><i class="fas fa-blog"></i></li>
-                    <li><i class="fab fa-codepen"></i></li>
+                    <li><a href="https://github.com/Milly55" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCarBNoJCki97H5LZWgT_7bQ" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://mn02006.tistory.com/" target="_blank"><i class="fas fa-blog"></i></a></li>
+                    <li><a href="https://cdpn.io/Milly55/debug/YzyOzEX/RBrOJRJxvnzM" target="_blank"><i class="fab fa-codepen"></i></a></li>
                 </ul>
             </div>
         </div>
