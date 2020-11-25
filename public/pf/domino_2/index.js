@@ -1,12 +1,13 @@
 console.clear();
 
-function popup_a(){
-    alert('리디자인 중입니다. ^^');
-}
-$(function(){
-    popup_a();
-})
+// function popup_a(){
+//     alert('리디자인 중입니다. ^^');
+// }
+// $(function(){
+//     popup_a();
+// })
 
+// 메뉴 스크롤 이벤트
 var $window = $(window);
 
 function TopBox__init() {
@@ -29,6 +30,7 @@ $(function () {
 });
 
 
+// 메뉴 더보기 이밴트
 function TopBar__a(){
     $(".top-bar > .top-menu-box > ul > li:last-child ").click(function () {
         if ($(".background").hasClass("active")) {
@@ -44,6 +46,8 @@ $(function(){
     TopBar__a();
 })
 
+
+// 메뉴 슬라이드
 
 /* 기능 */
 function SliderK__show($slider, index) {
@@ -182,7 +186,7 @@ function SliderK__initAutoplay($slider) {
 
 
 
-
+// 유튜브 슬라이드
 
 /* 기능 */
 function SliderK__show($slider, index) {
@@ -319,6 +323,8 @@ function SliderK__initAutoplay($slider) {
 }
 
 
+
+
 function Slider_Tabbox(){
     $('.tab-box > .head > ul > li').click(function() {
         var $clickedLi = $(this);
@@ -362,9 +368,9 @@ function MySlider2__init() {
       items: 1,
       loop: true,
       margin: 10,
-      autoplay: true,
+      autoplay: false,
       autoplayTimeout: 10000,
-      autoplayHoverPause: true,
+      autoplayHoverPause: false,
       dots:true
     });
     $(".play").on("click", function () {
@@ -376,11 +382,24 @@ function MySlider2__init() {
   }
   
 
+
+  function FootBar__a(){
+    $(".foot-bar-2 .language-box > ul ").click(function () {
+        if ($(".foot-bar-2 .language-box > ul > li").hasClass("active")) {
+            $(".foot-bar-2 .language-box > ul > li").removeClass("active");
+        } else {
+            $(".foot-bar-2 .language-box > ul > li").addClass("active");
+        }
+    });
+}
+
+
 $(function(){
     MySlider2__init();
     Slider_Box_a();
     Slider_Tabbox();
     SliderK__init();
     SliderK__init_a();
+    FootBar__a();
 })
 

@@ -166,9 +166,9 @@
                             <div class="about-skill-data active-on-visible skill-list-box"
                                 data-active-on-visible-diff-y="-100">
                                 <ul class="skill-data-1 flex" data-active-on-visible-callback-func-name="Circle__run">
-                                    <li class="info-num flex" data-max-num="80"></li>
-                                    <li class="info-num flex" data-max-num="85"></li>
-                                    <li class="info-num flex" data-max-num="67"></li>
+                                    <li class="info-num flex" data-max-num="70"></li>
+                                    <li class="info-num flex" data-max-num="75"></li>
+                                    <li class="info-num flex" data-max-num="60"></li>
                                     <li class="info-num flex" data-max-num="65"></li>
                                     <li class="info-num flex" data-max-num="63"></li>
                                 </ul>
@@ -452,6 +452,37 @@
                                     </li>
                                     <li><a data-title="사이드바 시안" data-lightbox="example-set"
                                             href="https://milly55.github.io/img1/pf/portfolio-a/design-img-a.png">MORE</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="slider-img-box"
+                                style="background-image:url(https://milly55.github.io/img1/pf/portfolio-a/design-slider-3.png)">
+                            </div>
+                            <div class="slider-txt-1 flex">
+                                <ul class="flex">
+                                    <li>포트폴리오 시안</li>
+                                    <li>창작</li>
+                                    <li>포트폴리오 시안을 하나더 작업을 했습니다. 기존 보다 깔끔하게 해보았고, <br> 
+                                    전시하는 컨샙으로 한눈에 보기 쉽고 풀페이지 형식으로 했습니다.</li>
+                                    <li><a data-title="포트폴리오 시안" data-lightbox="example-set"
+                                            href="https://milly55.github.io/img1/pf/portfolio-a/design-img-b.png">MORE</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="slider-img-box"
+                                style="background-image:url(https://milly55.github.io/img1/pf/portfolio-a/design-slider-4.png)">
+                            </div>
+                            <div class="slider-txt-1 flex">
+                                <ul class="flex">
+                                    <li>배너</li>
+                                    <li>창작</li>
+                                    <li>카페 테이크아웃 할인 이밴트 배너 디자인 입니다.</li>
+                                    <li><a data-title="배너" data-lightbox="example-set"
+                                            href="https://milly55.github.io/img1/pf/portfolio-a/design-img-d.png">MORE</a>
                                     </li>
                                 </ul>
                             </div>

@@ -916,8 +916,8 @@ div.right-btn {
 
 
 .foot-bar-1{
-    margin-top:100px;
-    padding-bottom:80px;
+    margin-top:130px;
+    height: 80vh;
 }
 .foot-bar-1 > .foot-box-1{
     margin-top:80px;
@@ -965,4 +965,116 @@ div.right-btn {
 }
 .news-a> ul > li:last-child{
     margin-top:20px;
+}
+
+
+
+.foot-bar-2{
+    border-top:1px solid #afafaf;
+}
+.foot-bar-2 > .foot-box-2 > .foot-under-top{
+    justify-content:space-between;
+}
+
+.foot-bar-2 .sns-link-box >  ul{
+    font-size:25px;
+    
+}
+
+.foot-bar-2 .sns-link-box >  ul > li{
+    margin:0 10px;  
+}
+
+.foot-bar-2 .language-box{
+    align-items:center;
+}
+.foot-bar-2 .language-box > ul > li {
+    position:relative;
+}
+.foot-bar-2 .language-box > ul > li  > .kor-1{
+    padding-right:150px;
+    color:gray;
+    border-bottom:1px solid #afafaf;
+}
+.foot-bar-2 .language-box > ul > li > ul{
+    position:absolute;
+    top:100%;
+    display:none;
+    flex-direction:column;
+    background-color:white;
+    border:1px solid #dfdfdf;
+}
+.foot-bar-2 .language-box > ul > li > ul > li{
+    padding-right:165px;
+    color:gray;
+}
+
+.foot-bar-2 .language-box > ul > li > ul > li:hover{
+    background-color:skyblue; 
+}
+.foot-bar-2 .language-box > ul > li.active > ul{
+    display:flex;
+}
+.foot-bar-2 .app-box{
+    justify-content:flex-end;
+}
+.foot-bar-2 .app-box > ul{
+    align-items:center;
+}
+.foot-bar-2 .app-box > ul > li{
+    padding:0 10px;
+}
+.foot-bar-2 .app-box > ul > li:not(:first-child){
+    font-size:25px;
+}
+.numbar-1{
+    font-size:20px;
+}
+.information-box > ul{
+    margin-top:30px;
+    color:gray;
+}
+
+.information-box > ul > li{
+    margin:0 20px;
+}
+.information-box > ul > li:nth-child(2){
+    font-weight:bold;
+    color:black;
+}
+.information-box-2{
+    margin-top:40px;
+    color:gray;
+   font-size:13px;
+}
+.information-box-2 > ul{
+    flex-direction:column;
+    align-items:center;
+}
+.information-box-2 > ul > li{
+    padding:5px 0;
+}
+.information-box-2 > ul > li:nth-child(3) > span{
+    margin:0 100px;
+}
+.information-box-2 > ul > li:last-child{
+    margin-top:45px;
+}
+
+
+.foot-information-box{
+    margin-top:50px;
+    background-color:#f5f5f5;
+    padding:30px 0;
+}
+.foot-information-box > ul {
+    justify-content:center;
+}
+.foot-information-box > ul > li{
+    font-size:12px;
+    margin:0 10px;
+    color:gray;
+}
+.foot-information-box > ul > li > img{
+    margin:0 10px;
 }
