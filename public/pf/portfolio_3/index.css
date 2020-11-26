@@ -991,6 +991,11 @@ height: 99%;
   justify-content: flex-end;
   align-items: center;
 }
+.introduction-box-1{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
 .media-box-2{
   width: 90%;
   margin-bottom: 80px;

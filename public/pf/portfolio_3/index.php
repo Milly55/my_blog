@@ -377,6 +377,10 @@
         </div>
         <div class="section page-5">
             <section class="media-box-1 con flex">
+                <div class="introduction-box-1">
+                    <p>저에게 관심있으신 분은 아래에 메세지를 보내주세요.</p>
+                    <p>감사합니다.</p>
+                </div>
                 <div class="media-box-2  con-min-width">
                     <form action onsubmit="sendEmailFormSubmit(this); return false;" name="sendEmailForm">
                         <input type="hidden" name="receiverName" value="김보영">
