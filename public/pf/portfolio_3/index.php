@@ -54,9 +54,11 @@
             <div class="media-link-box-1 ">
                 <ul class="flex">
                     <li><a href="https://github.com/Milly55" target="_blank"><i class="fab fa-github"></i></a></li>
-                    <li><a href="https://www.youtube.com/channel/UCarBNoJCki97H5LZWgT_7bQ" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCarBNoJCki97H5LZWgT_7bQ" target="_blank"><i
+                                class="fab fa-youtube"></i></a></li>
                     <li><a href="https://mn02006.tistory.com/" target="_blank"><i class="fas fa-blog"></i></a></li>
-                    <li><a href="https://cdpn.io/Milly55/debug/YzyOzEX/RBrOJRJxvnzM" target="_blank"><i class="fab fa-codepen"></i></a></li>
+                    <li><a href="https://cdpn.io/Milly55/debug/YzyOzEX/RBrOJRJxvnzM" target="_blank"><i
+                                class="fab fa-codepen"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -361,7 +363,19 @@
                         </li>
                     </ul>
                     <ul class=" design-2 flex">
-                        <li></li>
+                        <li>
+                            <div class="design-img-box-1">
+                                <div class="img-box-2"
+                                    style="background-image:url(https://milly55.github.io/img1/pf/portfolio-c/design-img-3.png)">
+                                    <a data-title="뺴뺴로데이 이밴트" data-lightbox="example-set"
+                                        href="https://milly55.github.io/img1/pf/portfolio-c/design-img-c.png"><span>+</span></a>
+                                </div>
+                            </div>
+                            <ul class="flex">
+                                <li>빼뺴로데이 이밴트</li>
+                                <li>2020.11.26</li>
+                            </ul>
+                        </li>
                         <li></li>
                         <li></li>
                     </ul>
