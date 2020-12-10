@@ -248,7 +248,7 @@ function SliderK__initAutoplay($slider) {
     var autoplayInterval = $slider.data('autoplay-interval');
 
     if (typeof autoplayInterval == 'undefined') {
-        autoplayInterval = 5000;
+        autoplayInterval = 10000;
     } else {
         // 문자열을 숫자화
         autoplayInterval = autoplayInterval * 1;

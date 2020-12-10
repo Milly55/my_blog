@@ -39,7 +39,7 @@
     </div>
 </section> -->
 
-    <section class="page-menu-bar">
+    <section class="page-menu-bar con-min-width ">
         <div class="page-menu-box con flex">
             <ul class="flex">
                 <li class="btn-scroll" btn-index="1">Main</li>
@@ -72,8 +72,8 @@
             </div>
         </div>
     </section>
-        <!-- chart1 circle -->
-    <section class="section about-bar-1 " section-index="2">
+    <!-- chart1 circle -->
+    <section class="section about-bar-1 con-min-width  " section-index="2">
         <div class="about-box-1 con">
             <div class="about-title-box  flex">
                 <div class="about-title-1 flex"> <img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt="">
@@ -81,8 +81,10 @@
             </div>
             <div class="profile-box flex">
                 <div class="img-box-1">
-                    <img src="https://milly55.github.io/img1/pf/portfolio/profile.png" alt="">
-                    <div class="img-box-background"></div>
+                    <div class="img-box-a"
+                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio-a/profile-img-1.png)">
+
+                    </div>
                 </div>
                 <div class="profile-txt-box ">
                     <div class="profile-title-1 flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png"
@@ -94,8 +96,6 @@
                             <li>PHONE</li>
                             <li>EMAIL</li>
                             <li>ADDRESS</li>
-                            <li>BLOG</li>
-                            <li>WIKI</li>
                             <li>EDUCATION</li>
                         </ul>
                         <ul class="profile-txt-2">
@@ -104,54 +104,92 @@
                             <li>010-2965-2600</li>
                             <li>mn02006@naver.com</li>
                             <li>대전광역시 서구</li>
-                            <li>https://mwdb5.blog.oa.gg/</li>
-                            <li>https://to2.kr/bkU</li>
                             <li>대전 SBS아카데미 컴퓨터아트학원 웹 과정 수료</li>
                         </ul>
                     </nav>
-                    <div class="skill-button flex">
-                        <span class="btn-scroll" btn-index="6">Skill</span>
-                    </div>
                 </div>
             </div>
+            <div class="skill-description-box-1 flex">
+                <ul class="flex skill-data-box-1">
+                    <li class="flex">
+                        <div class="skill-img-box">
+                            <img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt="">
+                            <div class="skill-named-1">HTML</div>
+                        </div>
+                        <div  class="box-2 flex active-on-visible"
+                            data-active-on-visible-callback-func-name="count">
+                            <span class="num" data-num-ani-slow-point="0" data-num-ani-slow-add-interval="10"
+                                data-num-ani-interval="40" data-num-ani-stride="1" data-num-ani-start="0"
+                                data-num-ani-end="70"></span>%
+                        </div>
+                    </li>
+                    <li class="flex">
+                        <div class="skill-img-box">
+                            <img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt="">
+                            <div class="skill-named-1">HTML</div>
+                        </div>
+                        <div  class="box-2 flex active-on-visible"
+                            data-active-on-visible-callback-func-name="count">
+                            <span class="num" data-num-ani-slow-point="0" data-num-ani-slow-add-interval="10"
+                                data-num-ani-interval="40" data-num-ani-stride="1" data-num-ani-start="0"
+                                data-num-ani-end="75"></span>%
+                        </div>
+                    </li>
+                    <li class="flex">
+                        <div class="skill-img-box">
+                            <img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt="">
+                            <div class="skill-named-1">HTML</div>
+                        </div>
+                        <div  class="box-2 flex active-on-visible"
+                            data-active-on-visible-callback-func-name="count">
+                            <span class="num" data-num-ani-slow-point="0" data-num-ani-slow-add-interval="10"
+                                data-num-ani-interval="40" data-num-ani-stride="1" data-num-ani-start="0"
+                                data-num-ani-end="50"></span>%
+                        </div>
+                    </li>
+                </ul>
+                <ul class="flex skill-data-box-2">
+                    <li class="flex">
+                        <div class="skill-img-box">
+                            <img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt="">
+                            <div class="skill-named-1">HTML</div>
+                        </div>
+                        <div  class="box-2 flex active-on-visible"
+                            data-active-on-visible-callback-func-name="count">
+                            <span class="num" data-num-ani-slow-point="0" data-num-ani-slow-add-interval="10"
+                                data-num-ani-interval="40" data-num-ani-stride="1" data-num-ani-start="0"
+                                data-num-ani-end="60"></span>%
+                        </div>
+                    </li>
+                    <li class="flex">
+                        <div class="skill-img-box">
+                            <img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt="">
+                            <div class="skill-named-1">HTML</div>
+                        </div>
+                        <div  class="box-2 flex active-on-visible"
+                            data-active-on-visible-callback-func-name="count">
+                            <span class="num" data-num-ani-slow-point="0" data-num-ani-slow-add-interval="10"
+                                data-num-ani-interval="40" data-num-ani-stride="1" data-num-ani-start="0"
+                                data-num-ani-end="65"></span>%
+                        </div>
+                    </li>
+                    <li class="flex">
+                        <div class="skill-img-box">
+                            <img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt="">
+                            <div class="skill-named-1">HTML</div>
+                        </div>
+                        <div  class="box-2 flex active-on-visible"
+                            data-active-on-visible-callback-func-name="count">
+                            <span class="num" data-num-ani-slow-point="0" data-num-ani-slow-add-interval="10"
+                                data-num-ani-interval="40" data-num-ani-stride="1" data-num-ani-start="0"
+                                data-num-ani-end="65"></span>%
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <section class="section skill-box-1 flex" section-index="6">
-            <div class="skill-title-1 flex"> <img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt="">
-                <span>SKILL</span> </div>
-            <div class="skill-list-tile-box con">
-                <ul class="flex">
-                    <li class="flex">HTML</li>
-                    <li class="flex">CSS</li>
-                    <li class="flex">JS&JQ</li>
-                    <li class="flex">PS</li>
-                    <li class="flex">AI</li>
-                </ul>
-            </div>
-            <div class="skill-list-box con active-on-visible" data-active-on-visible-diff-y="-100">
-                <ul class="flex flex-jc-sb" data-active-on-visible-callback-func-name="Circle__run">
-                    <li class="flex ">
-                        <div class="chart1 circle"></div>
-                        <div class="info-num flex" data-max-num="80"></div>
-                    </li>
-                    <li class="flex">
-                        <div class="chart2 circle"></div>
-                        <div class="info-num flex" data-max-num="88"></div>
-                    </li>
-                    <li class="flex">
-                        <div class="chart3 circle"></div>
-                        <div class="info-num flex" data-max-num="69"></div>
-                    </li>
-                    <li class="flex">
-                        <div class="chart4 circle"></div>
-                        <div class="info-num flex" data-max-num="65"></div>
-                    </li>
-                    <li class="flex">
-                        <div class="chart5 circle"></div>
-                        <div class="info-num flex" data-max-num="65"></div>
-                    </li>
-                </ul>
-            </div>
-            <div class="skill-description-box-1 con flex">
+
+        <!-- <div class="skill-description-box-1 con flex">
                 <ul class="description-item-1 flex">
                     <li><img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt=""></li>
                     <li><img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt=""></li>
@@ -159,17 +197,9 @@
                     <li><img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt=""></li>
                     <li><img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt=""></li>
                 </ul>
-                <ul class="description-txte-1 flex">
-                    <li><span>HTML</span> - 기본기 탄탄한 의미있는 구조 마크업, 웹 표준·웹 접근성에 대한 전반적인 이해</li>
-                    <li><span>CSS</span> - 이해도 높은 사용으로 보다 실용적인 코드 작성, 반응형 사이트 이해 및 구현</li>
-                    <li><span>JS&JQ</span>- 제이쿼리 라이브러리를 사용하여 필요한 기능 구현, 유용한 플러그인 사용, 자바스크립트의 기본 문법 이해</li>
-                    <li><span>PS</span> - 필요한 툴과 다양한 편집기능을 유용하게 사용 가능</li>
-                    <li><span>AI</span> - 필요한 툴과 기본적인 아이콘 제작 및 수정 가능</li>
-                </ul>
-            </div>
-        </section>
+            </div> -->
     </section>
-    <section class="section portfolio-box-1" section-index="3">
+    <section class="section portfolio-box-1 con-min-width " section-index="3">
         <div class="portfolio-title-1 flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png"
                 alt=""><span>PORTFOLIO</span> </div>
         <div class="my-slider-1 ">
@@ -223,7 +253,8 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">솔라시도 <span class="flex">원본사이트:<a href="https://solaseado.com/" target="_blank">'www.solaseado.com'</a> <span>모작한후에 바뀌었습니다.</span> </span> </li>
+                        <li class="flex">솔라시도 <span class="flex">원본사이트:<a href="https://solaseado.com/"
+                                    target="_blank">'www.solaseado.com'</a> <span>모작한후에 바뀌었습니다.</span> </span> </li>
                         <li>모작사이트, 반응형, (HTML/CSS/js)</li>
                         <li>모작사이트로 가기<a href="/pf/solar/index.php" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
@@ -283,7 +314,7 @@
         </div>
     </section>
 
-    <section class="section design-bar" section-index="4">
+    <section class="section design-bar con-min-width " section-index="4">
         <div class="design-title-box con flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png"
                 alt=""><span>DESIGN</span></div>
         <div class="slider-bottom-box  con">
@@ -304,7 +335,7 @@
         </div>
     </section>
 
-    <section class="section media-bar" section-index="5">
+    <section class="section media-bar con-min-width " section-index="5">
         <div class="media-title-box con flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png"
                 alt=""><span>MEDIA</span></div>
         <div class="media-content-1 con">

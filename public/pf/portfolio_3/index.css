@@ -867,6 +867,7 @@ height: 99%;
   font-size: 40px;
   z-index: 1;
   color: #0C4A60;
+  width: 95%;
 }
 
 
@@ -874,7 +875,6 @@ height: 99%;
   position: absolute;
   left: 40%;
   cursor: pointer;
-
 }
 
 
