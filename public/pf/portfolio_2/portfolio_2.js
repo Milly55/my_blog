@@ -411,9 +411,7 @@ function ActiveOnVisible__checkAndActive() {
   });
 }
 
-$(function() {
-  ActiveOnVisible__init();
-})
+
 /* 발견되면 활성화시키는 라이브러리 끝 */
 
 // 커스텀 시작
@@ -423,5 +421,18 @@ function count($node) {
 // 커스텀 끝
 
 
+function PopupSlider_a(){
+  lightbox.option({
+    resizeDuration: 200,
+    wrapAround: true,
+    disableScrolling: false,
+    fitImagesInViewport:false
+  })
+  
+}
 
 
+$(function() {
+  ActiveOnVisible__init();
+  PopupSlider_a();
+})

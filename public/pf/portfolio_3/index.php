@@ -241,8 +241,7 @@
                                         <li>3</li>
                                         <li>러쉬 코리아 <br> <span>(HTML/CSS/JS)</span></li>
                                         <li><a href="/pf/rush/index.php" target="_blank">MORE</a></li>
-                                        <li><img src="https://milly55.github.io/img1/pf/portfolio-a/rush-logo.png"
-                                                alt="">
+                                        <li><img src="https://milly55.github.io/img1/pf/portfolio-a/rush-logo.png"alt="">
                                         </li>
                                         <li>피부미용및 입욕제품판매하는 사이트입니다.</li>
                                     </ul>
@@ -257,8 +256,7 @@
                                         <li>4</li>
                                         <li>경동 <br> <span>(HTML/CSS/JS/반응형)</span></li>
                                         <li><a href="/pf/kyung/index.php" target="_blank">MORE</a></li>
-                                        <li><img src="https://milly55.github.io/img1/pf/portfolio-a/kodog-logo.png"
-                                                alt="">
+                                        <li><img src="https://milly55.github.io/img1/pf/portfolio-a/kodog-logo.png"alt="">
                                         </li>
                                         <li>국가 발전의 초석이 되는 에너지<br> 사업으로
                                             시작하여 해외자원개발, <br> 엔지니어링 사업 등

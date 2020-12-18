@@ -4,17 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/pf/portfolio_2/portfolio_2.css">
     <script type="text/javascript" src="/pf/portfolio_2/portfolio_2.js"></script>
     <title>B.portfolio</title>
@@ -50,7 +54,16 @@
             </ul>
         </div>
     </section>
-
+    <div class="media-link-box-1 ">
+        <ul class="flex">
+            <li><a href="https://github.com/Milly55" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCarBNoJCki97H5LZWgT_7bQ" target="_blank"><i
+                        class="fab fa-youtube"></i></a></li>
+            <li><a href="https://mn02006.tistory.com/" target="_blank"><i class="fas fa-blog"></i></a></li>
+            <li><a href="https://cdpn.io/Milly55/debug/YzyOzEX/RBrOJRJxvnzM" target="_blank"><i
+                        class="fab fa-codepen"></i></a></li>
+        </ul>
+    </div>
     <div class="side-page-box-bg"></div>
     <section class="section main-box" id="div1" section-index="1">
         <div class="logo-box flex">
@@ -109,6 +122,10 @@
                     </nav>
                 </div>
             </div>
+            <div class="skill-title-box flex">
+                <img src="https://milly55.github.io/img1/pf/portfolio/sgni.png" alt="">
+                <span>Skill </span>
+            </div>
             <div class="skill-description-box-1 flex">
                 <ul class="flex skill-data-box-1">
                     <li class="flex">
@@ -116,8 +133,7 @@
                             <img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt="">
                             <div class="skill-named-1">HTML</div>
                         </div>
-                        <div  class="box-2 flex active-on-visible"
-                            data-active-on-visible-callback-func-name="count">
+                        <div class="box-2 flex active-on-visible" data-active-on-visible-callback-func-name="count">
                             <span class="num" data-num-ani-slow-point="0" data-num-ani-slow-add-interval="10"
                                 data-num-ani-interval="40" data-num-ani-stride="1" data-num-ani-start="0"
                                 data-num-ani-end="70"></span>%
@@ -126,10 +142,9 @@
                     <li class="flex">
                         <div class="skill-img-box">
                             <img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt="">
-                            <div class="skill-named-1">HTML</div>
+                            <div class="skill-named-1">CSS</div>
                         </div>
-                        <div  class="box-2 flex active-on-visible"
-                            data-active-on-visible-callback-func-name="count">
+                        <div class="box-2 flex active-on-visible" data-active-on-visible-callback-func-name="count">
                             <span class="num" data-num-ani-slow-point="0" data-num-ani-slow-add-interval="10"
                                 data-num-ani-interval="40" data-num-ani-stride="1" data-num-ani-start="0"
                                 data-num-ani-end="75"></span>%
@@ -138,10 +153,9 @@
                     <li class="flex">
                         <div class="skill-img-box">
                             <img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt="">
-                            <div class="skill-named-1">HTML</div>
+                            <div class="skill-named-1">JS</div>
                         </div>
-                        <div  class="box-2 flex active-on-visible"
-                            data-active-on-visible-callback-func-name="count">
+                        <div class="box-2 flex active-on-visible" data-active-on-visible-callback-func-name="count">
                             <span class="num" data-num-ani-slow-point="0" data-num-ani-slow-add-interval="10"
                                 data-num-ani-interval="40" data-num-ani-stride="1" data-num-ani-start="0"
                                 data-num-ani-end="50"></span>%
@@ -152,10 +166,9 @@
                     <li class="flex">
                         <div class="skill-img-box">
                             <img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt="">
-                            <div class="skill-named-1">HTML</div>
+                            <div class="skill-named-1">JQ</div>
                         </div>
-                        <div  class="box-2 flex active-on-visible"
-                            data-active-on-visible-callback-func-name="count">
+                        <div class="box-2 flex active-on-visible" data-active-on-visible-callback-func-name="count">
                             <span class="num" data-num-ani-slow-point="0" data-num-ani-slow-add-interval="10"
                                 data-num-ani-interval="40" data-num-ani-stride="1" data-num-ani-start="0"
                                 data-num-ani-end="60"></span>%
@@ -164,10 +177,9 @@
                     <li class="flex">
                         <div class="skill-img-box">
                             <img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt="">
-                            <div class="skill-named-1">HTML</div>
+                            <div class="skill-named-1">PS</div>
                         </div>
-                        <div  class="box-2 flex active-on-visible"
-                            data-active-on-visible-callback-func-name="count">
+                        <div class="box-2 flex active-on-visible" data-active-on-visible-callback-func-name="count">
                             <span class="num" data-num-ani-slow-point="0" data-num-ani-slow-add-interval="10"
                                 data-num-ani-interval="40" data-num-ani-stride="1" data-num-ani-start="0"
                                 data-num-ani-end="65"></span>%
@@ -176,10 +188,9 @@
                     <li class="flex">
                         <div class="skill-img-box">
                             <img src="https://milly55.github.io/img1/pf/portfolio/skill-item-1.png" alt="">
-                            <div class="skill-named-1">HTML</div>
+                            <div class="skill-named-1">LI</div>
                         </div>
-                        <div  class="box-2 flex active-on-visible"
-                            data-active-on-visible-callback-func-name="count">
+                        <div class="box-2 flex active-on-visible" data-active-on-visible-callback-func-name="count">
                             <span class="num" data-num-ani-slow-point="0" data-num-ani-slow-add-interval="10"
                                 data-num-ani-interval="40" data-num-ani-stride="1" data-num-ani-start="0"
                                 data-num-ani-end="65"></span>%
@@ -206,32 +217,32 @@
             <div class="owl-carousel owl-theme">
                 <div class="item" data-index="0">
                     <div class="img-box"
-                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-1.PNG)">
+                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio-b/slider-box-1.png)">
                     </div>
                 </div>
                 <div class="item" data-index="1">
                     <div class="img-box"
-                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-2.PNG)">
+                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio-b/slider-box-2.png)">
                     </div>
                 </div>
                 <div class="item" data-index="2">
                     <div class="img-box"
-                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-3.PNG)">
+                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio-b/slider-box-3.png)">
                     </div>
                 </div>
                 <div class="item" data-index="3">
                     <div class="img-box"
-                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-4.PNG)">
+                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio-b/slider-box-4.png)">
                     </div>
                 </div>
                 <div class="item" data-index="4">
                     <div class="img-box"
-                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-5.PNG)">
+                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio-b/slider-box-5.png)">
                     </div>
                 </div>
                 <div class="item" data-index="5">
                     <div class="img-box"
-                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/portfolio-slider-6.PNG)">
+                        style=" background-image:url(https://milly55.github.io/img1/pf/portfolio-b/slider-box-6.png)">
                     </div>
                 </div>
             </div>
@@ -241,10 +252,10 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">아이심리상담소 <span class="flex">원본사이트:<a href="http://www.icounseling.co.kr/main.do"
-                                    target="_blank">'www.icounseling.co.kr/main.do</a></span> </li>
-                        <li>모작사이트,(HTML/CSS)</li>
-                        <li>모작사이트로 가기<a href="/portfolio1.html" target="_blank">MORE</a></li>
+                        <li class="flex">아이심리상담소 <span class="flex"></span> </li>
+                        <li><img src="http://www.icounseling.co.kr/images/logo.jpg" alt=""></li>
+                        <li>아이심리를 상담하고 치료해주는 사이트 <br>(HTML/CSS)</li>
+                        <li>사이트로 가기<a href="/portfolio1.html" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
                     </ul>
                 </div>
@@ -253,10 +264,11 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">솔라시도 <span class="flex">원본사이트:<a href="https://solaseado.com/"
-                                    target="_blank">'www.solaseado.com'</a> <span>모작한후에 바뀌었습니다.</span> </span> </li>
-                        <li>모작사이트, 반응형, (HTML/CSS/js)</li>
-                        <li>모작사이트로 가기<a href="/pf/solar/index.php" target="_blank">MORE</a></li>
+                        <li class="flex">솔라시도</li>
+                        <li><img src="https://milly55.github.io/img1/pf/portfolio-a/solr-logo.png" alt=""></li>
+                        <li> 반응형, (HTML/CSS/js) <br> (원본사이트 리디자인 전 사이트입니다.)</li>
+                        <li>사이트로 가기<a href="/pf/solar/index.php" target="_blank">MORE</a>
+                        </li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
                         </li>
                 </div>
@@ -265,10 +277,10 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">러쉬 <span class="flex">원본사이트:<a href="https://www.lush.co.kr/"
-                                    target="_blank">'www.lush.co.kr'</a></span> </li>
-                        <li>모작사이트, (HTML/CSS/js)</li>
-                        <li>모작사이트로 가기<a href="/pf/rush/index.php" target="_blank">MORE</a></li>
+                        <li class="flex">러쉬 <span class="flex"></span> </li>
+                        <img src="https://milly55.github.io/img1/pf/portfolio-a/rush-logo.png" alt="">
+                        <li> (HTML/CSS/js) <br> (피부미용및 입욕제품을 판매하는 사이트입니다.)</li>
+                        <li>사이트로 가기<a href="/pf/rush/index.php" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
                     </ul>
                 </div>
@@ -277,11 +289,11 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">경동 <span class="flex">원본사이트:<a href="http://www.kyungdong.co.kr/"
-                                    target="_blank">'www.kyungdong.co.kr'</a></span>
+                        <li class="flex">경동 <span class="flex"></span>
                         </li>
-                        <li>모작사이트, 반응형, (HTML/CSS/js)</li>
-                        <li>모작사이트로 가기<a href="/pf/kyung/index.php" target="_blank">MORE</a></li>
+                        <img src="https://milly55.github.io/img1/pf/portfolio-a/kodog-logo.png" alt="">
+                        <li> 반응형, (HTML/CSS/js) <br> (국가발전 에너지 사업을하는 기업사이트 입니다.)</li>
+                        <li>사이트로 가기<a href="/pf/kyung/index.php" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
                     </ul>
                 </div>
@@ -290,10 +302,10 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">모즈클리닉 <span class="flex">원본사이트:<a href="https://www.modsclinic.co.kr/NEW/"
-                                    target="_blank">'www.modsclinic.co.kr/NEW'</a></span> </li>
-                        <li>모작사이트, 반응형, (HTML/CSS/js)</li>
-                        <li>모작사이트로 가기<a href="/pf/mods/index.php" target="_blank">MORE</a></li>
+                        <li class="flex">모즈클리닉 <span class="flex"></span> </li>
+                        <img src="https://milly55.github.io/img1/pf/portfolio-a/mose-logo-1.png" alt="">
+                        <li> 반응형, (HTML/CSS/js) <br> (예비신부를 위한 피부및 몸관리 사이트입니다.)</li>
+                        <li>사이트로 가기<a href="/pf/mods/index.php" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
                     </ul>
                 </div>
@@ -302,11 +314,11 @@
                         <img src="https://ifh.cc/g/GRZsXg.png" alt="">
                     </div>
                     <ul class="flex">
-                        <li class="flex">도미노피자 <span class="flex">원본사이트:<a href="https://web.dominos.co.kr/main"
-                                    target="_blank">'web.dominos.co.kr/main'</a></span>
+                        <li class="flex">도미노피자
                         </li>
-                        <li>리디자인,(HTML/CSS/js)</li>
-                        <li>모작사이트로 가기<a href="/pf/domino/index.php" target="_blank">MORE</a></li>
+                        <img src="https://milly55.github.io/img1/pf/portfolio-a/domino-logo.png" alt="">
+                        <li>리디자인,(HTML/CSS/js) <br> (피자를 판매하는 피자브랜드 사이트입니다.)</li>
+                        <li>사이트로 가기<a href="/pf/domino_2/index.php" target="_blank">MORE</a></li>
                         <li><img src="https://ifh.cc/g/qwH1GJ.png" alt=""></li>
                     </ul>
                 </div>
@@ -318,16 +330,60 @@
         <div class="design-title-box con flex"><img src="https://milly55.github.io/img1/pf/portfolio/sgni.png"
                 alt=""><span>DESIGN</span></div>
         <div class="slider-bottom-box  con">
-            <div class="slider-box-b owl-carousel owl-theme" style="background-image:url(https://ifh.cc/g/5rMwf6.png)">
-                <div class="item">
+            <div class="slider-box-b owl-carousel owl-theme">
+                <div class="item flex">
                     <div class="img-box" style="background-image:url(https://ifh.cc/g/uwRwxE.png)"></div>
+                    <ul class="flex">
+                        <li>사이드 메뉴박스</li>
+                        <li>본 포트폴리오 사이드메뉴박스를 만들어봤습니다.</li>
+                        <li> <a data-title="사이드 메뉴박스" data-lightbox="example-set"
+                                href="https://ifh.cc/g/uwRwxE.png"><span>More</span></a></li>
+                    </ul>
                 </div>
-                <div class="item">
+                <div class="item flex">
                     <div class="img-box" style="background-image:url(https://ifh.cc/g/JJU2lf.png)"></div>
+                    <ul class="flex">
+                        <li>포트폴리오 시안</li>
+                        <li>본 포트폴리오 초안입니다. <br> 몇몇부분 수정을하여 지금 포트폴리오를 만들었습니다.</li>
+                        <li><a data-title="포트폴리오 시안" data-lightbox="example-set"
+                                href="https://ifh.cc/g/JJU2lf.png"><span>More</span></a></li>
+
+                    </ul>
                 </div>
-                <div class="item">
+                <div class="item flex">
                     <div class="img-box"
                         style="background-image:url(https://milly55.github.io/img1/pf/design/generalLee.png)"></div>
+                    <ul class="flex">
+                        <li>이순신 축제</li>
+                        <li>이순신 탄신일을 기념하기위해 <br> 축제를홍보하는 포스터입니다. <br>(망고보드를 출처하여 리디자인을 했습니다.)</li>
+                        <li> <a data-title="이순신축제" data-lightbox="example-set"
+                                href="https://milly55.github.io/img1/pf/design/generalLee.png"><span>More</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item flex">
+                    <div class="img-box"
+                        style="background-image:url(https://milly55.github.io/img1/pf/portfolio-c/design-img-a.png)">
+                    </div>
+                    <ul class="flex">
+                        <li>커피할인 베너</li>
+                        <li>커피숍에서 커피할인이밴트를 홍보하는 베너입니다.</li>
+                        <li> <a data-title="커피할인 베너" data-lightbox="example-set"
+                                href="https://milly55.github.io/img1/pf/portfolio-c/design-img-a.png"><span>More</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item flex">
+                    <div class="img-box"
+                        style="background-image:url(https://milly55.github.io/img1/pf/portfolio-c/design-img-c.png)">
+                    </div>
+                    <ul class="flex">
+                        <li>뺴뺴로데이 이밴트</li>
+                        <li>뺴뺴로데이 할인 이밴트를홍보하는 베너입니다.</li>
+                        <li> <a data-title="뺴뺴로데이" data-lightbox="example-set"
+                                href="https://milly55.github.io/img1/pf/portfolio-c/design-img-c.png"><span>More</span></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
