@@ -26,7 +26,7 @@
 
     <!-- 메뉴박스 -->
     <section class="top-bar">
-        <div class="menu-bar ">
+        <div class="menu-bar  con-min-width ">
             <!-- <section class="top-popup-bar flex ">
                 <div class="popup-box flex">
                     <ul class="flex con">
@@ -250,7 +250,7 @@
     </div>
 
     <!-- 중간 박스-->
-    <section class="middle-bar-1 ">
+    <section class="middle-bar-1 con-min-width ">
         <div class="mddle-title con" style="margin-bottom:50px;">
             <h1>나만 알고 싶은 향기</h1>
         </div>

@@ -93,7 +93,7 @@
 </div>
 
 <!-- 모바일 박스 -->
-<div class="mobile-top-bar flex">
+<div class="mobile-top-bar  flex">
 <div class="logo-box flex">
                 <img src="https://milly55.github.io/img1/pf/mods/logo.png" alt="">
             </div>

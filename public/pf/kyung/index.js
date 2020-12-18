@@ -1,6 +1,7 @@
 console.clear();
 
 function FullPage__a(){
+
     var $html = $('html');
     new fullpage("#fullpage", {
     verticalCentered: false,
@@ -13,9 +14,10 @@ function FullPage__a(){
     afterResponsive: function (isResponsive) {
       
     },
-    onleave: function(origin, destination, direction){
+    onLeave: function(origin, destination, direction){
+      console.log("hi");
       $html.attr('data-fullpage-index', destination.index);
-  }
+    }
   });
 }
 $(function(){
