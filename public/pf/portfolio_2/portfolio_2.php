@@ -46,6 +46,10 @@
     <section class="page-menu-bar con-min-width ">
         <div class="page-menu-box con flex">
             <ul class="flex">
+                <li>
+                    <div class="logo-box"  style=" background-image:url(https://milly55.github.io/img1/pf/portfolio/logo-1.png)">
+                    </div>
+                </li>
                 <li class="btn-scroll" btn-index="1">Main</li>
                 <li class="btn-scroll" btn-index="2">About Me</li>
                 <li class="btn-scroll" btn-index="3">Portfolio</li>
@@ -56,19 +60,16 @@
     </section>
     <div class="media-link-box-1 ">
         <ul class="flex">
-            <li><a href="https://github.com/Milly55" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://github.com/Milly55" target="_blank"><i class="fab fa-github"></i><span>Github</span></a></li>
             <li><a href="https://www.youtube.com/channel/UCarBNoJCki97H5LZWgT_7bQ" target="_blank"><i
-                        class="fab fa-youtube"></i></a></li>
-            <li><a href="https://mn02006.tistory.com/" target="_blank"><i class="fas fa-blog"></i></a></li>
+                        class="fab fa-youtube"></i><span>Youtube</span></a></li>
+            <li><a href="https://mn02006.tistory.com/" target="_blank"><i class="fas fa-blog"></i><span>Blog</span></a></li>
             <li><a href="https://cdpn.io/Milly55/debug/YzyOzEX/RBrOJRJxvnzM" target="_blank"><i
-                        class="fab fa-codepen"></i></a></li>
+                        class="fab fa-codepen"></i><span>Codpen</span></a></li>
         </ul>
     </div>
     <div class="side-page-box-bg"></div>
     <section class="section main-box" id="div1" section-index="1">
-        <div class="logo-box flex">
-            <img src="https://milly55.github.io/img1/pf/portfolio/logo-1.png" alt="">
-        </div>
         <div class="main-txt flex ">
             <div class="item-box-2 btn-scroll" btn-index="2"><img
                     src="https://milly55.github.io/img1/pf/portfolio/item-2.png" alt=""></div>

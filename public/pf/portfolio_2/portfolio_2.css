@@ -356,7 +356,24 @@ canvas {
     font-size: 30px;
 }
 .media-link-box-1 > ul > li{
+    position: relative;
     margin: 10px 0;
+}
+.media-link-box-1 > ul > li > a> span{
+    position: absolute;
+    top:20%;
+    left:-200%;
+    font-size: 20px;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.5s , overflow 1s 0.5s, left 2s;
+}
+.media-link-box-1 > ul > li:hover > a> span{
+    transition: opacity 1s .3s, overflow 1s 0.5s, left 1s;
+    left: 110%;
+    opacity: 1;
+    overflow: visible;
+
 }
 /* 사이드바 보류용 */
 
@@ -433,16 +450,9 @@ canvas {
     height: 100vh;
 }
 
-.main-box>.logo-box {
-    position: absolute;
-    top: 7%;
-    width: 100%;
-    justify-content: center;
-    z-index: 1;
-}
 
 
-.main-txt>.item-box-2 {
+.main-txt >.item-box-2 {
     position: absolute;
     bottom: 2%;
     left: 48%;
@@ -565,15 +575,15 @@ canvas {
     justify-content: space-around;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 25px;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
-.page-menu-bar>.page-menu-box>ul>li {
+.page-menu-bar>.page-menu-box>ul>li:not(:first-child) {
     position: relative;
     cursor: pointer;
 }
 
-.page-menu-bar>.page-menu-box>ul>li::after {
+.page-menu-bar>.page-menu-box>ul>li:not(:first-child):after {
     content: "";
     position: absolute;
     top: 100%;
@@ -588,7 +598,20 @@ canvas {
 .page-menu-bar>.page-menu-box>ul>li:hover::after {
     width: 100%;
 }
-
+.page-menu-bar>.page-menu-box>ul>li:first-child{
+    position: absolute;
+    top:10%;
+    left: 0;
+    width: 10%;
+    height: 80%;
+}
+.logo-box {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 /* 2번쨰 패이지 바 */
 

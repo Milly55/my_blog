@@ -313,17 +313,17 @@ function Email__callback(data) {
 
 /* 숫자 카운트 라이브러리 시작 */
 function NumAni__start(selector) {
-  $(selector).each(function(index, node) {
-      var $el = $(node);
-      
-      var start = parseInt($el.attr('data-num-ani-start'));
-      var interval = parseInt($el.attr('data-num-ani-interval'));
+  $(selector).each(function (index, node) {
+    var $el = $(node);
 
-      $el.attr('data-num-ani-interval-current', interval);
+    var start = parseInt($el.attr('data-num-ani-start'));
+    var interval = parseInt($el.attr('data-num-ani-interval'));
 
-      $el.text(start);
+    $el.attr('data-num-ani-interval-current', interval);
 
-      NumAni__increaseNum($el);
+    $el.text(start);
+
+    NumAni__increaseNum($el);
   });
 }
 
@@ -335,27 +335,25 @@ function NumAni__increaseNum($el) {
   var slowPoint = parseFloat($el.attr('data-num-ani-slow-point'))
 
   if (current < end) {
-      if ( current > end * slowPoint ) {
-          interval += parseInt($el.attr('data-num-ani-slow-add-interval'));
-          if ( interval > 100 ) {
-              interval = 100;
-          }
-          $el.attr('data-num-ani-interval-current', interval);
+    if (current > end * slowPoint) {
+      interval += parseInt($el.attr('data-num-ani-slow-add-interval'));
+      if (interval > 100) {
+        interval = 100;
       }
+      $el.attr('data-num-ani-interval-current', interval);
+    }
 
-      if ( current + stride > end ) {
-          $el.text(end);
-      }
-      else {
-          $el.text(current + stride);
-      }
+    if (current + stride > end) {
+      $el.text(end);
+    } else {
+      $el.text(current + stride);
+    }
 
-      setTimeout(function () {
-          NumAni__increaseNum($el);
-      }, interval);
-  }
-  else {
-      $el.addClass('num-action-done');
+    setTimeout(function () {
+      NumAni__increaseNum($el);
+    }, interval);
+  } else {
+    $el.addClass('num-action-done');
   }
 }
 /* 숫자 카운트 라이브러리 끝 */
@@ -370,44 +368,44 @@ function ActiveOnVisible__init() {
 }
 
 function ActiveOnVisible__initOffset() {
-  $('.active-on-visible').each(function(index, node) {
-      var $node = $(node);
+  $('.active-on-visible').each(function (index, node) {
+    var $node = $(node);
 
-      var offsetTop = $node.offset().top;
-      $node.attr('data-active-on-visible-offsetTop', offsetTop);
+    var offsetTop = $node.offset().top;
+    $node.attr('data-active-on-visible-offsetTop', offsetTop);
 
-      if ( !$node.attr('data-active-on-visible-diff-y') ) {
-          $node.attr('data-active-on-visible-diff-y', '0');
-      }
+    if (!$node.attr('data-active-on-visible-diff-y')) {
+      $node.attr('data-active-on-visible-diff-y', '0');
+    }
 
-      if ( !$node.attr('data-active-on-visible-delay') ) {
-          $node.attr('data-active-on-visible-delay', '0');
-      }
+    if (!$node.attr('data-active-on-visible-delay')) {
+      $node.attr('data-active-on-visible-delay', '0');
+    }
   });
 
   ActiveOnVisible__checkAndActive();
 }
 
-function ActiveOnVisible__checkAndActive() { 
-  $('.active-on-visible:not(.actived)').each(function(index, node) {
-      var $node = $(node);
+function ActiveOnVisible__checkAndActive() {
+  $('.active-on-visible:not(.actived)').each(function (index, node) {
+    var $node = $(node);
 
-      var offsetTop = $node.attr('data-active-on-visible-offsetTop') * 1;
-      var diffY = parseInt($node.attr('data-active-on-visible-diff-y'));
-      var delay = parseInt($node.attr('data-active-on-visible-delay'));
+    var offsetTop = $node.attr('data-active-on-visible-offsetTop') * 1;
+    var diffY = parseInt($node.attr('data-active-on-visible-diff-y'));
+    var delay = parseInt($node.attr('data-active-on-visible-delay'));
 
-      var callbackFuncName = $node.attr('data-active-on-visible-callback-func-name');
+    var callbackFuncName = $node.attr('data-active-on-visible-callback-func-name');
 
-      if ( $(window).scrollTop() + $(window).height() + diffY > offsetTop ) {
-          $node.addClass('actived');
+    if ($(window).scrollTop() + $(window).height() + diffY > offsetTop) {
+      $node.addClass('actived');
 
-          setTimeout(function() {
-              $node.addClass('active');
-              if ( window[callbackFuncName] ) {
-                  window[callbackFuncName]($node);
-              }
-          }, delay);
-      }
+      setTimeout(function () {
+        $node.addClass('active');
+        if (window[callbackFuncName]) {
+          window[callbackFuncName]($node);
+        }
+      }, delay);
+    }
   });
 }
 
@@ -421,18 +419,31 @@ function count($node) {
 // 커스텀 끝
 
 
-function PopupSlider_a(){
+function PopupSlider_a() {
   lightbox.option({
     resizeDuration: 200,
     wrapAround: true,
     disableScrolling: false,
-    fitImagesInViewport:false
+    fitImagesInViewport: false
   })
-  
+
 }
 
 
-$(function() {
+$(function () {
   ActiveOnVisible__init();
   PopupSlider_a();
+})
+
+$(function arrow_a() {
+  $('.item-box-2').animate({
+    bottom: 30
+  }, 1500, function () {
+    $('.item-box-2').animate({
+      bottom: 10
+    }, 1500, arrow_a);
+  });
+});
+$(function(){
+  arrow_a();
 })
